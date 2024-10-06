@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grafos Ponderados</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h2>Generar Grafo Ponderado No Dirigido</h2>
+        <form id="formNoDirigido">
+            <label for="nodosNoDirigido">Número de nodos:</label>
+            <input type="number" id="nodosNoDirigido" name="nodos" min="2" value="5" required><br>
+
+            <label for="aristasNoDirigido">Número de aristas:</label>
+            <input type="number" id="aristasNoDirigido" name="aristas" min="1" value="7" required><br>
+
+            <button type="button" onclick="crearGrafoNoDirigido()">Crear Grafo No Dirigido</button>
+        </form>
+        <div id="network"></div>
+
+        <h2>Generar Grafo Ponderado Dirigido</h2>
+        <form id="formDirigido">
+            <label for="nodosDirigido">Número de nodos:</label>
+            <input type="number" id="nodosDirigido" name="nodos" min="2" value="4" required><br>
+
+            <label for="aristasDirigido">Número de aristas:</label>
+            <input type="number" id="aristasDirigido" name="aristas" min="1" value="5" required><br>
+
+            <label for="pesosDirigido">Pesos de las aristas (separados por comas):</label>
+            <input type="text" id="pesosDirigido" name="pesos" value="3,5,2,6,4" required><br>
+
+            <label for="direccionesDirigido">Dirección de las aristas (ej: 1-2, 2-3):</label>
+            <input type="text" id="direccionesDirigido" name="direcciones" value="1-2,1-3,2-4,3-4,4-2" required><br>
+
+            <button type="button" onclick="crearGrafoDirigido()">Crear Grafo Dirigido</button>
+        </form>
+        <div id="network2"></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
