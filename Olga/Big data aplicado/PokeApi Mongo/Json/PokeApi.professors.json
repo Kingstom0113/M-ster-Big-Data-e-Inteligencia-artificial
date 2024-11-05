@@ -1,0 +1,78 @@
+[{
+  "_id": {
+    "$oid": "672a2dcf6f86a8ba93a4a732"
+  },
+  "name": "Professor Oak",
+  "region": {
+    "id": {
+      "$oid": "672a2dcf6f86a8ba93a4a727"
+    },
+    "name": "Kanto"
+  },
+  "specialty": "Pokemon Research"
+},
+{
+  "_id": {
+    "$oid": "672a2dcf6f86a8ba93a4a733"
+  },
+  "name": "Professor Elm",
+  "region": {
+    "id": {
+      "$oid": "672a2dcf6f86a8ba93a4a728"
+    },
+    "name": "Johto"
+  },
+  "specialty": "Evolution Research"
+},
+{
+  "_id": {
+    "$oid": "672a2dcf6f86a8ba93a4a734"
+  },
+  "name": "Professor Birch",
+  "region": {
+    "id": {
+      "$oid": "672a2dcf6f86a8ba93a4a729"
+    },
+    "name": "Hoenn"
+  },
+  "specialty": "Pokemon Habitats"
+},
+{
+  "_id": {
+    "$oid": "672a45b56f86a8ba93a4b00b"
+  },
+  "name": "Professor Oak",
+  "region": {
+    "id": {
+      "$oid": "672a2dcf6f86a8ba93a4a727"
+    },
+    "name": "Kanto"
+  },
+  "specialty": "Pokemon Research"
+},
+{
+  "_id": {
+    "$oid": "672a45b56f86a8ba93a4b00c"
+  },
+  "name": "Professor Elm",
+  "region": {
+    "id": {
+      "$oid": "672a2dcf6f86a8ba93a4a728"
+    },
+    "name": "Johto"
+  },
+  "specialty": "Evolution Research"
+},
+{
+  "_id": {
+    "$oid": "672a45b56f86a8ba93a4b00d"
+  },
+  "name": "Professor Birch",
+  "region": {
+    "id": {
+      "$oid": "672a2dcf6f86a8ba93a4a729"
+    },
+    "name": "Hoenn"
+  },
+  "specialty": "Pokemon Habitats"
+}]
