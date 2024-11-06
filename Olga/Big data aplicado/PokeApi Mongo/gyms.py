@@ -215,7 +215,5 @@ documento = [
         ]
     }
 ]
-
-# Inserción del documento en la colección
 coleccion.insert_many(documento)
-print("Documento insertado correctamente en MongoDB.")
+print("Gimnasios insertado correctamente en MongoDB.")

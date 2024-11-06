@@ -1,7 +1,7 @@
 from pymongo import MongoClient
 
 # Conéctate a la base de datos
-uri = "mongodb+srv://manuelsr0113:Firmamento.34@cluster0.aztgaop.mongodb.net/?retryWrites=true&w=majority"
+uri = "mongodb://localhost:27017"
 client = MongoClient(uri)
 
 # Selecciona la base de datos
