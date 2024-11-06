@@ -1,0 +1,24 @@
+[{
+  "_id": {
+    "$oid": "672a45b56f86a8ba93a4b016"
+  },
+  "name": "Jessie",
+  "role": "Member",
+  "age": 29
+},
+{
+  "_id": {
+    "$oid": "672a45b56f86a8ba93a4b017"
+  },
+  "name": "James",
+  "role": "Member",
+  "age": 31
+},
+{
+  "_id": {
+    "$oid": "672a45b56f86a8ba93a4b018"
+  },
+  "name": "Meowth",
+  "role": "Mascot",
+  "age": 5
+}]

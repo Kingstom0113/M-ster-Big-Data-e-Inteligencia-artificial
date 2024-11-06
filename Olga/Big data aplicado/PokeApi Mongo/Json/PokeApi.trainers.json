@@ -1,0 +1,96 @@
+[{
+  "_id": {
+    "$oid": "672a2dcf6f86a8ba93a4a72f"
+  },
+  "name": "Ash Ketchum",
+  "region": {
+    "id": {
+      "$oid": "672a2dcf6f86a8ba93a4a727"
+    },
+    "name": "Kanto"
+  },
+  "pokemons": [
+    "Pikachu",
+    "Charizard"
+  ]
+},
+{
+  "_id": {
+    "$oid": "672a2dcf6f86a8ba93a4a730"
+  },
+  "name": "Misty",
+  "region": {
+    "id": {
+      "$oid": "672a2dcf6f86a8ba93a4a727"
+    },
+    "name": "Kanto"
+  },
+  "pokemons": [
+    "Starmie",
+    "Psyduck"
+  ]
+},
+{
+  "_id": {
+    "$oid": "672a2dcf6f86a8ba93a4a731"
+  },
+  "name": "Brock",
+  "region": {
+    "id": {
+      "$oid": "672a2dcf6f86a8ba93a4a727"
+    },
+    "name": "Kanto"
+  },
+  "pokemons": [
+    "Onix",
+    "Geodude"
+  ]
+},
+{
+  "_id": {
+    "$oid": "672a45b56f86a8ba93a4b008"
+  },
+  "name": "Ash Ketchum",
+  "region": {
+    "id": {
+      "$oid": "672a2dcf6f86a8ba93a4a727"
+    },
+    "name": "Kanto"
+  },
+  "pokemons": [
+    "Pikachu",
+    "Charizard"
+  ]
+},
+{
+  "_id": {
+    "$oid": "672a45b56f86a8ba93a4b009"
+  },
+  "name": "Misty",
+  "region": {
+    "id": {
+      "$oid": "672a2dcf6f86a8ba93a4a727"
+    },
+    "name": "Kanto"
+  },
+  "pokemons": [
+    "Starmie",
+    "Psyduck"
+  ]
+},
+{
+  "_id": {
+    "$oid": "672a45b56f86a8ba93a4b00a"
+  },
+  "name": "Brock",
+  "region": {
+    "id": {
+      "$oid": "672a2dcf6f86a8ba93a4a727"
+    },
+    "name": "Kanto"
+  },
+  "pokemons": [
+    "Onix",
+    "Geodude"
+  ]
+}]

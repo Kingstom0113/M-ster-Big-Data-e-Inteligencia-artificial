@@ -1,0 +1,96 @@
+[{
+  "_id": {
+    "$oid": "672a2dcf6f86a8ba93a4a727"
+  },
+  "name": "Kanto"
+},
+{
+  "_id": {
+    "$oid": "672a2dcf6f86a8ba93a4a728"
+  },
+  "name": "Johto"
+},
+{
+  "_id": {
+    "$oid": "672a2dcf6f86a8ba93a4a729"
+  },
+  "name": "Hoenn"
+},
+{
+  "_id": {
+    "$oid": "672a2dcf6f86a8ba93a4a72a"
+  },
+  "name": "Sinnoh"
+},
+{
+  "_id": {
+    "$oid": "672a2dcf6f86a8ba93a4a72b"
+  },
+  "name": "Unova"
+},
+{
+  "_id": {
+    "$oid": "672a2dcf6f86a8ba93a4a72c"
+  },
+  "name": "Kalos"
+},
+{
+  "_id": {
+    "$oid": "672a2dcf6f86a8ba93a4a72d"
+  },
+  "name": "Alola"
+},
+{
+  "_id": {
+    "$oid": "672a2dcf6f86a8ba93a4a72e"
+  },
+  "name": "Galar"
+},
+{
+  "_id": {
+    "$oid": "672a45b56f86a8ba93a4b00e"
+  },
+  "name": "Kanto"
+},
+{
+  "_id": {
+    "$oid": "672a45b56f86a8ba93a4b00f"
+  },
+  "name": "Johto"
+},
+{
+  "_id": {
+    "$oid": "672a45b56f86a8ba93a4b010"
+  },
+  "name": "Hoenn"
+},
+{
+  "_id": {
+    "$oid": "672a45b56f86a8ba93a4b011"
+  },
+  "name": "Sinnoh"
+},
+{
+  "_id": {
+    "$oid": "672a45b56f86a8ba93a4b012"
+  },
+  "name": "Unova"
+},
+{
+  "_id": {
+    "$oid": "672a45b56f86a8ba93a4b013"
+  },
+  "name": "Kalos"
+},
+{
+  "_id": {
+    "$oid": "672a45b56f86a8ba93a4b014"
+  },
+  "name": "Alola"
+},
+{
+  "_id": {
+    "$oid": "672a45b56f86a8ba93a4b015"
+  },
+  "name": "Galar"
+}]
