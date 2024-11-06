@@ -9,7 +9,7 @@ db = client['PokeApi']
 # Verificación de conexión (opcional)
 try:
     client.admin.command('ping')
-    print("Conexión exitosa a MongoDB Atlas")
+    print("Conexión exitosa a MongoDB")
 except Exception as e:
     print("Error de conexión:", e)
 
@@ -29,17 +29,14 @@ def get_types():
     response = requests.get(url).json()
     types = response['results']
 
-    types_to_insert = []
-    type_ids = {}
+    types_data = []
     for t in types:
         t['name'] = t['name'].capitalize()
-        types_to_insert.append(t)  # Acumular los tipos
-        result = types_collection.insert_one(t)  # Almacenar el tipo en la colección
-        type_ids[t['name']] = result.inserted_id  # Asociar nombre con ID
+        types_data.append(t)
 
-    types_collection.insert_many(types_to_insert)  # Insertar todos de una vez
+    types_collection.insert_many(types_data)  # Insertar todos los tipos a la vez
     print("Tipos de Pokémon agregados.")
-    return type_ids
+    return {t['name']: t['_id'] for t in types_data}
 
 # Función para obtener todos los movimientos (ataques)
 def get_moves():
@@ -47,26 +44,26 @@ def get_moves():
     offset = 0
     limit = 100  # Puedes ajustar esto si es necesario
 
+    all_moves = []
+
     while True:
-        try:
-            response = requests.get(f"{url}?limit={limit}&offset={offset}").json()
-        except requests.exceptions.RequestException as e:
-            print(f"Error al realizar la solicitud de movimientos: {e}")
-            break
+        response = requests.get(f"{url}?limit={limit}&offset={offset}").json()
         if not response['results']:
             break  # Salir si no hay más resultados
 
         for move in response['results']:
             move_details = requests.get(move['url']).json()
-            attacks_collection.insert_one({
+            move_data = {
                 'name': move_details['name'],
-                'accuracy': move_details['accuracy'],
-                'power': move_details['power'],
-                'type': move_details['type']['name'] if move_details['type'] else None
-            })
+                'accuracy': move_details.get('accuracy'),
+                'power': move_details.get('power'),
+                'type': move_details['type']['name'] if move_details.get('type') else None
+            }
+            all_moves.append(move_data)
 
         offset += limit  # Aumentar el offset para la próxima página
 
+    attacks_collection.insert_many(all_moves)  # Insertar todos los ataques de una vez
     print("Movimientos (ataques) agregados.")
 
 # Función para insertar regiones y almacenar sus IDs
@@ -79,36 +76,158 @@ def insert_regions():
         {'name': 'Unova'},
         {'name': 'Kalos'},
         {'name': 'Alola'},
-        {'name': 'Galar'}
+        {'name': 'Galar'},
+        {'name': 'Paldea'},
+        {'name': 'Isshu'}
     ]
-    # Insertar regiones y almacenar sus IDs
     result = regions_collection.insert_many(regions)
     print("Regiones agregadas.")
-    return {region['name']: {'id': region_id, 'name': region['name']} for region_id, region in zip(result.inserted_ids, regions)}
+    return {region['name']: region_id for region_id, region in zip(result.inserted_ids, regions)}
 
 # Función para insertar entrenadores
 def insert_trainers(region_ids):
-    trainers_collection.insert_many([
-        {'name': 'Ash Ketchum', 'region': region_ids['Kanto'], 'pokemons': ['Pikachu', 'Charizard']},
-        {'name': 'Misty', 'region': region_ids['Kanto'], 'pokemons': ['Starmie', 'Psyduck']},
-        {'name': 'Brock', 'region': region_ids['Kanto'], 'pokemons': ['Onix', 'Geodude']}
-    ])
+    trainers_data = [
+        {'name': 'Gary Oak', 'region': region_ids['Kanto'], 'pokemons': ['Blastoise', 'Electivire']},
+    {'name': 'May', 'region': region_ids['Hoenn'], 'pokemons': ['Torchic', 'Beautifly']},
+    {'name': 'Dawn', 'region': region_ids['Sinnoh'], 'pokemons': ['Piplup', 'Buneary']},
+    {'name': 'Serena', 'region': region_ids['Kalos'], 'pokemons': ['Fennekin', 'Sylveon']},
+    {'name': 'Clemont', 'region': region_ids['Kalos'], 'pokemons': ['Luxray', 'Magneton']},
+    {'name': 'Cynthia', 'region': region_ids['Sinnoh'], 'pokemons': ['Garchomp', 'Togekiss']},
+    {'name': 'Lysandre', 'region': region_ids['Kalos'], 'pokemons': ['Mega Gyarados', 'Mienfoo']},
+    {'name': 'Leon', 'region': region_ids['Galar'], 'pokemons': ['Charizard', 'Aegislash']},
+    {'name': 'Marnie', 'region': region_ids['Galar'], 'pokemons': ['Morgrem', 'Toxicroak']},
+    {'name': 'Rosa', 'region': region_ids['Unova'], 'pokemons': ['Snivy', 'Musharna']},
+    {'name': 'N', 'region': region_ids['Unova'], 'pokemons': ['Zekrom', 'Reshiram']},
+    {'name': 'Flannery', 'region': region_ids['Hoenn'], 'pokemons': ['Torkoal', 'Slugma']},
+    {'name': 'Wallace', 'region': region_ids['Hoenn'], 'pokemons': ['Swampert', 'Gyarados']},
+    {'name': 'Blue', 'region': region_ids['Kanto'], 'pokemons': ['Rhydon', 'Arcanine']},
+    {'name': 'Koga', 'region': region_ids['Kanto'], 'pokemons': ['Weezing', 'Muk']},
+    {'name': 'Sabrina', 'region': region_ids['Kanto'], 'pokemons': ['Alakazam', 'Mr. Mime']},
+    {'name': 'Giovanni', 'region': region_ids['Kanto'], 'pokemons': ['Rhydon', 'Nidoking']},
+    {'name': 'Whitney', 'region': region_ids['Johto'], 'pokemons': ['Miltank', 'Clefairy']},
+    {'name': 'Clair', 'region': region_ids['Johto'], 'pokemons': ['Kingdra', 'Dragonair']},
+    {'name': 'Chuck', 'region': region_ids['Johto'], 'pokemons': ['Poliwrath', 'Primeape']},
+    {'name': 'Misty', 'region': region_ids['Kanto'], 'pokemons': ['Starmie', 'Psyduck']},
+    {'name': 'Giovanni', 'region': region_ids['Kanto'], 'pokemons': ['Rhydon', 'Nidoking']},
+    {'name': 'Blaine', 'region': region_ids['Kanto'], 'pokemons': ['Arcanine', 'Rapidash']},
+    {'name': 'Erika', 'region': region_ids['Kanto'], 'pokemons': ['Vileplume', 'Tangela']},
+    {'name': 'Koga', 'region': region_ids['Kanto'], 'pokemons': ['Muk', 'Weezing']},
+    {'name': 'Sabrina', 'region': region_ids['Kanto'], 'pokemons': ['Mr. Mime', 'Alakazam']},
+    {'name': 'Roxanne', 'region': region_ids['Hoenn'], 'pokemons': ['Geodude', 'Nosepass']},
+    {'name': 'Liza', 'region': region_ids['Hoenn'], 'pokemons': ['Lunatone', 'Solrock']},
+    {'name': 'Tate', 'region': region_ids['Hoenn'], 'pokemons': ['Solrock', 'Lunatone']},
+    {'name': 'Juan', 'region': region_ids['Hoenn'], 'pokemons': ['Swampert', 'Gyarados']},
+    {'name': 'Gardenia', 'region': region_ids['Sinnoh'], 'pokemons': ['Torterra', 'Roserade']},
+    {'name': 'Fantina', 'region': region_ids['Sinnoh'], 'pokemons': ['Mismagius', 'Gengar']},
+    {'name': 'Byron', 'region': region_ids['Sinnoh'], 'pokemons': ['Steelix', 'Bastiodon']},
+    {'name': 'Candice', 'region': region_ids['Sinnoh'], 'pokemons': ['Abomasnow', 'Piloswine']},
+    {'name': 'Roark', 'region': region_ids['Sinnoh'], 'pokemons': ['Onix', 'Cranidos']},
+    {'name': 'Volkner', 'region': region_ids['Sinnoh'], 'pokemons': ['Luxray', 'Electivire']},
+    {'name': 'Alain', 'region': region_ids['Kalos'], 'pokemons': ['Charizard', 'Magnezone']},
+    {'name': 'Ash', 'region': region_ids['Kanto'], 'pokemons': ['Pikachu', 'Charizard']},
+    {'name': 'Leon', 'region': region_ids['Galar'], 'pokemons': ['Charizard', 'Aegislash']},
+    {'name': 'Diantha', 'region': region_ids['Kalos'], 'pokemons': ['Gardevoir', 'Talonflame']},
+    {'name': 'Zinnia', 'region': region_ids['Hoenn'], 'pokemons': ['Salamence', 'Altaria']},
+    {'name': 'Wally', 'region': region_ids['Hoenn'], 'pokemons': ['Ralts', 'Gardevoir']},
+    {'name': 'Hugh', 'region': region_ids['Unova'], 'pokemons': ['Oshawott', 'Pignite']},
+    {'name': 'Yancy', 'region': region_ids['Unova'], 'pokemons': ['Emolga', 'Vanilluxe']},
+    {'name': 'Tierno', 'region': region_ids['Kalos'], 'pokemons': ['Squirtle', 'Seaking']},
+    {'name': 'Shauna', 'region': region_ids['Kalos'], 'pokemons': ['Chespin', 'Sylveon']},
+    {'name': 'Alola Champion', 'region': region_ids['Alola'], 'pokemons': ['Decidueye', 'Toxapex']},
+    {'name': 'Lillie', 'region': region_ids['Alola'], 'pokemons': ['Nebby', 'Vikavolt']},
+    {'name': 'Olivia', 'region': region_ids['Alola'], 'pokemons': ['Lycanroc', 'Tyranitar']},
+    {'name': 'Mallow', 'region': region_ids['Alola'], 'pokemons': ['Tsareena', 'Lurantis']},
+    {'name': 'Kiawe', 'region': region_ids['Alola'], 'pokemons': ['Torkoal', 'Charizard']},
+    {'name': 'Sina', 'region': region_ids['Kalos'], 'pokemons': ['Garchomp', 'Mamoswine']},
+    {'name': 'Misty', 'region': region_ids['Kanto'], 'pokemons': ['Starmie', 'Psyduck']},
+    {'name': 'Blaine', 'region': region_ids['Kanto'], 'pokemons': ['Rapidash', 'Arcanine']},
+        # Aquí puedes añadir más entrenadores
+    ]
+    trainers_collection.insert_many(trainers_data)
     print("Entrenadores agregados.")
 
 # Función para insertar profesores
 def insert_professors(region_ids):
-    professors_collection.insert_many([
-        {'name': 'Professor Oak', 'region': region_ids['Kanto'], 'specialty': 'Pokemon Research'},
-        {'name': 'Professor Elm', 'region': region_ids['Johto'], 'specialty': 'Evolution Research'},
-        {'name': 'Professor Birch', 'region': region_ids['Hoenn'], 'specialty': 'Pokemon Habitats'}
-    ])
+    professors_data = [
+        {'name': 'Professor Rowan', 'region': region_ids['Sinnoh'], 'specialty': 'Pokemon Evolution'},
+    {'name': 'Professor Kukui', 'region': region_ids['Alola'], 'specialty': 'Pokemon Moves and Battle Strategies'},
+    {'name': 'Professor Sycamore', 'region': region_ids['Kalos'], 'specialty': 'Mega Evolution'},
+    {'name': 'Professor Magnolia', 'region': region_ids['Galar'], 'specialty': 'Dynamax and Gigantamax Phenomena'},
+    {'name': 'Professor Willow', 'region': region_ids['Unova'], 'specialty': 'Pokemon Biology'},
+    {'name': 'Professor Juniper', 'region': region_ids['Unova'], 'specialty': 'Genetics and Evolution'},
+    {'name': 'Professor Oakley', 'region': region_ids['Kanto'], 'specialty': 'Shadow Pokemon Research'},
+    {'name': 'Professor Aspen', 'region': region_ids['Sinnoh'], 'specialty': 'Regional Pokemon Species'},
+    {'name': 'Professor Oakridge', 'region': region_ids['Paldea'], 'specialty': 'Artificial Pokemon Intelligence'},
+    {'name': 'Professor Pine', 'region': region_ids['Johto'], 'specialty': 'Pokemon Ecology'},
+    {'name': 'Professor Larch', 'region': region_ids['Sinnoh'], 'specialty': 'Ancient Pokemon Fossils'},
+    {'name': 'Professor Burnet', 'region': region_ids['Alola'], 'specialty': 'Ultra Beasts and Alternate Dimensions'},
+    {'name': 'Professor Cedric Juniper', 'region': region_ids['Unova'], 'specialty': 'Research on the Unova Region’s Legendary Pokemon'},
+    {'name': 'Professor Bambo', 'region': region_ids['Kanto'], 'specialty': 'Pokemon Species of Torren Region'},
+    {'name': 'Professor Kettler', 'region': region_ids['Kanto'], 'specialty': 'Behavioral Studies in Pokemon'},
+    {'name': 'Professor Radley', 'region': region_ids['Galar'], 'specialty': 'Gigantamaxing Research'},
+    {'name': 'Professor Hala', 'region': region_ids['Alola'], 'specialty': 'Island Trials and Traditional Pokemon Training'},
+    {'name': 'Professor Burbank', 'region': region_ids['Isshu'], 'specialty': 'Pokemon Genetics and Species Mapping'},
+    {'name': 'Professor Tsu', 'region': region_ids['Kalos'], 'specialty': 'Pokemon Breeding and Crossbreeding'},
+    {'name': 'Professor Ainsley', 'region': region_ids['Hoenn'], 'specialty': 'Water-type Pokemon Behavior'},
+    {'name': 'Professor Usher', 'region': region_ids['Unova'], 'specialty': 'Pokemon Adaptation to Urban Environments'},
+    {'name': 'Professor Xenon', 'region': region_ids['Alola'], 'specialty': 'Alola’s Regional Variants and Evolution'},
+    {'name': 'Professor Delphine', 'region': region_ids['Galar'], 'specialty': 'Research on Legendary and Mythical Pokemon'},
+    {'name': 'Professor Marley', 'region': region_ids['Sinnoh'], 'specialty': 'Pokemon Intelligence and Learning'},
+    {'name': 'Professor Ivy', 'region': region_ids['Johto'], 'specialty': 'Pokémon Reproduction and Hybridization'},
+    {'name': 'Professor Frida', 'region': region_ids['Sinnoh'], 'specialty': 'Species Ecology and Conservation'},
+    {'name': 'Professor Viera', 'region': region_ids['Alola'], 'specialty': 'Environmental Impact of Pokemon in Alola'},
+    {'name': 'Professor Thorne', 'region': region_ids['Hoenn'], 'specialty': 'Pokemon Communication'},
+    {'name': 'Professor Akira', 'region': region_ids['Kalos'], 'specialty': 'Understanding Mega Evolutions'},
+    {'name': 'Professor Alden', 'region': region_ids['Sinnoh'], 'specialty': 'The Study of Legendary Pokemon'},
+    {'name': 'Professor Constantine', 'region': region_ids['Galar'], 'specialty': 'Dynamax Phenomena and Strategy'},
+    {'name': 'Professor Maris', 'region': region_ids['Kanto'], 'specialty': 'Researching the Behavior of Psychic-Type Pokemon'},
+    {'name': 'Professor Nia', 'region': region_ids['Unova'], 'specialty': 'Pokemon Behaviour and Interaction with Humans'},
+    {'name': 'Professor Opal', 'region': region_ids['Galar'], 'specialty': 'Fairy-Type Pokemon Research'},
+    {'name': 'Professor Rose', 'region': region_ids['Galar'], 'specialty': 'Energy Sources and their Impact on Pokemon'},
+    {'name': 'Professor Mapache', 'region': region_ids['Alola'], 'specialty': 'Pokemon Evolution in Unique Environments'},
+    {'name': 'Professor Peridot', 'region': region_ids['Johto'], 'specialty': 'Geographic Distribution of Pokemon'},
+    {'name': 'Professor Ramona', 'region': region_ids['Hoenn'], 'specialty': 'Regional Ecology of the Hoenn Region'},
+    {'name': 'Professor Bellamy', 'region': region_ids['Kalos'], 'specialty': 'Mechanisms of Pokemon Bonding'},
+    {'name': 'Professor Merle', 'region': region_ids['Sinnoh'], 'specialty': 'The Study of Steel-Type Pokemon'},
+    {'name': 'Professor Corrine', 'region': region_ids['Unova'], 'specialty': 'The Relationship Between Pokemon and Trainers'},
+    {'name': 'Professor Daley', 'region': region_ids['Galar'], 'specialty': 'Researching the Effects of Dynamaxing on Pokemon and Trainers'},
+    {'name': 'Professor Noctis', 'region': region_ids['Johto'], 'specialty': 'Nighttime Behavior and Research of Pokemon'},
+    {'name': 'Professor Remy', 'region': region_ids['Kalos'], 'specialty': 'Advanced Technology in Pokemon Research'},
+    {'name': 'Professor Sybil', 'region': region_ids['Hoenn'], 'specialty': 'The Connection Between Psychic-Type and Dragon-Type Pokemon'},
+    {'name': 'Professor Tilly', 'region': region_ids['Alola'], 'specialty': 'Study of Mythical and Legendary Pokemon'},
+    {'name': 'Professor Atlas', 'region': region_ids['Sinnoh'], 'specialty': 'Research of Ice-Type and Mountain Pokemon'},
+    {'name': 'Professor Lux', 'region': region_ids['Kalos'], 'specialty': 'Electric-Type Pokemon Research'},
+    {'name': 'Professor Iris', 'region': region_ids['Unova'], 'specialty': 'Dragon-Type Pokemon Research'},
+    {'name': 'Professor Vega', 'region': region_ids['Galar'], 'specialty': 'Specialization in Star and Meteorite Pokemon'},
+    {'name': 'Professor Alistair', 'region': region_ids['Kanto'], 'specialty': 'Psychic-Type and its Influence on Evolution'},
+    {'name': 'Professor Remington', 'region': region_ids['Hoenn'], 'specialty': 'Mapping Pokemon Species in the Hoenn Region'},
+    {'name': 'Professor Lucille', 'region': region_ids['Sinnoh'], 'specialty': 'Pokemon Breeding and Crossbreeding'},
+    {'name': 'Professor Dexter', 'region': region_ids['Alola'], 'specialty': 'The Impact of Alola’s Regional Changes on Pokemon'},
+    {'name': 'Professor Wilfred', 'region': region_ids['Johto'], 'specialty': 'The Evolution of Electric-Type Pokemon'},
+    {'name': 'Professor Hunter', 'region': region_ids['Galar'], 'specialty': 'The Study of Rare and Unusual Pokemon'},
+    {'name': 'Professor Oren', 'region': region_ids['Kalos'], 'specialty': 'Research of Fossil Pokemon'},
+    {'name': 'Professor Ashford', 'region': region_ids['Sinnoh'], 'specialty': 'The Impact of Climate on Pokemon Evolution'},
+    {'name': 'Professor Noelle', 'region': region_ids['Hoenn'], 'specialty': 'Ecosystem Interactions Between Pokemon'},
+    {'name': 'Professor Ramiro', 'region': region_ids['Alola'], 'specialty': 'Pokemon Habitat and Geography'},
+    {'name': 'Professor Harlan', 'region': region_ids['Galar'], 'specialty': 'Research on Wild Pokemon Behavior'},
+    {'name': 'Professor Celia', 'region': region_ids['Johto'], 'specialty': 'The Study of Grass-Type Pokemon'},
+    {'name': 'Professor Lilith', 'region': region_ids['Kalos'], 'specialty': 'Research on Water-Type Pokemon'},
+    {'name': 'Professor Tannis', 'region': region_ids['Sinnoh'], 'specialty': 'Pokemon Metabolism and Growth Patterns'},
+    {'name': 'Professor Ogle', 'region': region_ids['Unova'], 'specialty': 'Research on Pokemon Consciousness'},
+    {'name': 'Professor Esperanza', 'region': region_ids['Hoenn'], 'specialty': 'Study of Electric-Type Pokemon Behavior'},
+    {'name': 'Professor Alda', 'region': region_ids['Galar'], 'specialty': 'Interaction of Steel-Type and Fighting-Type Pokemon'},
+    {'name': 'Professor Wilda', 'region': region_ids['Kalos'], 'specialty': 'Research on Fairy-Type Pokemon'},
+    {'name': 'Professor Tessa', 'region': region_ids['Alola'], 'specialty': 'Research on the Alola Region’s Legendary Pokemon'}
+        # Aquí puedes añadir más profesores
+    ]
+    professors_collection.insert_many(professors_data)
     print("Profesores agregados.")
 
 # Función para insertar gimnasios
 def insert_gyms(region_ids):
     gyms_data = [
-    {
-        "region": region_ids["Kanto"],
+        {
+        "region": region_ids['Kanto'],
         "gyms": [
             {"name": "Pewter City Gym", "leader": "Brock", "type": "Rock"},
             {"name": "Cerulean City Gym", "leader": "Misty", "type": "Water"},
@@ -121,7 +240,7 @@ def insert_gyms(region_ids):
         ]
     },
     {
-        "region": region_ids["Johto"],
+        "region": region_ids['Johto'],
         "gyms": [
             {"name": "Violet City Gym", "leader": "Falkner", "type": "Flying"},
             {"name": "Azalea Town Gym", "leader": "Bugsy", "type": "Bug"},
@@ -134,97 +253,161 @@ def insert_gyms(region_ids):
         ]
     },
     {
-        "region": region_ids["Hoenn"],
+        "region": region_ids['Hoenn'],
         "gyms": [
             {"name": "Rustboro City Gym", "leader": "Roxanne", "type": "Rock"},
             {"name": "Dewford Town Gym", "leader": "Brawly", "type": "Fighting"},
-            {"name": "Slateport City Gym", "leader": "Tate & Liza", "type": "Psychic"},
             {"name": "Mauville City Gym", "leader": "Wattson", "type": "Electric"},
-            {"name": "Verdanturf Town Gym", "leader": "Flannery", "type": "Fire"},
+            {"name": "Lavaridge Town Gym", "leader": "Flannery", "type": "Fire"},
+            {"name": "Petalburg City Gym", "leader": "Norman", "type": "Normal"},
             {"name": "Fortree City Gym", "leader": "Winona", "type": "Flying"},
-            {"name": "Lilycove City Gym", "leader": "Tate & Liza", "type": "Psychic"},
-            {"name": "Mossdeep City Gym", "leader": "Steven Stone", "type": "Steel"}
+            {"name": "Mossdeep City Gym", "leader": "Tate & Liza", "type": "Psychic"},
+            {"name": "Sootopolis City Gym", "leader": "Wallace", "type": "Water"}
         ]
     },
     {
-        "region": region_ids["Sinnoh"],
+        "region": region_ids['Sinnoh'],
         "gyms": [
             {"name": "Oreburgh City Gym", "leader": "Roark", "type": "Rock"},
             {"name": "Eterna City Gym", "leader": "Gardenia", "type": "Grass"},
-            {"name": "Hearthome City Gym", "leader": "Fantina", "type": "Ghost"},
             {"name": "Veilstone City Gym", "leader": "Maylene", "type": "Fighting"},
             {"name": "Pastoria City Gym", "leader": "Crasher Wake", "type": "Water"},
+            {"name": "Hearthome City Gym", "leader": "Fantina", "type": "Ghost"},
+            {"name": "Canalave City Gym", "leader": "Byron", "type": "Steel"},
             {"name": "Snowpoint City Gym", "leader": "Candice", "type": "Ice"},
-            {"name": "Sunyshore City Gym", "leader": "Volkner", "type": "Electric"},
-            {"name": "Canalave City Gym", "leader": "Byron", "type": "Steel"}
+            {"name": "Sunyshore City Gym", "leader": "Volkner", "type": "Electric"}
         ]
     },
     {
-        "region": region_ids["Unova"],
+        "region": region_ids['Unova'],
         "gyms": [
-            {"name": "Striaton City Gym", "leader": "Cilan", "type": "Grass"},
+            {"name": "Striaton City Gym", "leader": "Cilan, Chili & Cress", "type": "Grass/Fire/Water"},
             {"name": "Nacrene City Gym", "leader": "Lenora", "type": "Normal"},
             {"name": "Castelia City Gym", "leader": "Burgh", "type": "Bug"},
             {"name": "Nimbasa City Gym", "leader": "Elesa", "type": "Electric"},
             {"name": "Driftveil City Gym", "leader": "Clay", "type": "Ground"},
             {"name": "Mistralton City Gym", "leader": "Skyla", "type": "Flying"},
             {"name": "Icirrus City Gym", "leader": "Brycen", "type": "Ice"},
-            {"name": "Opelucid City Gym", "leader": "Drayden", "type": "Dragon"}
+            {"name": "Opelucid City Gym", "leader": "Drayden/Iris", "type": "Dragon"}
         ]
     },
     {
-        "region": region_ids["Kalos"],
+        "region": region_ids['Kalos'],
         "gyms": [
             {"name": "Santalune City Gym", "leader": "Viola", "type": "Bug"},
             {"name": "Cyllage City Gym", "leader": "Grant", "type": "Rock"},
             {"name": "Shalour City Gym", "leader": "Korrina", "type": "Fighting"},
-            {"name": "Ambrette Town Gym", "leader": "Ramone", "type": "Water"},
-            {"name": "Geosenge Town Gym", "leader": "Clemont", "type": "Electric"},
             {"name": "Coumarine City Gym", "leader": "Ramos", "type": "Grass"},
-            {"name": "Lumiose City Gym", "leader": "Leona", "type": "Normal"},
-            {"name": "Anistar City Gym", "leader": "Olympia", "type": "Psychic"}
+            {"name": "Lumiose City Gym", "leader": "Clemont", "type": "Electric"},
+            {"name": "Laverre City Gym", "leader": "Valerie", "type": "Fairy"},
+            {"name": "Anistar City Gym", "leader": "Olympia", "type": "Psychic"},
+            {"name": "Snowbelle City Gym", "leader": "Wulfric", "type": "Ice"}
         ]
     },
     {
-        "region": region_ids["Alola"],
-        "gyms": [
-            {"name": "Kukui's Gym", "leader": "Professor Kukui", "type": "Fighting"},
-            {"name": "Melemele Island Gym", "leader": "Hala", "type": "Fighting"},
-            {"name": "Akala Island Gym", "leader": "Olivia", "type": "Rock"},
-            {"name": "Ulaula Island Gym", "leader": "Nanu", "type": "Dark"},
-            {"name": "Poni Island Gym", "leader": "Hapu", "type": "Ground"}
-        ]
-    },
+    "region": region_ids['Alola'],
+    "gyms": [
+        {
+            "name": "Verdant Cavern Trial",
+            "leader": "Captain Ilima",
+            "type": "Normal",
+            "location": "Melemele Island"
+        },
+        {
+            "name": "Brooklet Hill Trial",
+            "leader": "Captain Lana",
+            "type": "Water",
+            "location": "Akala Island"
+        },
+        {
+            "name": "Wela Volcano Park Trial",
+            "leader": "Captain Kiawe",
+            "type": "Fire",
+            "location": "Akala Island"
+        },
+        {
+            "name": "Lush Jungle Trial",
+            "leader": "Captain Mallow",
+            "type": "Grass",
+            "location": "Akala Island"
+        },
+        {
+            "name": "Shady House Trial",
+            "leader": "Captain Nanu",
+            "type": "Dark",
+            "location": "Ula'ula Island"
+        },
+        {
+            "name": "Hokulani Observatory Trial",
+            "leader": "Captain Sophocles",
+            "type": "Electric",
+            "location": "Ula'ula Island"
+        },
+        {
+            "name": "Vast Poni Canyon Trial",
+            "leader": "Captain Mina",
+            "type": "Fairy",
+            "location": "Poni Island"
+        }
+    ],
+    "kahunas": [
+        {
+            "name": "Hala",
+            "type": "Fighting",
+            "location": "Melemele Island"
+        },
+        {
+            "name": "Olivia",
+            "type": "Rock",
+            "location": "Akala Island"
+        },
+        {
+            "name": "Nanu",
+            "type": "Dark",
+            "location": "Ula'ula Island"
+        },
+        {
+            "name": "Hapu",
+            "type": "Ground",
+            "location": "Poni Island"
+        }
+    ]
+},
     {
-        "region": region_ids["Galar"],
+        "region": region_ids['Galar'],
         "gyms": [
-            {"name": "Motostoke Gym", "leader": "Kabu", "type": "Fire"},
-            {"name": "Turffield Gym", "leader": "Milton", "type": "Grass"},
+            {"name": "Turffield Gym", "leader": "Milo", "type": "Grass"},
             {"name": "Hulbury Gym", "leader": "Nessa", "type": "Water"},
-            {"name": "Stow-on-Side Gym", "leader": "Bea", "type": "Fighting"},
-            {"name": "Circhester Gym", "leader": "Gordie", "type": "Rock"},
-            {"name": "Spikemuth Gym", "leader": "Marnie", "type": "Dark"},
-            {"name": "Ballett Town Gym", "leader": "Raihan", "type": "Dragon"},
-            {"name": "Hammerlocke Gym", "leader": "Leon", "type": "Dragon"}
+            {"name": "Motostoke Gym", "leader": "Kabu", "type": "Fire"},
+            {"name": "Stow-on-Side Gym", "leader": "Bea/Allister", "type": "Fighting/Ghost"},
+            {"name": "Ballonlea Gym", "leader": "Opal", "type": "Fairy"},
+            {"name": "Circhester Gym", "leader": "Gordie/Melony", "type": "Rock/Ice"},
+            {"name": "Spikemuth Gym", "leader": "Piers", "type": "Dark"},
+            {"name": "Hammerlocke Gym", "leader": "Raihan", "type": "Dragon"}
+        ]
+    },
+    {
+        "region": region_ids['Paldea'],
+        "gyms": [
+            {"name": "Cortondo Gym", "leader": "Katy", "type": "Bug"},
+            {"name": "Artazon Gym", "leader": "Brassius", "type": "Grass"},
+            {"name": "Levincia Gym", "leader": "Iono", "type": "Electric"},
+            {"name": "Cascarrafa Gym", "leader": "Kofu", "type": "Water"},
+            {"name": "Medali Gym", "leader": "Larry", "type": "Normal"},
+            {"name": "Montenevera Gym", "leader": "Ryme", "type": "Ghost"},
+            {"name": "Alfornada Gym", "leader": "Tulip", "type": "Psychic"},
+            {"name": "Glaseado Gym", "leader": "Grusha", "type": "Ice"}
         ]
     }
-]
-
-
-    for gym_data in gyms_data:
-        region = gym_data["region"]
-        gyms = gym_data["gyms"]
-
-        for gym in gyms:
-            gym["region"] = region  # Asociar el gimnasio con la región
-            gyms_collection.insert_one(gym)
-
+    ]
+    gyms_collection.insert_many(gyms_data)
     print("Gimnasios agregados.")
 
+# Función para insertar el Equipo Rocket
 # Función para obtener Team Rocket (estáticos porque no hay API)
 def insert_team_rockets():
     teamrockets_collection.insert_many([
-    {'name': 'Elise', 'role': 'Grunt', 'age': 26},
+        {'name': 'Elise', 'role': 'Grunt', 'age': 26},
     {'name': 'Sasha', 'role': 'Agent', 'age': 27},
     {'name': 'Victor', 'role': 'Grunt', 'age': 30},
     {'name': 'Cory', 'role': 'Grunt', 'age': 24},
@@ -314,23 +497,17 @@ def insert_team_rockets():
     {'name': 'Emilia', 'role': 'Agent', 'age': 34},
     {'name': 'Connor', 'role': 'Grunt', 'age': 30},
     {'name': 'Ava', 'role': 'Agent', 'age': 28}
-])
-
+    ])
     print("Team Rocket agregado.")
 
-# Función para obtener todos los Pokémon y sus detalles, incluyendo ataques
+
 def get_pokemons(type_ids):
     url = 'https://pokeapi.co/api/v2/pokemon'
     offset = 0
     limit = 100  
 
     while True:
-        try:
-            response = requests.get(f"{url}?limit={limit}&offset={offset}").json()
-        except requests.exceptions.RequestException as e:
-            print(f"Error al realizar la solicitud de Pokémon: {e}")
-            break
-
+        response = requests.get(f"{url}?limit={limit}&offset={offset}").json()
         if not response['results']:
             break
 
@@ -338,7 +515,7 @@ def get_pokemons(type_ids):
             poke_details = requests.get(pokemon['url']).json()
             pokemon_types = [
                 {
-                    'id': type_ids[t['type']['name'].capitalize()],  # Almacenar el ID del tipo
+                    'id': type_ids[t['type']['name'].lower()],  # Almacenar el ID del tipo
                     'name': t['type']['name'].capitalize()  # Almacenar el nombre del tipo
                 } for t in poke_details['types']
             ]
@@ -352,35 +529,64 @@ def get_pokemons(type_ids):
                     'name': move_details['name']  # Nombre del movimiento
                 })
 
-            # Insertar Pokémon en la colección
-            pokemons_collection.insert_one({
-                'name': poke_details['name'],
-                'height': poke_details['height'],
-                'weight': poke_details['weight'],
-                'types': pokemon_types,  # Almacenar la lista de tipos como objetos
-                'stats': {stat['stat']['name']: stat['base_stat'] for stat in poke_details['stats']},
-                'abilities': [ability['ability']['name'] for ability in poke_details['abilities']],
-                'moves': pokemon_moves  # Almacenar los movimientos como una lista de objetos
-            })
+            # Insertar o actualizar Pokémon en la colección
+            pokemons_collection.update_one(
+                {'name': poke_details['name']},  # Filtrar por el nombre del Pokémon
+                {'$set': {
+                    'name': poke_details['name'],
+                    'height': poke_details['height'],
+                    'weight': poke_details['weight'],
+                    'types': pokemon_types,  # Almacenar los tipos como objetos
+                    'stats': {stat['stat']['name']: stat['base_stat'] for stat in poke_details['stats']},
+                    'abilities': [ability['ability']['name'] for ability in poke_details['abilities']],
+                    'moves': pokemon_moves  # Almacenar los movimientos como una lista de objetos
+                }},
+                upsert=True  # Si no existe, se inserta
+            )
         
         offset += limit  # Aumentar el offset para la próxima página
 
     print("Pokémon agregados.")
 
-# Función para obtener la Pokédex
 def get_pokedex():
-    url = 'https://pokeapi.co/api/v2/pokedex/national/'
-    response = requests.get(url).json()
-    # Aquí podrías guardar la Pokédex completa si es necesario
-    print("Pokédex obtenida.")
+    url = 'https://pokeapi.co/api/v2/pokemon'
+    pokedex = []
+    while url:
+        response = requests.get(url)
+        data = response.json()
 
-# Ejecución de funciones
-types_dict = get_types()
-get_pokemons(types_dict)
-get_moves()
-region_ids = insert_regions()
-insert_trainers(region_ids)
-insert_professors(region_ids)
-insert_gyms(region_ids)
-insert_team_rockets()
-get_pokedex()
+        # Añadir cada Pokémon y su número de la Pokédex a la lista
+        for pokemon in data["results"]:
+            # Obtener el ID del Pokémon desde la URL de la respuesta
+            pokemon_id = pokemon["url"].split("/")[-2]
+            pokedex.append({"name": pokemon["name"], "number": int(pokemon_id)})
+
+        # Obtener la siguiente página de resultados
+        url = data["next"]
+
+    return pokedex
+
+# Obtener la lista de Pokémon con su número en la Pokédex
+pokedex = get_pokedex()
+
+# Recorremos todos los Pokémon en la Pokédex y actualizamos sus números en la base de datos
+for pokemon_info in pokedex:
+    pokemon_name = pokemon_info["name"]
+    pokemon_number = pokemon_info["number"]
+
+    # Actualizar el Pokémon en la base de datos
+    pokemons_collection.update_one(
+        {"name": pokemon_name},  # Filtrar por el nombre del Pokémon
+        {"$set": {"pokedex_number": pokemon_number}},  # Actualizar el campo "pokedex_number"
+        upsert=True  # Si no existe, se inserta
+    )
+
+print("Pokédex actualizada con los números.")
+
+
+# Ejemplo de cómo usar estas funciones
+region_ids = insert_regions()  # Llamar primero a insert_regions para obtener los IDs
+insert_trainers(region_ids)     # Luego insertar entrenadores
+insert_professors(region_ids)   # Finalmente insertar profesores
+insert_gyms(region_ids)         # Finalmente insertar gimnasios
+insert_team_rockets()           # Finalmente insertar el Equipo Rocket      # Finalmente insertar tipos
