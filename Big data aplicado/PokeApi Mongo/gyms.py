@@ -1,9 +1,10 @@
 from pymongo import MongoClient
 
+
 # Conexión a la base de datos MongoDB
-uri = "mongodb+srv://manuelsr0113:Firmamento.34@cluster0.aztgaop.mongodb.net/?retryWrites=true&w=majority"
+uri = "mongodb://localhost:27017"
 client = MongoClient(uri)
-db = client["PokeApi"]  # Base de datos llamada 'PokeApi'
+db = client['PokeApi']
 coleccion = db["gyms"]  # Colección llamada 'gyms'
 
 try:
