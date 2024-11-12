@@ -1,5 +1,4 @@
 from pymongo import MongoClient
-from regions import insert_regions
 
 # Conexión a MongoDB Atlas
 uri = "mongodb://localhost:27017"

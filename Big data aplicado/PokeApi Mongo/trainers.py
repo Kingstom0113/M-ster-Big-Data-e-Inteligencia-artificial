@@ -1,8 +1,8 @@
 from pymongo import MongoClient
-from regions import insert_regions
+import random
 
 # Conexión a MongoDB Atlas
-uri = "mongodb://@localhost:27017"
+uri = "mongodb://localhost:27017"
 client = MongoClient(uri)
 db = client['PokeApi']
 
@@ -14,75 +14,87 @@ except Exception as e:
     print("Error de conexión:", e)
 
 # Colecciones de MongoDB
-types_collection = db['types']
-pokemons_collection = db['pokemons']
-attacks_collection = db['attacks']
 trainers_collection = db['trainers']
-professors_collection = db['professors']
-regions_collection = db['regions']
-gyms_collection = db['gyms']
-teamrockets_collection = db['teamrockets']
 
-def insert_trainers(region_ids):
-    trainers_collection.insert_many([
-    {'name': 'Gary Oak', 'region': region_ids['Kanto'], 'pokemons': ['Blastoise', 'Electivire']},
-    {'name': 'May', 'region': region_ids['Hoenn'], 'pokemons': ['Torchic', 'Beautifly']},
-    {'name': 'Dawn', 'region': region_ids['Sinnoh'], 'pokemons': ['Piplup', 'Buneary']},
-    {'name': 'Serena', 'region': region_ids['Kalos'], 'pokemons': ['Fennekin', 'Sylveon']},
-    {'name': 'Clemont', 'region': region_ids['Kalos'], 'pokemons': ['Luxray', 'Magneton']},
-    {'name': 'Cynthia', 'region': region_ids['Sinnoh'], 'pokemons': ['Garchomp', 'Togekiss']},
-    {'name': 'Lysandre', 'region': region_ids['Kalos'], 'pokemons': ['Mega Gyarados', 'Mienfoo']},
-    {'name': 'Leon', 'region': region_ids['Galar'], 'pokemons': ['Charizard', 'Aegislash']},
-    {'name': 'Marnie', 'region': region_ids['Galar'], 'pokemons': ['Morgrem', 'Toxicroak']},
-    {'name': 'Rosa', 'region': region_ids['Unova'], 'pokemons': ['Snivy', 'Musharna']},
-    {'name': 'N', 'region': region_ids['Unova'], 'pokemons': ['Zekrom', 'Reshiram']},
-    {'name': 'Flannery', 'region': region_ids['Hoenn'], 'pokemons': ['Torkoal', 'Slugma']},
-    {'name': 'Wallace', 'region': region_ids['Hoenn'], 'pokemons': ['Swampert', 'Gyarados']},
-    {'name': 'Blue', 'region': region_ids['Kanto'], 'pokemons': ['Rhydon', 'Arcanine']},
-    {'name': 'Koga', 'region': region_ids['Kanto'], 'pokemons': ['Weezing', 'Muk']},
-    {'name': 'Sabrina', 'region': region_ids['Kanto'], 'pokemons': ['Alakazam', 'Mr. Mime']},
-    {'name': 'Giovanni', 'region': region_ids['Kanto'], 'pokemons': ['Rhydon', 'Nidoking']},
-    {'name': 'Whitney', 'region': region_ids['Johto'], 'pokemons': ['Miltank', 'Clefairy']},
-    {'name': 'Clair', 'region': region_ids['Johto'], 'pokemons': ['Kingdra', 'Dragonair']},
-    {'name': 'Chuck', 'region': region_ids['Johto'], 'pokemons': ['Poliwrath', 'Primeape']},
-    {'name': 'Misty', 'region': region_ids['Kanto'], 'pokemons': ['Starmie', 'Psyduck']},
-    {'name': 'Giovanni', 'region': region_ids['Kanto'], 'pokemons': ['Rhydon', 'Nidoking']},
-    {'name': 'Blaine', 'region': region_ids['Kanto'], 'pokemons': ['Arcanine', 'Rapidash']},
-    {'name': 'Erika', 'region': region_ids['Kanto'], 'pokemons': ['Vileplume', 'Tangela']},
-    {'name': 'Koga', 'region': region_ids['Kanto'], 'pokemons': ['Muk', 'Weezing']},
-    {'name': 'Sabrina', 'region': region_ids['Kanto'], 'pokemons': ['Mr. Mime', 'Alakazam']},
-    {'name': 'Roxanne', 'region': region_ids['Hoenn'], 'pokemons': ['Geodude', 'Nosepass']},
-    {'name': 'Liza', 'region': region_ids['Hoenn'], 'pokemons': ['Lunatone', 'Solrock']},
-    {'name': 'Tate', 'region': region_ids['Hoenn'], 'pokemons': ['Solrock', 'Lunatone']},
-    {'name': 'Juan', 'region': region_ids['Hoenn'], 'pokemons': ['Swampert', 'Gyarados']},
-    {'name': 'Gardenia', 'region': region_ids['Sinnoh'], 'pokemons': ['Torterra', 'Roserade']},
-    {'name': 'Fantina', 'region': region_ids['Sinnoh'], 'pokemons': ['Mismagius', 'Gengar']},
-    {'name': 'Byron', 'region': region_ids['Sinnoh'], 'pokemons': ['Steelix', 'Bastiodon']},
-    {'name': 'Candice', 'region': region_ids['Sinnoh'], 'pokemons': ['Abomasnow', 'Piloswine']},
-    {'name': 'Roark', 'region': region_ids['Sinnoh'], 'pokemons': ['Onix', 'Cranidos']},
-    {'name': 'Volkner', 'region': region_ids['Sinnoh'], 'pokemons': ['Luxray', 'Electivire']},
-    {'name': 'Alain', 'region': region_ids['Kalos'], 'pokemons': ['Charizard', 'Magnezone']},
-    {'name': 'Ash', 'region': region_ids['Kanto'], 'pokemons': ['Pikachu', 'Charizard']},
-    {'name': 'Leon', 'region': region_ids['Galar'], 'pokemons': ['Charizard', 'Aegislash']},
-    {'name': 'Diantha', 'region': region_ids['Kalos'], 'pokemons': ['Gardevoir', 'Talonflame']},
-    {'name': 'Zinnia', 'region': region_ids['Hoenn'], 'pokemons': ['Salamence', 'Altaria']},
-    {'name': 'Wally', 'region': region_ids['Hoenn'], 'pokemons': ['Ralts', 'Gardevoir']},
-    {'name': 'Hugh', 'region': region_ids['Unova'], 'pokemons': ['Oshawott', 'Pignite']},
-    {'name': 'Yancy', 'region': region_ids['Unova'], 'pokemons': ['Emolga', 'Vanilluxe']},
-    {'name': 'Tierno', 'region': region_ids['Kalos'], 'pokemons': ['Squirtle', 'Seaking']},
-    {'name': 'Shauna', 'region': region_ids['Kalos'], 'pokemons': ['Chespin', 'Sylveon']},
-    {'name': 'Alola Champion', 'region': region_ids['Alola'], 'pokemons': ['Decidueye', 'Toxapex']},
-    {'name': 'Lillie', 'region': region_ids['Alola'], 'pokemons': ['Nebby', 'Vikavolt']},
-    {'name': 'Olivia', 'region': region_ids['Alola'], 'pokemons': ['Lycanroc', 'Tyranitar']},
-    {'name': 'Mallow', 'region': region_ids['Alola'], 'pokemons': ['Tsareena', 'Lurantis']},
-    {'name': 'Kiawe', 'region': region_ids['Alola'], 'pokemons': ['Torkoal', 'Charizard']},
-    {'name': 'Sina', 'region': region_ids['Kalos'], 'pokemons': ['Garchomp', 'Mamoswine']},
-    {'name': 'Misty', 'region': region_ids['Kanto'], 'pokemons': ['Starmie', 'Psyduck']},
-    {'name': 'Blaine', 'region': region_ids['Kanto'], 'pokemons': ['Rapidash', 'Arcanine']}
-])
+# Obtener todas las regiones desde la colección 'regions'
+regions = list(db.regions.find({}, {"_id": 1, "name": 1}))
 
-    print("Entrenadores agregados.")
+trainers_data= [
+    {'name': 'Gary Oak', 'pokemons': ['Blastoise', 'Electivire']},
+    {'name': 'May', 'pokemons': ['Torchic', 'Beautifly']},
+    {'name': 'Dawn', 'pokemons': ['Piplup', 'Buneary']},
+    {'name': 'Serena', 'pokemons': ['Fennekin', 'Sylveon']},
+    {'name': 'Clemont', 'pokemons': ['Luxray', 'Magneton']},
+    {'name': 'Cynthia', 'pokemons': ['Garchomp', 'Togekiss']},
+    {'name': 'Lysandre', 'pokemons': ['Mega Gyarados', 'Mienfoo']},
+    {'name': 'Leon', 'pokemons': ['Charizard', 'Aegislash']},
+    {'name': 'Marnie', 'pokemons': ['Morgrem', 'Toxicroak']},
+    {'name': 'Rosa', 'pokemons': ['Snivy', 'Musharna']},
+    {'name': 'N', 'pokemons': ['Zekrom', 'Reshiram']},
+    {'name': 'Flannery', 'pokemons': ['Torkoal', 'Slugma']},
+    {'name': 'Wallace', 'pokemons': ['Swampert', 'Gyarados']},
+    {'name': 'Blue', 'pokemons': ['Rhydon', 'Arcanine']},
+    {'name': 'Koga', 'pokemons': ['Weezing', 'Muk']},
+    {'name': 'Sabrina', 'pokemons': ['Alakazam', 'Mr. Mime']},
+    {'name': 'Giovanni', 'pokemons': ['Rhydon', 'Nidoking']},
+    {'name': 'Whitney', 'pokemons': ['Miltank', 'Clefairy']},
+    {'name': 'Clair', 'pokemons': ['Kingdra', 'Dragonair']},
+    {'name': 'Chuck', 'pokemons': ['Poliwrath', 'Primeape']},
+    {'name': 'Misty', 'pokemons': ['Starmie', 'Psyduck']},
+    {'name': 'Giovanni', 'pokemons': ['Rhydon', 'Nidoking']},
+    {'name': 'Blaine', 'pokemons': ['Arcanine', 'Rapidash']},
+    {'name': 'Erika', 'pokemons': ['Vileplume', 'Tangela']},
+    {'name': 'Koga', 'pokemons': ['Muk', 'Weezing']},
+    {'name': 'Sabrina', 'pokemons': ['Mr. Mime', 'Alakazam']},
+    {'name': 'Roxanne', 'pokemons': ['Geodude', 'Nosepass']},
+    {'name': 'Liza', 'pokemons': ['Lunatone', 'Solrock']},
+    {'name': 'Tate', 'pokemons': ['Solrock', 'Lunatone']},
+    {'name': 'Juan', 'pokemons': ['Swampert', 'Gyarados']},
+    {'name': 'Gardenia', 'pokemons': ['Torterra', 'Roserade']},
+    {'name': 'Fantina', 'pokemons': ['Mismagius', 'Gengar']},
+    {'name': 'Byron', 'pokemons': ['Steelix', 'Bastiodon']},
+    {'name': 'Candice', 'pokemons': ['Abomasnow', 'Piloswine']},
+    {'name': 'Roark', 'pokemons': ['Onix', 'Cranidos']},
+    {'name': 'Volkner', 'pokemons': ['Luxray', 'Electivire']},
+    {'name': 'Alain', 'pokemons': ['Charizard', 'Magnezone']},
+    {'name': 'Ash', 'pokemons': ['Pikachu', 'Charizard']},
+    {'name': 'Leon', 'pokemons': ['Charizard', 'Aegislash']},
+    {'name': 'Diantha', 'pokemons': ['Gardevoir', 'Talonflame']},
+    {'name': 'Zinnia', 'pokemons': ['Salamence', 'Altaria']},
+    {'name': 'Wally', 'pokemons': ['Ralts', 'Gardevoir']},
+    {'name': 'Hugh', 'pokemons': ['Oshawott', 'Pignite']},
+    {'name': 'Yancy', 'pokemons': ['Emolga', 'Vanilluxe']},
+    {'name': 'Tierno', 'pokemons': ['Squirtle', 'Seaking']},
+    {'name': 'Shauna', 'pokemons': ['Chespin', 'Sylveon']},
+    {'name': 'Alola Champion', 'pokemons': ['Decidueye', 'Toxapex']},
+    {'name': 'Lillie', 'pokemons': ['Nebby', 'Vikavolt']},
+    {'name': 'Olivia', 'pokemons': ['Lycanroc', 'Tyranitar']},
+    {'name': 'Mallow', 'pokemons': ['Tsareena', 'Lurantis']},
+    {'name': 'Kiawe', 'pokemons': ['Torkoal', 'Charizard']},
+    {'name': 'Sina', 'pokemons': ['Garchomp', 'Mamoswine']},
+    {'name': 'Misty', 'pokemons': ['Starmie', 'Psyduck']},
+    {'name': 'Blaine', 'pokemons': ['Rapidash', 'Arcanine']}
+]
 
-# Llamada a la función
-region_ids = insert_regions()
-insert_trainers(region_ids)
+trainers = []
+
+for region in regions:
+    region_name = region['name']
+    region_id = region['_id']
+
+    for trainer in trainers_data:
+        existing_trainer = trainers_collection.find_one({'name': trainer['name']})
+
+        if not existing_trainer:
+            selected_region = random.choice(regions)
+            new_trainer = {
+            'name': trainer['name'],
+            'region': selected_region['_id'],
+            'region_name': selected_region['name'],
+            'pokemons': trainer['pokemons']
+        }
+            trainers.append(new_trainer)
+
+# Insertar entrenadores en la colección 'trainers'
+trainers_collection.insert_many(trainers)
+print("Entrenadores agregados a la base de datos.")

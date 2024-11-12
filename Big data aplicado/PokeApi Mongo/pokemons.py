@@ -1,73 +1,131 @@
 import requests
 from pymongo import MongoClient
 
-# Conexión a MongoDB Atlas
+# Conexión a la base de datos MongoDB
 uri = "mongodb://localhost:27017"
 client = MongoClient(uri)
 db = client['PokeApi']
 
-# Verificación de conexión (opcional)
-try:
-    client.admin.command('ping')
-    print("Conexión exitosa a MongoDB")
-except Exception as e:
-    print("Error de conexión:", e)
-
 # Colecciones de MongoDB
 pokemons_collection = db['pokemons']
-types_collection = db['types']  # Si necesitas almacenar los tipos de Pokémon
+regions_collection = db['regions']
+attacks_collection = db['attacks']  # Referencia a la colección 'attacks'
 
-# Función para obtener los datos de todos los Pokémon
-def fetch_and_insert_pokemons():
-    base_url = "https://pokeapi.co/api/v2/pokemon/"
-    pokemon_list = []
-    next_url = base_url  # URL inicial para obtener la lista de Pokémon
+# Obtener todas las regiones de la colección 'regions' en MongoDB
+def get_regions_from_db():
+    regions = list(regions_collection.find({}, {"_id": 1, "name": 1}))
+    print("Regiones obtenidas de MongoDB:", regions)  # Depuración
+    return {region['_id']: region['name'] for region in regions}
 
+# Función para obtener todos los pokemons desde la PokéAPI
+def get_all_pokemons():
+    url = "https://pokeapi.co/api/v2/pokemon?limit=1302"  # URL base con un límite de 1000 Pokémon
+    pokemons = []
+    next_url = url
+    
     while next_url:
         response = requests.get(next_url)
         data = response.json()
-
-        # Recorremos los resultados de Pokémon de esta página
+        
+        print(f"Obteniendo datos de la página: {next_url}")  # Depuración
+        
         for pokemon in data['results']:
-            pokemon_data = fetch_pokemon_data(pokemon['url'])
+            pokemon_data = get_pokemon_details(pokemon['url'])
             if pokemon_data:
-                pokemon_list.append(pokemon_data)
+                pokemons.append(pokemon_data)
+        
+        next_url = data.get('next')
 
-        # Si hay una página siguiente, la obtenemos
-        next_url = data['next']
+    print(f"Total de Pokémon obtenidos: {len(pokemons)}")  # Depuración
+    return pokemons
 
-    # Insertamos los Pokémon en la base de datos
-    if pokemon_list:
-        pokemons_collection.insert_many(pokemon_list)
-        print(f"Se agregaron {len(pokemon_list)} Pokémon a la base de datos.")
+# Función para obtener detalles de un Pokémon específico
+def get_pokemon_details(pokemon_url):
+    response = requests.get(pokemon_url)
+    data = response.json()
+    
+    # Crear el documento del Pokémon
+    pokemon_document = {
+        "name": data['name'],
+        "id": data['id'],
+        "height": data['height'],
+        "weight": data['weight'],
+        "types": [t['type']['name'] for t in data['types']],  # Lista de tipos
+        "abilities": [a['ability']['name'] for a in data['abilities']],  # Lista de habilidades
+        "stats": {stat['stat']['name']: stat['base_stat'] for stat in data['stats']},  # Estadísticas
+        "moves": get_move_references(data['moves'])  # Lista de referencias a ataques
+    }
+    
+    # Asociar la región a este Pokémon
+    region_id, region_name = get_region_by_pokemon_id(data['id'])
+    
+    # Agregar la región al documento
+    pokemon_document["region"] = {
+        "id": region_id,
+        "name": region_name
+    }
+
+    return pokemon_document
+
+# Función para obtener las referencias de los movimientos desde la colección 'attacks'
+def get_move_references(moves):
+    move_references = []
+    
+    for move in moves:
+        move_name = move['move']['name']
+        # Buscar el movimiento en la colección 'attacks'
+        attack = attacks_collection.find_one({"name": move_name})
+        
+        if attack:
+            move_references.append({
+                "id": attack['_id'],  # Agregar el _id del ataque
+                "name": attack['name']  # Agregar el nombre del ataque
+            })
+        
+    return move_references
+
+# Función para determinar la región basada en el ID del Pokémon
+def get_region_by_pokemon_id(pokemon_id):
+    if 1 <= pokemon_id <= 151:
+        return get_region_info("Kanto")
+    elif 152 <= pokemon_id <= 251:
+        return get_region_info("Johto")
+    elif 252 <= pokemon_id <= 386:
+        return get_region_info("Hoenn")
+    elif 387 <= pokemon_id <= 493:
+        return get_region_info("Sinnoh")
+    elif 494 <= pokemon_id <= 649:
+        return get_region_info("Unova")
+    elif 650 <= pokemon_id <= 721:
+        return get_region_info("Kalos")
+    elif 722 <= pokemon_id <= 809:
+        return get_region_info("Alola")
+    elif 810 <= pokemon_id <= 898:
+        return get_region_info("Galar")
+    elif 899 <= pokemon_id <= 1000:
+        return get_region_info("Paldea")
+    elif 1001 <= pokemon_id <= 1086:
+        return get_region_info("Isshu")
+    else:
+        return get_region_info("Unknown Region")
+
+def get_region_info(region_name):
+    region = regions_collection.find_one({"name": region_name})
+    if region:
+        return region['_id'], region['name']
+    else:
+        return None, "Unknown Region"
+
+# Insertar los Pokémon en la base de datos
+def insert_pokemons_into_db():
+    pokemons = get_all_pokemons()
+    
+    if pokemons:
+        print(f"Inserción de {len(pokemons)} Pokémon en la base de datos...")
+        pokemons_collection.insert_many(pokemons)
+        print(f"{len(pokemons)} Pokémon han sido agregados a la base de datos.")
     else:
         print("No se encontraron Pokémon para agregar.")
 
-# Función auxiliar para obtener datos detallados de cada Pokémon
-def fetch_pokemon_data(pokemon_url):
-    response = requests.get(pokemon_url)
-    if response.status_code == 200:
-        data = response.json()
-
-        # Estructura que queremos para almacenar el Pokémon
-        pokemon_data = {
-            'name': data['name'],
-            'id': data['id'],
-            'types': [type_info['type']['name'] for type_info in data['types']],  # Extraemos los tipos
-            'height': data['height'],
-            'weight': data['weight'],
-            'abilities': [ability['ability']['name'] for ability in data['abilities']],  # Habilidades
-            'moves': [move['move']['name'] for move in data['moves']],  # Movimientos
-            'sprites': data['sprites']['front_default']  # Imagen del sprite
-        }
-
-        return pokemon_data
-    else:
-        print(f"Error al obtener los datos del Pokémon con URL: {pokemon_url}")
-        return None
-
-# Llamada a la función
-if __name__ == "__main__":
-    fetch_and_insert_pokemons()
-
+insert_pokemons_into_db()
 

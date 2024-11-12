@@ -1,139 +1,139 @@
 [{
   "_id": {
-    "$oid": "672a2dd06f86a8ba93a4a735"
+    "$oid": "6732581e7f0f4bd04d86cc8b"
   },
   "name": "Normal",
   "url": "https://pokeapi.co/api/v2/type/1/"
 },
 {
   "_id": {
-    "$oid": "672a2dd06f86a8ba93a4a736"
+    "$oid": "6732581e7f0f4bd04d86cc8c"
   },
   "name": "Fighting",
   "url": "https://pokeapi.co/api/v2/type/2/"
 },
 {
   "_id": {
-    "$oid": "672a2dd06f86a8ba93a4a737"
+    "$oid": "6732581e7f0f4bd04d86cc8d"
   },
   "name": "Flying",
   "url": "https://pokeapi.co/api/v2/type/3/"
 },
 {
   "_id": {
-    "$oid": "672a2dd06f86a8ba93a4a738"
+    "$oid": "6732581e7f0f4bd04d86cc8e"
   },
   "name": "Poison",
   "url": "https://pokeapi.co/api/v2/type/4/"
 },
 {
   "_id": {
-    "$oid": "672a2dd06f86a8ba93a4a739"
+    "$oid": "6732581e7f0f4bd04d86cc8f"
   },
   "name": "Ground",
   "url": "https://pokeapi.co/api/v2/type/5/"
 },
 {
   "_id": {
-    "$oid": "672a2dd06f86a8ba93a4a73a"
+    "$oid": "6732581e7f0f4bd04d86cc90"
   },
   "name": "Rock",
   "url": "https://pokeapi.co/api/v2/type/6/"
 },
 {
   "_id": {
-    "$oid": "672a2dd06f86a8ba93a4a73b"
+    "$oid": "6732581e7f0f4bd04d86cc91"
   },
   "name": "Bug",
   "url": "https://pokeapi.co/api/v2/type/7/"
 },
 {
   "_id": {
-    "$oid": "672a2dd06f86a8ba93a4a73c"
+    "$oid": "6732581e7f0f4bd04d86cc92"
   },
   "name": "Ghost",
   "url": "https://pokeapi.co/api/v2/type/8/"
 },
 {
   "_id": {
-    "$oid": "672a2dd06f86a8ba93a4a73d"
+    "$oid": "6732581e7f0f4bd04d86cc93"
   },
   "name": "Steel",
   "url": "https://pokeapi.co/api/v2/type/9/"
 },
 {
   "_id": {
-    "$oid": "672a2dd06f86a8ba93a4a73e"
+    "$oid": "6732581e7f0f4bd04d86cc94"
   },
   "name": "Fire",
   "url": "https://pokeapi.co/api/v2/type/10/"
 },
 {
   "_id": {
-    "$oid": "672a2dd06f86a8ba93a4a73f"
+    "$oid": "6732581e7f0f4bd04d86cc95"
   },
   "name": "Water",
   "url": "https://pokeapi.co/api/v2/type/11/"
 },
 {
   "_id": {
-    "$oid": "672a2dd06f86a8ba93a4a740"
+    "$oid": "6732581e7f0f4bd04d86cc96"
   },
   "name": "Grass",
   "url": "https://pokeapi.co/api/v2/type/12/"
 },
 {
   "_id": {
-    "$oid": "672a2dd06f86a8ba93a4a741"
+    "$oid": "6732581e7f0f4bd04d86cc97"
   },
   "name": "Electric",
   "url": "https://pokeapi.co/api/v2/type/13/"
 },
 {
   "_id": {
-    "$oid": "672a2dd06f86a8ba93a4a742"
+    "$oid": "6732581e7f0f4bd04d86cc98"
   },
   "name": "Psychic",
   "url": "https://pokeapi.co/api/v2/type/14/"
 },
 {
   "_id": {
-    "$oid": "672a2dd06f86a8ba93a4a743"
+    "$oid": "6732581e7f0f4bd04d86cc99"
   },
   "name": "Ice",
   "url": "https://pokeapi.co/api/v2/type/15/"
 },
 {
   "_id": {
-    "$oid": "672a2dd06f86a8ba93a4a744"
+    "$oid": "6732581e7f0f4bd04d86cc9a"
   },
   "name": "Dragon",
   "url": "https://pokeapi.co/api/v2/type/16/"
 },
 {
   "_id": {
-    "$oid": "672a2dd06f86a8ba93a4a745"
+    "$oid": "6732581e7f0f4bd04d86cc9b"
   },
   "name": "Dark",
   "url": "https://pokeapi.co/api/v2/type/17/"
 },
 {
   "_id": {
-    "$oid": "672a2dd06f86a8ba93a4a746"
+    "$oid": "6732581e7f0f4bd04d86cc9c"
   },
   "name": "Fairy",
   "url": "https://pokeapi.co/api/v2/type/18/"
 },
 {
   "_id": {
-    "$oid": "672a2dd06f86a8ba93a4a747"
+    "$oid": "6732581e7f0f4bd04d86cc9d"
   },
   "name": "Stellar",
   "url": "https://pokeapi.co/api/v2/type/19/"
 },
 {
   "_id": {
-    "$oid": "672a2dd06f86a8ba93a4a748"
+    "$oid": "6732581e7f0f4bd04d86cc9e"
   },
   "name": "Unknown",
   "url": "https://pokeapi.co/api/v2/type/10001/"
