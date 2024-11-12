@@ -2,7 +2,7 @@ from pymongo import MongoClient
 import requests
 
 # Conexión a MongoDB Atlas
-uri = "mongodb://localhost:27017"
+uri = "mongodb://admin:admin@localhost:27017"
 client = MongoClient(uri)
 db = client['PokeApi']
 

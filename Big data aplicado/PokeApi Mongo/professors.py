@@ -2,7 +2,7 @@ from pymongo import MongoClient
 from regions import insert_regions
 
 # Conexión a la base de datos MongoDB
-uri = "mongodb://localhost:27017"
+uri = "mongodb://admin:admin@localhost:27017"
 client = MongoClient(uri)
 db = client['PokeApi']
 
