@@ -1,0 +1,32 @@
+{
+    "alumnos": [
+        {
+            "nombre": "Carlos Pérez",
+            "email": "carlos@example.com",
+            "telefono": "612345678",
+            "codigo_postal": "28001",
+            "curso": "DAW2"
+        },
+        {
+            "nombre": "Lucía Gómez",
+            "email": "lucia@example.com",
+            "telefono": "623456789",
+            "codigo_postal": "08002",
+            "curso": "DAW1"
+        },
+        {
+            "nombre": "Juan Rodríguez",
+            "email": "juan@invalid",
+            "telefono": "612345678",
+            "codigo_postal": "28003",
+            "curso": "DAM2"
+        },
+        {
+            "nombre": "Ana Sánchez",
+            "email": "ana.sanchez@example.com",
+            "telefono": "935123456",
+            "codigo_postal": "29004",
+            "curso": "DAW2"
+        }
+    ]
+}
