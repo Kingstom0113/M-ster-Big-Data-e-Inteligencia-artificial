@@ -1,6 +1,6 @@
 [{
   "_id": {
-    "$oid": "672a451b6f86a8ba93a4ac5f"
+    "$oid": "673252766f4307a0a7f4e3a0"
   },
   "name": "pound",
   "accuracy": 100,
@@ -9,7 +9,7 @@
 },
 {
   "_id": {
-    "$oid": "672a451b6f86a8ba93a4ac60"
+    "$oid": "673252766f4307a0a7f4e3a1"
   },
   "name": "karate-chop",
   "accuracy": 100,
@@ -18,7 +18,7 @@
 },
 {
   "_id": {
-    "$oid": "672a451b6f86a8ba93a4ac61"
+    "$oid": "673252766f4307a0a7f4e3a2"
   },
   "name": "double-slap",
   "accuracy": 85,
@@ -27,7 +27,7 @@
 },
 {
   "_id": {
-    "$oid": "672a451b6f86a8ba93a4ac62"
+    "$oid": "673252766f4307a0a7f4e3a3"
   },
   "name": "comet-punch",
   "accuracy": 85,
@@ -36,7 +36,7 @@
 },
 {
   "_id": {
-    "$oid": "672a451b6f86a8ba93a4ac63"
+    "$oid": "673252766f4307a0a7f4e3a4"
   },
   "name": "mega-punch",
   "accuracy": 85,
@@ -45,7 +45,7 @@
 },
 {
   "_id": {
-    "$oid": "672a451b6f86a8ba93a4ac64"
+    "$oid": "673252766f4307a0a7f4e3a5"
   },
   "name": "pay-day",
   "accuracy": 100,
@@ -54,7 +54,7 @@
 },
 {
   "_id": {
-    "$oid": "672a451b6f86a8ba93a4ac65"
+    "$oid": "673252766f4307a0a7f4e3a6"
   },
   "name": "fire-punch",
   "accuracy": 100,
@@ -63,7 +63,7 @@
 },
 {
   "_id": {
-    "$oid": "672a451b6f86a8ba93a4ac66"
+    "$oid": "673252766f4307a0a7f4e3a7"
   },
   "name": "ice-punch",
   "accuracy": 100,
@@ -72,7 +72,7 @@
 },
 {
   "_id": {
-    "$oid": "672a451b6f86a8ba93a4ac67"
+    "$oid": "673252766f4307a0a7f4e3a8"
   },
   "name": "thunder-punch",
   "accuracy": 100,
@@ -81,7 +81,7 @@
 },
 {
   "_id": {
-    "$oid": "672a451b6f86a8ba93a4ac68"
+    "$oid": "673252766f4307a0a7f4e3a9"
   },
   "name": "scratch",
   "accuracy": 100,
@@ -90,7 +90,7 @@
 },
 {
   "_id": {
-    "$oid": "672a451c6f86a8ba93a4ac69"
+    "$oid": "673252766f4307a0a7f4e3aa"
   },
   "name": "vice-grip",
   "accuracy": 100,
@@ -99,7 +99,7 @@
 },
 {
   "_id": {
-    "$oid": "672a451c6f86a8ba93a4ac6a"
+    "$oid": "673252766f4307a0a7f4e3ab"
   },
   "name": "guillotine",
   "accuracy": 30,
@@ -108,7 +108,7 @@
 },
 {
   "_id": {
-    "$oid": "672a451c6f86a8ba93a4ac6b"
+    "$oid": "673252766f4307a0a7f4e3ac"
   },
   "name": "razor-wind",
   "accuracy": 100,
@@ -117,7 +117,7 @@
 },
 {
   "_id": {
-    "$oid": "672a451c6f86a8ba93a4ac6c"
+    "$oid": "673252766f4307a0a7f4e3ad"
   },
   "name": "swords-dance",
   "accuracy": null,
@@ -126,7 +126,7 @@
 },
 {
   "_id": {
-    "$oid": "672a451c6f86a8ba93a4ac6d"
+    "$oid": "673252776f4307a0a7f4e3ae"
   },
   "name": "cut",
   "accuracy": 95,
@@ -135,7 +135,7 @@
 },
 {
   "_id": {
-    "$oid": "672a451c6f86a8ba93a4ac6e"
+    "$oid": "673252776f4307a0a7f4e3af"
   },
   "name": "gust",
   "accuracy": 100,
@@ -144,7 +144,7 @@
 },
 {
   "_id": {
-    "$oid": "672a451c6f86a8ba93a4ac6f"
+    "$oid": "673252776f4307a0a7f4e3b0"
   },
   "name": "wing-attack",
   "accuracy": 100,
@@ -153,7 +153,7 @@
 },
 {
   "_id": {
-    "$oid": "672a451c6f86a8ba93a4ac70"
+    "$oid": "673252776f4307a0a7f4e3b1"
   },
   "name": "whirlwind",
   "accuracy": null,
@@ -162,7 +162,7 @@
 },
 {
   "_id": {
-    "$oid": "672a451c6f86a8ba93a4ac71"
+    "$oid": "673252776f4307a0a7f4e3b2"
   },
   "name": "fly",
   "accuracy": 95,
@@ -171,7 +171,7 @@
 },
 {
   "_id": {
-    "$oid": "672a451c6f86a8ba93a4ac72"
+    "$oid": "673252776f4307a0a7f4e3b3"
   },
   "name": "bind",
   "accuracy": 85,
@@ -180,7 +180,7 @@
 },
 {
   "_id": {
-    "$oid": "672a451c6f86a8ba93a4ac73"
+    "$oid": "673252776f4307a0a7f4e3b4"
   },
   "name": "slam",
   "accuracy": 75,
@@ -189,7 +189,7 @@
 },
 {
   "_id": {
-    "$oid": "672a451d6f86a8ba93a4ac74"
+    "$oid": "673252776f4307a0a7f4e3b5"
   },
   "name": "vine-whip",
   "accuracy": 100,
@@ -198,7 +198,7 @@
 },
 {
   "_id": {
-    "$oid": "672a451d6f86a8ba93a4ac75"
+    "$oid": "673252776f4307a0a7f4e3b6"
   },
   "name": "stomp",
   "accuracy": 100,
@@ -207,7 +207,7 @@
 },
 {
   "_id": {
-    "$oid": "672a451d6f86a8ba93a4ac76"
+    "$oid": "673252776f4307a0a7f4e3b7"
   },
   "name": "double-kick",
   "accuracy": 100,
@@ -216,7 +216,7 @@
 },
 {
   "_id": {
-    "$oid": "672a451d6f86a8ba93a4ac77"
+    "$oid": "673252776f4307a0a7f4e3b8"
   },
   "name": "mega-kick",
   "accuracy": 75,
@@ -225,7 +225,7 @@
 },
 {
   "_id": {
-    "$oid": "672a451d6f86a8ba93a4ac78"
+    "$oid": "673252776f4307a0a7f4e3b9"
   },
   "name": "jump-kick",
   "accuracy": 95,
@@ -234,7 +234,7 @@
 },
 {
   "_id": {
-    "$oid": "672a451d6f86a8ba93a4ac79"
+    "$oid": "673252776f4307a0a7f4e3ba"
   },
   "name": "rolling-kick",
   "accuracy": 85,
@@ -243,7 +243,7 @@
 },
 {
   "_id": {
-    "$oid": "672a451d6f86a8ba93a4ac7a"
+    "$oid": "673252776f4307a0a7f4e3bb"
   },
   "name": "sand-attack",
   "accuracy": 100,
@@ -252,7 +252,7 @@
 },
 {
   "_id": {
-    "$oid": "672a451e6f86a8ba93a4ac7b"
+    "$oid": "673252776f4307a0a7f4e3bc"
   },
   "name": "headbutt",
   "accuracy": 100,
@@ -261,7 +261,7 @@
 },
 {
   "_id": {
-    "$oid": "672a451e6f86a8ba93a4ac7c"
+    "$oid": "673252776f4307a0a7f4e3bd"
   },
   "name": "horn-attack",
   "accuracy": 100,
@@ -270,7 +270,7 @@
 },
 {
   "_id": {
-    "$oid": "672a451e6f86a8ba93a4ac7d"
+    "$oid": "673252776f4307a0a7f4e3be"
   },
   "name": "fury-attack",
   "accuracy": 85,
@@ -279,7 +279,7 @@
 },
 {
   "_id": {
-    "$oid": "672a451e6f86a8ba93a4ac7e"
+    "$oid": "673252776f4307a0a7f4e3bf"
   },
   "name": "horn-drill",
   "accuracy": 30,
@@ -288,7 +288,7 @@
 },
 {
   "_id": {
-    "$oid": "672a451e6f86a8ba93a4ac7f"
+    "$oid": "673252786f4307a0a7f4e3c0"
   },
   "name": "tackle",
   "accuracy": 100,
@@ -297,7 +297,7 @@
 },
 {
   "_id": {
-    "$oid": "672a451e6f86a8ba93a4ac80"
+    "$oid": "673252786f4307a0a7f4e3c1"
   },
   "name": "body-slam",
   "accuracy": 100,
@@ -306,7 +306,7 @@
 },
 {
   "_id": {
-    "$oid": "672a451e6f86a8ba93a4ac81"
+    "$oid": "673252786f4307a0a7f4e3c2"
   },
   "name": "wrap",
   "accuracy": 90,
@@ -315,7 +315,7 @@
 },
 {
   "_id": {
-    "$oid": "672a451e6f86a8ba93a4ac82"
+    "$oid": "673252786f4307a0a7f4e3c3"
   },
   "name": "take-down",
   "accuracy": 85,
@@ -324,7 +324,7 @@
 },
 {
   "_id": {
-    "$oid": "672a451e6f86a8ba93a4ac83"
+    "$oid": "673252786f4307a0a7f4e3c4"
   },
   "name": "thrash",
   "accuracy": 100,
@@ -333,7 +333,7 @@
 },
 {
   "_id": {
-    "$oid": "672a451e6f86a8ba93a4ac84"
+    "$oid": "673252786f4307a0a7f4e3c5"
   },
   "name": "double-edge",
   "accuracy": 100,
@@ -342,7 +342,7 @@
 },
 {
   "_id": {
-    "$oid": "672a451e6f86a8ba93a4ac85"
+    "$oid": "673252786f4307a0a7f4e3c6"
   },
   "name": "tail-whip",
   "accuracy": 100,
@@ -351,7 +351,7 @@
 },
 {
   "_id": {
-    "$oid": "672a451f6f86a8ba93a4ac86"
+    "$oid": "673252786f4307a0a7f4e3c7"
   },
   "name": "poison-sting",
   "accuracy": 100,
@@ -360,7 +360,7 @@
 },
 {
   "_id": {
-    "$oid": "672a451f6f86a8ba93a4ac87"
+    "$oid": "673252786f4307a0a7f4e3c8"
   },
   "name": "twineedle",
   "accuracy": 100,
@@ -369,7 +369,7 @@
 },
 {
   "_id": {
-    "$oid": "672a451f6f86a8ba93a4ac88"
+    "$oid": "673252786f4307a0a7f4e3c9"
   },
   "name": "pin-missile",
   "accuracy": 95,
@@ -378,7 +378,7 @@
 },
 {
   "_id": {
-    "$oid": "672a451f6f86a8ba93a4ac89"
+    "$oid": "673252786f4307a0a7f4e3ca"
   },
   "name": "leer",
   "accuracy": 100,
@@ -387,7 +387,7 @@
 },
 {
   "_id": {
-    "$oid": "672a451f6f86a8ba93a4ac8a"
+    "$oid": "673252786f4307a0a7f4e3cb"
   },
   "name": "bite",
   "accuracy": 100,
@@ -396,7 +396,7 @@
 },
 {
   "_id": {
-    "$oid": "672a451f6f86a8ba93a4ac8b"
+    "$oid": "673252786f4307a0a7f4e3cc"
   },
   "name": "growl",
   "accuracy": 100,
@@ -405,7 +405,7 @@
 },
 {
   "_id": {
-    "$oid": "672a451f6f86a8ba93a4ac8c"
+    "$oid": "673252786f4307a0a7f4e3cd"
   },
   "name": "roar",
   "accuracy": null,
@@ -414,7 +414,7 @@
 },
 {
   "_id": {
-    "$oid": "672a451f6f86a8ba93a4ac8d"
+    "$oid": "673252786f4307a0a7f4e3ce"
   },
   "name": "sing",
   "accuracy": 55,
@@ -423,7 +423,7 @@
 },
 {
   "_id": {
-    "$oid": "672a451f6f86a8ba93a4ac8e"
+    "$oid": "673252786f4307a0a7f4e3cf"
   },
   "name": "supersonic",
   "accuracy": 55,
@@ -432,7 +432,7 @@
 },
 {
   "_id": {
-    "$oid": "672a451f6f86a8ba93a4ac8f"
+    "$oid": "673252786f4307a0a7f4e3d0"
   },
   "name": "sonic-boom",
   "accuracy": 90,
@@ -441,7 +441,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45206f86a8ba93a4ac90"
+    "$oid": "673252786f4307a0a7f4e3d1"
   },
   "name": "disable",
   "accuracy": 100,
@@ -450,7 +450,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45206f86a8ba93a4ac91"
+    "$oid": "673252786f4307a0a7f4e3d2"
   },
   "name": "acid",
   "accuracy": 100,
@@ -459,7 +459,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45206f86a8ba93a4ac92"
+    "$oid": "673252796f4307a0a7f4e3d3"
   },
   "name": "ember",
   "accuracy": 100,
@@ -468,7 +468,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45206f86a8ba93a4ac93"
+    "$oid": "673252796f4307a0a7f4e3d4"
   },
   "name": "flamethrower",
   "accuracy": 100,
@@ -477,7 +477,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45206f86a8ba93a4ac94"
+    "$oid": "673252796f4307a0a7f4e3d5"
   },
   "name": "mist",
   "accuracy": null,
@@ -486,7 +486,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45206f86a8ba93a4ac95"
+    "$oid": "673252796f4307a0a7f4e3d6"
   },
   "name": "water-gun",
   "accuracy": 100,
@@ -495,7 +495,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45206f86a8ba93a4ac96"
+    "$oid": "673252796f4307a0a7f4e3d7"
   },
   "name": "hydro-pump",
   "accuracy": 80,
@@ -504,7 +504,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45206f86a8ba93a4ac97"
+    "$oid": "673252796f4307a0a7f4e3d8"
   },
   "name": "surf",
   "accuracy": 100,
@@ -513,7 +513,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45206f86a8ba93a4ac98"
+    "$oid": "673252796f4307a0a7f4e3d9"
   },
   "name": "ice-beam",
   "accuracy": 100,
@@ -522,7 +522,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45206f86a8ba93a4ac99"
+    "$oid": "673252796f4307a0a7f4e3da"
   },
   "name": "blizzard",
   "accuracy": 70,
@@ -531,7 +531,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45206f86a8ba93a4ac9a"
+    "$oid": "673252796f4307a0a7f4e3db"
   },
   "name": "psybeam",
   "accuracy": 100,
@@ -540,7 +540,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45216f86a8ba93a4ac9b"
+    "$oid": "673252796f4307a0a7f4e3dc"
   },
   "name": "bubble-beam",
   "accuracy": 100,
@@ -549,7 +549,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45216f86a8ba93a4ac9c"
+    "$oid": "673252796f4307a0a7f4e3dd"
   },
   "name": "aurora-beam",
   "accuracy": 100,
@@ -558,7 +558,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45216f86a8ba93a4ac9d"
+    "$oid": "673252796f4307a0a7f4e3de"
   },
   "name": "hyper-beam",
   "accuracy": 90,
@@ -567,7 +567,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45216f86a8ba93a4ac9e"
+    "$oid": "673252796f4307a0a7f4e3df"
   },
   "name": "peck",
   "accuracy": 100,
@@ -576,7 +576,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45216f86a8ba93a4ac9f"
+    "$oid": "673252796f4307a0a7f4e3e0"
   },
   "name": "drill-peck",
   "accuracy": 100,
@@ -585,7 +585,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45216f86a8ba93a4aca0"
+    "$oid": "673252796f4307a0a7f4e3e1"
   },
   "name": "submission",
   "accuracy": 80,
@@ -594,7 +594,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45216f86a8ba93a4aca1"
+    "$oid": "673252796f4307a0a7f4e3e2"
   },
   "name": "low-kick",
   "accuracy": 100,
@@ -603,7 +603,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45216f86a8ba93a4aca2"
+    "$oid": "6732527a6f4307a0a7f4e3e3"
   },
   "name": "counter",
   "accuracy": 100,
@@ -612,7 +612,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45216f86a8ba93a4aca3"
+    "$oid": "6732527a6f4307a0a7f4e3e4"
   },
   "name": "seismic-toss",
   "accuracy": 100,
@@ -621,7 +621,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45216f86a8ba93a4aca4"
+    "$oid": "6732527a6f4307a0a7f4e3e5"
   },
   "name": "strength",
   "accuracy": 100,
@@ -630,7 +630,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45226f86a8ba93a4aca5"
+    "$oid": "6732527a6f4307a0a7f4e3e6"
   },
   "name": "absorb",
   "accuracy": 100,
@@ -639,7 +639,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45226f86a8ba93a4aca6"
+    "$oid": "6732527a6f4307a0a7f4e3e7"
   },
   "name": "mega-drain",
   "accuracy": 100,
@@ -648,7 +648,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45226f86a8ba93a4aca7"
+    "$oid": "6732527a6f4307a0a7f4e3e8"
   },
   "name": "leech-seed",
   "accuracy": 90,
@@ -657,7 +657,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45226f86a8ba93a4aca8"
+    "$oid": "6732527a6f4307a0a7f4e3e9"
   },
   "name": "growth",
   "accuracy": null,
@@ -666,7 +666,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45226f86a8ba93a4aca9"
+    "$oid": "6732527a6f4307a0a7f4e3ea"
   },
   "name": "razor-leaf",
   "accuracy": 95,
@@ -675,7 +675,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45226f86a8ba93a4acaa"
+    "$oid": "6732527a6f4307a0a7f4e3eb"
   },
   "name": "solar-beam",
   "accuracy": 100,
@@ -684,7 +684,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45226f86a8ba93a4acab"
+    "$oid": "6732527a6f4307a0a7f4e3ec"
   },
   "name": "poison-powder",
   "accuracy": 75,
@@ -693,7 +693,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45226f86a8ba93a4acac"
+    "$oid": "6732527a6f4307a0a7f4e3ed"
   },
   "name": "stun-spore",
   "accuracy": 75,
@@ -702,7 +702,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45226f86a8ba93a4acad"
+    "$oid": "6732527a6f4307a0a7f4e3ee"
   },
   "name": "sleep-powder",
   "accuracy": 75,
@@ -711,7 +711,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45226f86a8ba93a4acae"
+    "$oid": "6732527a6f4307a0a7f4e3ef"
   },
   "name": "petal-dance",
   "accuracy": 100,
@@ -720,7 +720,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45226f86a8ba93a4acaf"
+    "$oid": "6732527a6f4307a0a7f4e3f0"
   },
   "name": "string-shot",
   "accuracy": 95,
@@ -729,7 +729,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45236f86a8ba93a4acb0"
+    "$oid": "6732527a6f4307a0a7f4e3f1"
   },
   "name": "dragon-rage",
   "accuracy": 100,
@@ -738,7 +738,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45236f86a8ba93a4acb1"
+    "$oid": "6732527a6f4307a0a7f4e3f2"
   },
   "name": "fire-spin",
   "accuracy": 85,
@@ -747,7 +747,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45236f86a8ba93a4acb2"
+    "$oid": "6732527b6f4307a0a7f4e3f3"
   },
   "name": "thunder-shock",
   "accuracy": 100,
@@ -756,7 +756,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45236f86a8ba93a4acb3"
+    "$oid": "6732527b6f4307a0a7f4e3f4"
   },
   "name": "thunderbolt",
   "accuracy": 100,
@@ -765,7 +765,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45236f86a8ba93a4acb4"
+    "$oid": "6732527b6f4307a0a7f4e3f5"
   },
   "name": "thunder-wave",
   "accuracy": 90,
@@ -774,7 +774,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45236f86a8ba93a4acb5"
+    "$oid": "6732527b6f4307a0a7f4e3f6"
   },
   "name": "thunder",
   "accuracy": 70,
@@ -783,7 +783,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45236f86a8ba93a4acb6"
+    "$oid": "6732527b6f4307a0a7f4e3f7"
   },
   "name": "rock-throw",
   "accuracy": 90,
@@ -792,7 +792,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45236f86a8ba93a4acb7"
+    "$oid": "6732527b6f4307a0a7f4e3f8"
   },
   "name": "earthquake",
   "accuracy": 100,
@@ -801,7 +801,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45236f86a8ba93a4acb8"
+    "$oid": "6732527b6f4307a0a7f4e3f9"
   },
   "name": "fissure",
   "accuracy": 30,
@@ -810,7 +810,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45236f86a8ba93a4acb9"
+    "$oid": "6732527b6f4307a0a7f4e3fa"
   },
   "name": "dig",
   "accuracy": 100,
@@ -819,7 +819,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45236f86a8ba93a4acba"
+    "$oid": "6732527b6f4307a0a7f4e3fb"
   },
   "name": "toxic",
   "accuracy": 90,
@@ -828,7 +828,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45246f86a8ba93a4acbb"
+    "$oid": "6732527b6f4307a0a7f4e3fc"
   },
   "name": "confusion",
   "accuracy": 100,
@@ -837,7 +837,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45246f86a8ba93a4acbc"
+    "$oid": "6732527b6f4307a0a7f4e3fd"
   },
   "name": "psychic",
   "accuracy": 100,
@@ -846,7 +846,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45246f86a8ba93a4acbd"
+    "$oid": "6732527b6f4307a0a7f4e3fe"
   },
   "name": "hypnosis",
   "accuracy": 60,
@@ -855,7 +855,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45246f86a8ba93a4acbe"
+    "$oid": "6732527b6f4307a0a7f4e3ff"
   },
   "name": "meditate",
   "accuracy": null,
@@ -864,7 +864,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45246f86a8ba93a4acbf"
+    "$oid": "6732527b6f4307a0a7f4e400"
   },
   "name": "agility",
   "accuracy": null,
@@ -873,7 +873,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45246f86a8ba93a4acc0"
+    "$oid": "6732527b6f4307a0a7f4e401"
   },
   "name": "quick-attack",
   "accuracy": 100,
@@ -882,7 +882,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45246f86a8ba93a4acc1"
+    "$oid": "6732527b6f4307a0a7f4e402"
   },
   "name": "rage",
   "accuracy": 100,
@@ -891,7 +891,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45246f86a8ba93a4acc2"
+    "$oid": "6732527b6f4307a0a7f4e403"
   },
   "name": "teleport",
   "accuracy": null,
@@ -900,7 +900,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45246f86a8ba93a4acc3"
+    "$oid": "6732527c6f4307a0a7f4e404"
   },
   "name": "night-shade",
   "accuracy": 100,
@@ -909,7 +909,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45246f86a8ba93a4acc4"
+    "$oid": "6732527c6f4307a0a7f4e405"
   },
   "name": "mimic",
   "accuracy": null,
@@ -918,7 +918,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45256f86a8ba93a4acc5"
+    "$oid": "6732527c6f4307a0a7f4e406"
   },
   "name": "screech",
   "accuracy": 85,
@@ -927,7 +927,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45256f86a8ba93a4acc6"
+    "$oid": "6732527c6f4307a0a7f4e407"
   },
   "name": "double-team",
   "accuracy": null,
@@ -936,7 +936,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45256f86a8ba93a4acc7"
+    "$oid": "6732527c6f4307a0a7f4e408"
   },
   "name": "recover",
   "accuracy": null,
@@ -945,7 +945,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45256f86a8ba93a4acc8"
+    "$oid": "6732527c6f4307a0a7f4e409"
   },
   "name": "harden",
   "accuracy": null,
@@ -954,7 +954,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45256f86a8ba93a4acc9"
+    "$oid": "6732527c6f4307a0a7f4e40a"
   },
   "name": "minimize",
   "accuracy": null,
@@ -963,7 +963,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45256f86a8ba93a4acca"
+    "$oid": "6732527c6f4307a0a7f4e40b"
   },
   "name": "smokescreen",
   "accuracy": 100,
@@ -972,7 +972,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45256f86a8ba93a4accb"
+    "$oid": "6732527c6f4307a0a7f4e40c"
   },
   "name": "confuse-ray",
   "accuracy": 100,
@@ -981,7 +981,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45256f86a8ba93a4accc"
+    "$oid": "6732527c6f4307a0a7f4e40d"
   },
   "name": "withdraw",
   "accuracy": null,
@@ -990,7 +990,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45256f86a8ba93a4accd"
+    "$oid": "6732527c6f4307a0a7f4e40e"
   },
   "name": "defense-curl",
   "accuracy": null,
@@ -999,7 +999,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45266f86a8ba93a4acce"
+    "$oid": "6732527c6f4307a0a7f4e40f"
   },
   "name": "barrier",
   "accuracy": null,
@@ -1008,7 +1008,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45266f86a8ba93a4accf"
+    "$oid": "6732527c6f4307a0a7f4e410"
   },
   "name": "light-screen",
   "accuracy": null,
@@ -1017,7 +1017,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45266f86a8ba93a4acd0"
+    "$oid": "6732527c6f4307a0a7f4e411"
   },
   "name": "haze",
   "accuracy": null,
@@ -1026,7 +1026,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45266f86a8ba93a4acd1"
+    "$oid": "6732527c6f4307a0a7f4e412"
   },
   "name": "reflect",
   "accuracy": null,
@@ -1035,7 +1035,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45266f86a8ba93a4acd2"
+    "$oid": "6732527d6f4307a0a7f4e413"
   },
   "name": "focus-energy",
   "accuracy": null,
@@ -1044,7 +1044,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45266f86a8ba93a4acd3"
+    "$oid": "6732527d6f4307a0a7f4e414"
   },
   "name": "bide",
   "accuracy": null,
@@ -1053,7 +1053,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45266f86a8ba93a4acd4"
+    "$oid": "6732527d6f4307a0a7f4e415"
   },
   "name": "metronome",
   "accuracy": null,
@@ -1062,7 +1062,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45266f86a8ba93a4acd5"
+    "$oid": "6732527d6f4307a0a7f4e416"
   },
   "name": "mirror-move",
   "accuracy": null,
@@ -1071,7 +1071,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45266f86a8ba93a4acd6"
+    "$oid": "6732527d6f4307a0a7f4e417"
   },
   "name": "self-destruct",
   "accuracy": 100,
@@ -1080,7 +1080,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45266f86a8ba93a4acd7"
+    "$oid": "6732527d6f4307a0a7f4e418"
   },
   "name": "egg-bomb",
   "accuracy": 75,
@@ -1089,7 +1089,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45276f86a8ba93a4acd8"
+    "$oid": "6732527d6f4307a0a7f4e419"
   },
   "name": "lick",
   "accuracy": 100,
@@ -1098,7 +1098,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45276f86a8ba93a4acd9"
+    "$oid": "6732527d6f4307a0a7f4e41a"
   },
   "name": "smog",
   "accuracy": 70,
@@ -1107,7 +1107,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45276f86a8ba93a4acda"
+    "$oid": "6732527d6f4307a0a7f4e41b"
   },
   "name": "sludge",
   "accuracy": 100,
@@ -1116,7 +1116,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45276f86a8ba93a4acdb"
+    "$oid": "6732527d6f4307a0a7f4e41c"
   },
   "name": "bone-club",
   "accuracy": 85,
@@ -1125,7 +1125,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45276f86a8ba93a4acdc"
+    "$oid": "6732527d6f4307a0a7f4e41d"
   },
   "name": "fire-blast",
   "accuracy": 85,
@@ -1134,7 +1134,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45276f86a8ba93a4acdd"
+    "$oid": "6732527d6f4307a0a7f4e41e"
   },
   "name": "waterfall",
   "accuracy": 100,
@@ -1143,7 +1143,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45286f86a8ba93a4acde"
+    "$oid": "6732527d6f4307a0a7f4e41f"
   },
   "name": "clamp",
   "accuracy": 85,
@@ -1152,7 +1152,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45286f86a8ba93a4acdf"
+    "$oid": "6732527d6f4307a0a7f4e420"
   },
   "name": "swift",
   "accuracy": null,
@@ -1161,7 +1161,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45286f86a8ba93a4ace0"
+    "$oid": "6732527d6f4307a0a7f4e421"
   },
   "name": "skull-bash",
   "accuracy": 100,
@@ -1170,7 +1170,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45286f86a8ba93a4ace1"
+    "$oid": "6732527d6f4307a0a7f4e422"
   },
   "name": "spike-cannon",
   "accuracy": 100,
@@ -1179,7 +1179,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45286f86a8ba93a4ace2"
+    "$oid": "6732527d6f4307a0a7f4e423"
   },
   "name": "constrict",
   "accuracy": 100,
@@ -1188,7 +1188,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45286f86a8ba93a4ace3"
+    "$oid": "6732527e6f4307a0a7f4e424"
   },
   "name": "amnesia",
   "accuracy": null,
@@ -1197,7 +1197,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45296f86a8ba93a4ace4"
+    "$oid": "6732527e6f4307a0a7f4e425"
   },
   "name": "kinesis",
   "accuracy": 80,
@@ -1206,7 +1206,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45296f86a8ba93a4ace5"
+    "$oid": "6732527e6f4307a0a7f4e426"
   },
   "name": "soft-boiled",
   "accuracy": null,
@@ -1215,7 +1215,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45296f86a8ba93a4ace6"
+    "$oid": "6732527e6f4307a0a7f4e427"
   },
   "name": "high-jump-kick",
   "accuracy": 90,
@@ -1224,7 +1224,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45296f86a8ba93a4ace7"
+    "$oid": "6732527e6f4307a0a7f4e428"
   },
   "name": "glare",
   "accuracy": 100,
@@ -1233,7 +1233,7 @@
 },
 {
   "_id": {
-    "$oid": "672a452a6f86a8ba93a4ace8"
+    "$oid": "6732527e6f4307a0a7f4e429"
   },
   "name": "dream-eater",
   "accuracy": 100,
@@ -1242,7 +1242,7 @@
 },
 {
   "_id": {
-    "$oid": "672a452a6f86a8ba93a4ace9"
+    "$oid": "6732527e6f4307a0a7f4e42a"
   },
   "name": "poison-gas",
   "accuracy": 90,
@@ -1251,7 +1251,7 @@
 },
 {
   "_id": {
-    "$oid": "672a452a6f86a8ba93a4acea"
+    "$oid": "6732527e6f4307a0a7f4e42b"
   },
   "name": "barrage",
   "accuracy": 85,
@@ -1260,7 +1260,7 @@
 },
 {
   "_id": {
-    "$oid": "672a452a6f86a8ba93a4aceb"
+    "$oid": "6732527e6f4307a0a7f4e42c"
   },
   "name": "leech-life",
   "accuracy": 100,
@@ -1269,7 +1269,7 @@
 },
 {
   "_id": {
-    "$oid": "672a452a6f86a8ba93a4acec"
+    "$oid": "6732527e6f4307a0a7f4e42d"
   },
   "name": "lovely-kiss",
   "accuracy": 75,
@@ -1278,7 +1278,7 @@
 },
 {
   "_id": {
-    "$oid": "672a452a6f86a8ba93a4aced"
+    "$oid": "6732527e6f4307a0a7f4e42e"
   },
   "name": "sky-attack",
   "accuracy": 90,
@@ -1287,7 +1287,7 @@
 },
 {
   "_id": {
-    "$oid": "672a452a6f86a8ba93a4acee"
+    "$oid": "6732527e6f4307a0a7f4e42f"
   },
   "name": "transform",
   "accuracy": null,
@@ -1296,7 +1296,7 @@
 },
 {
   "_id": {
-    "$oid": "672a452a6f86a8ba93a4acef"
+    "$oid": "6732527e6f4307a0a7f4e430"
   },
   "name": "bubble",
   "accuracy": 100,
@@ -1305,7 +1305,7 @@
 },
 {
   "_id": {
-    "$oid": "672a452a6f86a8ba93a4acf0"
+    "$oid": "6732527e6f4307a0a7f4e431"
   },
   "name": "dizzy-punch",
   "accuracy": 100,
@@ -1314,7 +1314,7 @@
 },
 {
   "_id": {
-    "$oid": "672a452a6f86a8ba93a4acf1"
+    "$oid": "6732527e6f4307a0a7f4e432"
   },
   "name": "spore",
   "accuracy": 100,
@@ -1323,7 +1323,7 @@
 },
 {
   "_id": {
-    "$oid": "672a452a6f86a8ba93a4acf2"
+    "$oid": "6732527e6f4307a0a7f4e433"
   },
   "name": "flash",
   "accuracy": 100,
@@ -1332,7 +1332,7 @@
 },
 {
   "_id": {
-    "$oid": "672a452b6f86a8ba93a4acf3"
+    "$oid": "6732527e6f4307a0a7f4e434"
   },
   "name": "psywave",
   "accuracy": 100,
@@ -1341,7 +1341,7 @@
 },
 {
   "_id": {
-    "$oid": "672a452b6f86a8ba93a4acf4"
+    "$oid": "6732527f6f4307a0a7f4e435"
   },
   "name": "splash",
   "accuracy": null,
@@ -1350,7 +1350,7 @@
 },
 {
   "_id": {
-    "$oid": "672a452b6f86a8ba93a4acf5"
+    "$oid": "6732527f6f4307a0a7f4e436"
   },
   "name": "acid-armor",
   "accuracy": null,
@@ -1359,7 +1359,7 @@
 },
 {
   "_id": {
-    "$oid": "672a452b6f86a8ba93a4acf6"
+    "$oid": "6732527f6f4307a0a7f4e437"
   },
   "name": "crabhammer",
   "accuracy": 90,
@@ -1368,7 +1368,7 @@
 },
 {
   "_id": {
-    "$oid": "672a452b6f86a8ba93a4acf7"
+    "$oid": "6732527f6f4307a0a7f4e438"
   },
   "name": "explosion",
   "accuracy": 100,
@@ -1377,7 +1377,7 @@
 },
 {
   "_id": {
-    "$oid": "672a452b6f86a8ba93a4acf8"
+    "$oid": "6732527f6f4307a0a7f4e439"
   },
   "name": "fury-swipes",
   "accuracy": 80,
@@ -1386,7 +1386,7 @@
 },
 {
   "_id": {
-    "$oid": "672a452b6f86a8ba93a4acf9"
+    "$oid": "6732527f6f4307a0a7f4e43a"
   },
   "name": "bonemerang",
   "accuracy": 90,
@@ -1395,7 +1395,7 @@
 },
 {
   "_id": {
-    "$oid": "672a452b6f86a8ba93a4acfa"
+    "$oid": "6732527f6f4307a0a7f4e43b"
   },
   "name": "rest",
   "accuracy": null,
@@ -1404,7 +1404,7 @@
 },
 {
   "_id": {
-    "$oid": "672a452b6f86a8ba93a4acfb"
+    "$oid": "6732527f6f4307a0a7f4e43c"
   },
   "name": "rock-slide",
   "accuracy": 90,
@@ -1413,7 +1413,7 @@
 },
 {
   "_id": {
-    "$oid": "672a452b6f86a8ba93a4acfc"
+    "$oid": "6732527f6f4307a0a7f4e43d"
   },
   "name": "hyper-fang",
   "accuracy": 90,
@@ -1422,7 +1422,7 @@
 },
 {
   "_id": {
-    "$oid": "672a452b6f86a8ba93a4acfd"
+    "$oid": "6732527f6f4307a0a7f4e43e"
   },
   "name": "sharpen",
   "accuracy": null,
@@ -1431,7 +1431,7 @@
 },
 {
   "_id": {
-    "$oid": "672a452c6f86a8ba93a4acfe"
+    "$oid": "6732527f6f4307a0a7f4e43f"
   },
   "name": "conversion",
   "accuracy": null,
@@ -1440,7 +1440,7 @@
 },
 {
   "_id": {
-    "$oid": "672a452c6f86a8ba93a4acff"
+    "$oid": "6732527f6f4307a0a7f4e440"
   },
   "name": "tri-attack",
   "accuracy": 100,
@@ -1449,7 +1449,7 @@
 },
 {
   "_id": {
-    "$oid": "672a452c6f86a8ba93a4ad00"
+    "$oid": "6732527f6f4307a0a7f4e441"
   },
   "name": "super-fang",
   "accuracy": 90,
@@ -1458,7 +1458,7 @@
 },
 {
   "_id": {
-    "$oid": "672a452c6f86a8ba93a4ad01"
+    "$oid": "6732527f6f4307a0a7f4e442"
   },
   "name": "slash",
   "accuracy": 100,
@@ -1467,7 +1467,7 @@
 },
 {
   "_id": {
-    "$oid": "672a452c6f86a8ba93a4ad02"
+    "$oid": "6732527f6f4307a0a7f4e443"
   },
   "name": "substitute",
   "accuracy": null,
@@ -1476,7 +1476,7 @@
 },
 {
   "_id": {
-    "$oid": "672a452c6f86a8ba93a4ad03"
+    "$oid": "673252806f4307a0a7f4e444"
   },
   "name": "struggle",
   "accuracy": null,
@@ -1485,7 +1485,7 @@
 },
 {
   "_id": {
-    "$oid": "672a452d6f86a8ba93a4ad04"
+    "$oid": "673252806f4307a0a7f4e445"
   },
   "name": "sketch",
   "accuracy": null,
@@ -1494,7 +1494,7 @@
 },
 {
   "_id": {
-    "$oid": "672a452d6f86a8ba93a4ad05"
+    "$oid": "673252806f4307a0a7f4e446"
   },
   "name": "triple-kick",
   "accuracy": 90,
@@ -1503,7 +1503,7 @@
 },
 {
   "_id": {
-    "$oid": "672a452d6f86a8ba93a4ad06"
+    "$oid": "673252806f4307a0a7f4e447"
   },
   "name": "thief",
   "accuracy": 100,
@@ -1512,7 +1512,7 @@
 },
 {
   "_id": {
-    "$oid": "672a452d6f86a8ba93a4ad07"
+    "$oid": "673252806f4307a0a7f4e448"
   },
   "name": "spider-web",
   "accuracy": null,
@@ -1521,7 +1521,7 @@
 },
 {
   "_id": {
-    "$oid": "672a452d6f86a8ba93a4ad08"
+    "$oid": "673252806f4307a0a7f4e449"
   },
   "name": "mind-reader",
   "accuracy": null,
@@ -1530,7 +1530,7 @@
 },
 {
   "_id": {
-    "$oid": "672a452d6f86a8ba93a4ad09"
+    "$oid": "673252806f4307a0a7f4e44a"
   },
   "name": "nightmare",
   "accuracy": 100,
@@ -1539,7 +1539,7 @@
 },
 {
   "_id": {
-    "$oid": "672a452d6f86a8ba93a4ad0a"
+    "$oid": "673252806f4307a0a7f4e44b"
   },
   "name": "flame-wheel",
   "accuracy": 100,
@@ -1548,7 +1548,7 @@
 },
 {
   "_id": {
-    "$oid": "672a452d6f86a8ba93a4ad0b"
+    "$oid": "673252806f4307a0a7f4e44c"
   },
   "name": "snore",
   "accuracy": 100,
@@ -1557,7 +1557,7 @@
 },
 {
   "_id": {
-    "$oid": "672a452d6f86a8ba93a4ad0c"
+    "$oid": "673252806f4307a0a7f4e44d"
   },
   "name": "curse",
   "accuracy": null,
@@ -1566,7 +1566,7 @@
 },
 {
   "_id": {
-    "$oid": "672a452d6f86a8ba93a4ad0d"
+    "$oid": "673252806f4307a0a7f4e44e"
   },
   "name": "flail",
   "accuracy": 100,
@@ -1575,7 +1575,7 @@
 },
 {
   "_id": {
-    "$oid": "672a452d6f86a8ba93a4ad0e"
+    "$oid": "673252806f4307a0a7f4e44f"
   },
   "name": "conversion-2",
   "accuracy": null,
@@ -1584,7 +1584,7 @@
 },
 {
   "_id": {
-    "$oid": "672a452e6f86a8ba93a4ad0f"
+    "$oid": "673252806f4307a0a7f4e450"
   },
   "name": "aeroblast",
   "accuracy": 95,
@@ -1593,7 +1593,7 @@
 },
 {
   "_id": {
-    "$oid": "672a452e6f86a8ba93a4ad10"
+    "$oid": "673252806f4307a0a7f4e451"
   },
   "name": "cotton-spore",
   "accuracy": 100,
@@ -1602,7 +1602,7 @@
 },
 {
   "_id": {
-    "$oid": "672a452e6f86a8ba93a4ad11"
+    "$oid": "673252806f4307a0a7f4e452"
   },
   "name": "reversal",
   "accuracy": 100,
@@ -1611,7 +1611,7 @@
 },
 {
   "_id": {
-    "$oid": "672a452e6f86a8ba93a4ad12"
+    "$oid": "673252806f4307a0a7f4e453"
   },
   "name": "spite",
   "accuracy": 100,
@@ -1620,7 +1620,7 @@
 },
 {
   "_id": {
-    "$oid": "672a452e6f86a8ba93a4ad13"
+    "$oid": "673252806f4307a0a7f4e454"
   },
   "name": "powder-snow",
   "accuracy": 100,
@@ -1629,7 +1629,7 @@
 },
 {
   "_id": {
-    "$oid": "672a452f6f86a8ba93a4ad14"
+    "$oid": "673252816f4307a0a7f4e455"
   },
   "name": "protect",
   "accuracy": null,
@@ -1638,7 +1638,7 @@
 },
 {
   "_id": {
-    "$oid": "672a452f6f86a8ba93a4ad15"
+    "$oid": "673252816f4307a0a7f4e456"
   },
   "name": "mach-punch",
   "accuracy": 100,
@@ -1647,7 +1647,7 @@
 },
 {
   "_id": {
-    "$oid": "672a452f6f86a8ba93a4ad16"
+    "$oid": "673252816f4307a0a7f4e457"
   },
   "name": "scary-face",
   "accuracy": 100,
@@ -1656,7 +1656,7 @@
 },
 {
   "_id": {
-    "$oid": "672a452f6f86a8ba93a4ad17"
+    "$oid": "673252816f4307a0a7f4e458"
   },
   "name": "feint-attack",
   "accuracy": null,
@@ -1665,7 +1665,7 @@
 },
 {
   "_id": {
-    "$oid": "672a452f6f86a8ba93a4ad18"
+    "$oid": "673252816f4307a0a7f4e459"
   },
   "name": "sweet-kiss",
   "accuracy": 75,
@@ -1674,7 +1674,7 @@
 },
 {
   "_id": {
-    "$oid": "672a452f6f86a8ba93a4ad19"
+    "$oid": "673252816f4307a0a7f4e45a"
   },
   "name": "belly-drum",
   "accuracy": null,
@@ -1683,7 +1683,7 @@
 },
 {
   "_id": {
-    "$oid": "672a452f6f86a8ba93a4ad1a"
+    "$oid": "673252816f4307a0a7f4e45b"
   },
   "name": "sludge-bomb",
   "accuracy": 100,
@@ -1692,7 +1692,7 @@
 },
 {
   "_id": {
-    "$oid": "672a452f6f86a8ba93a4ad1b"
+    "$oid": "673252816f4307a0a7f4e45c"
   },
   "name": "mud-slap",
   "accuracy": 100,
@@ -1701,7 +1701,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45306f86a8ba93a4ad1c"
+    "$oid": "673252816f4307a0a7f4e45d"
   },
   "name": "octazooka",
   "accuracy": 85,
@@ -1710,7 +1710,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45306f86a8ba93a4ad1d"
+    "$oid": "673252816f4307a0a7f4e45e"
   },
   "name": "spikes",
   "accuracy": null,
@@ -1719,7 +1719,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45306f86a8ba93a4ad1e"
+    "$oid": "673252816f4307a0a7f4e45f"
   },
   "name": "zap-cannon",
   "accuracy": 50,
@@ -1728,7 +1728,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45306f86a8ba93a4ad1f"
+    "$oid": "673252816f4307a0a7f4e460"
   },
   "name": "foresight",
   "accuracy": null,
@@ -1737,7 +1737,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45306f86a8ba93a4ad20"
+    "$oid": "673252816f4307a0a7f4e461"
   },
   "name": "destiny-bond",
   "accuracy": null,
@@ -1746,7 +1746,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45306f86a8ba93a4ad21"
+    "$oid": "673252816f4307a0a7f4e462"
   },
   "name": "perish-song",
   "accuracy": null,
@@ -1755,7 +1755,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45306f86a8ba93a4ad22"
+    "$oid": "673252816f4307a0a7f4e463"
   },
   "name": "icy-wind",
   "accuracy": 95,
@@ -1764,7 +1764,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45306f86a8ba93a4ad23"
+    "$oid": "673252826f4307a0a7f4e464"
   },
   "name": "detect",
   "accuracy": null,
@@ -1773,7 +1773,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45306f86a8ba93a4ad24"
+    "$oid": "673252826f4307a0a7f4e465"
   },
   "name": "bone-rush",
   "accuracy": 90,
@@ -1782,7 +1782,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45306f86a8ba93a4ad25"
+    "$oid": "673252826f4307a0a7f4e466"
   },
   "name": "lock-on",
   "accuracy": null,
@@ -1791,7 +1791,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45316f86a8ba93a4ad26"
+    "$oid": "673252826f4307a0a7f4e467"
   },
   "name": "outrage",
   "accuracy": 100,
@@ -1800,7 +1800,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45316f86a8ba93a4ad27"
+    "$oid": "673252826f4307a0a7f4e468"
   },
   "name": "sandstorm",
   "accuracy": null,
@@ -1809,7 +1809,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45316f86a8ba93a4ad28"
+    "$oid": "673252826f4307a0a7f4e469"
   },
   "name": "giga-drain",
   "accuracy": 100,
@@ -1818,7 +1818,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45316f86a8ba93a4ad29"
+    "$oid": "673252826f4307a0a7f4e46a"
   },
   "name": "endure",
   "accuracy": null,
@@ -1827,7 +1827,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45316f86a8ba93a4ad2a"
+    "$oid": "673252826f4307a0a7f4e46b"
   },
   "name": "charm",
   "accuracy": 100,
@@ -1836,7 +1836,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45316f86a8ba93a4ad2b"
+    "$oid": "673252826f4307a0a7f4e46c"
   },
   "name": "rollout",
   "accuracy": 90,
@@ -1845,7 +1845,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45316f86a8ba93a4ad2c"
+    "$oid": "673252836f4307a0a7f4e46d"
   },
   "name": "false-swipe",
   "accuracy": 100,
@@ -1854,7 +1854,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45316f86a8ba93a4ad2d"
+    "$oid": "673252836f4307a0a7f4e46e"
   },
   "name": "swagger",
   "accuracy": 85,
@@ -1863,7 +1863,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45326f86a8ba93a4ad2e"
+    "$oid": "673252836f4307a0a7f4e46f"
   },
   "name": "milk-drink",
   "accuracy": null,
@@ -1872,7 +1872,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45326f86a8ba93a4ad2f"
+    "$oid": "673252836f4307a0a7f4e470"
   },
   "name": "spark",
   "accuracy": 100,
@@ -1881,7 +1881,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45326f86a8ba93a4ad30"
+    "$oid": "673252836f4307a0a7f4e471"
   },
   "name": "fury-cutter",
   "accuracy": 95,
@@ -1890,7 +1890,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45326f86a8ba93a4ad31"
+    "$oid": "673252836f4307a0a7f4e472"
   },
   "name": "steel-wing",
   "accuracy": 90,
@@ -1899,7 +1899,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45326f86a8ba93a4ad32"
+    "$oid": "673252836f4307a0a7f4e473"
   },
   "name": "mean-look",
   "accuracy": null,
@@ -1908,7 +1908,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45326f86a8ba93a4ad33"
+    "$oid": "673252836f4307a0a7f4e474"
   },
   "name": "attract",
   "accuracy": 100,
@@ -1917,7 +1917,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45326f86a8ba93a4ad34"
+    "$oid": "673252836f4307a0a7f4e475"
   },
   "name": "sleep-talk",
   "accuracy": null,
@@ -1926,7 +1926,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45326f86a8ba93a4ad35"
+    "$oid": "673252836f4307a0a7f4e476"
   },
   "name": "heal-bell",
   "accuracy": null,
@@ -1935,7 +1935,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45326f86a8ba93a4ad36"
+    "$oid": "673252836f4307a0a7f4e477"
   },
   "name": "return",
   "accuracy": 100,
@@ -1944,7 +1944,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45336f86a8ba93a4ad37"
+    "$oid": "673252836f4307a0a7f4e478"
   },
   "name": "present",
   "accuracy": 90,
@@ -1953,7 +1953,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45336f86a8ba93a4ad38"
+    "$oid": "673252836f4307a0a7f4e479"
   },
   "name": "frustration",
   "accuracy": 100,
@@ -1962,7 +1962,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45336f86a8ba93a4ad39"
+    "$oid": "673252836f4307a0a7f4e47a"
   },
   "name": "safeguard",
   "accuracy": null,
@@ -1971,7 +1971,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45336f86a8ba93a4ad3a"
+    "$oid": "673252836f4307a0a7f4e47b"
   },
   "name": "pain-split",
   "accuracy": null,
@@ -1980,7 +1980,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45336f86a8ba93a4ad3b"
+    "$oid": "673252836f4307a0a7f4e47c"
   },
   "name": "sacred-fire",
   "accuracy": 95,
@@ -1989,7 +1989,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45336f86a8ba93a4ad3c"
+    "$oid": "673252836f4307a0a7f4e47d"
   },
   "name": "magnitude",
   "accuracy": 100,
@@ -1998,7 +1998,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45336f86a8ba93a4ad3d"
+    "$oid": "673252846f4307a0a7f4e47e"
   },
   "name": "dynamic-punch",
   "accuracy": 50,
@@ -2007,7 +2007,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45336f86a8ba93a4ad3e"
+    "$oid": "673252846f4307a0a7f4e47f"
   },
   "name": "megahorn",
   "accuracy": 85,
@@ -2016,7 +2016,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45336f86a8ba93a4ad3f"
+    "$oid": "673252846f4307a0a7f4e480"
   },
   "name": "dragon-breath",
   "accuracy": 100,
@@ -2025,7 +2025,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45336f86a8ba93a4ad40"
+    "$oid": "673252846f4307a0a7f4e481"
   },
   "name": "baton-pass",
   "accuracy": null,
@@ -2034,7 +2034,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45336f86a8ba93a4ad41"
+    "$oid": "673252846f4307a0a7f4e482"
   },
   "name": "encore",
   "accuracy": 100,
@@ -2043,7 +2043,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45346f86a8ba93a4ad42"
+    "$oid": "673252846f4307a0a7f4e483"
   },
   "name": "pursuit",
   "accuracy": 100,
@@ -2052,7 +2052,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45346f86a8ba93a4ad43"
+    "$oid": "673252846f4307a0a7f4e484"
   },
   "name": "rapid-spin",
   "accuracy": 100,
@@ -2061,7 +2061,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45346f86a8ba93a4ad44"
+    "$oid": "673252846f4307a0a7f4e485"
   },
   "name": "sweet-scent",
   "accuracy": 100,
@@ -2070,7 +2070,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45346f86a8ba93a4ad45"
+    "$oid": "673252846f4307a0a7f4e486"
   },
   "name": "iron-tail",
   "accuracy": 75,
@@ -2079,7 +2079,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45346f86a8ba93a4ad46"
+    "$oid": "673252846f4307a0a7f4e487"
   },
   "name": "metal-claw",
   "accuracy": 95,
@@ -2088,7 +2088,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45346f86a8ba93a4ad47"
+    "$oid": "673252846f4307a0a7f4e488"
   },
   "name": "vital-throw",
   "accuracy": null,
@@ -2097,7 +2097,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45346f86a8ba93a4ad48"
+    "$oid": "673252846f4307a0a7f4e489"
   },
   "name": "morning-sun",
   "accuracy": null,
@@ -2106,7 +2106,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45346f86a8ba93a4ad49"
+    "$oid": "673252846f4307a0a7f4e48a"
   },
   "name": "synthesis",
   "accuracy": null,
@@ -2115,7 +2115,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45346f86a8ba93a4ad4a"
+    "$oid": "673252846f4307a0a7f4e48b"
   },
   "name": "moonlight",
   "accuracy": null,
@@ -2124,7 +2124,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45346f86a8ba93a4ad4b"
+    "$oid": "673252846f4307a0a7f4e48c"
   },
   "name": "hidden-power",
   "accuracy": 100,
@@ -2133,7 +2133,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45356f86a8ba93a4ad4c"
+    "$oid": "673252846f4307a0a7f4e48d"
   },
   "name": "cross-chop",
   "accuracy": 80,
@@ -2142,7 +2142,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45356f86a8ba93a4ad4d"
+    "$oid": "673252856f4307a0a7f4e48e"
   },
   "name": "twister",
   "accuracy": 100,
@@ -2151,7 +2151,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45356f86a8ba93a4ad4e"
+    "$oid": "673252856f4307a0a7f4e48f"
   },
   "name": "rain-dance",
   "accuracy": null,
@@ -2160,7 +2160,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45356f86a8ba93a4ad4f"
+    "$oid": "673252856f4307a0a7f4e490"
   },
   "name": "sunny-day",
   "accuracy": null,
@@ -2169,7 +2169,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45356f86a8ba93a4ad50"
+    "$oid": "673252856f4307a0a7f4e491"
   },
   "name": "crunch",
   "accuracy": 100,
@@ -2178,7 +2178,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45356f86a8ba93a4ad51"
+    "$oid": "673252856f4307a0a7f4e492"
   },
   "name": "mirror-coat",
   "accuracy": 100,
@@ -2187,7 +2187,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45356f86a8ba93a4ad52"
+    "$oid": "673252856f4307a0a7f4e493"
   },
   "name": "psych-up",
   "accuracy": null,
@@ -2196,7 +2196,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45366f86a8ba93a4ad53"
+    "$oid": "673252856f4307a0a7f4e494"
   },
   "name": "extreme-speed",
   "accuracy": 100,
@@ -2205,7 +2205,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45366f86a8ba93a4ad54"
+    "$oid": "673252856f4307a0a7f4e495"
   },
   "name": "ancient-power",
   "accuracy": 100,
@@ -2214,7 +2214,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45366f86a8ba93a4ad55"
+    "$oid": "673252856f4307a0a7f4e496"
   },
   "name": "shadow-ball",
   "accuracy": 100,
@@ -2223,7 +2223,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45366f86a8ba93a4ad56"
+    "$oid": "673252856f4307a0a7f4e497"
   },
   "name": "future-sight",
   "accuracy": 100,
@@ -2232,7 +2232,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45366f86a8ba93a4ad57"
+    "$oid": "673252856f4307a0a7f4e498"
   },
   "name": "rock-smash",
   "accuracy": 100,
@@ -2241,7 +2241,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45366f86a8ba93a4ad58"
+    "$oid": "673252856f4307a0a7f4e499"
   },
   "name": "whirlpool",
   "accuracy": 85,
@@ -2250,7 +2250,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45366f86a8ba93a4ad59"
+    "$oid": "673252856f4307a0a7f4e49a"
   },
   "name": "beat-up",
   "accuracy": 100,
@@ -2259,7 +2259,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45366f86a8ba93a4ad5a"
+    "$oid": "673252856f4307a0a7f4e49b"
   },
   "name": "fake-out",
   "accuracy": 100,
@@ -2268,7 +2268,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45366f86a8ba93a4ad5b"
+    "$oid": "673252856f4307a0a7f4e49c"
   },
   "name": "uproar",
   "accuracy": 100,
@@ -2277,7 +2277,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45366f86a8ba93a4ad5c"
+    "$oid": "673252856f4307a0a7f4e49d"
   },
   "name": "stockpile",
   "accuracy": null,
@@ -2286,7 +2286,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45366f86a8ba93a4ad5d"
+    "$oid": "673252856f4307a0a7f4e49e"
   },
   "name": "spit-up",
   "accuracy": 100,
@@ -2295,7 +2295,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45376f86a8ba93a4ad5e"
+    "$oid": "673252866f4307a0a7f4e49f"
   },
   "name": "swallow",
   "accuracy": null,
@@ -2304,7 +2304,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45376f86a8ba93a4ad5f"
+    "$oid": "673252866f4307a0a7f4e4a0"
   },
   "name": "heat-wave",
   "accuracy": 90,
@@ -2313,7 +2313,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45376f86a8ba93a4ad60"
+    "$oid": "673252866f4307a0a7f4e4a1"
   },
   "name": "hail",
   "accuracy": null,
@@ -2322,7 +2322,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45376f86a8ba93a4ad61"
+    "$oid": "673252866f4307a0a7f4e4a2"
   },
   "name": "torment",
   "accuracy": 100,
@@ -2331,7 +2331,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45376f86a8ba93a4ad62"
+    "$oid": "673252866f4307a0a7f4e4a3"
   },
   "name": "flatter",
   "accuracy": 100,
@@ -2340,7 +2340,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45376f86a8ba93a4ad63"
+    "$oid": "673252866f4307a0a7f4e4a4"
   },
   "name": "will-o-wisp",
   "accuracy": 85,
@@ -2349,7 +2349,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45376f86a8ba93a4ad64"
+    "$oid": "673252866f4307a0a7f4e4a5"
   },
   "name": "memento",
   "accuracy": 100,
@@ -2358,7 +2358,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45376f86a8ba93a4ad65"
+    "$oid": "673252866f4307a0a7f4e4a6"
   },
   "name": "facade",
   "accuracy": 100,
@@ -2367,7 +2367,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45376f86a8ba93a4ad66"
+    "$oid": "673252866f4307a0a7f4e4a7"
   },
   "name": "focus-punch",
   "accuracy": 100,
@@ -2376,7 +2376,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45376f86a8ba93a4ad67"
+    "$oid": "673252866f4307a0a7f4e4a8"
   },
   "name": "smelling-salts",
   "accuracy": 100,
@@ -2385,7 +2385,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45386f86a8ba93a4ad68"
+    "$oid": "673252866f4307a0a7f4e4a9"
   },
   "name": "follow-me",
   "accuracy": null,
@@ -2394,7 +2394,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45386f86a8ba93a4ad69"
+    "$oid": "673252866f4307a0a7f4e4aa"
   },
   "name": "nature-power",
   "accuracy": null,
@@ -2403,7 +2403,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45386f86a8ba93a4ad6a"
+    "$oid": "673252866f4307a0a7f4e4ab"
   },
   "name": "charge",
   "accuracy": null,
@@ -2412,7 +2412,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45386f86a8ba93a4ad6b"
+    "$oid": "673252866f4307a0a7f4e4ac"
   },
   "name": "taunt",
   "accuracy": 100,
@@ -2421,7 +2421,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45386f86a8ba93a4ad6c"
+    "$oid": "673252866f4307a0a7f4e4ad"
   },
   "name": "helping-hand",
   "accuracy": null,
@@ -2430,7 +2430,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45386f86a8ba93a4ad6d"
+    "$oid": "673252866f4307a0a7f4e4ae"
   },
   "name": "trick",
   "accuracy": 100,
@@ -2439,7 +2439,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45386f86a8ba93a4ad6e"
+    "$oid": "673252866f4307a0a7f4e4af"
   },
   "name": "role-play",
   "accuracy": null,
@@ -2448,7 +2448,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45386f86a8ba93a4ad6f"
+    "$oid": "673252866f4307a0a7f4e4b0"
   },
   "name": "wish",
   "accuracy": null,
@@ -2457,7 +2457,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45386f86a8ba93a4ad70"
+    "$oid": "673252876f4307a0a7f4e4b1"
   },
   "name": "assist",
   "accuracy": null,
@@ -2466,7 +2466,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45386f86a8ba93a4ad71"
+    "$oid": "673252876f4307a0a7f4e4b2"
   },
   "name": "ingrain",
   "accuracy": null,
@@ -2475,7 +2475,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45396f86a8ba93a4ad72"
+    "$oid": "673252876f4307a0a7f4e4b3"
   },
   "name": "superpower",
   "accuracy": 100,
@@ -2484,7 +2484,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45396f86a8ba93a4ad73"
+    "$oid": "673252876f4307a0a7f4e4b4"
   },
   "name": "magic-coat",
   "accuracy": null,
@@ -2493,7 +2493,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45396f86a8ba93a4ad74"
+    "$oid": "673252876f4307a0a7f4e4b5"
   },
   "name": "recycle",
   "accuracy": null,
@@ -2502,7 +2502,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45396f86a8ba93a4ad75"
+    "$oid": "673252876f4307a0a7f4e4b6"
   },
   "name": "revenge",
   "accuracy": 100,
@@ -2511,7 +2511,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45396f86a8ba93a4ad76"
+    "$oid": "673252876f4307a0a7f4e4b7"
   },
   "name": "brick-break",
   "accuracy": 100,
@@ -2520,7 +2520,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45396f86a8ba93a4ad77"
+    "$oid": "673252876f4307a0a7f4e4b8"
   },
   "name": "yawn",
   "accuracy": null,
@@ -2529,7 +2529,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45396f86a8ba93a4ad78"
+    "$oid": "673252876f4307a0a7f4e4b9"
   },
   "name": "knock-off",
   "accuracy": 100,
@@ -2538,7 +2538,7 @@
 },
 {
   "_id": {
-    "$oid": "672a453a6f86a8ba93a4ad79"
+    "$oid": "673252876f4307a0a7f4e4ba"
   },
   "name": "endeavor",
   "accuracy": 100,
@@ -2547,7 +2547,7 @@
 },
 {
   "_id": {
-    "$oid": "672a453a6f86a8ba93a4ad7a"
+    "$oid": "673252876f4307a0a7f4e4bb"
   },
   "name": "eruption",
   "accuracy": 100,
@@ -2556,7 +2556,7 @@
 },
 {
   "_id": {
-    "$oid": "672a453a6f86a8ba93a4ad7b"
+    "$oid": "673252876f4307a0a7f4e4bc"
   },
   "name": "skill-swap",
   "accuracy": null,
@@ -2565,7 +2565,7 @@
 },
 {
   "_id": {
-    "$oid": "672a453a6f86a8ba93a4ad7c"
+    "$oid": "673252876f4307a0a7f4e4bd"
   },
   "name": "imprison",
   "accuracy": null,
@@ -2574,7 +2574,7 @@
 },
 {
   "_id": {
-    "$oid": "672a453a6f86a8ba93a4ad7d"
+    "$oid": "673252876f4307a0a7f4e4be"
   },
   "name": "refresh",
   "accuracy": null,
@@ -2583,7 +2583,7 @@
 },
 {
   "_id": {
-    "$oid": "672a453a6f86a8ba93a4ad7e"
+    "$oid": "673252876f4307a0a7f4e4bf"
   },
   "name": "grudge",
   "accuracy": null,
@@ -2592,7 +2592,7 @@
 },
 {
   "_id": {
-    "$oid": "672a453a6f86a8ba93a4ad7f"
+    "$oid": "673252876f4307a0a7f4e4c0"
   },
   "name": "snatch",
   "accuracy": null,
@@ -2601,7 +2601,7 @@
 },
 {
   "_id": {
-    "$oid": "672a453a6f86a8ba93a4ad80"
+    "$oid": "673252876f4307a0a7f4e4c1"
   },
   "name": "secret-power",
   "accuracy": 100,
@@ -2610,7 +2610,7 @@
 },
 {
   "_id": {
-    "$oid": "672a453a6f86a8ba93a4ad81"
+    "$oid": "673252876f4307a0a7f4e4c2"
   },
   "name": "dive",
   "accuracy": 100,
@@ -2619,7 +2619,7 @@
 },
 {
   "_id": {
-    "$oid": "672a453a6f86a8ba93a4ad82"
+    "$oid": "673252886f4307a0a7f4e4c3"
   },
   "name": "arm-thrust",
   "accuracy": 100,
@@ -2628,7 +2628,7 @@
 },
 {
   "_id": {
-    "$oid": "672a453b6f86a8ba93a4ad83"
+    "$oid": "673252886f4307a0a7f4e4c4"
   },
   "name": "camouflage",
   "accuracy": null,
@@ -2637,7 +2637,7 @@
 },
 {
   "_id": {
-    "$oid": "672a453b6f86a8ba93a4ad84"
+    "$oid": "673252886f4307a0a7f4e4c5"
   },
   "name": "tail-glow",
   "accuracy": null,
@@ -2646,7 +2646,7 @@
 },
 {
   "_id": {
-    "$oid": "672a453b6f86a8ba93a4ad85"
+    "$oid": "673252886f4307a0a7f4e4c6"
   },
   "name": "luster-purge",
   "accuracy": 100,
@@ -2655,7 +2655,7 @@
 },
 {
   "_id": {
-    "$oid": "672a453c6f86a8ba93a4ad86"
+    "$oid": "673252886f4307a0a7f4e4c7"
   },
   "name": "mist-ball",
   "accuracy": 100,
@@ -2664,7 +2664,7 @@
 },
 {
   "_id": {
-    "$oid": "672a453c6f86a8ba93a4ad87"
+    "$oid": "673252886f4307a0a7f4e4c8"
   },
   "name": "feather-dance",
   "accuracy": 100,
@@ -2673,7 +2673,7 @@
 },
 {
   "_id": {
-    "$oid": "672a453c6f86a8ba93a4ad88"
+    "$oid": "673252886f4307a0a7f4e4c9"
   },
   "name": "teeter-dance",
   "accuracy": 100,
@@ -2682,7 +2682,7 @@
 },
 {
   "_id": {
-    "$oid": "672a453c6f86a8ba93a4ad89"
+    "$oid": "673252886f4307a0a7f4e4ca"
   },
   "name": "blaze-kick",
   "accuracy": 90,
@@ -2691,7 +2691,7 @@
 },
 {
   "_id": {
-    "$oid": "672a453c6f86a8ba93a4ad8a"
+    "$oid": "673252886f4307a0a7f4e4cb"
   },
   "name": "mud-sport",
   "accuracy": null,
@@ -2700,7 +2700,7 @@
 },
 {
   "_id": {
-    "$oid": "672a453c6f86a8ba93a4ad8b"
+    "$oid": "673252886f4307a0a7f4e4cc"
   },
   "name": "ice-ball",
   "accuracy": 90,
@@ -2709,7 +2709,7 @@
 },
 {
   "_id": {
-    "$oid": "672a453c6f86a8ba93a4ad8c"
+    "$oid": "673252886f4307a0a7f4e4cd"
   },
   "name": "needle-arm",
   "accuracy": 100,
@@ -2718,7 +2718,7 @@
 },
 {
   "_id": {
-    "$oid": "672a453c6f86a8ba93a4ad8d"
+    "$oid": "673252886f4307a0a7f4e4ce"
   },
   "name": "slack-off",
   "accuracy": null,
@@ -2727,7 +2727,7 @@
 },
 {
   "_id": {
-    "$oid": "672a453d6f86a8ba93a4ad8e"
+    "$oid": "673252886f4307a0a7f4e4cf"
   },
   "name": "hyper-voice",
   "accuracy": 100,
@@ -2736,7 +2736,7 @@
 },
 {
   "_id": {
-    "$oid": "672a453d6f86a8ba93a4ad8f"
+    "$oid": "673252886f4307a0a7f4e4d0"
   },
   "name": "poison-fang",
   "accuracy": 100,
@@ -2745,7 +2745,7 @@
 },
 {
   "_id": {
-    "$oid": "672a453d6f86a8ba93a4ad90"
+    "$oid": "673252886f4307a0a7f4e4d1"
   },
   "name": "crush-claw",
   "accuracy": 95,
@@ -2754,7 +2754,7 @@
 },
 {
   "_id": {
-    "$oid": "672a453d6f86a8ba93a4ad91"
+    "$oid": "673252896f4307a0a7f4e4d2"
   },
   "name": "blast-burn",
   "accuracy": 90,
@@ -2763,7 +2763,7 @@
 },
 {
   "_id": {
-    "$oid": "672a453d6f86a8ba93a4ad92"
+    "$oid": "673252896f4307a0a7f4e4d3"
   },
   "name": "hydro-cannon",
   "accuracy": 90,
@@ -2772,7 +2772,7 @@
 },
 {
   "_id": {
-    "$oid": "672a453d6f86a8ba93a4ad93"
+    "$oid": "673252896f4307a0a7f4e4d4"
   },
   "name": "meteor-mash",
   "accuracy": 90,
@@ -2781,7 +2781,7 @@
 },
 {
   "_id": {
-    "$oid": "672a453d6f86a8ba93a4ad94"
+    "$oid": "673252896f4307a0a7f4e4d5"
   },
   "name": "astonish",
   "accuracy": 100,
@@ -2790,7 +2790,7 @@
 },
 {
   "_id": {
-    "$oid": "672a453d6f86a8ba93a4ad95"
+    "$oid": "673252896f4307a0a7f4e4d6"
   },
   "name": "weather-ball",
   "accuracy": 100,
@@ -2799,7 +2799,7 @@
 },
 {
   "_id": {
-    "$oid": "672a453d6f86a8ba93a4ad96"
+    "$oid": "673252896f4307a0a7f4e4d7"
   },
   "name": "aromatherapy",
   "accuracy": null,
@@ -2808,7 +2808,7 @@
 },
 {
   "_id": {
-    "$oid": "672a453d6f86a8ba93a4ad97"
+    "$oid": "673252896f4307a0a7f4e4d8"
   },
   "name": "fake-tears",
   "accuracy": 100,
@@ -2817,7 +2817,7 @@
 },
 {
   "_id": {
-    "$oid": "672a453d6f86a8ba93a4ad98"
+    "$oid": "673252896f4307a0a7f4e4d9"
   },
   "name": "air-cutter",
   "accuracy": 95,
@@ -2826,7 +2826,7 @@
 },
 {
   "_id": {
-    "$oid": "672a453e6f86a8ba93a4ad99"
+    "$oid": "673252896f4307a0a7f4e4da"
   },
   "name": "overheat",
   "accuracy": 90,
@@ -2835,7 +2835,7 @@
 },
 {
   "_id": {
-    "$oid": "672a453e6f86a8ba93a4ad9a"
+    "$oid": "673252896f4307a0a7f4e4db"
   },
   "name": "odor-sleuth",
   "accuracy": null,
@@ -2844,7 +2844,7 @@
 },
 {
   "_id": {
-    "$oid": "672a453e6f86a8ba93a4ad9b"
+    "$oid": "673252896f4307a0a7f4e4dc"
   },
   "name": "rock-tomb",
   "accuracy": 95,
@@ -2853,7 +2853,7 @@
 },
 {
   "_id": {
-    "$oid": "672a453e6f86a8ba93a4ad9c"
+    "$oid": "673252896f4307a0a7f4e4dd"
   },
   "name": "silver-wind",
   "accuracy": 100,
@@ -2862,7 +2862,7 @@
 },
 {
   "_id": {
-    "$oid": "672a453e6f86a8ba93a4ad9d"
+    "$oid": "673252896f4307a0a7f4e4de"
   },
   "name": "metal-sound",
   "accuracy": 85,
@@ -2871,7 +2871,7 @@
 },
 {
   "_id": {
-    "$oid": "672a453e6f86a8ba93a4ad9e"
+    "$oid": "673252896f4307a0a7f4e4df"
   },
   "name": "grass-whistle",
   "accuracy": 55,
@@ -2880,7 +2880,7 @@
 },
 {
   "_id": {
-    "$oid": "672a453e6f86a8ba93a4ad9f"
+    "$oid": "673252896f4307a0a7f4e4e0"
   },
   "name": "tickle",
   "accuracy": 100,
@@ -2889,7 +2889,7 @@
 },
 {
   "_id": {
-    "$oid": "672a453e6f86a8ba93a4ada0"
+    "$oid": "6732528a6f4307a0a7f4e4e1"
   },
   "name": "cosmic-power",
   "accuracy": null,
@@ -2898,7 +2898,7 @@
 },
 {
   "_id": {
-    "$oid": "672a453f6f86a8ba93a4ada1"
+    "$oid": "6732528a6f4307a0a7f4e4e2"
   },
   "name": "water-spout",
   "accuracy": 100,
@@ -2907,7 +2907,7 @@
 },
 {
   "_id": {
-    "$oid": "672a453f6f86a8ba93a4ada2"
+    "$oid": "6732528a6f4307a0a7f4e4e3"
   },
   "name": "signal-beam",
   "accuracy": 100,
@@ -2916,7 +2916,7 @@
 },
 {
   "_id": {
-    "$oid": "672a453f6f86a8ba93a4ada3"
+    "$oid": "6732528a6f4307a0a7f4e4e4"
   },
   "name": "shadow-punch",
   "accuracy": null,
@@ -2925,7 +2925,7 @@
 },
 {
   "_id": {
-    "$oid": "672a453f6f86a8ba93a4ada4"
+    "$oid": "6732528a6f4307a0a7f4e4e5"
   },
   "name": "extrasensory",
   "accuracy": 100,
@@ -2934,7 +2934,7 @@
 },
 {
   "_id": {
-    "$oid": "672a453f6f86a8ba93a4ada5"
+    "$oid": "6732528a6f4307a0a7f4e4e6"
   },
   "name": "sky-uppercut",
   "accuracy": 90,
@@ -2943,7 +2943,7 @@
 },
 {
   "_id": {
-    "$oid": "672a453f6f86a8ba93a4ada6"
+    "$oid": "6732528a6f4307a0a7f4e4e7"
   },
   "name": "sand-tomb",
   "accuracy": 85,
@@ -2952,7 +2952,7 @@
 },
 {
   "_id": {
-    "$oid": "672a453f6f86a8ba93a4ada7"
+    "$oid": "6732528a6f4307a0a7f4e4e8"
   },
   "name": "sheer-cold",
   "accuracy": 30,
@@ -2961,7 +2961,7 @@
 },
 {
   "_id": {
-    "$oid": "672a453f6f86a8ba93a4ada8"
+    "$oid": "6732528a6f4307a0a7f4e4e9"
   },
   "name": "muddy-water",
   "accuracy": 85,
@@ -2970,7 +2970,7 @@
 },
 {
   "_id": {
-    "$oid": "672a453f6f86a8ba93a4ada9"
+    "$oid": "6732528a6f4307a0a7f4e4ea"
   },
   "name": "bullet-seed",
   "accuracy": 100,
@@ -2979,7 +2979,7 @@
 },
 {
   "_id": {
-    "$oid": "672a453f6f86a8ba93a4adaa"
+    "$oid": "6732528a6f4307a0a7f4e4eb"
   },
   "name": "aerial-ace",
   "accuracy": null,
@@ -2988,7 +2988,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45406f86a8ba93a4adab"
+    "$oid": "6732528a6f4307a0a7f4e4ec"
   },
   "name": "icicle-spear",
   "accuracy": 100,
@@ -2997,7 +2997,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45406f86a8ba93a4adac"
+    "$oid": "6732528a6f4307a0a7f4e4ed"
   },
   "name": "iron-defense",
   "accuracy": null,
@@ -3006,7 +3006,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45406f86a8ba93a4adad"
+    "$oid": "6732528a6f4307a0a7f4e4ee"
   },
   "name": "block",
   "accuracy": null,
@@ -3015,7 +3015,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45406f86a8ba93a4adae"
+    "$oid": "6732528a6f4307a0a7f4e4ef"
   },
   "name": "howl",
   "accuracy": null,
@@ -3024,7 +3024,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45406f86a8ba93a4adaf"
+    "$oid": "6732528a6f4307a0a7f4e4f0"
   },
   "name": "dragon-claw",
   "accuracy": 100,
@@ -3033,7 +3033,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45406f86a8ba93a4adb0"
+    "$oid": "6732528a6f4307a0a7f4e4f1"
   },
   "name": "frenzy-plant",
   "accuracy": 90,
@@ -3042,7 +3042,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45406f86a8ba93a4adb1"
+    "$oid": "6732528a6f4307a0a7f4e4f2"
   },
   "name": "bulk-up",
   "accuracy": null,
@@ -3051,7 +3051,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45406f86a8ba93a4adb2"
+    "$oid": "6732528b6f4307a0a7f4e4f3"
   },
   "name": "bounce",
   "accuracy": 85,
@@ -3060,7 +3060,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45406f86a8ba93a4adb3"
+    "$oid": "6732528b6f4307a0a7f4e4f4"
   },
   "name": "mud-shot",
   "accuracy": 95,
@@ -3069,7 +3069,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45406f86a8ba93a4adb4"
+    "$oid": "6732528b6f4307a0a7f4e4f5"
   },
   "name": "poison-tail",
   "accuracy": 100,
@@ -3078,7 +3078,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45406f86a8ba93a4adb5"
+    "$oid": "6732528b6f4307a0a7f4e4f6"
   },
   "name": "covet",
   "accuracy": 100,
@@ -3087,7 +3087,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45416f86a8ba93a4adb6"
+    "$oid": "6732528b6f4307a0a7f4e4f7"
   },
   "name": "volt-tackle",
   "accuracy": 100,
@@ -3096,7 +3096,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45416f86a8ba93a4adb7"
+    "$oid": "6732528b6f4307a0a7f4e4f8"
   },
   "name": "magical-leaf",
   "accuracy": null,
@@ -3105,7 +3105,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45416f86a8ba93a4adb8"
+    "$oid": "6732528b6f4307a0a7f4e4f9"
   },
   "name": "water-sport",
   "accuracy": null,
@@ -3114,7 +3114,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45416f86a8ba93a4adb9"
+    "$oid": "6732528b6f4307a0a7f4e4fa"
   },
   "name": "calm-mind",
   "accuracy": null,
@@ -3123,7 +3123,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45416f86a8ba93a4adba"
+    "$oid": "6732528b6f4307a0a7f4e4fb"
   },
   "name": "leaf-blade",
   "accuracy": 100,
@@ -3132,7 +3132,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45416f86a8ba93a4adbb"
+    "$oid": "6732528b6f4307a0a7f4e4fc"
   },
   "name": "dragon-dance",
   "accuracy": null,
@@ -3141,7 +3141,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45416f86a8ba93a4adbc"
+    "$oid": "6732528b6f4307a0a7f4e4fd"
   },
   "name": "rock-blast",
   "accuracy": 90,
@@ -3150,7 +3150,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45416f86a8ba93a4adbd"
+    "$oid": "6732528b6f4307a0a7f4e4fe"
   },
   "name": "shock-wave",
   "accuracy": null,
@@ -3159,7 +3159,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45416f86a8ba93a4adbe"
+    "$oid": "6732528b6f4307a0a7f4e4ff"
   },
   "name": "water-pulse",
   "accuracy": 100,
@@ -3168,7 +3168,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45416f86a8ba93a4adbf"
+    "$oid": "6732528b6f4307a0a7f4e500"
   },
   "name": "doom-desire",
   "accuracy": 100,
@@ -3177,7 +3177,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45416f86a8ba93a4adc0"
+    "$oid": "6732528b6f4307a0a7f4e501"
   },
   "name": "psycho-boost",
   "accuracy": 90,
@@ -3186,7 +3186,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45426f86a8ba93a4adc1"
+    "$oid": "6732528b6f4307a0a7f4e502"
   },
   "name": "roost",
   "accuracy": null,
@@ -3195,7 +3195,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45426f86a8ba93a4adc2"
+    "$oid": "6732528b6f4307a0a7f4e503"
   },
   "name": "gravity",
   "accuracy": null,
@@ -3204,7 +3204,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45426f86a8ba93a4adc3"
+    "$oid": "6732528c6f4307a0a7f4e504"
   },
   "name": "miracle-eye",
   "accuracy": null,
@@ -3213,7 +3213,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45426f86a8ba93a4adc4"
+    "$oid": "6732528c6f4307a0a7f4e505"
   },
   "name": "wake-up-slap",
   "accuracy": 100,
@@ -3222,7 +3222,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45426f86a8ba93a4adc5"
+    "$oid": "6732528c6f4307a0a7f4e506"
   },
   "name": "hammer-arm",
   "accuracy": 90,
@@ -3231,7 +3231,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45426f86a8ba93a4adc6"
+    "$oid": "6732528c6f4307a0a7f4e507"
   },
   "name": "gyro-ball",
   "accuracy": 100,
@@ -3240,7 +3240,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45426f86a8ba93a4adc7"
+    "$oid": "6732528c6f4307a0a7f4e508"
   },
   "name": "healing-wish",
   "accuracy": null,
@@ -3249,7 +3249,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45426f86a8ba93a4adc8"
+    "$oid": "6732528c6f4307a0a7f4e509"
   },
   "name": "brine",
   "accuracy": 100,
@@ -3258,7 +3258,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45426f86a8ba93a4adc9"
+    "$oid": "6732528c6f4307a0a7f4e50a"
   },
   "name": "natural-gift",
   "accuracy": 100,
@@ -3267,7 +3267,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45426f86a8ba93a4adca"
+    "$oid": "6732528c6f4307a0a7f4e50b"
   },
   "name": "feint",
   "accuracy": 100,
@@ -3276,7 +3276,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45426f86a8ba93a4adcb"
+    "$oid": "6732528c6f4307a0a7f4e50c"
   },
   "name": "pluck",
   "accuracy": 100,
@@ -3285,7 +3285,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45436f86a8ba93a4adcc"
+    "$oid": "6732528c6f4307a0a7f4e50d"
   },
   "name": "tailwind",
   "accuracy": null,
@@ -3294,7 +3294,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45436f86a8ba93a4adcd"
+    "$oid": "6732528c6f4307a0a7f4e50e"
   },
   "name": "acupressure",
   "accuracy": null,
@@ -3303,7 +3303,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45436f86a8ba93a4adce"
+    "$oid": "6732528c6f4307a0a7f4e50f"
   },
   "name": "metal-burst",
   "accuracy": 100,
@@ -3312,7 +3312,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45436f86a8ba93a4adcf"
+    "$oid": "6732528c6f4307a0a7f4e510"
   },
   "name": "u-turn",
   "accuracy": 100,
@@ -3321,7 +3321,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45436f86a8ba93a4add0"
+    "$oid": "6732528c6f4307a0a7f4e511"
   },
   "name": "close-combat",
   "accuracy": 100,
@@ -3330,7 +3330,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45436f86a8ba93a4add1"
+    "$oid": "6732528c6f4307a0a7f4e512"
   },
   "name": "payback",
   "accuracy": 100,
@@ -3339,7 +3339,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45446f86a8ba93a4add2"
+    "$oid": "6732528c6f4307a0a7f4e513"
   },
   "name": "assurance",
   "accuracy": 100,
@@ -3348,7 +3348,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45446f86a8ba93a4add3"
+    "$oid": "6732528c6f4307a0a7f4e514"
   },
   "name": "embargo",
   "accuracy": 100,
@@ -3357,7 +3357,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45446f86a8ba93a4add4"
+    "$oid": "6732528d6f4307a0a7f4e515"
   },
   "name": "fling",
   "accuracy": 100,
@@ -3366,7 +3366,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45446f86a8ba93a4add5"
+    "$oid": "6732528d6f4307a0a7f4e516"
   },
   "name": "psycho-shift",
   "accuracy": 100,
@@ -3375,7 +3375,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45446f86a8ba93a4add6"
+    "$oid": "6732528d6f4307a0a7f4e517"
   },
   "name": "trump-card",
   "accuracy": null,
@@ -3384,7 +3384,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45446f86a8ba93a4add7"
+    "$oid": "6732528d6f4307a0a7f4e518"
   },
   "name": "heal-block",
   "accuracy": 100,
@@ -3393,7 +3393,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45446f86a8ba93a4add8"
+    "$oid": "6732528d6f4307a0a7f4e519"
   },
   "name": "wring-out",
   "accuracy": 100,
@@ -3402,7 +3402,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45446f86a8ba93a4add9"
+    "$oid": "6732528d6f4307a0a7f4e51a"
   },
   "name": "power-trick",
   "accuracy": null,
@@ -3411,7 +3411,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45446f86a8ba93a4adda"
+    "$oid": "6732528d6f4307a0a7f4e51b"
   },
   "name": "gastro-acid",
   "accuracy": 100,
@@ -3420,7 +3420,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45446f86a8ba93a4addb"
+    "$oid": "6732528d6f4307a0a7f4e51c"
   },
   "name": "lucky-chant",
   "accuracy": null,
@@ -3429,7 +3429,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45446f86a8ba93a4addc"
+    "$oid": "6732528d6f4307a0a7f4e51d"
   },
   "name": "me-first",
   "accuracy": null,
@@ -3438,7 +3438,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45456f86a8ba93a4addd"
+    "$oid": "6732528d6f4307a0a7f4e51e"
   },
   "name": "copycat",
   "accuracy": null,
@@ -3447,7 +3447,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45456f86a8ba93a4adde"
+    "$oid": "6732528d6f4307a0a7f4e51f"
   },
   "name": "power-swap",
   "accuracy": null,
@@ -3456,7 +3456,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45456f86a8ba93a4addf"
+    "$oid": "6732528d6f4307a0a7f4e520"
   },
   "name": "guard-swap",
   "accuracy": null,
@@ -3465,7 +3465,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45456f86a8ba93a4ade0"
+    "$oid": "6732528d6f4307a0a7f4e521"
   },
   "name": "punishment",
   "accuracy": 100,
@@ -3474,7 +3474,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45456f86a8ba93a4ade1"
+    "$oid": "6732528d6f4307a0a7f4e522"
   },
   "name": "last-resort",
   "accuracy": 100,
@@ -3483,7 +3483,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45456f86a8ba93a4ade2"
+    "$oid": "6732528d6f4307a0a7f4e523"
   },
   "name": "worry-seed",
   "accuracy": 100,
@@ -3492,7 +3492,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45456f86a8ba93a4ade3"
+    "$oid": "6732528d6f4307a0a7f4e524"
   },
   "name": "sucker-punch",
   "accuracy": 100,
@@ -3501,7 +3501,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45456f86a8ba93a4ade4"
+    "$oid": "6732528e6f4307a0a7f4e525"
   },
   "name": "toxic-spikes",
   "accuracy": null,
@@ -3510,7 +3510,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45456f86a8ba93a4ade5"
+    "$oid": "6732528e6f4307a0a7f4e526"
   },
   "name": "heart-swap",
   "accuracy": null,
@@ -3519,7 +3519,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45466f86a8ba93a4ade6"
+    "$oid": "6732528e6f4307a0a7f4e527"
   },
   "name": "aqua-ring",
   "accuracy": null,
@@ -3528,7 +3528,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45466f86a8ba93a4ade7"
+    "$oid": "6732528e6f4307a0a7f4e528"
   },
   "name": "magnet-rise",
   "accuracy": null,
@@ -3537,7 +3537,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45466f86a8ba93a4ade8"
+    "$oid": "6732528e6f4307a0a7f4e529"
   },
   "name": "flare-blitz",
   "accuracy": 100,
@@ -3546,7 +3546,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45466f86a8ba93a4ade9"
+    "$oid": "6732528e6f4307a0a7f4e52a"
   },
   "name": "force-palm",
   "accuracy": 100,
@@ -3555,7 +3555,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45466f86a8ba93a4adea"
+    "$oid": "6732528e6f4307a0a7f4e52b"
   },
   "name": "aura-sphere",
   "accuracy": null,
@@ -3564,7 +3564,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45466f86a8ba93a4adeb"
+    "$oid": "6732528e6f4307a0a7f4e52c"
   },
   "name": "rock-polish",
   "accuracy": null,
@@ -3573,7 +3573,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45476f86a8ba93a4adec"
+    "$oid": "6732528e6f4307a0a7f4e52d"
   },
   "name": "poison-jab",
   "accuracy": 100,
@@ -3582,7 +3582,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45476f86a8ba93a4aded"
+    "$oid": "6732528e6f4307a0a7f4e52e"
   },
   "name": "dark-pulse",
   "accuracy": 100,
@@ -3591,7 +3591,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45476f86a8ba93a4adee"
+    "$oid": "6732528e6f4307a0a7f4e52f"
   },
   "name": "night-slash",
   "accuracy": 100,
@@ -3600,7 +3600,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45476f86a8ba93a4adef"
+    "$oid": "6732528f6f4307a0a7f4e530"
   },
   "name": "aqua-tail",
   "accuracy": 90,
@@ -3609,7 +3609,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45476f86a8ba93a4adf0"
+    "$oid": "6732528f6f4307a0a7f4e531"
   },
   "name": "seed-bomb",
   "accuracy": 100,
@@ -3618,7 +3618,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45476f86a8ba93a4adf1"
+    "$oid": "6732528f6f4307a0a7f4e532"
   },
   "name": "air-slash",
   "accuracy": 95,
@@ -3627,7 +3627,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45486f86a8ba93a4adf2"
+    "$oid": "6732528f6f4307a0a7f4e533"
   },
   "name": "x-scissor",
   "accuracy": 100,
@@ -3636,7 +3636,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45486f86a8ba93a4adf3"
+    "$oid": "6732528f6f4307a0a7f4e534"
   },
   "name": "bug-buzz",
   "accuracy": 100,
@@ -3645,7 +3645,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45486f86a8ba93a4adf4"
+    "$oid": "6732528f6f4307a0a7f4e535"
   },
   "name": "dragon-pulse",
   "accuracy": 100,
@@ -3654,7 +3654,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45486f86a8ba93a4adf5"
+    "$oid": "6732528f6f4307a0a7f4e536"
   },
   "name": "dragon-rush",
   "accuracy": 75,
@@ -3663,7 +3663,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45486f86a8ba93a4adf6"
+    "$oid": "6732528f6f4307a0a7f4e537"
   },
   "name": "power-gem",
   "accuracy": 100,
@@ -3672,7 +3672,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45486f86a8ba93a4adf7"
+    "$oid": "6732528f6f4307a0a7f4e538"
   },
   "name": "drain-punch",
   "accuracy": 100,
@@ -3681,7 +3681,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45486f86a8ba93a4adf8"
+    "$oid": "6732528f6f4307a0a7f4e539"
   },
   "name": "vacuum-wave",
   "accuracy": 100,
@@ -3690,7 +3690,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45486f86a8ba93a4adf9"
+    "$oid": "6732528f6f4307a0a7f4e53a"
   },
   "name": "focus-blast",
   "accuracy": 70,
@@ -3699,7 +3699,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45486f86a8ba93a4adfa"
+    "$oid": "6732528f6f4307a0a7f4e53b"
   },
   "name": "energy-ball",
   "accuracy": 100,
@@ -3708,7 +3708,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45486f86a8ba93a4adfb"
+    "$oid": "6732528f6f4307a0a7f4e53c"
   },
   "name": "brave-bird",
   "accuracy": 100,
@@ -3717,7 +3717,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45486f86a8ba93a4adfc"
+    "$oid": "6732528f6f4307a0a7f4e53d"
   },
   "name": "earth-power",
   "accuracy": 100,
@@ -3726,7 +3726,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45486f86a8ba93a4adfd"
+    "$oid": "6732528f6f4307a0a7f4e53e"
   },
   "name": "switcheroo",
   "accuracy": 100,
@@ -3735,7 +3735,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45496f86a8ba93a4adfe"
+    "$oid": "6732528f6f4307a0a7f4e53f"
   },
   "name": "giga-impact",
   "accuracy": 90,
@@ -3744,7 +3744,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45496f86a8ba93a4adff"
+    "$oid": "673252906f4307a0a7f4e540"
   },
   "name": "nasty-plot",
   "accuracy": null,
@@ -3753,7 +3753,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45496f86a8ba93a4ae00"
+    "$oid": "673252906f4307a0a7f4e541"
   },
   "name": "bullet-punch",
   "accuracy": 100,
@@ -3762,7 +3762,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45496f86a8ba93a4ae01"
+    "$oid": "673252906f4307a0a7f4e542"
   },
   "name": "avalanche",
   "accuracy": 100,
@@ -3771,7 +3771,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45496f86a8ba93a4ae02"
+    "$oid": "673252906f4307a0a7f4e543"
   },
   "name": "ice-shard",
   "accuracy": 100,
@@ -3780,7 +3780,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45496f86a8ba93a4ae03"
+    "$oid": "673252906f4307a0a7f4e544"
   },
   "name": "shadow-claw",
   "accuracy": 100,
@@ -3789,7 +3789,7 @@
 },
 {
   "_id": {
-    "$oid": "672a454a6f86a8ba93a4ae04"
+    "$oid": "673252906f4307a0a7f4e545"
   },
   "name": "thunder-fang",
   "accuracy": 95,
@@ -3798,7 +3798,7 @@
 },
 {
   "_id": {
-    "$oid": "672a454a6f86a8ba93a4ae05"
+    "$oid": "673252906f4307a0a7f4e546"
   },
   "name": "ice-fang",
   "accuracy": 95,
@@ -3807,7 +3807,7 @@
 },
 {
   "_id": {
-    "$oid": "672a454a6f86a8ba93a4ae06"
+    "$oid": "673252906f4307a0a7f4e547"
   },
   "name": "fire-fang",
   "accuracy": 95,
@@ -3816,7 +3816,7 @@
 },
 {
   "_id": {
-    "$oid": "672a454a6f86a8ba93a4ae07"
+    "$oid": "673252906f4307a0a7f4e548"
   },
   "name": "shadow-sneak",
   "accuracy": 100,
@@ -3825,7 +3825,7 @@
 },
 {
   "_id": {
-    "$oid": "672a454a6f86a8ba93a4ae08"
+    "$oid": "673252906f4307a0a7f4e549"
   },
   "name": "mud-bomb",
   "accuracy": 85,
@@ -3834,7 +3834,7 @@
 },
 {
   "_id": {
-    "$oid": "672a454a6f86a8ba93a4ae09"
+    "$oid": "673252906f4307a0a7f4e54a"
   },
   "name": "psycho-cut",
   "accuracy": 100,
@@ -3843,7 +3843,7 @@
 },
 {
   "_id": {
-    "$oid": "672a454a6f86a8ba93a4ae0a"
+    "$oid": "673252906f4307a0a7f4e54b"
   },
   "name": "zen-headbutt",
   "accuracy": 90,
@@ -3852,7 +3852,7 @@
 },
 {
   "_id": {
-    "$oid": "672a454a6f86a8ba93a4ae0b"
+    "$oid": "673252906f4307a0a7f4e54c"
   },
   "name": "mirror-shot",
   "accuracy": 85,
@@ -3861,7 +3861,7 @@
 },
 {
   "_id": {
-    "$oid": "672a454a6f86a8ba93a4ae0c"
+    "$oid": "673252906f4307a0a7f4e54d"
   },
   "name": "flash-cannon",
   "accuracy": 100,
@@ -3870,7 +3870,7 @@
 },
 {
   "_id": {
-    "$oid": "672a454b6f86a8ba93a4ae0d"
+    "$oid": "673252906f4307a0a7f4e54e"
   },
   "name": "rock-climb",
   "accuracy": 85,
@@ -3879,7 +3879,7 @@
 },
 {
   "_id": {
-    "$oid": "672a454b6f86a8ba93a4ae0e"
+    "$oid": "673252906f4307a0a7f4e54f"
   },
   "name": "defog",
   "accuracy": null,
@@ -3888,7 +3888,7 @@
 },
 {
   "_id": {
-    "$oid": "672a454b6f86a8ba93a4ae0f"
+    "$oid": "673252906f4307a0a7f4e550"
   },
   "name": "trick-room",
   "accuracy": null,
@@ -3897,7 +3897,7 @@
 },
 {
   "_id": {
-    "$oid": "672a454b6f86a8ba93a4ae10"
+    "$oid": "673252916f4307a0a7f4e551"
   },
   "name": "draco-meteor",
   "accuracy": 90,
@@ -3906,7 +3906,7 @@
 },
 {
   "_id": {
-    "$oid": "672a454b6f86a8ba93a4ae11"
+    "$oid": "673252916f4307a0a7f4e552"
   },
   "name": "discharge",
   "accuracy": 100,
@@ -3915,7 +3915,7 @@
 },
 {
   "_id": {
-    "$oid": "672a454b6f86a8ba93a4ae12"
+    "$oid": "673252916f4307a0a7f4e553"
   },
   "name": "lava-plume",
   "accuracy": 100,
@@ -3924,7 +3924,7 @@
 },
 {
   "_id": {
-    "$oid": "672a454b6f86a8ba93a4ae13"
+    "$oid": "673252916f4307a0a7f4e554"
   },
   "name": "leaf-storm",
   "accuracy": 90,
@@ -3933,7 +3933,7 @@
 },
 {
   "_id": {
-    "$oid": "672a454b6f86a8ba93a4ae14"
+    "$oid": "673252916f4307a0a7f4e555"
   },
   "name": "power-whip",
   "accuracy": 85,
@@ -3942,7 +3942,7 @@
 },
 {
   "_id": {
-    "$oid": "672a454b6f86a8ba93a4ae15"
+    "$oid": "673252916f4307a0a7f4e556"
   },
   "name": "rock-wrecker",
   "accuracy": 90,
@@ -3951,7 +3951,7 @@
 },
 {
   "_id": {
-    "$oid": "672a454b6f86a8ba93a4ae16"
+    "$oid": "673252916f4307a0a7f4e557"
   },
   "name": "cross-poison",
   "accuracy": 100,
@@ -3960,7 +3960,7 @@
 },
 {
   "_id": {
-    "$oid": "672a454c6f86a8ba93a4ae17"
+    "$oid": "673252916f4307a0a7f4e558"
   },
   "name": "gunk-shot",
   "accuracy": 80,
@@ -3969,7 +3969,7 @@
 },
 {
   "_id": {
-    "$oid": "672a454c6f86a8ba93a4ae18"
+    "$oid": "673252916f4307a0a7f4e559"
   },
   "name": "iron-head",
   "accuracy": 100,
@@ -3978,7 +3978,7 @@
 },
 {
   "_id": {
-    "$oid": "672a454c6f86a8ba93a4ae19"
+    "$oid": "673252916f4307a0a7f4e55a"
   },
   "name": "magnet-bomb",
   "accuracy": null,
@@ -3987,7 +3987,7 @@
 },
 {
   "_id": {
-    "$oid": "672a454c6f86a8ba93a4ae1a"
+    "$oid": "673252916f4307a0a7f4e55b"
   },
   "name": "stone-edge",
   "accuracy": 80,
@@ -3996,7 +3996,7 @@
 },
 {
   "_id": {
-    "$oid": "672a454c6f86a8ba93a4ae1b"
+    "$oid": "673252916f4307a0a7f4e55c"
   },
   "name": "captivate",
   "accuracy": 100,
@@ -4005,7 +4005,7 @@
 },
 {
   "_id": {
-    "$oid": "672a454c6f86a8ba93a4ae1c"
+    "$oid": "673252916f4307a0a7f4e55d"
   },
   "name": "stealth-rock",
   "accuracy": null,
@@ -4014,7 +4014,7 @@
 },
 {
   "_id": {
-    "$oid": "672a454c6f86a8ba93a4ae1d"
+    "$oid": "673252916f4307a0a7f4e55e"
   },
   "name": "grass-knot",
   "accuracy": 100,
@@ -4023,7 +4023,7 @@
 },
 {
   "_id": {
-    "$oid": "672a454d6f86a8ba93a4ae1e"
+    "$oid": "673252916f4307a0a7f4e55f"
   },
   "name": "chatter",
   "accuracy": 100,
@@ -4032,7 +4032,7 @@
 },
 {
   "_id": {
-    "$oid": "672a454d6f86a8ba93a4ae1f"
+    "$oid": "673252916f4307a0a7f4e560"
   },
   "name": "judgment",
   "accuracy": 100,
@@ -4041,7 +4041,7 @@
 },
 {
   "_id": {
-    "$oid": "672a454d6f86a8ba93a4ae20"
+    "$oid": "673252916f4307a0a7f4e561"
   },
   "name": "bug-bite",
   "accuracy": 100,
@@ -4050,7 +4050,7 @@
 },
 {
   "_id": {
-    "$oid": "672a454d6f86a8ba93a4ae21"
+    "$oid": "673252926f4307a0a7f4e562"
   },
   "name": "charge-beam",
   "accuracy": 90,
@@ -4059,7 +4059,7 @@
 },
 {
   "_id": {
-    "$oid": "672a454d6f86a8ba93a4ae22"
+    "$oid": "673252926f4307a0a7f4e563"
   },
   "name": "wood-hammer",
   "accuracy": 100,
@@ -4068,7 +4068,7 @@
 },
 {
   "_id": {
-    "$oid": "672a454d6f86a8ba93a4ae23"
+    "$oid": "673252926f4307a0a7f4e564"
   },
   "name": "aqua-jet",
   "accuracy": 100,
@@ -4077,7 +4077,7 @@
 },
 {
   "_id": {
-    "$oid": "672a454d6f86a8ba93a4ae24"
+    "$oid": "673252926f4307a0a7f4e565"
   },
   "name": "attack-order",
   "accuracy": 100,
@@ -4086,7 +4086,7 @@
 },
 {
   "_id": {
-    "$oid": "672a454e6f86a8ba93a4ae25"
+    "$oid": "673252926f4307a0a7f4e566"
   },
   "name": "defend-order",
   "accuracy": null,
@@ -4095,7 +4095,7 @@
 },
 {
   "_id": {
-    "$oid": "672a454e6f86a8ba93a4ae26"
+    "$oid": "673252926f4307a0a7f4e567"
   },
   "name": "heal-order",
   "accuracy": null,
@@ -4104,7 +4104,7 @@
 },
 {
   "_id": {
-    "$oid": "672a454e6f86a8ba93a4ae27"
+    "$oid": "673252926f4307a0a7f4e568"
   },
   "name": "head-smash",
   "accuracy": 80,
@@ -4113,7 +4113,7 @@
 },
 {
   "_id": {
-    "$oid": "672a454e6f86a8ba93a4ae28"
+    "$oid": "673252926f4307a0a7f4e569"
   },
   "name": "double-hit",
   "accuracy": 90,
@@ -4122,7 +4122,7 @@
 },
 {
   "_id": {
-    "$oid": "672a454e6f86a8ba93a4ae29"
+    "$oid": "673252926f4307a0a7f4e56a"
   },
   "name": "roar-of-time",
   "accuracy": 90,
@@ -4131,7 +4131,7 @@
 },
 {
   "_id": {
-    "$oid": "672a454f6f86a8ba93a4ae2a"
+    "$oid": "673252926f4307a0a7f4e56b"
   },
   "name": "spacial-rend",
   "accuracy": 95,
@@ -4140,7 +4140,7 @@
 },
 {
   "_id": {
-    "$oid": "672a454f6f86a8ba93a4ae2b"
+    "$oid": "673252926f4307a0a7f4e56c"
   },
   "name": "lunar-dance",
   "accuracy": null,
@@ -4149,7 +4149,7 @@
 },
 {
   "_id": {
-    "$oid": "672a454f6f86a8ba93a4ae2c"
+    "$oid": "673252926f4307a0a7f4e56d"
   },
   "name": "crush-grip",
   "accuracy": 100,
@@ -4158,7 +4158,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45506f86a8ba93a4ae2d"
+    "$oid": "673252926f4307a0a7f4e56e"
   },
   "name": "magma-storm",
   "accuracy": 75,
@@ -4167,7 +4167,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45506f86a8ba93a4ae2e"
+    "$oid": "673252926f4307a0a7f4e56f"
   },
   "name": "dark-void",
   "accuracy": 50,
@@ -4176,7 +4176,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45506f86a8ba93a4ae2f"
+    "$oid": "673252926f4307a0a7f4e570"
   },
   "name": "seed-flare",
   "accuracy": 85,
@@ -4185,7 +4185,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45506f86a8ba93a4ae30"
+    "$oid": "673252926f4307a0a7f4e571"
   },
   "name": "ominous-wind",
   "accuracy": 100,
@@ -4194,7 +4194,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45506f86a8ba93a4ae31"
+    "$oid": "673252926f4307a0a7f4e572"
   },
   "name": "shadow-force",
   "accuracy": 100,
@@ -4203,7 +4203,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45506f86a8ba93a4ae32"
+    "$oid": "673252926f4307a0a7f4e573"
   },
   "name": "hone-claws",
   "accuracy": null,
@@ -4212,7 +4212,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45506f86a8ba93a4ae33"
+    "$oid": "673252926f4307a0a7f4e574"
   },
   "name": "wide-guard",
   "accuracy": null,
@@ -4221,7 +4221,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45516f86a8ba93a4ae34"
+    "$oid": "673252936f4307a0a7f4e575"
   },
   "name": "guard-split",
   "accuracy": null,
@@ -4230,7 +4230,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45516f86a8ba93a4ae35"
+    "$oid": "673252936f4307a0a7f4e576"
   },
   "name": "power-split",
   "accuracy": null,
@@ -4239,7 +4239,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45516f86a8ba93a4ae36"
+    "$oid": "673252936f4307a0a7f4e577"
   },
   "name": "wonder-room",
   "accuracy": null,
@@ -4248,7 +4248,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45516f86a8ba93a4ae37"
+    "$oid": "673252936f4307a0a7f4e578"
   },
   "name": "psyshock",
   "accuracy": 100,
@@ -4257,7 +4257,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45516f86a8ba93a4ae38"
+    "$oid": "673252936f4307a0a7f4e579"
   },
   "name": "venoshock",
   "accuracy": 100,
@@ -4266,7 +4266,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45516f86a8ba93a4ae39"
+    "$oid": "673252936f4307a0a7f4e57a"
   },
   "name": "autotomize",
   "accuracy": null,
@@ -4275,7 +4275,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45516f86a8ba93a4ae3a"
+    "$oid": "673252936f4307a0a7f4e57b"
   },
   "name": "rage-powder",
   "accuracy": null,
@@ -4284,7 +4284,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45516f86a8ba93a4ae3b"
+    "$oid": "673252936f4307a0a7f4e57c"
   },
   "name": "telekinesis",
   "accuracy": null,
@@ -4293,7 +4293,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45516f86a8ba93a4ae3c"
+    "$oid": "673252936f4307a0a7f4e57d"
   },
   "name": "magic-room",
   "accuracy": null,
@@ -4302,7 +4302,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45516f86a8ba93a4ae3d"
+    "$oid": "673252936f4307a0a7f4e57e"
   },
   "name": "smack-down",
   "accuracy": 100,
@@ -4311,7 +4311,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45526f86a8ba93a4ae3e"
+    "$oid": "673252936f4307a0a7f4e57f"
   },
   "name": "storm-throw",
   "accuracy": 100,
@@ -4320,7 +4320,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45526f86a8ba93a4ae3f"
+    "$oid": "673252936f4307a0a7f4e580"
   },
   "name": "flame-burst",
   "accuracy": 100,
@@ -4329,7 +4329,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45526f86a8ba93a4ae40"
+    "$oid": "673252936f4307a0a7f4e581"
   },
   "name": "sludge-wave",
   "accuracy": 100,
@@ -4338,7 +4338,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45526f86a8ba93a4ae41"
+    "$oid": "673252936f4307a0a7f4e582"
   },
   "name": "quiver-dance",
   "accuracy": null,
@@ -4347,7 +4347,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45526f86a8ba93a4ae42"
+    "$oid": "673252936f4307a0a7f4e583"
   },
   "name": "heavy-slam",
   "accuracy": 100,
@@ -4356,7 +4356,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45526f86a8ba93a4ae43"
+    "$oid": "673252936f4307a0a7f4e584"
   },
   "name": "synchronoise",
   "accuracy": 100,
@@ -4365,7 +4365,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45526f86a8ba93a4ae44"
+    "$oid": "673252936f4307a0a7f4e585"
   },
   "name": "electro-ball",
   "accuracy": 100,
@@ -4374,7 +4374,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45526f86a8ba93a4ae45"
+    "$oid": "673252936f4307a0a7f4e586"
   },
   "name": "soak",
   "accuracy": 100,
@@ -4383,7 +4383,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45536f86a8ba93a4ae46"
+    "$oid": "673252946f4307a0a7f4e587"
   },
   "name": "flame-charge",
   "accuracy": 100,
@@ -4392,7 +4392,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45536f86a8ba93a4ae47"
+    "$oid": "673252946f4307a0a7f4e588"
   },
   "name": "coil",
   "accuracy": null,
@@ -4401,7 +4401,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45536f86a8ba93a4ae48"
+    "$oid": "673252946f4307a0a7f4e589"
   },
   "name": "low-sweep",
   "accuracy": 100,
@@ -4410,7 +4410,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45536f86a8ba93a4ae49"
+    "$oid": "673252946f4307a0a7f4e58a"
   },
   "name": "acid-spray",
   "accuracy": 100,
@@ -4419,7 +4419,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45536f86a8ba93a4ae4a"
+    "$oid": "673252946f4307a0a7f4e58b"
   },
   "name": "foul-play",
   "accuracy": 100,
@@ -4428,7 +4428,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45536f86a8ba93a4ae4b"
+    "$oid": "673252946f4307a0a7f4e58c"
   },
   "name": "simple-beam",
   "accuracy": 100,
@@ -4437,7 +4437,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45536f86a8ba93a4ae4c"
+    "$oid": "673252946f4307a0a7f4e58d"
   },
   "name": "entrainment",
   "accuracy": 100,
@@ -4446,7 +4446,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45536f86a8ba93a4ae4d"
+    "$oid": "673252946f4307a0a7f4e58e"
   },
   "name": "after-you",
   "accuracy": null,
@@ -4455,7 +4455,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45546f86a8ba93a4ae4e"
+    "$oid": "673252946f4307a0a7f4e58f"
   },
   "name": "round",
   "accuracy": 100,
@@ -4464,7 +4464,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45546f86a8ba93a4ae4f"
+    "$oid": "673252946f4307a0a7f4e590"
   },
   "name": "echoed-voice",
   "accuracy": 100,
@@ -4473,7 +4473,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45546f86a8ba93a4ae50"
+    "$oid": "673252946f4307a0a7f4e591"
   },
   "name": "chip-away",
   "accuracy": 100,
@@ -4482,7 +4482,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45546f86a8ba93a4ae51"
+    "$oid": "673252946f4307a0a7f4e592"
   },
   "name": "clear-smog",
   "accuracy": null,
@@ -4491,7 +4491,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45546f86a8ba93a4ae52"
+    "$oid": "673252946f4307a0a7f4e593"
   },
   "name": "stored-power",
   "accuracy": 100,
@@ -4500,7 +4500,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45556f86a8ba93a4ae53"
+    "$oid": "673252956f4307a0a7f4e594"
   },
   "name": "quick-guard",
   "accuracy": null,
@@ -4509,7 +4509,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45556f86a8ba93a4ae54"
+    "$oid": "673252956f4307a0a7f4e595"
   },
   "name": "ally-switch",
   "accuracy": null,
@@ -4518,7 +4518,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45556f86a8ba93a4ae55"
+    "$oid": "673252956f4307a0a7f4e596"
   },
   "name": "scald",
   "accuracy": 100,
@@ -4527,7 +4527,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45556f86a8ba93a4ae56"
+    "$oid": "673252956f4307a0a7f4e597"
   },
   "name": "shell-smash",
   "accuracy": null,
@@ -4536,7 +4536,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45556f86a8ba93a4ae57"
+    "$oid": "673252956f4307a0a7f4e598"
   },
   "name": "heal-pulse",
   "accuracy": null,
@@ -4545,7 +4545,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45556f86a8ba93a4ae58"
+    "$oid": "673252956f4307a0a7f4e599"
   },
   "name": "hex",
   "accuracy": 100,
@@ -4554,7 +4554,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45556f86a8ba93a4ae59"
+    "$oid": "673252956f4307a0a7f4e59a"
   },
   "name": "sky-drop",
   "accuracy": 100,
@@ -4563,7 +4563,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45566f86a8ba93a4ae5a"
+    "$oid": "673252956f4307a0a7f4e59b"
   },
   "name": "shift-gear",
   "accuracy": null,
@@ -4572,7 +4572,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45566f86a8ba93a4ae5b"
+    "$oid": "673252956f4307a0a7f4e59c"
   },
   "name": "circle-throw",
   "accuracy": 90,
@@ -4581,7 +4581,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45566f86a8ba93a4ae5c"
+    "$oid": "673252956f4307a0a7f4e59d"
   },
   "name": "incinerate",
   "accuracy": 100,
@@ -4590,7 +4590,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45566f86a8ba93a4ae5d"
+    "$oid": "673252956f4307a0a7f4e59e"
   },
   "name": "quash",
   "accuracy": 100,
@@ -4599,7 +4599,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45566f86a8ba93a4ae5e"
+    "$oid": "673252956f4307a0a7f4e59f"
   },
   "name": "acrobatics",
   "accuracy": 100,
@@ -4608,7 +4608,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45566f86a8ba93a4ae5f"
+    "$oid": "673252956f4307a0a7f4e5a0"
   },
   "name": "reflect-type",
   "accuracy": null,
@@ -4617,7 +4617,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45566f86a8ba93a4ae60"
+    "$oid": "673252956f4307a0a7f4e5a1"
   },
   "name": "retaliate",
   "accuracy": 100,
@@ -4626,7 +4626,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45566f86a8ba93a4ae61"
+    "$oid": "673252956f4307a0a7f4e5a2"
   },
   "name": "final-gambit",
   "accuracy": 100,
@@ -4635,7 +4635,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45566f86a8ba93a4ae62"
+    "$oid": "673252956f4307a0a7f4e5a3"
   },
   "name": "bestow",
   "accuracy": null,
@@ -4644,7 +4644,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45566f86a8ba93a4ae63"
+    "$oid": "673252956f4307a0a7f4e5a4"
   },
   "name": "inferno",
   "accuracy": 50,
@@ -4653,7 +4653,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45566f86a8ba93a4ae64"
+    "$oid": "673252956f4307a0a7f4e5a5"
   },
   "name": "water-pledge",
   "accuracy": 100,
@@ -4662,7 +4662,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45576f86a8ba93a4ae65"
+    "$oid": "673252966f4307a0a7f4e5a6"
   },
   "name": "fire-pledge",
   "accuracy": 100,
@@ -4671,7 +4671,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45576f86a8ba93a4ae66"
+    "$oid": "673252966f4307a0a7f4e5a7"
   },
   "name": "grass-pledge",
   "accuracy": 100,
@@ -4680,7 +4680,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45576f86a8ba93a4ae67"
+    "$oid": "673252966f4307a0a7f4e5a8"
   },
   "name": "volt-switch",
   "accuracy": 100,
@@ -4689,7 +4689,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45576f86a8ba93a4ae68"
+    "$oid": "673252966f4307a0a7f4e5a9"
   },
   "name": "struggle-bug",
   "accuracy": 100,
@@ -4698,7 +4698,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45576f86a8ba93a4ae69"
+    "$oid": "673252966f4307a0a7f4e5aa"
   },
   "name": "bulldoze",
   "accuracy": 100,
@@ -4707,7 +4707,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45576f86a8ba93a4ae6a"
+    "$oid": "673252966f4307a0a7f4e5ab"
   },
   "name": "frost-breath",
   "accuracy": 90,
@@ -4716,7 +4716,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45576f86a8ba93a4ae6b"
+    "$oid": "673252966f4307a0a7f4e5ac"
   },
   "name": "dragon-tail",
   "accuracy": 90,
@@ -4725,7 +4725,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45576f86a8ba93a4ae6c"
+    "$oid": "673252966f4307a0a7f4e5ad"
   },
   "name": "work-up",
   "accuracy": null,
@@ -4734,7 +4734,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45576f86a8ba93a4ae6d"
+    "$oid": "673252966f4307a0a7f4e5ae"
   },
   "name": "electroweb",
   "accuracy": 95,
@@ -4743,7 +4743,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45586f86a8ba93a4ae6e"
+    "$oid": "673252966f4307a0a7f4e5af"
   },
   "name": "wild-charge",
   "accuracy": 100,
@@ -4752,7 +4752,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45586f86a8ba93a4ae6f"
+    "$oid": "673252966f4307a0a7f4e5b0"
   },
   "name": "drill-run",
   "accuracy": 95,
@@ -4761,7 +4761,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45586f86a8ba93a4ae70"
+    "$oid": "673252966f4307a0a7f4e5b1"
   },
   "name": "dual-chop",
   "accuracy": 90,
@@ -4770,7 +4770,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45586f86a8ba93a4ae71"
+    "$oid": "673252966f4307a0a7f4e5b2"
   },
   "name": "heart-stamp",
   "accuracy": 100,
@@ -4779,7 +4779,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45586f86a8ba93a4ae72"
+    "$oid": "673252966f4307a0a7f4e5b3"
   },
   "name": "horn-leech",
   "accuracy": 100,
@@ -4788,7 +4788,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45586f86a8ba93a4ae73"
+    "$oid": "673252966f4307a0a7f4e5b4"
   },
   "name": "sacred-sword",
   "accuracy": 100,
@@ -4797,7 +4797,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45586f86a8ba93a4ae74"
+    "$oid": "673252966f4307a0a7f4e5b5"
   },
   "name": "razor-shell",
   "accuracy": 95,
@@ -4806,7 +4806,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45586f86a8ba93a4ae75"
+    "$oid": "673252966f4307a0a7f4e5b6"
   },
   "name": "heat-crash",
   "accuracy": 100,
@@ -4815,7 +4815,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45586f86a8ba93a4ae76"
+    "$oid": "673252976f4307a0a7f4e5b7"
   },
   "name": "leaf-tornado",
   "accuracy": 90,
@@ -4824,7 +4824,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45596f86a8ba93a4ae77"
+    "$oid": "673252976f4307a0a7f4e5b8"
   },
   "name": "steamroller",
   "accuracy": 100,
@@ -4833,7 +4833,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45596f86a8ba93a4ae78"
+    "$oid": "673252976f4307a0a7f4e5b9"
   },
   "name": "cotton-guard",
   "accuracy": null,
@@ -4842,7 +4842,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45596f86a8ba93a4ae79"
+    "$oid": "673252976f4307a0a7f4e5ba"
   },
   "name": "night-daze",
   "accuracy": 95,
@@ -4851,7 +4851,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45596f86a8ba93a4ae7a"
+    "$oid": "673252976f4307a0a7f4e5bb"
   },
   "name": "psystrike",
   "accuracy": 100,
@@ -4860,7 +4860,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45596f86a8ba93a4ae7b"
+    "$oid": "673252976f4307a0a7f4e5bc"
   },
   "name": "tail-slap",
   "accuracy": 85,
@@ -4869,7 +4869,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45596f86a8ba93a4ae7c"
+    "$oid": "673252976f4307a0a7f4e5bd"
   },
   "name": "hurricane",
   "accuracy": 70,
@@ -4878,7 +4878,7 @@
 },
 {
   "_id": {
-    "$oid": "672a455a6f86a8ba93a4ae7d"
+    "$oid": "673252976f4307a0a7f4e5be"
   },
   "name": "head-charge",
   "accuracy": 100,
@@ -4887,7 +4887,7 @@
 },
 {
   "_id": {
-    "$oid": "672a455a6f86a8ba93a4ae7e"
+    "$oid": "673252976f4307a0a7f4e5bf"
   },
   "name": "gear-grind",
   "accuracy": 85,
@@ -4896,7 +4896,7 @@
 },
 {
   "_id": {
-    "$oid": "672a455b6f86a8ba93a4ae7f"
+    "$oid": "673252976f4307a0a7f4e5c0"
   },
   "name": "searing-shot",
   "accuracy": 100,
@@ -4905,7 +4905,7 @@
 },
 {
   "_id": {
-    "$oid": "672a455b6f86a8ba93a4ae80"
+    "$oid": "673252976f4307a0a7f4e5c1"
   },
   "name": "techno-blast",
   "accuracy": 100,
@@ -4914,7 +4914,7 @@
 },
 {
   "_id": {
-    "$oid": "672a455b6f86a8ba93a4ae81"
+    "$oid": "673252976f4307a0a7f4e5c2"
   },
   "name": "relic-song",
   "accuracy": 100,
@@ -4923,7 +4923,7 @@
 },
 {
   "_id": {
-    "$oid": "672a455c6f86a8ba93a4ae82"
+    "$oid": "673252976f4307a0a7f4e5c3"
   },
   "name": "secret-sword",
   "accuracy": 100,
@@ -4932,7 +4932,7 @@
 },
 {
   "_id": {
-    "$oid": "672a455c6f86a8ba93a4ae83"
+    "$oid": "673252976f4307a0a7f4e5c4"
   },
   "name": "glaciate",
   "accuracy": 95,
@@ -4941,7 +4941,7 @@
 },
 {
   "_id": {
-    "$oid": "672a455c6f86a8ba93a4ae84"
+    "$oid": "673252976f4307a0a7f4e5c5"
   },
   "name": "bolt-strike",
   "accuracy": 85,
@@ -4950,7 +4950,7 @@
 },
 {
   "_id": {
-    "$oid": "672a455d6f86a8ba93a4ae85"
+    "$oid": "673252976f4307a0a7f4e5c6"
   },
   "name": "blue-flare",
   "accuracy": 85,
@@ -4959,7 +4959,7 @@
 },
 {
   "_id": {
-    "$oid": "672a455d6f86a8ba93a4ae86"
+    "$oid": "673252986f4307a0a7f4e5c7"
   },
   "name": "fiery-dance",
   "accuracy": 100,
@@ -4968,7 +4968,7 @@
 },
 {
   "_id": {
-    "$oid": "672a455d6f86a8ba93a4ae87"
+    "$oid": "673252986f4307a0a7f4e5c8"
   },
   "name": "freeze-shock",
   "accuracy": 90,
@@ -4977,7 +4977,7 @@
 },
 {
   "_id": {
-    "$oid": "672a455d6f86a8ba93a4ae88"
+    "$oid": "673252986f4307a0a7f4e5c9"
   },
   "name": "ice-burn",
   "accuracy": 90,
@@ -4986,7 +4986,7 @@
 },
 {
   "_id": {
-    "$oid": "672a455d6f86a8ba93a4ae89"
+    "$oid": "673252986f4307a0a7f4e5ca"
   },
   "name": "snarl",
   "accuracy": 95,
@@ -4995,7 +4995,7 @@
 },
 {
   "_id": {
-    "$oid": "672a455d6f86a8ba93a4ae8a"
+    "$oid": "673252986f4307a0a7f4e5cb"
   },
   "name": "icicle-crash",
   "accuracy": 90,
@@ -5004,7 +5004,7 @@
 },
 {
   "_id": {
-    "$oid": "672a455d6f86a8ba93a4ae8b"
+    "$oid": "673252986f4307a0a7f4e5cc"
   },
   "name": "v-create",
   "accuracy": 95,
@@ -5013,7 +5013,7 @@
 },
 {
   "_id": {
-    "$oid": "672a455e6f86a8ba93a4ae8c"
+    "$oid": "673252986f4307a0a7f4e5cd"
   },
   "name": "fusion-flare",
   "accuracy": 100,
@@ -5022,7 +5022,7 @@
 },
 {
   "_id": {
-    "$oid": "672a455e6f86a8ba93a4ae8d"
+    "$oid": "673252986f4307a0a7f4e5ce"
   },
   "name": "fusion-bolt",
   "accuracy": 100,
@@ -5031,7 +5031,7 @@
 },
 {
   "_id": {
-    "$oid": "672a455e6f86a8ba93a4ae8e"
+    "$oid": "673252986f4307a0a7f4e5cf"
   },
   "name": "flying-press",
   "accuracy": 95,
@@ -5040,7 +5040,7 @@
 },
 {
   "_id": {
-    "$oid": "672a455e6f86a8ba93a4ae8f"
+    "$oid": "673252986f4307a0a7f4e5d0"
   },
   "name": "mat-block",
   "accuracy": null,
@@ -5049,7 +5049,7 @@
 },
 {
   "_id": {
-    "$oid": "672a455e6f86a8ba93a4ae90"
+    "$oid": "673252986f4307a0a7f4e5d1"
   },
   "name": "belch",
   "accuracy": 90,
@@ -5058,7 +5058,7 @@
 },
 {
   "_id": {
-    "$oid": "672a455e6f86a8ba93a4ae91"
+    "$oid": "673252986f4307a0a7f4e5d2"
   },
   "name": "rototiller",
   "accuracy": null,
@@ -5067,7 +5067,7 @@
 },
 {
   "_id": {
-    "$oid": "672a455f6f86a8ba93a4ae92"
+    "$oid": "673252986f4307a0a7f4e5d3"
   },
   "name": "sticky-web",
   "accuracy": null,
@@ -5076,7 +5076,7 @@
 },
 {
   "_id": {
-    "$oid": "672a455f6f86a8ba93a4ae93"
+    "$oid": "673252986f4307a0a7f4e5d4"
   },
   "name": "fell-stinger",
   "accuracy": 100,
@@ -5085,7 +5085,7 @@
 },
 {
   "_id": {
-    "$oid": "672a455f6f86a8ba93a4ae94"
+    "$oid": "673252986f4307a0a7f4e5d5"
   },
   "name": "phantom-force",
   "accuracy": 100,
@@ -5094,7 +5094,7 @@
 },
 {
   "_id": {
-    "$oid": "672a455f6f86a8ba93a4ae95"
+    "$oid": "673252986f4307a0a7f4e5d6"
   },
   "name": "trick-or-treat",
   "accuracy": 100,
@@ -5103,7 +5103,7 @@
 },
 {
   "_id": {
-    "$oid": "672a455f6f86a8ba93a4ae96"
+    "$oid": "673252986f4307a0a7f4e5d7"
   },
   "name": "noble-roar",
   "accuracy": 100,
@@ -5112,7 +5112,7 @@
 },
 {
   "_id": {
-    "$oid": "672a455f6f86a8ba93a4ae97"
+    "$oid": "673252986f4307a0a7f4e5d8"
   },
   "name": "ion-deluge",
   "accuracy": null,
@@ -5121,7 +5121,7 @@
 },
 {
   "_id": {
-    "$oid": "672a455f6f86a8ba93a4ae98"
+    "$oid": "673252986f4307a0a7f4e5d9"
   },
   "name": "parabolic-charge",
   "accuracy": 100,
@@ -5130,7 +5130,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45606f86a8ba93a4ae99"
+    "$oid": "673252996f4307a0a7f4e5da"
   },
   "name": "forests-curse",
   "accuracy": 100,
@@ -5139,7 +5139,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45606f86a8ba93a4ae9a"
+    "$oid": "673252996f4307a0a7f4e5db"
   },
   "name": "petal-blizzard",
   "accuracy": 100,
@@ -5148,7 +5148,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45606f86a8ba93a4ae9b"
+    "$oid": "673252996f4307a0a7f4e5dc"
   },
   "name": "freeze-dry",
   "accuracy": 100,
@@ -5157,7 +5157,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45606f86a8ba93a4ae9c"
+    "$oid": "673252996f4307a0a7f4e5dd"
   },
   "name": "disarming-voice",
   "accuracy": null,
@@ -5166,7 +5166,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45606f86a8ba93a4ae9d"
+    "$oid": "673252996f4307a0a7f4e5de"
   },
   "name": "parting-shot",
   "accuracy": 100,
@@ -5175,7 +5175,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45606f86a8ba93a4ae9e"
+    "$oid": "673252996f4307a0a7f4e5df"
   },
   "name": "topsy-turvy",
   "accuracy": null,
@@ -5184,7 +5184,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45606f86a8ba93a4ae9f"
+    "$oid": "673252996f4307a0a7f4e5e0"
   },
   "name": "draining-kiss",
   "accuracy": 100,
@@ -5193,7 +5193,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45616f86a8ba93a4aea0"
+    "$oid": "673252996f4307a0a7f4e5e1"
   },
   "name": "crafty-shield",
   "accuracy": null,
@@ -5202,7 +5202,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45616f86a8ba93a4aea1"
+    "$oid": "673252996f4307a0a7f4e5e2"
   },
   "name": "flower-shield",
   "accuracy": null,
@@ -5211,7 +5211,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45616f86a8ba93a4aea2"
+    "$oid": "673252996f4307a0a7f4e5e3"
   },
   "name": "grassy-terrain",
   "accuracy": null,
@@ -5220,7 +5220,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45616f86a8ba93a4aea3"
+    "$oid": "673252996f4307a0a7f4e5e4"
   },
   "name": "misty-terrain",
   "accuracy": null,
@@ -5229,7 +5229,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45616f86a8ba93a4aea4"
+    "$oid": "673252996f4307a0a7f4e5e5"
   },
   "name": "electrify",
   "accuracy": null,
@@ -5238,7 +5238,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45616f86a8ba93a4aea5"
+    "$oid": "673252996f4307a0a7f4e5e6"
   },
   "name": "play-rough",
   "accuracy": 90,
@@ -5247,7 +5247,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45616f86a8ba93a4aea6"
+    "$oid": "673252996f4307a0a7f4e5e7"
   },
   "name": "fairy-wind",
   "accuracy": 100,
@@ -5256,7 +5256,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45626f86a8ba93a4aea7"
+    "$oid": "673252996f4307a0a7f4e5e8"
   },
   "name": "moonblast",
   "accuracy": 100,
@@ -5265,7 +5265,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45626f86a8ba93a4aea8"
+    "$oid": "673252996f4307a0a7f4e5e9"
   },
   "name": "boomburst",
   "accuracy": 100,
@@ -5274,7 +5274,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45626f86a8ba93a4aea9"
+    "$oid": "673252996f4307a0a7f4e5ea"
   },
   "name": "fairy-lock",
   "accuracy": null,
@@ -5283,7 +5283,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45626f86a8ba93a4aeaa"
+    "$oid": "673252996f4307a0a7f4e5eb"
   },
   "name": "kings-shield",
   "accuracy": null,
@@ -5292,7 +5292,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45626f86a8ba93a4aeab"
+    "$oid": "6732529a6f4307a0a7f4e5ec"
   },
   "name": "play-nice",
   "accuracy": null,
@@ -5301,7 +5301,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45626f86a8ba93a4aeac"
+    "$oid": "6732529a6f4307a0a7f4e5ed"
   },
   "name": "confide",
   "accuracy": null,
@@ -5310,7 +5310,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45626f86a8ba93a4aead"
+    "$oid": "6732529a6f4307a0a7f4e5ee"
   },
   "name": "diamond-storm",
   "accuracy": 95,
@@ -5319,7 +5319,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45636f86a8ba93a4aeae"
+    "$oid": "6732529a6f4307a0a7f4e5ef"
   },
   "name": "steam-eruption",
   "accuracy": 95,
@@ -5328,7 +5328,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45636f86a8ba93a4aeaf"
+    "$oid": "6732529a6f4307a0a7f4e5f0"
   },
   "name": "hyperspace-hole",
   "accuracy": null,
@@ -5337,7 +5337,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45636f86a8ba93a4aeb0"
+    "$oid": "6732529a6f4307a0a7f4e5f1"
   },
   "name": "water-shuriken",
   "accuracy": 100,
@@ -5346,7 +5346,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45636f86a8ba93a4aeb1"
+    "$oid": "6732529a6f4307a0a7f4e5f2"
   },
   "name": "mystical-fire",
   "accuracy": 100,
@@ -5355,7 +5355,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45636f86a8ba93a4aeb2"
+    "$oid": "6732529a6f4307a0a7f4e5f3"
   },
   "name": "spiky-shield",
   "accuracy": null,
@@ -5364,7 +5364,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45636f86a8ba93a4aeb3"
+    "$oid": "6732529a6f4307a0a7f4e5f4"
   },
   "name": "aromatic-mist",
   "accuracy": null,
@@ -5373,7 +5373,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45636f86a8ba93a4aeb4"
+    "$oid": "6732529a6f4307a0a7f4e5f5"
   },
   "name": "eerie-impulse",
   "accuracy": 100,
@@ -5382,7 +5382,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45636f86a8ba93a4aeb5"
+    "$oid": "6732529a6f4307a0a7f4e5f6"
   },
   "name": "venom-drench",
   "accuracy": 100,
@@ -5391,7 +5391,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45646f86a8ba93a4aeb6"
+    "$oid": "6732529a6f4307a0a7f4e5f7"
   },
   "name": "powder",
   "accuracy": 100,
@@ -5400,7 +5400,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45646f86a8ba93a4aeb7"
+    "$oid": "6732529a6f4307a0a7f4e5f8"
   },
   "name": "geomancy",
   "accuracy": null,
@@ -5409,7 +5409,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45656f86a8ba93a4aeb8"
+    "$oid": "6732529a6f4307a0a7f4e5f9"
   },
   "name": "magnetic-flux",
   "accuracy": null,
@@ -5418,7 +5418,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45656f86a8ba93a4aeb9"
+    "$oid": "6732529b6f4307a0a7f4e5fa"
   },
   "name": "happy-hour",
   "accuracy": null,
@@ -5427,7 +5427,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45656f86a8ba93a4aeba"
+    "$oid": "6732529b6f4307a0a7f4e5fb"
   },
   "name": "electric-terrain",
   "accuracy": null,
@@ -5436,7 +5436,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45656f86a8ba93a4aebb"
+    "$oid": "6732529b6f4307a0a7f4e5fc"
   },
   "name": "dazzling-gleam",
   "accuracy": 100,
@@ -5445,7 +5445,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45666f86a8ba93a4aebc"
+    "$oid": "6732529b6f4307a0a7f4e5fd"
   },
   "name": "celebrate",
   "accuracy": null,
@@ -5454,7 +5454,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45666f86a8ba93a4aebd"
+    "$oid": "6732529b6f4307a0a7f4e5fe"
   },
   "name": "hold-hands",
   "accuracy": null,
@@ -5463,7 +5463,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45666f86a8ba93a4aebe"
+    "$oid": "6732529b6f4307a0a7f4e5ff"
   },
   "name": "baby-doll-eyes",
   "accuracy": 100,
@@ -5472,7 +5472,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45666f86a8ba93a4aebf"
+    "$oid": "6732529b6f4307a0a7f4e600"
   },
   "name": "nuzzle",
   "accuracy": 100,
@@ -5481,7 +5481,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45676f86a8ba93a4aec0"
+    "$oid": "6732529b6f4307a0a7f4e601"
   },
   "name": "hold-back",
   "accuracy": 100,
@@ -5490,7 +5490,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45676f86a8ba93a4aec1"
+    "$oid": "6732529b6f4307a0a7f4e602"
   },
   "name": "infestation",
   "accuracy": 100,
@@ -5499,7 +5499,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45676f86a8ba93a4aec2"
+    "$oid": "6732529b6f4307a0a7f4e603"
   },
   "name": "power-up-punch",
   "accuracy": 100,
@@ -5508,7 +5508,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45676f86a8ba93a4aec3"
+    "$oid": "6732529b6f4307a0a7f4e604"
   },
   "name": "oblivion-wing",
   "accuracy": 100,
@@ -5517,7 +5517,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45676f86a8ba93a4aec4"
+    "$oid": "6732529b6f4307a0a7f4e605"
   },
   "name": "thousand-arrows",
   "accuracy": 100,
@@ -5526,7 +5526,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45676f86a8ba93a4aec5"
+    "$oid": "6732529b6f4307a0a7f4e606"
   },
   "name": "thousand-waves",
   "accuracy": 100,
@@ -5535,7 +5535,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45686f86a8ba93a4aec6"
+    "$oid": "6732529b6f4307a0a7f4e607"
   },
   "name": "lands-wrath",
   "accuracy": 100,
@@ -5544,7 +5544,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45686f86a8ba93a4aec7"
+    "$oid": "6732529b6f4307a0a7f4e608"
   },
   "name": "light-of-ruin",
   "accuracy": 90,
@@ -5553,7 +5553,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45686f86a8ba93a4aec8"
+    "$oid": "6732529c6f4307a0a7f4e609"
   },
   "name": "origin-pulse",
   "accuracy": 85,
@@ -5562,7 +5562,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45686f86a8ba93a4aec9"
+    "$oid": "6732529c6f4307a0a7f4e60a"
   },
   "name": "precipice-blades",
   "accuracy": 85,
@@ -5571,7 +5571,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45686f86a8ba93a4aeca"
+    "$oid": "6732529c6f4307a0a7f4e60b"
   },
   "name": "dragon-ascent",
   "accuracy": 100,
@@ -5580,7 +5580,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45686f86a8ba93a4aecb"
+    "$oid": "6732529c6f4307a0a7f4e60c"
   },
   "name": "hyperspace-fury",
   "accuracy": null,
@@ -5589,7 +5589,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45696f86a8ba93a4aecc"
+    "$oid": "6732529c6f4307a0a7f4e60d"
   },
   "name": "breakneck-blitz--physical",
   "accuracy": null,
@@ -5598,7 +5598,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45696f86a8ba93a4aecd"
+    "$oid": "6732529c6f4307a0a7f4e60e"
   },
   "name": "breakneck-blitz--special",
   "accuracy": null,
@@ -5607,7 +5607,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45696f86a8ba93a4aece"
+    "$oid": "6732529c6f4307a0a7f4e60f"
   },
   "name": "all-out-pummeling--physical",
   "accuracy": null,
@@ -5616,7 +5616,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45696f86a8ba93a4aecf"
+    "$oid": "6732529c6f4307a0a7f4e610"
   },
   "name": "all-out-pummeling--special",
   "accuracy": null,
@@ -5625,7 +5625,7 @@
 },
 {
   "_id": {
-    "$oid": "672a456a6f86a8ba93a4aed0"
+    "$oid": "6732529c6f4307a0a7f4e611"
   },
   "name": "supersonic-skystrike--physical",
   "accuracy": null,
@@ -5634,7 +5634,7 @@
 },
 {
   "_id": {
-    "$oid": "672a456a6f86a8ba93a4aed1"
+    "$oid": "6732529c6f4307a0a7f4e612"
   },
   "name": "supersonic-skystrike--special",
   "accuracy": null,
@@ -5643,7 +5643,7 @@
 },
 {
   "_id": {
-    "$oid": "672a456b6f86a8ba93a4aed2"
+    "$oid": "6732529c6f4307a0a7f4e613"
   },
   "name": "acid-downpour--physical",
   "accuracy": null,
@@ -5652,7 +5652,7 @@
 },
 {
   "_id": {
-    "$oid": "672a456b6f86a8ba93a4aed3"
+    "$oid": "6732529c6f4307a0a7f4e614"
   },
   "name": "acid-downpour--special",
   "accuracy": null,
@@ -5661,7 +5661,7 @@
 },
 {
   "_id": {
-    "$oid": "672a456c6f86a8ba93a4aed4"
+    "$oid": "6732529c6f4307a0a7f4e615"
   },
   "name": "tectonic-rage--physical",
   "accuracy": null,
@@ -5670,7 +5670,7 @@
 },
 {
   "_id": {
-    "$oid": "672a456d6f86a8ba93a4aed5"
+    "$oid": "6732529c6f4307a0a7f4e616"
   },
   "name": "tectonic-rage--special",
   "accuracy": null,
@@ -5679,7 +5679,7 @@
 },
 {
   "_id": {
-    "$oid": "672a456d6f86a8ba93a4aed6"
+    "$oid": "6732529c6f4307a0a7f4e617"
   },
   "name": "continental-crush--physical",
   "accuracy": null,
@@ -5688,7 +5688,7 @@
 },
 {
   "_id": {
-    "$oid": "672a456d6f86a8ba93a4aed7"
+    "$oid": "6732529c6f4307a0a7f4e618"
   },
   "name": "continental-crush--special",
   "accuracy": null,
@@ -5697,7 +5697,7 @@
 },
 {
   "_id": {
-    "$oid": "672a456e6f86a8ba93a4aed8"
+    "$oid": "6732529c6f4307a0a7f4e619"
   },
   "name": "savage-spin-out--physical",
   "accuracy": null,
@@ -5706,7 +5706,7 @@
 },
 {
   "_id": {
-    "$oid": "672a456e6f86a8ba93a4aed9"
+    "$oid": "6732529d6f4307a0a7f4e61a"
   },
   "name": "savage-spin-out--special",
   "accuracy": null,
@@ -5715,7 +5715,7 @@
 },
 {
   "_id": {
-    "$oid": "672a456e6f86a8ba93a4aeda"
+    "$oid": "6732529d6f4307a0a7f4e61b"
   },
   "name": "never-ending-nightmare--physical",
   "accuracy": null,
@@ -5724,7 +5724,7 @@
 },
 {
   "_id": {
-    "$oid": "672a456f6f86a8ba93a4aedb"
+    "$oid": "6732529d6f4307a0a7f4e61c"
   },
   "name": "never-ending-nightmare--special",
   "accuracy": null,
@@ -5733,7 +5733,7 @@
 },
 {
   "_id": {
-    "$oid": "672a456f6f86a8ba93a4aedc"
+    "$oid": "6732529d6f4307a0a7f4e61d"
   },
   "name": "corkscrew-crash--physical",
   "accuracy": null,
@@ -5742,7 +5742,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45706f86a8ba93a4aedd"
+    "$oid": "6732529d6f4307a0a7f4e61e"
   },
   "name": "corkscrew-crash--special",
   "accuracy": null,
@@ -5751,7 +5751,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45716f86a8ba93a4aede"
+    "$oid": "6732529d6f4307a0a7f4e61f"
   },
   "name": "inferno-overdrive--physical",
   "accuracy": null,
@@ -5760,7 +5760,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45716f86a8ba93a4aedf"
+    "$oid": "6732529d6f4307a0a7f4e620"
   },
   "name": "inferno-overdrive--special",
   "accuracy": null,
@@ -5769,7 +5769,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45716f86a8ba93a4aee0"
+    "$oid": "6732529d6f4307a0a7f4e621"
   },
   "name": "hydro-vortex--physical",
   "accuracy": null,
@@ -5778,7 +5778,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45726f86a8ba93a4aee1"
+    "$oid": "6732529d6f4307a0a7f4e622"
   },
   "name": "hydro-vortex--special",
   "accuracy": null,
@@ -5787,7 +5787,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45736f86a8ba93a4aee2"
+    "$oid": "6732529d6f4307a0a7f4e623"
   },
   "name": "bloom-doom--physical",
   "accuracy": null,
@@ -5796,7 +5796,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45736f86a8ba93a4aee3"
+    "$oid": "6732529d6f4307a0a7f4e624"
   },
   "name": "bloom-doom--special",
   "accuracy": null,
@@ -5805,7 +5805,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45736f86a8ba93a4aee4"
+    "$oid": "6732529d6f4307a0a7f4e625"
   },
   "name": "gigavolt-havoc--physical",
   "accuracy": null,
@@ -5814,7 +5814,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45736f86a8ba93a4aee5"
+    "$oid": "6732529d6f4307a0a7f4e626"
   },
   "name": "gigavolt-havoc--special",
   "accuracy": null,
@@ -5823,7 +5823,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45736f86a8ba93a4aee6"
+    "$oid": "6732529d6f4307a0a7f4e627"
   },
   "name": "shattered-psyche--physical",
   "accuracy": null,
@@ -5832,7 +5832,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45746f86a8ba93a4aee7"
+    "$oid": "6732529d6f4307a0a7f4e628"
   },
   "name": "shattered-psyche--special",
   "accuracy": null,
@@ -5841,7 +5841,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45746f86a8ba93a4aee8"
+    "$oid": "6732529d6f4307a0a7f4e629"
   },
   "name": "subzero-slammer--physical",
   "accuracy": null,
@@ -5850,7 +5850,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45756f86a8ba93a4aee9"
+    "$oid": "6732529e6f4307a0a7f4e62a"
   },
   "name": "subzero-slammer--special",
   "accuracy": null,
@@ -5859,7 +5859,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45756f86a8ba93a4aeea"
+    "$oid": "6732529e6f4307a0a7f4e62b"
   },
   "name": "devastating-drake--physical",
   "accuracy": null,
@@ -5868,7 +5868,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45756f86a8ba93a4aeeb"
+    "$oid": "6732529e6f4307a0a7f4e62c"
   },
   "name": "devastating-drake--special",
   "accuracy": null,
@@ -5877,7 +5877,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45766f86a8ba93a4aeec"
+    "$oid": "6732529e6f4307a0a7f4e62d"
   },
   "name": "black-hole-eclipse--physical",
   "accuracy": null,
@@ -5886,7 +5886,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45766f86a8ba93a4aeed"
+    "$oid": "6732529e6f4307a0a7f4e62e"
   },
   "name": "black-hole-eclipse--special",
   "accuracy": null,
@@ -5895,7 +5895,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45766f86a8ba93a4aeee"
+    "$oid": "6732529e6f4307a0a7f4e62f"
   },
   "name": "twinkle-tackle--physical",
   "accuracy": null,
@@ -5904,7 +5904,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45766f86a8ba93a4aeef"
+    "$oid": "6732529e6f4307a0a7f4e630"
   },
   "name": "twinkle-tackle--special",
   "accuracy": null,
@@ -5913,7 +5913,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45776f86a8ba93a4aef0"
+    "$oid": "6732529e6f4307a0a7f4e631"
   },
   "name": "catastropika",
   "accuracy": null,
@@ -5922,7 +5922,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45776f86a8ba93a4aef1"
+    "$oid": "6732529e6f4307a0a7f4e632"
   },
   "name": "shore-up",
   "accuracy": null,
@@ -5931,7 +5931,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45786f86a8ba93a4aef2"
+    "$oid": "6732529e6f4307a0a7f4e633"
   },
   "name": "first-impression",
   "accuracy": 100,
@@ -5940,7 +5940,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45786f86a8ba93a4aef3"
+    "$oid": "6732529e6f4307a0a7f4e634"
   },
   "name": "baneful-bunker",
   "accuracy": null,
@@ -5949,7 +5949,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45786f86a8ba93a4aef4"
+    "$oid": "6732529e6f4307a0a7f4e635"
   },
   "name": "spirit-shackle",
   "accuracy": 100,
@@ -5958,7 +5958,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45786f86a8ba93a4aef5"
+    "$oid": "6732529e6f4307a0a7f4e636"
   },
   "name": "darkest-lariat",
   "accuracy": 100,
@@ -5967,7 +5967,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45786f86a8ba93a4aef6"
+    "$oid": "6732529e6f4307a0a7f4e637"
   },
   "name": "sparkling-aria",
   "accuracy": 100,
@@ -5976,7 +5976,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45786f86a8ba93a4aef7"
+    "$oid": "6732529e6f4307a0a7f4e638"
   },
   "name": "ice-hammer",
   "accuracy": 90,
@@ -5985,7 +5985,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45786f86a8ba93a4aef8"
+    "$oid": "6732529e6f4307a0a7f4e639"
   },
   "name": "floral-healing",
   "accuracy": null,
@@ -5994,7 +5994,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45786f86a8ba93a4aef9"
+    "$oid": "6732529e6f4307a0a7f4e63a"
   },
   "name": "high-horsepower",
   "accuracy": 95,
@@ -6003,7 +6003,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45786f86a8ba93a4aefa"
+    "$oid": "6732529e6f4307a0a7f4e63b"
   },
   "name": "strength-sap",
   "accuracy": 100,
@@ -6012,7 +6012,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45796f86a8ba93a4aefb"
+    "$oid": "6732529f6f4307a0a7f4e63c"
   },
   "name": "solar-blade",
   "accuracy": 100,
@@ -6021,7 +6021,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45796f86a8ba93a4aefc"
+    "$oid": "6732529f6f4307a0a7f4e63d"
   },
   "name": "leafage",
   "accuracy": 100,
@@ -6030,7 +6030,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45796f86a8ba93a4aefd"
+    "$oid": "6732529f6f4307a0a7f4e63e"
   },
   "name": "spotlight",
   "accuracy": null,
@@ -6039,7 +6039,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45796f86a8ba93a4aefe"
+    "$oid": "6732529f6f4307a0a7f4e63f"
   },
   "name": "toxic-thread",
   "accuracy": 100,
@@ -6048,7 +6048,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45796f86a8ba93a4aeff"
+    "$oid": "6732529f6f4307a0a7f4e640"
   },
   "name": "laser-focus",
   "accuracy": null,
@@ -6057,7 +6057,7 @@
 },
 {
   "_id": {
-    "$oid": "672a457a6f86a8ba93a4af00"
+    "$oid": "6732529f6f4307a0a7f4e641"
   },
   "name": "gear-up",
   "accuracy": null,
@@ -6066,7 +6066,7 @@
 },
 {
   "_id": {
-    "$oid": "672a457a6f86a8ba93a4af01"
+    "$oid": "6732529f6f4307a0a7f4e642"
   },
   "name": "throat-chop",
   "accuracy": 100,
@@ -6075,7 +6075,7 @@
 },
 {
   "_id": {
-    "$oid": "672a457a6f86a8ba93a4af02"
+    "$oid": "6732529f6f4307a0a7f4e643"
   },
   "name": "pollen-puff",
   "accuracy": 100,
@@ -6084,7 +6084,7 @@
 },
 {
   "_id": {
-    "$oid": "672a457a6f86a8ba93a4af03"
+    "$oid": "6732529f6f4307a0a7f4e644"
   },
   "name": "anchor-shot",
   "accuracy": 100,
@@ -6093,7 +6093,7 @@
 },
 {
   "_id": {
-    "$oid": "672a457a6f86a8ba93a4af04"
+    "$oid": "6732529f6f4307a0a7f4e645"
   },
   "name": "psychic-terrain",
   "accuracy": null,
@@ -6102,7 +6102,7 @@
 },
 {
   "_id": {
-    "$oid": "672a457a6f86a8ba93a4af05"
+    "$oid": "6732529f6f4307a0a7f4e646"
   },
   "name": "lunge",
   "accuracy": 100,
@@ -6111,7 +6111,7 @@
 },
 {
   "_id": {
-    "$oid": "672a457a6f86a8ba93a4af06"
+    "$oid": "6732529f6f4307a0a7f4e647"
   },
   "name": "fire-lash",
   "accuracy": 100,
@@ -6120,7 +6120,7 @@
 },
 {
   "_id": {
-    "$oid": "672a457b6f86a8ba93a4af07"
+    "$oid": "6732529f6f4307a0a7f4e648"
   },
   "name": "power-trip",
   "accuracy": 100,
@@ -6129,7 +6129,7 @@
 },
 {
   "_id": {
-    "$oid": "672a457b6f86a8ba93a4af08"
+    "$oid": "6732529f6f4307a0a7f4e649"
   },
   "name": "burn-up",
   "accuracy": 100,
@@ -6138,7 +6138,7 @@
 },
 {
   "_id": {
-    "$oid": "672a457b6f86a8ba93a4af09"
+    "$oid": "6732529f6f4307a0a7f4e64a"
   },
   "name": "speed-swap",
   "accuracy": null,
@@ -6147,7 +6147,7 @@
 },
 {
   "_id": {
-    "$oid": "672a457b6f86a8ba93a4af0a"
+    "$oid": "6732529f6f4307a0a7f4e64b"
   },
   "name": "smart-strike",
   "accuracy": null,
@@ -6156,7 +6156,7 @@
 },
 {
   "_id": {
-    "$oid": "672a457b6f86a8ba93a4af0b"
+    "$oid": "6732529f6f4307a0a7f4e64c"
   },
   "name": "purify",
   "accuracy": null,
@@ -6165,7 +6165,7 @@
 },
 {
   "_id": {
-    "$oid": "672a457b6f86a8ba93a4af0c"
+    "$oid": "6732529f6f4307a0a7f4e64d"
   },
   "name": "revelation-dance",
   "accuracy": 100,
@@ -6174,7 +6174,7 @@
 },
 {
   "_id": {
-    "$oid": "672a457b6f86a8ba93a4af0d"
+    "$oid": "673252a06f4307a0a7f4e64e"
   },
   "name": "core-enforcer",
   "accuracy": 100,
@@ -6183,7 +6183,7 @@
 },
 {
   "_id": {
-    "$oid": "672a457b6f86a8ba93a4af0e"
+    "$oid": "673252a06f4307a0a7f4e64f"
   },
   "name": "trop-kick",
   "accuracy": 100,
@@ -6192,7 +6192,7 @@
 },
 {
   "_id": {
-    "$oid": "672a457c6f86a8ba93a4af0f"
+    "$oid": "673252a06f4307a0a7f4e650"
   },
   "name": "instruct",
   "accuracy": null,
@@ -6201,7 +6201,7 @@
 },
 {
   "_id": {
-    "$oid": "672a457c6f86a8ba93a4af10"
+    "$oid": "673252a06f4307a0a7f4e651"
   },
   "name": "beak-blast",
   "accuracy": 100,
@@ -6210,7 +6210,7 @@
 },
 {
   "_id": {
-    "$oid": "672a457c6f86a8ba93a4af11"
+    "$oid": "673252a06f4307a0a7f4e652"
   },
   "name": "clanging-scales",
   "accuracy": 100,
@@ -6219,7 +6219,7 @@
 },
 {
   "_id": {
-    "$oid": "672a457d6f86a8ba93a4af12"
+    "$oid": "673252a06f4307a0a7f4e653"
   },
   "name": "dragon-hammer",
   "accuracy": 100,
@@ -6228,7 +6228,7 @@
 },
 {
   "_id": {
-    "$oid": "672a457d6f86a8ba93a4af13"
+    "$oid": "673252a06f4307a0a7f4e654"
   },
   "name": "brutal-swing",
   "accuracy": 100,
@@ -6237,7 +6237,7 @@
 },
 {
   "_id": {
-    "$oid": "672a457d6f86a8ba93a4af14"
+    "$oid": "673252a06f4307a0a7f4e655"
   },
   "name": "aurora-veil",
   "accuracy": null,
@@ -6246,7 +6246,7 @@
 },
 {
   "_id": {
-    "$oid": "672a457d6f86a8ba93a4af15"
+    "$oid": "673252a06f4307a0a7f4e656"
   },
   "name": "sinister-arrow-raid",
   "accuracy": null,
@@ -6255,7 +6255,7 @@
 },
 {
   "_id": {
-    "$oid": "672a457e6f86a8ba93a4af16"
+    "$oid": "673252a06f4307a0a7f4e657"
   },
   "name": "malicious-moonsault",
   "accuracy": null,
@@ -6264,7 +6264,7 @@
 },
 {
   "_id": {
-    "$oid": "672a457e6f86a8ba93a4af17"
+    "$oid": "673252a06f4307a0a7f4e658"
   },
   "name": "oceanic-operetta",
   "accuracy": null,
@@ -6273,7 +6273,7 @@
 },
 {
   "_id": {
-    "$oid": "672a457f6f86a8ba93a4af18"
+    "$oid": "673252a06f4307a0a7f4e659"
   },
   "name": "guardian-of-alola",
   "accuracy": null,
@@ -6282,7 +6282,7 @@
 },
 {
   "_id": {
-    "$oid": "672a457f6f86a8ba93a4af19"
+    "$oid": "673252a06f4307a0a7f4e65a"
   },
   "name": "soul-stealing-7-star-strike",
   "accuracy": null,
@@ -6291,7 +6291,7 @@
 },
 {
   "_id": {
-    "$oid": "672a457f6f86a8ba93a4af1a"
+    "$oid": "673252a06f4307a0a7f4e65b"
   },
   "name": "stoked-sparksurfer",
   "accuracy": null,
@@ -6300,7 +6300,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45806f86a8ba93a4af1b"
+    "$oid": "673252a16f4307a0a7f4e65c"
   },
   "name": "pulverizing-pancake",
   "accuracy": null,
@@ -6309,7 +6309,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45806f86a8ba93a4af1c"
+    "$oid": "673252a16f4307a0a7f4e65d"
   },
   "name": "extreme-evoboost",
   "accuracy": null,
@@ -6318,7 +6318,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45806f86a8ba93a4af1d"
+    "$oid": "673252a16f4307a0a7f4e65e"
   },
   "name": "genesis-supernova",
   "accuracy": null,
@@ -6327,7 +6327,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45816f86a8ba93a4af1e"
+    "$oid": "673252a16f4307a0a7f4e65f"
   },
   "name": "shell-trap",
   "accuracy": 100,
@@ -6336,7 +6336,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45816f86a8ba93a4af1f"
+    "$oid": "673252a16f4307a0a7f4e660"
   },
   "name": "fleur-cannon",
   "accuracy": 90,
@@ -6345,7 +6345,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45816f86a8ba93a4af20"
+    "$oid": "673252a16f4307a0a7f4e661"
   },
   "name": "psychic-fangs",
   "accuracy": 100,
@@ -6354,7 +6354,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45816f86a8ba93a4af21"
+    "$oid": "673252a16f4307a0a7f4e662"
   },
   "name": "stomping-tantrum",
   "accuracy": 100,
@@ -6363,7 +6363,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45826f86a8ba93a4af22"
+    "$oid": "673252a16f4307a0a7f4e663"
   },
   "name": "shadow-bone",
   "accuracy": 100,
@@ -6372,7 +6372,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45826f86a8ba93a4af23"
+    "$oid": "673252a16f4307a0a7f4e664"
   },
   "name": "accelerock",
   "accuracy": 100,
@@ -6381,7 +6381,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45826f86a8ba93a4af24"
+    "$oid": "673252a16f4307a0a7f4e665"
   },
   "name": "liquidation",
   "accuracy": 100,
@@ -6390,7 +6390,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45826f86a8ba93a4af25"
+    "$oid": "673252a16f4307a0a7f4e666"
   },
   "name": "prismatic-laser",
   "accuracy": 100,
@@ -6399,7 +6399,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45826f86a8ba93a4af26"
+    "$oid": "673252a16f4307a0a7f4e667"
   },
   "name": "spectral-thief",
   "accuracy": 100,
@@ -6408,7 +6408,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45836f86a8ba93a4af27"
+    "$oid": "673252a16f4307a0a7f4e668"
   },
   "name": "sunsteel-strike",
   "accuracy": 100,
@@ -6417,7 +6417,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45836f86a8ba93a4af28"
+    "$oid": "673252a16f4307a0a7f4e669"
   },
   "name": "moongeist-beam",
   "accuracy": 100,
@@ -6426,7 +6426,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45836f86a8ba93a4af29"
+    "$oid": "673252a16f4307a0a7f4e66a"
   },
   "name": "tearful-look",
   "accuracy": null,
@@ -6435,7 +6435,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45836f86a8ba93a4af2a"
+    "$oid": "673252a16f4307a0a7f4e66b"
   },
   "name": "zing-zap",
   "accuracy": 100,
@@ -6444,7 +6444,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45836f86a8ba93a4af2b"
+    "$oid": "673252a16f4307a0a7f4e66c"
   },
   "name": "natures-madness",
   "accuracy": 90,
@@ -6453,7 +6453,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45836f86a8ba93a4af2c"
+    "$oid": "673252a16f4307a0a7f4e66d"
   },
   "name": "multi-attack",
   "accuracy": 100,
@@ -6462,7 +6462,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45846f86a8ba93a4af2d"
+    "$oid": "673252a26f4307a0a7f4e66e"
   },
   "name": "10-000-000-volt-thunderbolt",
   "accuracy": null,
@@ -6471,7 +6471,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45846f86a8ba93a4af2e"
+    "$oid": "673252a26f4307a0a7f4e66f"
   },
   "name": "mind-blown",
   "accuracy": 100,
@@ -6480,7 +6480,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45856f86a8ba93a4af2f"
+    "$oid": "673252a26f4307a0a7f4e670"
   },
   "name": "plasma-fists",
   "accuracy": 100,
@@ -6489,7 +6489,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45856f86a8ba93a4af30"
+    "$oid": "673252a26f4307a0a7f4e671"
   },
   "name": "photon-geyser",
   "accuracy": 100,
@@ -6498,7 +6498,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45856f86a8ba93a4af31"
+    "$oid": "673252a26f4307a0a7f4e672"
   },
   "name": "light-that-burns-the-sky",
   "accuracy": null,
@@ -6507,7 +6507,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45856f86a8ba93a4af32"
+    "$oid": "673252a26f4307a0a7f4e673"
   },
   "name": "searing-sunraze-smash",
   "accuracy": null,
@@ -6516,7 +6516,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45866f86a8ba93a4af33"
+    "$oid": "673252a26f4307a0a7f4e674"
   },
   "name": "menacing-moonraze-maelstrom",
   "accuracy": null,
@@ -6525,7 +6525,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45866f86a8ba93a4af34"
+    "$oid": "673252a26f4307a0a7f4e675"
   },
   "name": "lets-snuggle-forever",
   "accuracy": null,
@@ -6534,7 +6534,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45876f86a8ba93a4af35"
+    "$oid": "673252a26f4307a0a7f4e676"
   },
   "name": "splintered-stormshards",
   "accuracy": null,
@@ -6543,7 +6543,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45876f86a8ba93a4af36"
+    "$oid": "673252a26f4307a0a7f4e677"
   },
   "name": "clangorous-soulblaze",
   "accuracy": null,
@@ -6552,7 +6552,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45876f86a8ba93a4af37"
+    "$oid": "673252a26f4307a0a7f4e678"
   },
   "name": "zippy-zap",
   "accuracy": 100,
@@ -6561,7 +6561,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45876f86a8ba93a4af38"
+    "$oid": "673252a26f4307a0a7f4e679"
   },
   "name": "splishy-splash",
   "accuracy": 100,
@@ -6570,7 +6570,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45886f86a8ba93a4af39"
+    "$oid": "673252a26f4307a0a7f4e67a"
   },
   "name": "floaty-fall",
   "accuracy": 95,
@@ -6579,7 +6579,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45886f86a8ba93a4af3a"
+    "$oid": "673252a26f4307a0a7f4e67b"
   },
   "name": "pika-papow",
   "accuracy": null,
@@ -6588,7 +6588,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45886f86a8ba93a4af3b"
+    "$oid": "673252a26f4307a0a7f4e67c"
   },
   "name": "bouncy-bubble",
   "accuracy": 100,
@@ -6597,7 +6597,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45886f86a8ba93a4af3c"
+    "$oid": "673252a26f4307a0a7f4e67d"
   },
   "name": "buzzy-buzz",
   "accuracy": 100,
@@ -6606,7 +6606,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45886f86a8ba93a4af3d"
+    "$oid": "673252a26f4307a0a7f4e67e"
   },
   "name": "sizzly-slide",
   "accuracy": 100,
@@ -6615,7 +6615,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45886f86a8ba93a4af3e"
+    "$oid": "673252a26f4307a0a7f4e67f"
   },
   "name": "glitzy-glow",
   "accuracy": 95,
@@ -6624,7 +6624,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45896f86a8ba93a4af3f"
+    "$oid": "673252a36f4307a0a7f4e680"
   },
   "name": "baddy-bad",
   "accuracy": 95,
@@ -6633,7 +6633,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45896f86a8ba93a4af40"
+    "$oid": "673252a36f4307a0a7f4e681"
   },
   "name": "sappy-seed",
   "accuracy": 90,
@@ -6642,7 +6642,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45896f86a8ba93a4af41"
+    "$oid": "673252a36f4307a0a7f4e682"
   },
   "name": "freezy-frost",
   "accuracy": 90,
@@ -6651,7 +6651,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45896f86a8ba93a4af42"
+    "$oid": "673252a36f4307a0a7f4e683"
   },
   "name": "sparkly-swirl",
   "accuracy": 85,
@@ -6660,7 +6660,7 @@
 },
 {
   "_id": {
-    "$oid": "672a458a6f86a8ba93a4af43"
+    "$oid": "673252a36f4307a0a7f4e684"
   },
   "name": "veevee-volley",
   "accuracy": null,
@@ -6669,7 +6669,7 @@
 },
 {
   "_id": {
-    "$oid": "672a458a6f86a8ba93a4af44"
+    "$oid": "673252a36f4307a0a7f4e685"
   },
   "name": "double-iron-bash",
   "accuracy": 100,
@@ -6678,7 +6678,7 @@
 },
 {
   "_id": {
-    "$oid": "672a458b6f86a8ba93a4af45"
+    "$oid": "673252a36f4307a0a7f4e686"
   },
   "name": "max-guard",
   "accuracy": null,
@@ -6687,7 +6687,7 @@
 },
 {
   "_id": {
-    "$oid": "672a458b6f86a8ba93a4af46"
+    "$oid": "673252a36f4307a0a7f4e687"
   },
   "name": "dynamax-cannon",
   "accuracy": 100,
@@ -6696,7 +6696,7 @@
 },
 {
   "_id": {
-    "$oid": "672a458b6f86a8ba93a4af47"
+    "$oid": "673252a36f4307a0a7f4e688"
   },
   "name": "snipe-shot",
   "accuracy": 100,
@@ -6705,7 +6705,7 @@
 },
 {
   "_id": {
-    "$oid": "672a458b6f86a8ba93a4af48"
+    "$oid": "673252a36f4307a0a7f4e689"
   },
   "name": "jaw-lock",
   "accuracy": 100,
@@ -6714,7 +6714,7 @@
 },
 {
   "_id": {
-    "$oid": "672a458b6f86a8ba93a4af49"
+    "$oid": "673252a36f4307a0a7f4e68a"
   },
   "name": "stuff-cheeks",
   "accuracy": null,
@@ -6723,7 +6723,7 @@
 },
 {
   "_id": {
-    "$oid": "672a458b6f86a8ba93a4af4a"
+    "$oid": "673252a36f4307a0a7f4e68b"
   },
   "name": "no-retreat",
   "accuracy": null,
@@ -6732,7 +6732,7 @@
 },
 {
   "_id": {
-    "$oid": "672a458b6f86a8ba93a4af4b"
+    "$oid": "673252a36f4307a0a7f4e68c"
   },
   "name": "tar-shot",
   "accuracy": 100,
@@ -6741,7 +6741,7 @@
 },
 {
   "_id": {
-    "$oid": "672a458c6f86a8ba93a4af4c"
+    "$oid": "673252a36f4307a0a7f4e68d"
   },
   "name": "magic-powder",
   "accuracy": 100,
@@ -6750,7 +6750,7 @@
 },
 {
   "_id": {
-    "$oid": "672a458c6f86a8ba93a4af4d"
+    "$oid": "673252a36f4307a0a7f4e68e"
   },
   "name": "dragon-darts",
   "accuracy": 100,
@@ -6759,7 +6759,7 @@
 },
 {
   "_id": {
-    "$oid": "672a458c6f86a8ba93a4af4e"
+    "$oid": "673252a36f4307a0a7f4e68f"
   },
   "name": "teatime",
   "accuracy": null,
@@ -6768,7 +6768,7 @@
 },
 {
   "_id": {
-    "$oid": "672a458c6f86a8ba93a4af4f"
+    "$oid": "673252a36f4307a0a7f4e690"
   },
   "name": "octolock",
   "accuracy": 100,
@@ -6777,7 +6777,7 @@
 },
 {
   "_id": {
-    "$oid": "672a458c6f86a8ba93a4af50"
+    "$oid": "673252a36f4307a0a7f4e691"
   },
   "name": "bolt-beak",
   "accuracy": 100,
@@ -6786,7 +6786,7 @@
 },
 {
   "_id": {
-    "$oid": "672a458c6f86a8ba93a4af51"
+    "$oid": "673252a36f4307a0a7f4e692"
   },
   "name": "fishious-rend",
   "accuracy": 100,
@@ -6795,7 +6795,7 @@
 },
 {
   "_id": {
-    "$oid": "672a458d6f86a8ba93a4af52"
+    "$oid": "673252a36f4307a0a7f4e693"
   },
   "name": "court-change",
   "accuracy": 100,
@@ -6804,7 +6804,7 @@
 },
 {
   "_id": {
-    "$oid": "672a458d6f86a8ba93a4af53"
+    "$oid": "673252a46f4307a0a7f4e694"
   },
   "name": "max-flare",
   "accuracy": null,
@@ -6813,7 +6813,7 @@
 },
 {
   "_id": {
-    "$oid": "672a458d6f86a8ba93a4af54"
+    "$oid": "673252a46f4307a0a7f4e695"
   },
   "name": "max-flutterby",
   "accuracy": null,
@@ -6822,7 +6822,7 @@
 },
 {
   "_id": {
-    "$oid": "672a458d6f86a8ba93a4af55"
+    "$oid": "673252a46f4307a0a7f4e696"
   },
   "name": "max-lightning",
   "accuracy": null,
@@ -6831,7 +6831,7 @@
 },
 {
   "_id": {
-    "$oid": "672a458d6f86a8ba93a4af56"
+    "$oid": "673252a46f4307a0a7f4e697"
   },
   "name": "max-strike",
   "accuracy": null,
@@ -6840,7 +6840,7 @@
 },
 {
   "_id": {
-    "$oid": "672a458d6f86a8ba93a4af57"
+    "$oid": "673252a46f4307a0a7f4e698"
   },
   "name": "max-knuckle",
   "accuracy": null,
@@ -6849,7 +6849,7 @@
 },
 {
   "_id": {
-    "$oid": "672a458e6f86a8ba93a4af58"
+    "$oid": "673252a46f4307a0a7f4e699"
   },
   "name": "max-phantasm",
   "accuracy": null,
@@ -6858,7 +6858,7 @@
 },
 {
   "_id": {
-    "$oid": "672a458e6f86a8ba93a4af59"
+    "$oid": "673252a46f4307a0a7f4e69a"
   },
   "name": "max-hailstorm",
   "accuracy": null,
@@ -6867,7 +6867,7 @@
 },
 {
   "_id": {
-    "$oid": "672a458e6f86a8ba93a4af5a"
+    "$oid": "673252a46f4307a0a7f4e69b"
   },
   "name": "max-ooze",
   "accuracy": null,
@@ -6876,7 +6876,7 @@
 },
 {
   "_id": {
-    "$oid": "672a458f6f86a8ba93a4af5b"
+    "$oid": "673252a46f4307a0a7f4e69c"
   },
   "name": "max-geyser",
   "accuracy": null,
@@ -6885,7 +6885,7 @@
 },
 {
   "_id": {
-    "$oid": "672a458f6f86a8ba93a4af5c"
+    "$oid": "673252a46f4307a0a7f4e69d"
   },
   "name": "max-airstream",
   "accuracy": null,
@@ -6894,7 +6894,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45906f86a8ba93a4af5d"
+    "$oid": "673252a46f4307a0a7f4e69e"
   },
   "name": "max-starfall",
   "accuracy": null,
@@ -6903,7 +6903,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45906f86a8ba93a4af5e"
+    "$oid": "673252a46f4307a0a7f4e69f"
   },
   "name": "max-wyrmwind",
   "accuracy": null,
@@ -6912,7 +6912,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45906f86a8ba93a4af5f"
+    "$oid": "673252a46f4307a0a7f4e6a0"
   },
   "name": "max-mindstorm",
   "accuracy": null,
@@ -6921,7 +6921,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45916f86a8ba93a4af60"
+    "$oid": "673252a46f4307a0a7f4e6a1"
   },
   "name": "max-rockfall",
   "accuracy": null,
@@ -6930,7 +6930,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45916f86a8ba93a4af61"
+    "$oid": "673252a46f4307a0a7f4e6a2"
   },
   "name": "max-quake",
   "accuracy": null,
@@ -6939,7 +6939,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45916f86a8ba93a4af62"
+    "$oid": "673252a46f4307a0a7f4e6a3"
   },
   "name": "max-darkness",
   "accuracy": null,
@@ -6948,7 +6948,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45926f86a8ba93a4af63"
+    "$oid": "673252a46f4307a0a7f4e6a4"
   },
   "name": "max-overgrowth",
   "accuracy": null,
@@ -6957,7 +6957,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45936f86a8ba93a4af64"
+    "$oid": "673252a56f4307a0a7f4e6a5"
   },
   "name": "max-steelspike",
   "accuracy": null,
@@ -6966,7 +6966,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45936f86a8ba93a4af65"
+    "$oid": "673252a56f4307a0a7f4e6a6"
   },
   "name": "clangorous-soul",
   "accuracy": 100,
@@ -6975,7 +6975,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45936f86a8ba93a4af66"
+    "$oid": "673252a56f4307a0a7f4e6a7"
   },
   "name": "body-press",
   "accuracy": 100,
@@ -6984,7 +6984,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45936f86a8ba93a4af67"
+    "$oid": "673252a56f4307a0a7f4e6a8"
   },
   "name": "decorate",
   "accuracy": null,
@@ -6993,7 +6993,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45936f86a8ba93a4af68"
+    "$oid": "673252a56f4307a0a7f4e6a9"
   },
   "name": "drum-beating",
   "accuracy": 100,
@@ -7002,7 +7002,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45946f86a8ba93a4af69"
+    "$oid": "673252a56f4307a0a7f4e6aa"
   },
   "name": "snap-trap",
   "accuracy": 100,
@@ -7011,7 +7011,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45946f86a8ba93a4af6a"
+    "$oid": "673252a56f4307a0a7f4e6ab"
   },
   "name": "pyro-ball",
   "accuracy": 90,
@@ -7020,7 +7020,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45946f86a8ba93a4af6b"
+    "$oid": "673252a56f4307a0a7f4e6ac"
   },
   "name": "behemoth-blade",
   "accuracy": 100,
@@ -7029,7 +7029,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45956f86a8ba93a4af6c"
+    "$oid": "673252a56f4307a0a7f4e6ad"
   },
   "name": "behemoth-bash",
   "accuracy": 100,
@@ -7038,7 +7038,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45956f86a8ba93a4af6d"
+    "$oid": "673252a56f4307a0a7f4e6ae"
   },
   "name": "aura-wheel",
   "accuracy": 100,
@@ -7047,7 +7047,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45956f86a8ba93a4af6e"
+    "$oid": "673252a56f4307a0a7f4e6af"
   },
   "name": "breaking-swipe",
   "accuracy": 100,
@@ -7056,7 +7056,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45956f86a8ba93a4af6f"
+    "$oid": "673252a56f4307a0a7f4e6b0"
   },
   "name": "branch-poke",
   "accuracy": 100,
@@ -7065,7 +7065,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45956f86a8ba93a4af70"
+    "$oid": "673252a56f4307a0a7f4e6b1"
   },
   "name": "overdrive",
   "accuracy": 100,
@@ -7074,7 +7074,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45956f86a8ba93a4af71"
+    "$oid": "673252a56f4307a0a7f4e6b2"
   },
   "name": "apple-acid",
   "accuracy": 100,
@@ -7083,7 +7083,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45956f86a8ba93a4af72"
+    "$oid": "673252a56f4307a0a7f4e6b3"
   },
   "name": "grav-apple",
   "accuracy": 100,
@@ -7092,7 +7092,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45966f86a8ba93a4af73"
+    "$oid": "673252a56f4307a0a7f4e6b4"
   },
   "name": "spirit-break",
   "accuracy": 100,
@@ -7101,7 +7101,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45966f86a8ba93a4af74"
+    "$oid": "673252a66f4307a0a7f4e6b5"
   },
   "name": "strange-steam",
   "accuracy": 95,
@@ -7110,7 +7110,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45966f86a8ba93a4af75"
+    "$oid": "673252a66f4307a0a7f4e6b6"
   },
   "name": "life-dew",
   "accuracy": null,
@@ -7119,7 +7119,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45976f86a8ba93a4af76"
+    "$oid": "673252a66f4307a0a7f4e6b7"
   },
   "name": "obstruct",
   "accuracy": 100,
@@ -7128,7 +7128,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45976f86a8ba93a4af77"
+    "$oid": "673252a66f4307a0a7f4e6b8"
   },
   "name": "false-surrender",
   "accuracy": null,
@@ -7137,7 +7137,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45976f86a8ba93a4af78"
+    "$oid": "673252a66f4307a0a7f4e6b9"
   },
   "name": "meteor-assault",
   "accuracy": 100,
@@ -7146,7 +7146,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45986f86a8ba93a4af79"
+    "$oid": "673252a66f4307a0a7f4e6ba"
   },
   "name": "eternabeam",
   "accuracy": 90,
@@ -7155,7 +7155,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45986f86a8ba93a4af7a"
+    "$oid": "673252a66f4307a0a7f4e6bb"
   },
   "name": "steel-beam",
   "accuracy": 95,
@@ -7164,7 +7164,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45986f86a8ba93a4af7b"
+    "$oid": "673252a66f4307a0a7f4e6bc"
   },
   "name": "expanding-force",
   "accuracy": 100,
@@ -7173,7 +7173,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45986f86a8ba93a4af7c"
+    "$oid": "673252a66f4307a0a7f4e6bd"
   },
   "name": "steel-roller",
   "accuracy": 100,
@@ -7182,7 +7182,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45986f86a8ba93a4af7d"
+    "$oid": "673252a66f4307a0a7f4e6be"
   },
   "name": "scale-shot",
   "accuracy": 90,
@@ -7191,7 +7191,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45996f86a8ba93a4af7e"
+    "$oid": "673252a66f4307a0a7f4e6bf"
   },
   "name": "meteor-beam",
   "accuracy": 90,
@@ -7200,7 +7200,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45996f86a8ba93a4af7f"
+    "$oid": "673252a76f4307a0a7f4e6c0"
   },
   "name": "shell-side-arm",
   "accuracy": 100,
@@ -7209,7 +7209,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45996f86a8ba93a4af80"
+    "$oid": "673252a76f4307a0a7f4e6c1"
   },
   "name": "misty-explosion",
   "accuracy": 100,
@@ -7218,7 +7218,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45996f86a8ba93a4af81"
+    "$oid": "673252a76f4307a0a7f4e6c2"
   },
   "name": "grassy-glide",
   "accuracy": 100,
@@ -7227,7 +7227,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45996f86a8ba93a4af82"
+    "$oid": "673252a76f4307a0a7f4e6c3"
   },
   "name": "rising-voltage",
   "accuracy": 100,
@@ -7236,7 +7236,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45996f86a8ba93a4af83"
+    "$oid": "673252a76f4307a0a7f4e6c4"
   },
   "name": "terrain-pulse",
   "accuracy": 100,
@@ -7245,7 +7245,7 @@
 },
 {
   "_id": {
-    "$oid": "672a459a6f86a8ba93a4af84"
+    "$oid": "673252a76f4307a0a7f4e6c5"
   },
   "name": "skitter-smack",
   "accuracy": 90,
@@ -7254,7 +7254,7 @@
 },
 {
   "_id": {
-    "$oid": "672a459a6f86a8ba93a4af85"
+    "$oid": "673252a76f4307a0a7f4e6c6"
   },
   "name": "burning-jealousy",
   "accuracy": 100,
@@ -7263,7 +7263,7 @@
 },
 {
   "_id": {
-    "$oid": "672a459a6f86a8ba93a4af86"
+    "$oid": "673252a76f4307a0a7f4e6c7"
   },
   "name": "lash-out",
   "accuracy": 100,
@@ -7272,7 +7272,7 @@
 },
 {
   "_id": {
-    "$oid": "672a459a6f86a8ba93a4af87"
+    "$oid": "673252a76f4307a0a7f4e6c8"
   },
   "name": "poltergeist",
   "accuracy": 90,
@@ -7281,7 +7281,7 @@
 },
 {
   "_id": {
-    "$oid": "672a459a6f86a8ba93a4af88"
+    "$oid": "673252a76f4307a0a7f4e6c9"
   },
   "name": "corrosive-gas",
   "accuracy": 100,
@@ -7290,7 +7290,7 @@
 },
 {
   "_id": {
-    "$oid": "672a459a6f86a8ba93a4af89"
+    "$oid": "673252a76f4307a0a7f4e6ca"
   },
   "name": "coaching",
   "accuracy": null,
@@ -7299,7 +7299,7 @@
 },
 {
   "_id": {
-    "$oid": "672a459a6f86a8ba93a4af8a"
+    "$oid": "673252a76f4307a0a7f4e6cb"
   },
   "name": "flip-turn",
   "accuracy": 100,
@@ -7308,7 +7308,7 @@
 },
 {
   "_id": {
-    "$oid": "672a459a6f86a8ba93a4af8b"
+    "$oid": "673252a76f4307a0a7f4e6cc"
   },
   "name": "triple-axel",
   "accuracy": 90,
@@ -7317,7 +7317,7 @@
 },
 {
   "_id": {
-    "$oid": "672a459a6f86a8ba93a4af8c"
+    "$oid": "673252a76f4307a0a7f4e6cd"
   },
   "name": "dual-wingbeat",
   "accuracy": 90,
@@ -7326,7 +7326,7 @@
 },
 {
   "_id": {
-    "$oid": "672a459a6f86a8ba93a4af8d"
+    "$oid": "673252a76f4307a0a7f4e6ce"
   },
   "name": "scorching-sands",
   "accuracy": 100,
@@ -7335,7 +7335,7 @@
 },
 {
   "_id": {
-    "$oid": "672a459a6f86a8ba93a4af8e"
+    "$oid": "673252a76f4307a0a7f4e6cf"
   },
   "name": "jungle-healing",
   "accuracy": null,
@@ -7344,7 +7344,7 @@
 },
 {
   "_id": {
-    "$oid": "672a459b6f86a8ba93a4af8f"
+    "$oid": "673252a76f4307a0a7f4e6d0"
   },
   "name": "wicked-blow",
   "accuracy": 100,
@@ -7353,7 +7353,7 @@
 },
 {
   "_id": {
-    "$oid": "672a459b6f86a8ba93a4af90"
+    "$oid": "673252a76f4307a0a7f4e6d1"
   },
   "name": "surging-strikes",
   "accuracy": 100,
@@ -7362,7 +7362,7 @@
 },
 {
   "_id": {
-    "$oid": "672a459b6f86a8ba93a4af91"
+    "$oid": "673252a76f4307a0a7f4e6d2"
   },
   "name": "thunder-cage",
   "accuracy": 90,
@@ -7371,7 +7371,7 @@
 },
 {
   "_id": {
-    "$oid": "672a459c6f86a8ba93a4af92"
+    "$oid": "673252a86f4307a0a7f4e6d3"
   },
   "name": "dragon-energy",
   "accuracy": 100,
@@ -7380,7 +7380,7 @@
 },
 {
   "_id": {
-    "$oid": "672a459c6f86a8ba93a4af93"
+    "$oid": "673252a86f4307a0a7f4e6d4"
   },
   "name": "freezing-glare",
   "accuracy": 100,
@@ -7389,7 +7389,7 @@
 },
 {
   "_id": {
-    "$oid": "672a459c6f86a8ba93a4af94"
+    "$oid": "673252a86f4307a0a7f4e6d5"
   },
   "name": "fiery-wrath",
   "accuracy": 100,
@@ -7398,7 +7398,7 @@
 },
 {
   "_id": {
-    "$oid": "672a459c6f86a8ba93a4af95"
+    "$oid": "673252a86f4307a0a7f4e6d6"
   },
   "name": "thunderous-kick",
   "accuracy": 100,
@@ -7407,7 +7407,7 @@
 },
 {
   "_id": {
-    "$oid": "672a459c6f86a8ba93a4af96"
+    "$oid": "673252a86f4307a0a7f4e6d7"
   },
   "name": "glacial-lance",
   "accuracy": 100,
@@ -7416,7 +7416,7 @@
 },
 {
   "_id": {
-    "$oid": "672a459d6f86a8ba93a4af97"
+    "$oid": "673252a86f4307a0a7f4e6d8"
   },
   "name": "astral-barrage",
   "accuracy": 100,
@@ -7425,7 +7425,7 @@
 },
 {
   "_id": {
-    "$oid": "672a459d6f86a8ba93a4af98"
+    "$oid": "673252a86f4307a0a7f4e6d9"
   },
   "name": "eerie-spell",
   "accuracy": 100,
@@ -7434,7 +7434,7 @@
 },
 {
   "_id": {
-    "$oid": "672a459d6f86a8ba93a4af99"
+    "$oid": "673252a86f4307a0a7f4e6da"
   },
   "name": "dire-claw",
   "accuracy": 100,
@@ -7443,7 +7443,7 @@
 },
 {
   "_id": {
-    "$oid": "672a459d6f86a8ba93a4af9a"
+    "$oid": "673252a86f4307a0a7f4e6db"
   },
   "name": "psyshield-bash",
   "accuracy": 90,
@@ -7452,7 +7452,7 @@
 },
 {
   "_id": {
-    "$oid": "672a459d6f86a8ba93a4af9b"
+    "$oid": "673252a86f4307a0a7f4e6dc"
   },
   "name": "power-shift",
   "accuracy": null,
@@ -7461,7 +7461,7 @@
 },
 {
   "_id": {
-    "$oid": "672a459e6f86a8ba93a4af9c"
+    "$oid": "673252a86f4307a0a7f4e6dd"
   },
   "name": "stone-axe",
   "accuracy": 90,
@@ -7470,7 +7470,7 @@
 },
 {
   "_id": {
-    "$oid": "672a459e6f86a8ba93a4af9d"
+    "$oid": "673252a86f4307a0a7f4e6de"
   },
   "name": "springtide-storm",
   "accuracy": 80,
@@ -7479,7 +7479,7 @@
 },
 {
   "_id": {
-    "$oid": "672a459e6f86a8ba93a4af9e"
+    "$oid": "673252a86f4307a0a7f4e6df"
   },
   "name": "mystical-power",
   "accuracy": 90,
@@ -7488,7 +7488,7 @@
 },
 {
   "_id": {
-    "$oid": "672a459e6f86a8ba93a4af9f"
+    "$oid": "673252a86f4307a0a7f4e6e0"
   },
   "name": "raging-fury",
   "accuracy": 100,
@@ -7497,7 +7497,7 @@
 },
 {
   "_id": {
-    "$oid": "672a459e6f86a8ba93a4afa0"
+    "$oid": "673252a86f4307a0a7f4e6e1"
   },
   "name": "wave-crash",
   "accuracy": 100,
@@ -7506,7 +7506,7 @@
 },
 {
   "_id": {
-    "$oid": "672a459f6f86a8ba93a4afa1"
+    "$oid": "673252a86f4307a0a7f4e6e2"
   },
   "name": "chloroblast",
   "accuracy": 95,
@@ -7515,7 +7515,7 @@
 },
 {
   "_id": {
-    "$oid": "672a459f6f86a8ba93a4afa2"
+    "$oid": "673252a86f4307a0a7f4e6e3"
   },
   "name": "mountain-gale",
   "accuracy": 85,
@@ -7524,7 +7524,7 @@
 },
 {
   "_id": {
-    "$oid": "672a459f6f86a8ba93a4afa3"
+    "$oid": "673252a86f4307a0a7f4e6e4"
   },
   "name": "victory-dance",
   "accuracy": null,
@@ -7533,7 +7533,7 @@
 },
 {
   "_id": {
-    "$oid": "672a459f6f86a8ba93a4afa4"
+    "$oid": "673252a96f4307a0a7f4e6e5"
   },
   "name": "headlong-rush",
   "accuracy": 100,
@@ -7542,7 +7542,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45a06f86a8ba93a4afa5"
+    "$oid": "673252a96f4307a0a7f4e6e6"
   },
   "name": "barb-barrage",
   "accuracy": 100,
@@ -7551,7 +7551,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45a06f86a8ba93a4afa6"
+    "$oid": "673252a96f4307a0a7f4e6e7"
   },
   "name": "esper-wing",
   "accuracy": 100,
@@ -7560,7 +7560,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45a06f86a8ba93a4afa7"
+    "$oid": "673252a96f4307a0a7f4e6e8"
   },
   "name": "bitter-malice",
   "accuracy": 100,
@@ -7569,7 +7569,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45a06f86a8ba93a4afa8"
+    "$oid": "673252a96f4307a0a7f4e6e9"
   },
   "name": "shelter",
   "accuracy": null,
@@ -7578,7 +7578,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45a06f86a8ba93a4afa9"
+    "$oid": "673252a96f4307a0a7f4e6ea"
   },
   "name": "triple-arrows",
   "accuracy": 100,
@@ -7587,7 +7587,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45a16f86a8ba93a4afaa"
+    "$oid": "673252a96f4307a0a7f4e6eb"
   },
   "name": "infernal-parade",
   "accuracy": 100,
@@ -7596,7 +7596,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45a16f86a8ba93a4afab"
+    "$oid": "673252a96f4307a0a7f4e6ec"
   },
   "name": "ceaseless-edge",
   "accuracy": 90,
@@ -7605,7 +7605,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45a16f86a8ba93a4afac"
+    "$oid": "673252a96f4307a0a7f4e6ed"
   },
   "name": "bleakwind-storm",
   "accuracy": 80,
@@ -7614,7 +7614,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45a16f86a8ba93a4afad"
+    "$oid": "673252a96f4307a0a7f4e6ee"
   },
   "name": "wildbolt-storm",
   "accuracy": 80,
@@ -7623,7 +7623,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45a16f86a8ba93a4afae"
+    "$oid": "673252a96f4307a0a7f4e6ef"
   },
   "name": "sandsear-storm",
   "accuracy": 80,
@@ -7632,7 +7632,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45a26f86a8ba93a4afaf"
+    "$oid": "673252a96f4307a0a7f4e6f0"
   },
   "name": "lunar-blessing",
   "accuracy": null,
@@ -7641,7 +7641,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45a26f86a8ba93a4afb0"
+    "$oid": "673252a96f4307a0a7f4e6f1"
   },
   "name": "take-heart",
   "accuracy": null,
@@ -7650,7 +7650,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45a26f86a8ba93a4afb1"
+    "$oid": "673252a96f4307a0a7f4e6f2"
   },
   "name": "tera-blast",
   "accuracy": 100,
@@ -7659,7 +7659,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45a26f86a8ba93a4afb2"
+    "$oid": "673252a96f4307a0a7f4e6f3"
   },
   "name": "silk-trap",
   "accuracy": null,
@@ -7668,7 +7668,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45a26f86a8ba93a4afb3"
+    "$oid": "673252a96f4307a0a7f4e6f4"
   },
   "name": "axe-kick",
   "accuracy": 90,
@@ -7677,7 +7677,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45a36f86a8ba93a4afb4"
+    "$oid": "673252a96f4307a0a7f4e6f5"
   },
   "name": "last-respects",
   "accuracy": 100,
@@ -7686,7 +7686,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45a36f86a8ba93a4afb5"
+    "$oid": "673252a96f4307a0a7f4e6f6"
   },
   "name": "lumina-crash",
   "accuracy": 100,
@@ -7695,7 +7695,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45a36f86a8ba93a4afb6"
+    "$oid": "673252a96f4307a0a7f4e6f7"
   },
   "name": "order-up",
   "accuracy": 100,
@@ -7704,7 +7704,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45a36f86a8ba93a4afb7"
+    "$oid": "673252aa6f4307a0a7f4e6f8"
   },
   "name": "jet-punch",
   "accuracy": 100,
@@ -7713,7 +7713,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45a36f86a8ba93a4afb8"
+    "$oid": "673252aa6f4307a0a7f4e6f9"
   },
   "name": "spicy-extract",
   "accuracy": null,
@@ -7722,7 +7722,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45a36f86a8ba93a4afb9"
+    "$oid": "673252aa6f4307a0a7f4e6fa"
   },
   "name": "spin-out",
   "accuracy": 100,
@@ -7731,7 +7731,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45a46f86a8ba93a4afba"
+    "$oid": "673252aa6f4307a0a7f4e6fb"
   },
   "name": "population-bomb",
   "accuracy": 90,
@@ -7740,7 +7740,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45a46f86a8ba93a4afbb"
+    "$oid": "673252aa6f4307a0a7f4e6fc"
   },
   "name": "ice-spinner",
   "accuracy": 100,
@@ -7749,7 +7749,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45a46f86a8ba93a4afbc"
+    "$oid": "673252aa6f4307a0a7f4e6fd"
   },
   "name": "glaive-rush",
   "accuracy": 100,
@@ -7758,7 +7758,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45a46f86a8ba93a4afbd"
+    "$oid": "673252aa6f4307a0a7f4e6fe"
   },
   "name": "revival-blessing",
   "accuracy": null,
@@ -7767,7 +7767,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45a46f86a8ba93a4afbe"
+    "$oid": "673252aa6f4307a0a7f4e6ff"
   },
   "name": "salt-cure",
   "accuracy": 100,
@@ -7776,7 +7776,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45a56f86a8ba93a4afbf"
+    "$oid": "673252aa6f4307a0a7f4e700"
   },
   "name": "triple-dive",
   "accuracy": 95,
@@ -7785,7 +7785,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45a56f86a8ba93a4afc0"
+    "$oid": "673252aa6f4307a0a7f4e701"
   },
   "name": "mortal-spin",
   "accuracy": 100,
@@ -7794,7 +7794,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45a56f86a8ba93a4afc1"
+    "$oid": "673252aa6f4307a0a7f4e702"
   },
   "name": "doodle",
   "accuracy": 100,
@@ -7803,7 +7803,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45a56f86a8ba93a4afc2"
+    "$oid": "673252aa6f4307a0a7f4e703"
   },
   "name": "fillet-away",
   "accuracy": null,
@@ -7812,7 +7812,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45a56f86a8ba93a4afc3"
+    "$oid": "673252aa6f4307a0a7f4e704"
   },
   "name": "kowtow-cleave",
   "accuracy": null,
@@ -7821,7 +7821,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45a56f86a8ba93a4afc4"
+    "$oid": "673252aa6f4307a0a7f4e705"
   },
   "name": "flower-trick",
   "accuracy": null,
@@ -7830,7 +7830,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45a66f86a8ba93a4afc5"
+    "$oid": "673252aa6f4307a0a7f4e706"
   },
   "name": "torch-song",
   "accuracy": 100,
@@ -7839,7 +7839,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45a66f86a8ba93a4afc6"
+    "$oid": "673252aa6f4307a0a7f4e707"
   },
   "name": "aqua-step",
   "accuracy": 100,
@@ -7848,7 +7848,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45a66f86a8ba93a4afc7"
+    "$oid": "673252aa6f4307a0a7f4e708"
   },
   "name": "raging-bull",
   "accuracy": 100,
@@ -7857,7 +7857,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45a66f86a8ba93a4afc8"
+    "$oid": "673252aa6f4307a0a7f4e709"
   },
   "name": "make-it-rain",
   "accuracy": 100,
@@ -7866,7 +7866,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45a66f86a8ba93a4afc9"
+    "$oid": "673252ab6f4307a0a7f4e70a"
   },
   "name": "psyblade",
   "accuracy": 100,
@@ -7875,7 +7875,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45a76f86a8ba93a4afca"
+    "$oid": "673252ab6f4307a0a7f4e70b"
   },
   "name": "hydro-steam",
   "accuracy": 100,
@@ -7884,7 +7884,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45a76f86a8ba93a4afcb"
+    "$oid": "673252ab6f4307a0a7f4e70c"
   },
   "name": "ruination",
   "accuracy": 90,
@@ -7893,7 +7893,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45a76f86a8ba93a4afcc"
+    "$oid": "673252ab6f4307a0a7f4e70d"
   },
   "name": "collision-course",
   "accuracy": 100,
@@ -7902,7 +7902,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45a76f86a8ba93a4afcd"
+    "$oid": "673252ab6f4307a0a7f4e70e"
   },
   "name": "electro-drift",
   "accuracy": 100,
@@ -7911,7 +7911,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45a76f86a8ba93a4afce"
+    "$oid": "673252ab6f4307a0a7f4e70f"
   },
   "name": "shed-tail",
   "accuracy": null,
@@ -7920,7 +7920,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45a86f86a8ba93a4afcf"
+    "$oid": "673252ab6f4307a0a7f4e710"
   },
   "name": "chilly-reception",
   "accuracy": null,
@@ -7929,7 +7929,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45a86f86a8ba93a4afd0"
+    "$oid": "673252ab6f4307a0a7f4e711"
   },
   "name": "tidy-up",
   "accuracy": null,
@@ -7938,7 +7938,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45a86f86a8ba93a4afd1"
+    "$oid": "673252ab6f4307a0a7f4e712"
   },
   "name": "snowscape",
   "accuracy": null,
@@ -7947,7 +7947,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45a86f86a8ba93a4afd2"
+    "$oid": "673252ab6f4307a0a7f4e713"
   },
   "name": "pounce",
   "accuracy": 100,
@@ -7956,7 +7956,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45a86f86a8ba93a4afd3"
+    "$oid": "673252ab6f4307a0a7f4e714"
   },
   "name": "trailblaze",
   "accuracy": 100,
@@ -7965,7 +7965,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45a86f86a8ba93a4afd4"
+    "$oid": "673252ab6f4307a0a7f4e715"
   },
   "name": "chilling-water",
   "accuracy": 100,
@@ -7974,7 +7974,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45a86f86a8ba93a4afd5"
+    "$oid": "673252ab6f4307a0a7f4e716"
   },
   "name": "hyper-drill",
   "accuracy": 100,
@@ -7983,7 +7983,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45a96f86a8ba93a4afd6"
+    "$oid": "673252ab6f4307a0a7f4e717"
   },
   "name": "twin-beam",
   "accuracy": 100,
@@ -7992,7 +7992,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45a96f86a8ba93a4afd7"
+    "$oid": "673252ab6f4307a0a7f4e718"
   },
   "name": "rage-fist",
   "accuracy": 100,
@@ -8001,7 +8001,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45a96f86a8ba93a4afd8"
+    "$oid": "673252ab6f4307a0a7f4e719"
   },
   "name": "armor-cannon",
   "accuracy": 100,
@@ -8010,7 +8010,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45a96f86a8ba93a4afd9"
+    "$oid": "673252ab6f4307a0a7f4e71a"
   },
   "name": "bitter-blade",
   "accuracy": 100,
@@ -8019,7 +8019,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45a96f86a8ba93a4afda"
+    "$oid": "673252ac6f4307a0a7f4e71b"
   },
   "name": "double-shock",
   "accuracy": 100,
@@ -8028,7 +8028,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45a96f86a8ba93a4afdb"
+    "$oid": "673252ac6f4307a0a7f4e71c"
   },
   "name": "gigaton-hammer",
   "accuracy": 100,
@@ -8037,7 +8037,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45aa6f86a8ba93a4afdc"
+    "$oid": "673252ac6f4307a0a7f4e71d"
   },
   "name": "comeuppance",
   "accuracy": 100,
@@ -8046,7 +8046,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45aa6f86a8ba93a4afdd"
+    "$oid": "673252ac6f4307a0a7f4e71e"
   },
   "name": "aqua-cutter",
   "accuracy": 100,
@@ -8055,7 +8055,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45aa6f86a8ba93a4afde"
+    "$oid": "673252ac6f4307a0a7f4e71f"
   },
   "name": "blazing-torque",
   "accuracy": 100,
@@ -8064,7 +8064,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45aa6f86a8ba93a4afdf"
+    "$oid": "673252ac6f4307a0a7f4e720"
   },
   "name": "wicked-torque",
   "accuracy": 100,
@@ -8073,7 +8073,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45ab6f86a8ba93a4afe0"
+    "$oid": "673252ac6f4307a0a7f4e721"
   },
   "name": "noxious-torque",
   "accuracy": 100,
@@ -8082,7 +8082,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45ab6f86a8ba93a4afe1"
+    "$oid": "673252ac6f4307a0a7f4e722"
   },
   "name": "combat-torque",
   "accuracy": 100,
@@ -8091,7 +8091,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45ab6f86a8ba93a4afe2"
+    "$oid": "673252ac6f4307a0a7f4e723"
   },
   "name": "magical-torque",
   "accuracy": 100,
@@ -8100,7 +8100,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45ab6f86a8ba93a4afe3"
+    "$oid": "673252ac6f4307a0a7f4e724"
   },
   "name": "blood-moon",
   "accuracy": 100,
@@ -8109,7 +8109,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45ac6f86a8ba93a4afe4"
+    "$oid": "673252ac6f4307a0a7f4e725"
   },
   "name": "matcha-gotcha",
   "accuracy": 90,
@@ -8118,7 +8118,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45ac6f86a8ba93a4afe5"
+    "$oid": "673252ac6f4307a0a7f4e726"
   },
   "name": "syrup-bomb",
   "accuracy": 85,
@@ -8127,7 +8127,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45ac6f86a8ba93a4afe6"
+    "$oid": "673252ac6f4307a0a7f4e727"
   },
   "name": "ivy-cudgel",
   "accuracy": 100,
@@ -8136,7 +8136,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45ac6f86a8ba93a4afe7"
+    "$oid": "673252ac6f4307a0a7f4e728"
   },
   "name": "electro-shot",
   "accuracy": 100,
@@ -8145,7 +8145,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45ac6f86a8ba93a4afe8"
+    "$oid": "673252ad6f4307a0a7f4e729"
   },
   "name": "tera-starstorm",
   "accuracy": 100,
@@ -8154,7 +8154,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45ac6f86a8ba93a4afe9"
+    "$oid": "673252ad6f4307a0a7f4e72a"
   },
   "name": "fickle-beam",
   "accuracy": 100,
@@ -8163,7 +8163,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45ad6f86a8ba93a4afea"
+    "$oid": "673252ad6f4307a0a7f4e72b"
   },
   "name": "burning-bulwark",
   "accuracy": 0,
@@ -8172,7 +8172,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45ad6f86a8ba93a4afeb"
+    "$oid": "673252ad6f4307a0a7f4e72c"
   },
   "name": "thunderclap",
   "accuracy": 100,
@@ -8181,7 +8181,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45ad6f86a8ba93a4afec"
+    "$oid": "673252ad6f4307a0a7f4e72d"
   },
   "name": "mighty-cleave",
   "accuracy": 100,
@@ -8190,7 +8190,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45ad6f86a8ba93a4afed"
+    "$oid": "673252ad6f4307a0a7f4e72e"
   },
   "name": "tachyon-cutter",
   "accuracy": 0,
@@ -8199,7 +8199,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45ad6f86a8ba93a4afee"
+    "$oid": "673252ad6f4307a0a7f4e72f"
   },
   "name": "hard-press",
   "accuracy": 100,
@@ -8208,7 +8208,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45ad6f86a8ba93a4afef"
+    "$oid": "673252ad6f4307a0a7f4e730"
   },
   "name": "dragon-cheer",
   "accuracy": 0,
@@ -8217,7 +8217,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45ae6f86a8ba93a4aff0"
+    "$oid": "673252ad6f4307a0a7f4e731"
   },
   "name": "alluring-voice",
   "accuracy": 100,
@@ -8226,7 +8226,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45ae6f86a8ba93a4aff1"
+    "$oid": "673252ad6f4307a0a7f4e732"
   },
   "name": "temper-flare",
   "accuracy": 100,
@@ -8235,7 +8235,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45ae6f86a8ba93a4aff2"
+    "$oid": "673252ad6f4307a0a7f4e733"
   },
   "name": "supercell-slam",
   "accuracy": 95,
@@ -8244,7 +8244,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45ae6f86a8ba93a4aff3"
+    "$oid": "673252ad6f4307a0a7f4e734"
   },
   "name": "psychic-noise",
   "accuracy": 100,
@@ -8253,7 +8253,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45ae6f86a8ba93a4aff4"
+    "$oid": "673252ad6f4307a0a7f4e735"
   },
   "name": "upper-hand",
   "accuracy": 100,
@@ -8262,7 +8262,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45ae6f86a8ba93a4aff5"
+    "$oid": "673252ad6f4307a0a7f4e736"
   },
   "name": "malignant-chain",
   "accuracy": 100,
@@ -8271,7 +8271,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45ae6f86a8ba93a4aff6"
+    "$oid": "673252ad6f4307a0a7f4e737"
   },
   "name": "shadow-rush",
   "accuracy": 100,
@@ -8280,7 +8280,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45af6f86a8ba93a4aff7"
+    "$oid": "673252ad6f4307a0a7f4e738"
   },
   "name": "shadow-blast",
   "accuracy": 100,
@@ -8289,7 +8289,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45af6f86a8ba93a4aff8"
+    "$oid": "673252ad6f4307a0a7f4e739"
   },
   "name": "shadow-blitz",
   "accuracy": 100,
@@ -8298,7 +8298,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45af6f86a8ba93a4aff9"
+    "$oid": "673252ad6f4307a0a7f4e73a"
   },
   "name": "shadow-bolt",
   "accuracy": 100,
@@ -8307,7 +8307,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45b06f86a8ba93a4affa"
+    "$oid": "673252ad6f4307a0a7f4e73b"
   },
   "name": "shadow-break",
   "accuracy": 100,
@@ -8316,7 +8316,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45b06f86a8ba93a4affb"
+    "$oid": "673252ae6f4307a0a7f4e73c"
   },
   "name": "shadow-chill",
   "accuracy": 100,
@@ -8325,7 +8325,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45b06f86a8ba93a4affc"
+    "$oid": "673252ae6f4307a0a7f4e73d"
   },
   "name": "shadow-end",
   "accuracy": 60,
@@ -8334,7 +8334,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45b16f86a8ba93a4affd"
+    "$oid": "673252ae6f4307a0a7f4e73e"
   },
   "name": "shadow-fire",
   "accuracy": 100,
@@ -8343,7 +8343,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45b16f86a8ba93a4affe"
+    "$oid": "673252ae6f4307a0a7f4e73f"
   },
   "name": "shadow-rave",
   "accuracy": 100,
@@ -8352,7 +8352,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45b26f86a8ba93a4afff"
+    "$oid": "673252ae6f4307a0a7f4e740"
   },
   "name": "shadow-storm",
   "accuracy": 100,
@@ -8361,7 +8361,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45b26f86a8ba93a4b000"
+    "$oid": "673252ae6f4307a0a7f4e741"
   },
   "name": "shadow-wave",
   "accuracy": 100,
@@ -8370,7 +8370,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45b26f86a8ba93a4b001"
+    "$oid": "673252ae6f4307a0a7f4e742"
   },
   "name": "shadow-down",
   "accuracy": 100,
@@ -8379,7 +8379,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45b26f86a8ba93a4b002"
+    "$oid": "673252ae6f4307a0a7f4e743"
   },
   "name": "shadow-half",
   "accuracy": 100,
@@ -8388,7 +8388,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45b36f86a8ba93a4b003"
+    "$oid": "673252ae6f4307a0a7f4e744"
   },
   "name": "shadow-hold",
   "accuracy": null,
@@ -8397,7 +8397,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45b36f86a8ba93a4b004"
+    "$oid": "673252ae6f4307a0a7f4e745"
   },
   "name": "shadow-mist",
   "accuracy": 100,
@@ -8406,7 +8406,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45b46f86a8ba93a4b005"
+    "$oid": "673252ae6f4307a0a7f4e746"
   },
   "name": "shadow-panic",
   "accuracy": 90,
@@ -8415,7 +8415,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45b46f86a8ba93a4b006"
+    "$oid": "673252ae6f4307a0a7f4e747"
   },
   "name": "shadow-shed",
   "accuracy": null,
@@ -8424,7 +8424,7 @@
 },
 {
   "_id": {
-    "$oid": "672a45b56f86a8ba93a4b007"
+    "$oid": "673252ae6f4307a0a7f4e748"
   },
   "name": "shadow-sky",
   "accuracy": null,

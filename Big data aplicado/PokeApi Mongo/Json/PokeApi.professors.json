@@ -1,78 +1,1035 @@
 [{
   "_id": {
-    "$oid": "672a2dcf6f86a8ba93a4a732"
+    "$oid": "673384afa3d14a782bce2ede"
   },
-  "name": "Professor Oak",
-  "region": {
-    "id": {
-      "$oid": "672a2dcf6f86a8ba93a4a727"
-    },
-    "name": "Kanto"
-  },
-  "specialty": "Pokemon Research"
+  "name": "Professor Rowan",
+  "specialty": "Pokemon Evolution",
+  "regions": [
+    {
+      "id": {
+        "$oid": "6732530c8696fe038a1f5260"
+      },
+      "name": "Johto"
+    }
+  ]
 },
 {
   "_id": {
-    "$oid": "672a2dcf6f86a8ba93a4a733"
+    "$oid": "673384afa3d14a782bce2edf"
   },
-  "name": "Professor Elm",
-  "region": {
-    "id": {
-      "$oid": "672a2dcf6f86a8ba93a4a728"
-    },
-    "name": "Johto"
-  },
-  "specialty": "Evolution Research"
+  "name": "Professor Kukui",
+  "specialty": "Pokemon Moves and Battle Strategies",
+  "regions": [
+    {
+      "id": {
+        "$oid": "6732530c8696fe038a1f5266"
+      },
+      "name": "Galar"
+    }
+  ]
 },
 {
   "_id": {
-    "$oid": "672a2dcf6f86a8ba93a4a734"
+    "$oid": "673384afa3d14a782bce2ee0"
   },
-  "name": "Professor Birch",
-  "region": {
-    "id": {
-      "$oid": "672a2dcf6f86a8ba93a4a729"
-    },
-    "name": "Hoenn"
-  },
-  "specialty": "Pokemon Habitats"
+  "name": "Professor Sycamore",
+  "specialty": "Mega Evolution",
+  "regions": [
+    {
+      "id": {
+        "$oid": "6732530c8696fe038a1f5268"
+      },
+      "name": "Isshu"
+    }
+  ]
 },
 {
   "_id": {
-    "$oid": "672a45b56f86a8ba93a4b00b"
+    "$oid": "673384afa3d14a782bce2ee1"
   },
-  "name": "Professor Oak",
-  "region": {
-    "id": {
-      "$oid": "672a2dcf6f86a8ba93a4a727"
-    },
-    "name": "Kanto"
-  },
-  "specialty": "Pokemon Research"
+  "name": "Professor Magnolia",
+  "specialty": "Dynamax and Gigantamax Phenomena",
+  "regions": [
+    {
+      "id": {
+        "$oid": "6732530c8696fe038a1f5260"
+      },
+      "name": "Johto"
+    }
+  ]
 },
 {
   "_id": {
-    "$oid": "672a45b56f86a8ba93a4b00c"
+    "$oid": "673384afa3d14a782bce2ee2"
   },
-  "name": "Professor Elm",
-  "region": {
-    "id": {
-      "$oid": "672a2dcf6f86a8ba93a4a728"
-    },
-    "name": "Johto"
-  },
-  "specialty": "Evolution Research"
+  "name": "Professor Willow",
+  "specialty": "Pokemon Biology",
+  "regions": [
+    {
+      "id": {
+        "$oid": "6732530c8696fe038a1f5267"
+      },
+      "name": "Paldea"
+    }
+  ]
 },
 {
   "_id": {
-    "$oid": "672a45b56f86a8ba93a4b00d"
+    "$oid": "673384afa3d14a782bce2ee3"
   },
-  "name": "Professor Birch",
-  "region": {
-    "id": {
-      "$oid": "672a2dcf6f86a8ba93a4a729"
-    },
-    "name": "Hoenn"
+  "name": "Professor Juniper",
+  "specialty": "Genetics and Evolution",
+  "regions": [
+    {
+      "id": {
+        "$oid": "6732530c8696fe038a1f5268"
+      },
+      "name": "Isshu"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "673384afa3d14a782bce2ee4"
   },
-  "specialty": "Pokemon Habitats"
+  "name": "Professor Oakley",
+  "specialty": "Shadow Pokemon Research",
+  "regions": [
+    {
+      "id": {
+        "$oid": "6732530c8696fe038a1f5267"
+      },
+      "name": "Paldea"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "673384afa3d14a782bce2ee5"
+  },
+  "name": "Professor Aspen",
+  "specialty": "Regional Pokemon Species",
+  "regions": [
+    {
+      "id": {
+        "$oid": "6732530c8696fe038a1f525f"
+      },
+      "name": "Kanto"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "673384afa3d14a782bce2ee6"
+  },
+  "name": "Professor Oakridge",
+  "specialty": "Artificial Pokemon Intelligence",
+  "regions": [
+    {
+      "id": {
+        "$oid": "6732530c8696fe038a1f5268"
+      },
+      "name": "Isshu"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "673384afa3d14a782bce2ee7"
+  },
+  "name": "Professor Pine",
+  "specialty": "Pokemon Ecology",
+  "regions": [
+    {
+      "id": {
+        "$oid": "6732530c8696fe038a1f5263"
+      },
+      "name": "Unova"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "673384afa3d14a782bce2ee8"
+  },
+  "name": "Professor Larch",
+  "specialty": "Ancient Pokemon Fossils",
+  "regions": [
+    {
+      "id": {
+        "$oid": "6732530c8696fe038a1f5268"
+      },
+      "name": "Isshu"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "673384afa3d14a782bce2ee9"
+  },
+  "name": "Professor Burnet",
+  "specialty": "Ultra Beasts and Alternate Dimensions",
+  "regions": [
+    {
+      "id": {
+        "$oid": "6732530c8696fe038a1f5266"
+      },
+      "name": "Galar"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "673384afa3d14a782bce2eea"
+  },
+  "name": "Professor Cedric Juniper",
+  "specialty": "Research on the Unova Region’s Legendary Pokemon",
+  "regions": [
+    {
+      "id": {
+        "$oid": "6732530c8696fe038a1f5264"
+      },
+      "name": "Kalos"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "673384afa3d14a782bce2eeb"
+  },
+  "name": "Professor Bambo",
+  "specialty": "Pokemon Species of Torren Region",
+  "regions": [
+    {
+      "id": {
+        "$oid": "6732530c8696fe038a1f5264"
+      },
+      "name": "Kalos"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "673384afa3d14a782bce2eec"
+  },
+  "name": "Professor Kettler",
+  "specialty": "Behavioral Studies in Pokemon",
+  "regions": [
+    {
+      "id": {
+        "$oid": "6732530c8696fe038a1f5262"
+      },
+      "name": "Sinnoh"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "673384afa3d14a782bce2eed"
+  },
+  "name": "Professor Radley",
+  "specialty": "Gigantamaxing Research",
+  "regions": [
+    {
+      "id": {
+        "$oid": "6732530c8696fe038a1f5265"
+      },
+      "name": "Alola"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "673384afa3d14a782bce2eee"
+  },
+  "name": "Professor Hala",
+  "specialty": "Island Trials and Traditional Pokemon Training",
+  "regions": [
+    {
+      "id": {
+        "$oid": "6732530c8696fe038a1f5267"
+      },
+      "name": "Paldea"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "673384afa3d14a782bce2eef"
+  },
+  "name": "Professor Burbank",
+  "specialty": "Pokemon Genetics and Species Mapping",
+  "regions": [
+    {
+      "id": {
+        "$oid": "6732530c8696fe038a1f5260"
+      },
+      "name": "Johto"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "673384afa3d14a782bce2ef0"
+  },
+  "name": "Professor Tsu",
+  "specialty": "Pokemon Breeding and Crossbreeding",
+  "regions": [
+    {
+      "id": {
+        "$oid": "6732530c8696fe038a1f5264"
+      },
+      "name": "Kalos"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "673384afa3d14a782bce2ef1"
+  },
+  "name": "Professor Ainsley",
+  "specialty": "Water-type Pokemon Behavior",
+  "regions": [
+    {
+      "id": {
+        "$oid": "6732530c8696fe038a1f5260"
+      },
+      "name": "Johto"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "673384afa3d14a782bce2ef2"
+  },
+  "name": "Professor Usher",
+  "specialty": "Pokemon Adaptation to Urban Environments",
+  "regions": [
+    {
+      "id": {
+        "$oid": "6732530c8696fe038a1f5263"
+      },
+      "name": "Unova"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "673384afa3d14a782bce2ef3"
+  },
+  "name": "Professor Xenon",
+  "specialty": "Alola’s Regional Variants and Evolution",
+  "regions": [
+    {
+      "id": {
+        "$oid": "6732530c8696fe038a1f5261"
+      },
+      "name": "Hoenn"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "673384afa3d14a782bce2ef4"
+  },
+  "name": "Professor Delphine",
+  "specialty": "Research on Legendary and Mythical Pokemon",
+  "regions": [
+    {
+      "id": {
+        "$oid": "6732530c8696fe038a1f5268"
+      },
+      "name": "Isshu"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "673384afa3d14a782bce2ef5"
+  },
+  "name": "Professor Marley",
+  "specialty": "Pokemon Intelligence and Learning",
+  "regions": [
+    {
+      "id": {
+        "$oid": "6732530c8696fe038a1f5268"
+      },
+      "name": "Isshu"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "673384afa3d14a782bce2ef6"
+  },
+  "name": "Professor Ivy",
+  "specialty": "Pokémon Reproduction and Hybridization",
+  "regions": [
+    {
+      "id": {
+        "$oid": "6732530c8696fe038a1f5264"
+      },
+      "name": "Kalos"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "673384afa3d14a782bce2ef7"
+  },
+  "name": "Professor Frida",
+  "specialty": "Species Ecology and Conservation",
+  "regions": [
+    {
+      "id": {
+        "$oid": "6732530c8696fe038a1f5264"
+      },
+      "name": "Kalos"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "673384afa3d14a782bce2ef8"
+  },
+  "name": "Professor Viera",
+  "specialty": "Environmental Impact of Pokemon in Alola",
+  "regions": [
+    {
+      "id": {
+        "$oid": "6732530c8696fe038a1f5265"
+      },
+      "name": "Alola"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "673384afa3d14a782bce2ef9"
+  },
+  "name": "Professor Thorne",
+  "specialty": "Pokemon Communication",
+  "regions": [
+    {
+      "id": {
+        "$oid": "6732530c8696fe038a1f5266"
+      },
+      "name": "Galar"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "673384afa3d14a782bce2efa"
+  },
+  "name": "Professor Akira",
+  "specialty": "Understanding Mega Evolutions",
+  "regions": [
+    {
+      "id": {
+        "$oid": "6732530c8696fe038a1f525f"
+      },
+      "name": "Kanto"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "673384afa3d14a782bce2efb"
+  },
+  "name": "Professor Alden",
+  "specialty": "The Study of Legendary Pokemon",
+  "regions": [
+    {
+      "id": {
+        "$oid": "6732530c8696fe038a1f5264"
+      },
+      "name": "Kalos"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "673384afa3d14a782bce2efc"
+  },
+  "name": "Professor Constantine",
+  "specialty": "Dynamax Phenomena and Strategy",
+  "regions": [
+    {
+      "id": {
+        "$oid": "6732530c8696fe038a1f5268"
+      },
+      "name": "Isshu"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "673384afa3d14a782bce2efd"
+  },
+  "name": "Professor Maris",
+  "specialty": "Researching the Behavior of Psychic-Type Pokemon",
+  "regions": [
+    {
+      "id": {
+        "$oid": "6732530c8696fe038a1f5260"
+      },
+      "name": "Johto"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "673384afa3d14a782bce2efe"
+  },
+  "name": "Professor Nia",
+  "specialty": "Pokemon Behaviour and Interaction with Humans",
+  "regions": [
+    {
+      "id": {
+        "$oid": "6732530c8696fe038a1f5267"
+      },
+      "name": "Paldea"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "673384afa3d14a782bce2eff"
+  },
+  "name": "Professor Opal",
+  "specialty": "Fairy-Type Pokemon Research",
+  "regions": [
+    {
+      "id": {
+        "$oid": "6732530c8696fe038a1f5260"
+      },
+      "name": "Johto"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "673384afa3d14a782bce2f00"
+  },
+  "name": "Professor Rose",
+  "specialty": "Energy Sources and their Impact on Pokemon",
+  "regions": [
+    {
+      "id": {
+        "$oid": "6732530c8696fe038a1f5268"
+      },
+      "name": "Isshu"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "673384afa3d14a782bce2f01"
+  },
+  "name": "Professor Mapache",
+  "specialty": "Pokemon Evolution in Unique Environments",
+  "regions": [
+    {
+      "id": {
+        "$oid": "6732530c8696fe038a1f5267"
+      },
+      "name": "Paldea"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "673384afa3d14a782bce2f02"
+  },
+  "name": "Professor Peridot",
+  "specialty": "Geographic Distribution of Pokemon",
+  "regions": [
+    {
+      "id": {
+        "$oid": "6732530c8696fe038a1f5267"
+      },
+      "name": "Paldea"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "673384afa3d14a782bce2f03"
+  },
+  "name": "Professor Ramona",
+  "specialty": "Regional Ecology of the Hoenn Region",
+  "regions": [
+    {
+      "id": {
+        "$oid": "6732530c8696fe038a1f5265"
+      },
+      "name": "Alola"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "673384afa3d14a782bce2f04"
+  },
+  "name": "Professor Bellamy",
+  "specialty": "Mechanisms of Pokemon Bonding",
+  "regions": [
+    {
+      "id": {
+        "$oid": "6732530c8696fe038a1f5263"
+      },
+      "name": "Unova"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "673384afa3d14a782bce2f05"
+  },
+  "name": "Professor Merle",
+  "specialty": "The Study of Steel-Type Pokemon",
+  "regions": [
+    {
+      "id": {
+        "$oid": "6732530c8696fe038a1f5267"
+      },
+      "name": "Paldea"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "673384afa3d14a782bce2f06"
+  },
+  "name": "Professor Corrine",
+  "specialty": "The Relationship Between Pokemon and Trainers",
+  "regions": [
+    {
+      "id": {
+        "$oid": "6732530c8696fe038a1f5262"
+      },
+      "name": "Sinnoh"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "673384afa3d14a782bce2f07"
+  },
+  "name": "Professor Daley",
+  "specialty": "Researching the Effects of Dynamaxing on Pokemon and Trainers",
+  "regions": [
+    {
+      "id": {
+        "$oid": "6732530c8696fe038a1f5268"
+      },
+      "name": "Isshu"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "673384afa3d14a782bce2f08"
+  },
+  "name": "Professor Noctis",
+  "specialty": "Nighttime Behavior and Research of Pokemon",
+  "regions": [
+    {
+      "id": {
+        "$oid": "6732530c8696fe038a1f5262"
+      },
+      "name": "Sinnoh"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "673384afa3d14a782bce2f09"
+  },
+  "name": "Professor Remy",
+  "specialty": "Advanced Technology in Pokemon Research",
+  "regions": [
+    {
+      "id": {
+        "$oid": "6732530c8696fe038a1f5265"
+      },
+      "name": "Alola"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "673384afa3d14a782bce2f0a"
+  },
+  "name": "Professor Sybil",
+  "specialty": "The Connection Between Psychic-Type and Dragon-Type Pokemon",
+  "regions": [
+    {
+      "id": {
+        "$oid": "6732530c8696fe038a1f5263"
+      },
+      "name": "Unova"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "673384afa3d14a782bce2f0b"
+  },
+  "name": "Professor Tilly",
+  "specialty": "Study of Mythical and Legendary Pokemon",
+  "regions": [
+    {
+      "id": {
+        "$oid": "6732530c8696fe038a1f5268"
+      },
+      "name": "Isshu"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "673384afa3d14a782bce2f0c"
+  },
+  "name": "Professor Atlas",
+  "specialty": "Research of Ice-Type and Mountain Pokemon",
+  "regions": [
+    {
+      "id": {
+        "$oid": "6732530c8696fe038a1f525f"
+      },
+      "name": "Kanto"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "673384afa3d14a782bce2f0d"
+  },
+  "name": "Professor Lux",
+  "specialty": "Electric-Type Pokemon Research",
+  "regions": [
+    {
+      "id": {
+        "$oid": "6732530c8696fe038a1f5265"
+      },
+      "name": "Alola"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "673384afa3d14a782bce2f0e"
+  },
+  "name": "Professor Iris",
+  "specialty": "Dragon-Type Pokemon Research",
+  "regions": [
+    {
+      "id": {
+        "$oid": "6732530c8696fe038a1f5263"
+      },
+      "name": "Unova"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "673384afa3d14a782bce2f0f"
+  },
+  "name": "Professor Vega",
+  "specialty": "Specialization in Star and Meteorite Pokemon",
+  "regions": [
+    {
+      "id": {
+        "$oid": "6732530c8696fe038a1f5261"
+      },
+      "name": "Hoenn"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "673384afa3d14a782bce2f10"
+  },
+  "name": "Professor Alistair",
+  "specialty": "Psychic-Type and its Influence on Evolution",
+  "regions": [
+    {
+      "id": {
+        "$oid": "6732530c8696fe038a1f5263"
+      },
+      "name": "Unova"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "673384afa3d14a782bce2f11"
+  },
+  "name": "Professor Remington",
+  "specialty": "Mapping Pokemon Species in the Hoenn Region",
+  "regions": [
+    {
+      "id": {
+        "$oid": "6732530c8696fe038a1f525f"
+      },
+      "name": "Kanto"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "673384afa3d14a782bce2f12"
+  },
+  "name": "Professor Lucille",
+  "specialty": "Pokemon Breeding and Crossbreeding",
+  "regions": [
+    {
+      "id": {
+        "$oid": "6732530c8696fe038a1f5264"
+      },
+      "name": "Kalos"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "673384afa3d14a782bce2f13"
+  },
+  "name": "Professor Dexter",
+  "specialty": "The Impact of Alola’s Regional Changes on Pokemon",
+  "regions": [
+    {
+      "id": {
+        "$oid": "6732530c8696fe038a1f5268"
+      },
+      "name": "Isshu"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "673384afa3d14a782bce2f14"
+  },
+  "name": "Professor Wilfred",
+  "specialty": "The Evolution of Electric-Type Pokemon",
+  "regions": [
+    {
+      "id": {
+        "$oid": "6732530c8696fe038a1f5260"
+      },
+      "name": "Johto"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "673384afa3d14a782bce2f15"
+  },
+  "name": "Professor Hunter",
+  "specialty": "The Study of Rare and Unusual Pokemon",
+  "regions": [
+    {
+      "id": {
+        "$oid": "6732530c8696fe038a1f5266"
+      },
+      "name": "Galar"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "673384afa3d14a782bce2f16"
+  },
+  "name": "Professor Oren",
+  "specialty": "Research of Fossil Pokemon",
+  "regions": [
+    {
+      "id": {
+        "$oid": "6732530c8696fe038a1f5263"
+      },
+      "name": "Unova"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "673384afa3d14a782bce2f17"
+  },
+  "name": "Professor Ashford",
+  "specialty": "The Impact of Climate on Pokemon Evolution",
+  "regions": [
+    {
+      "id": {
+        "$oid": "6732530c8696fe038a1f5265"
+      },
+      "name": "Alola"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "673384afa3d14a782bce2f18"
+  },
+  "name": "Professor Noelle",
+  "specialty": "Ecosystem Interactions Between Pokemon",
+  "regions": [
+    {
+      "id": {
+        "$oid": "6732530c8696fe038a1f5265"
+      },
+      "name": "Alola"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "673384afa3d14a782bce2f19"
+  },
+  "name": "Professor Ramiro",
+  "specialty": "Pokemon Habitat and Geography",
+  "regions": [
+    {
+      "id": {
+        "$oid": "6732530c8696fe038a1f5264"
+      },
+      "name": "Kalos"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "673384afa3d14a782bce2f1a"
+  },
+  "name": "Professor Harlan",
+  "specialty": "Research on Wild Pokemon Behavior",
+  "regions": [
+    {
+      "id": {
+        "$oid": "6732530c8696fe038a1f5268"
+      },
+      "name": "Isshu"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "673384afa3d14a782bce2f1b"
+  },
+  "name": "Professor Celia",
+  "specialty": "The Study of Grass-Type Pokemon",
+  "regions": [
+    {
+      "id": {
+        "$oid": "6732530c8696fe038a1f5262"
+      },
+      "name": "Sinnoh"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "673384afa3d14a782bce2f1c"
+  },
+  "name": "Professor Lilith",
+  "specialty": "Research on Water-Type Pokemon",
+  "regions": [
+    {
+      "id": {
+        "$oid": "6732530c8696fe038a1f5263"
+      },
+      "name": "Unova"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "673384afa3d14a782bce2f1d"
+  },
+  "name": "Professor Tannis",
+  "specialty": "Pokemon Metabolism and Growth Patterns",
+  "regions": [
+    {
+      "id": {
+        "$oid": "6732530c8696fe038a1f5265"
+      },
+      "name": "Alola"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "673384afa3d14a782bce2f1e"
+  },
+  "name": "Professor Ogle",
+  "specialty": "Research on Pokemon Consciousness",
+  "regions": [
+    {
+      "id": {
+        "$oid": "6732530c8696fe038a1f5260"
+      },
+      "name": "Johto"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "673384afa3d14a782bce2f1f"
+  },
+  "name": "Professor Esperanza",
+  "specialty": "Study of Electric-Type Pokemon Behavior",
+  "regions": [
+    {
+      "id": {
+        "$oid": "6732530c8696fe038a1f5267"
+      },
+      "name": "Paldea"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "673384afa3d14a782bce2f20"
+  },
+  "name": "Professor Alda",
+  "specialty": "Interaction of Steel-Type and Fighting-Type Pokemon",
+  "regions": [
+    {
+      "id": {
+        "$oid": "6732530c8696fe038a1f5265"
+      },
+      "name": "Alola"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "673384afa3d14a782bce2f21"
+  },
+  "name": "Professor Wilda",
+  "specialty": "Research on Fairy-Type Pokemon",
+  "regions": [
+    {
+      "id": {
+        "$oid": "6732530c8696fe038a1f5267"
+      },
+      "name": "Paldea"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "673384afa3d14a782bce2f22"
+  },
+  "name": "Professor Tessa",
+  "specialty": "Research on the Alola Region’s Legendary Pokemon",
+  "regions": [
+    {
+      "id": {
+        "$oid": "6732530c8696fe038a1f525f"
+      },
+      "name": "Kanto"
+    }
+  ]
 }]

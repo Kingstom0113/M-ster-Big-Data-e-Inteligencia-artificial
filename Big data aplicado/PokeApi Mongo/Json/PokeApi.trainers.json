@@ -1,30 +1,292 @@
 [{
   "_id": {
-    "$oid": "672a2dcf6f86a8ba93a4a72f"
+    "$oid": "67337db60fe03b354ea345e1"
   },
-  "name": "Ash Ketchum",
+  "name": "Gary Oak",
   "region": {
-    "id": {
-      "$oid": "672a2dcf6f86a8ba93a4a727"
-    },
-    "name": "Kanto"
+    "$oid": "6732530c8696fe038a1f5266"
   },
+  "region_name": "Galar",
   "pokemons": [
-    "Pikachu",
-    "Charizard"
+    "Blastoise",
+    "Electivire"
   ]
 },
 {
   "_id": {
-    "$oid": "672a2dcf6f86a8ba93a4a730"
+    "$oid": "67337db60fe03b354ea345e2"
+  },
+  "name": "May",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5260"
+  },
+  "region_name": "Johto",
+  "pokemons": [
+    "Torchic",
+    "Beautifly"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea345e3"
+  },
+  "name": "Dawn",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5260"
+  },
+  "region_name": "Johto",
+  "pokemons": [
+    "Piplup",
+    "Buneary"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea345e4"
+  },
+  "name": "Serena",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5260"
+  },
+  "region_name": "Johto",
+  "pokemons": [
+    "Fennekin",
+    "Sylveon"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea345e5"
+  },
+  "name": "Clemont",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5261"
+  },
+  "region_name": "Hoenn",
+  "pokemons": [
+    "Luxray",
+    "Magneton"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea345e6"
+  },
+  "name": "Cynthia",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5264"
+  },
+  "region_name": "Kalos",
+  "pokemons": [
+    "Garchomp",
+    "Togekiss"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea345e7"
+  },
+  "name": "Lysandre",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5262"
+  },
+  "region_name": "Sinnoh",
+  "pokemons": [
+    "Mega Gyarados",
+    "Mienfoo"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea345e8"
+  },
+  "name": "Leon",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5261"
+  },
+  "region_name": "Hoenn",
+  "pokemons": [
+    "Charizard",
+    "Aegislash"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea345e9"
+  },
+  "name": "Marnie",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5261"
+  },
+  "region_name": "Hoenn",
+  "pokemons": [
+    "Morgrem",
+    "Toxicroak"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea345ea"
+  },
+  "name": "Rosa",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5267"
+  },
+  "region_name": "Paldea",
+  "pokemons": [
+    "Snivy",
+    "Musharna"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea345eb"
+  },
+  "name": "N",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5263"
+  },
+  "region_name": "Unova",
+  "pokemons": [
+    "Zekrom",
+    "Reshiram"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea345ec"
+  },
+  "name": "Flannery",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5265"
+  },
+  "region_name": "Alola",
+  "pokemons": [
+    "Torkoal",
+    "Slugma"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea345ed"
+  },
+  "name": "Wallace",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5261"
+  },
+  "region_name": "Hoenn",
+  "pokemons": [
+    "Swampert",
+    "Gyarados"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea345ee"
+  },
+  "name": "Blue",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5260"
+  },
+  "region_name": "Johto",
+  "pokemons": [
+    "Rhydon",
+    "Arcanine"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea345ef"
+  },
+  "name": "Koga",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5267"
+  },
+  "region_name": "Paldea",
+  "pokemons": [
+    "Weezing",
+    "Muk"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea345f0"
+  },
+  "name": "Sabrina",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5266"
+  },
+  "region_name": "Galar",
+  "pokemons": [
+    "Alakazam",
+    "Mr. Mime"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea345f1"
+  },
+  "name": "Giovanni",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5267"
+  },
+  "region_name": "Paldea",
+  "pokemons": [
+    "Rhydon",
+    "Nidoking"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea345f2"
+  },
+  "name": "Whitney",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5260"
+  },
+  "region_name": "Johto",
+  "pokemons": [
+    "Miltank",
+    "Clefairy"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea345f3"
+  },
+  "name": "Clair",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5262"
+  },
+  "region_name": "Sinnoh",
+  "pokemons": [
+    "Kingdra",
+    "Dragonair"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea345f4"
+  },
+  "name": "Chuck",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5261"
+  },
+  "region_name": "Hoenn",
+  "pokemons": [
+    "Poliwrath",
+    "Primeape"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea345f5"
   },
   "name": "Misty",
   "region": {
-    "id": {
-      "$oid": "672a2dcf6f86a8ba93a4a727"
-    },
-    "name": "Kanto"
+    "$oid": "6732530c8696fe038a1f525f"
   },
+  "region_name": "Kanto",
   "pokemons": [
     "Starmie",
     "Psyduck"
@@ -32,31 +294,237 @@
 },
 {
   "_id": {
-    "$oid": "672a2dcf6f86a8ba93a4a731"
+    "$oid": "67337db60fe03b354ea345f6"
   },
-  "name": "Brock",
+  "name": "Giovanni",
   "region": {
-    "id": {
-      "$oid": "672a2dcf6f86a8ba93a4a727"
-    },
-    "name": "Kanto"
+    "$oid": "6732530c8696fe038a1f5268"
   },
+  "region_name": "Isshu",
   "pokemons": [
-    "Onix",
-    "Geodude"
+    "Rhydon",
+    "Nidoking"
   ]
 },
 {
   "_id": {
-    "$oid": "672a45b56f86a8ba93a4b008"
+    "$oid": "67337db60fe03b354ea345f7"
   },
-  "name": "Ash Ketchum",
+  "name": "Blaine",
   "region": {
-    "id": {
-      "$oid": "672a2dcf6f86a8ba93a4a727"
-    },
-    "name": "Kanto"
+    "$oid": "6732530c8696fe038a1f5268"
   },
+  "region_name": "Isshu",
+  "pokemons": [
+    "Arcanine",
+    "Rapidash"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea345f8"
+  },
+  "name": "Erika",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5261"
+  },
+  "region_name": "Hoenn",
+  "pokemons": [
+    "Vileplume",
+    "Tangela"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea345f9"
+  },
+  "name": "Koga",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5267"
+  },
+  "region_name": "Paldea",
+  "pokemons": [
+    "Muk",
+    "Weezing"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea345fa"
+  },
+  "name": "Sabrina",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5262"
+  },
+  "region_name": "Sinnoh",
+  "pokemons": [
+    "Mr. Mime",
+    "Alakazam"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea345fb"
+  },
+  "name": "Roxanne",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5268"
+  },
+  "region_name": "Isshu",
+  "pokemons": [
+    "Geodude",
+    "Nosepass"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea345fc"
+  },
+  "name": "Liza",
+  "region": {
+    "$oid": "6732530c8696fe038a1f525f"
+  },
+  "region_name": "Kanto",
+  "pokemons": [
+    "Lunatone",
+    "Solrock"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea345fd"
+  },
+  "name": "Tate",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5265"
+  },
+  "region_name": "Alola",
+  "pokemons": [
+    "Solrock",
+    "Lunatone"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea345fe"
+  },
+  "name": "Juan",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5261"
+  },
+  "region_name": "Hoenn",
+  "pokemons": [
+    "Swampert",
+    "Gyarados"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea345ff"
+  },
+  "name": "Gardenia",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5268"
+  },
+  "region_name": "Isshu",
+  "pokemons": [
+    "Torterra",
+    "Roserade"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34600"
+  },
+  "name": "Fantina",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5264"
+  },
+  "region_name": "Kalos",
+  "pokemons": [
+    "Mismagius",
+    "Gengar"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34601"
+  },
+  "name": "Byron",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5268"
+  },
+  "region_name": "Isshu",
+  "pokemons": [
+    "Steelix",
+    "Bastiodon"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34602"
+  },
+  "name": "Candice",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5263"
+  },
+  "region_name": "Unova",
+  "pokemons": [
+    "Abomasnow",
+    "Piloswine"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34603"
+  },
+  "name": "Roark",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5261"
+  },
+  "region_name": "Hoenn",
+  "pokemons": [
+    "Onix",
+    "Cranidos"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34604"
+  },
+  "name": "Volkner",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5260"
+  },
+  "region_name": "Johto",
+  "pokemons": [
+    "Luxray",
+    "Electivire"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34605"
+  },
+  "name": "Alain",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5260"
+  },
+  "region_name": "Johto",
+  "pokemons": [
+    "Charizard",
+    "Magnezone"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34606"
+  },
+  "name": "Ash",
+  "region": {
+    "$oid": "6732530c8696fe038a1f525f"
+  },
+  "region_name": "Kanto",
   "pokemons": [
     "Pikachu",
     "Charizard"
@@ -64,15 +532,209 @@
 },
 {
   "_id": {
-    "$oid": "672a45b56f86a8ba93a4b009"
+    "$oid": "67337db60fe03b354ea34607"
+  },
+  "name": "Leon",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5266"
+  },
+  "region_name": "Galar",
+  "pokemons": [
+    "Charizard",
+    "Aegislash"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34608"
+  },
+  "name": "Diantha",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5265"
+  },
+  "region_name": "Alola",
+  "pokemons": [
+    "Gardevoir",
+    "Talonflame"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34609"
+  },
+  "name": "Zinnia",
+  "region": {
+    "$oid": "6732530c8696fe038a1f525f"
+  },
+  "region_name": "Kanto",
+  "pokemons": [
+    "Salamence",
+    "Altaria"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3460a"
+  },
+  "name": "Wally",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5266"
+  },
+  "region_name": "Galar",
+  "pokemons": [
+    "Ralts",
+    "Gardevoir"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3460b"
+  },
+  "name": "Hugh",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5267"
+  },
+  "region_name": "Paldea",
+  "pokemons": [
+    "Oshawott",
+    "Pignite"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3460c"
+  },
+  "name": "Yancy",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5260"
+  },
+  "region_name": "Johto",
+  "pokemons": [
+    "Emolga",
+    "Vanilluxe"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3460d"
+  },
+  "name": "Tierno",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5262"
+  },
+  "region_name": "Sinnoh",
+  "pokemons": [
+    "Squirtle",
+    "Seaking"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3460e"
+  },
+  "name": "Shauna",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5265"
+  },
+  "region_name": "Alola",
+  "pokemons": [
+    "Chespin",
+    "Sylveon"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3460f"
+  },
+  "name": "Alola Champion",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5265"
+  },
+  "region_name": "Alola",
+  "pokemons": [
+    "Decidueye",
+    "Toxapex"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34610"
+  },
+  "name": "Lillie",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5266"
+  },
+  "region_name": "Galar",
+  "pokemons": [
+    "Nebby",
+    "Vikavolt"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34611"
+  },
+  "name": "Olivia",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5261"
+  },
+  "region_name": "Hoenn",
+  "pokemons": [
+    "Lycanroc",
+    "Tyranitar"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34612"
+  },
+  "name": "Mallow",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5264"
+  },
+  "region_name": "Kalos",
+  "pokemons": [
+    "Tsareena",
+    "Lurantis"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34613"
+  },
+  "name": "Kiawe",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5268"
+  },
+  "region_name": "Isshu",
+  "pokemons": [
+    "Torkoal",
+    "Charizard"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34614"
+  },
+  "name": "Sina",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5265"
+  },
+  "region_name": "Alola",
+  "pokemons": [
+    "Garchomp",
+    "Mamoswine"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34615"
   },
   "name": "Misty",
   "region": {
-    "id": {
-      "$oid": "672a2dcf6f86a8ba93a4a727"
-    },
-    "name": "Kanto"
+    "$oid": "6732530c8696fe038a1f5266"
   },
+  "region_name": "Galar",
   "pokemons": [
     "Starmie",
     "Psyduck"
@@ -80,17 +742,6819 @@
 },
 {
   "_id": {
-    "$oid": "672a45b56f86a8ba93a4b00a"
+    "$oid": "67337db60fe03b354ea34616"
   },
-  "name": "Brock",
+  "name": "Blaine",
   "region": {
-    "id": {
-      "$oid": "672a2dcf6f86a8ba93a4a727"
-    },
-    "name": "Kanto"
+    "$oid": "6732530c8696fe038a1f5267"
   },
+  "region_name": "Paldea",
+  "pokemons": [
+    "Rapidash",
+    "Arcanine"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34617"
+  },
+  "name": "Gary Oak",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5264"
+  },
+  "region_name": "Kalos",
+  "pokemons": [
+    "Blastoise",
+    "Electivire"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34618"
+  },
+  "name": "May",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5263"
+  },
+  "region_name": "Unova",
+  "pokemons": [
+    "Torchic",
+    "Beautifly"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34619"
+  },
+  "name": "Dawn",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5261"
+  },
+  "region_name": "Hoenn",
+  "pokemons": [
+    "Piplup",
+    "Buneary"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3461a"
+  },
+  "name": "Serena",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5266"
+  },
+  "region_name": "Galar",
+  "pokemons": [
+    "Fennekin",
+    "Sylveon"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3461b"
+  },
+  "name": "Clemont",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5264"
+  },
+  "region_name": "Kalos",
+  "pokemons": [
+    "Luxray",
+    "Magneton"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3461c"
+  },
+  "name": "Cynthia",
+  "region": {
+    "$oid": "6732530c8696fe038a1f525f"
+  },
+  "region_name": "Kanto",
+  "pokemons": [
+    "Garchomp",
+    "Togekiss"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3461d"
+  },
+  "name": "Lysandre",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5265"
+  },
+  "region_name": "Alola",
+  "pokemons": [
+    "Mega Gyarados",
+    "Mienfoo"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3461e"
+  },
+  "name": "Leon",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5263"
+  },
+  "region_name": "Unova",
+  "pokemons": [
+    "Charizard",
+    "Aegislash"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3461f"
+  },
+  "name": "Marnie",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5264"
+  },
+  "region_name": "Kalos",
+  "pokemons": [
+    "Morgrem",
+    "Toxicroak"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34620"
+  },
+  "name": "Rosa",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5268"
+  },
+  "region_name": "Isshu",
+  "pokemons": [
+    "Snivy",
+    "Musharna"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34621"
+  },
+  "name": "N",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5262"
+  },
+  "region_name": "Sinnoh",
+  "pokemons": [
+    "Zekrom",
+    "Reshiram"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34622"
+  },
+  "name": "Flannery",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5268"
+  },
+  "region_name": "Isshu",
+  "pokemons": [
+    "Torkoal",
+    "Slugma"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34623"
+  },
+  "name": "Wallace",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5263"
+  },
+  "region_name": "Unova",
+  "pokemons": [
+    "Swampert",
+    "Gyarados"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34624"
+  },
+  "name": "Blue",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5265"
+  },
+  "region_name": "Alola",
+  "pokemons": [
+    "Rhydon",
+    "Arcanine"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34625"
+  },
+  "name": "Koga",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5263"
+  },
+  "region_name": "Unova",
+  "pokemons": [
+    "Weezing",
+    "Muk"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34626"
+  },
+  "name": "Sabrina",
+  "region": {
+    "$oid": "6732530c8696fe038a1f525f"
+  },
+  "region_name": "Kanto",
+  "pokemons": [
+    "Alakazam",
+    "Mr. Mime"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34627"
+  },
+  "name": "Giovanni",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5264"
+  },
+  "region_name": "Kalos",
+  "pokemons": [
+    "Rhydon",
+    "Nidoking"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34628"
+  },
+  "name": "Whitney",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5261"
+  },
+  "region_name": "Hoenn",
+  "pokemons": [
+    "Miltank",
+    "Clefairy"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34629"
+  },
+  "name": "Clair",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5267"
+  },
+  "region_name": "Paldea",
+  "pokemons": [
+    "Kingdra",
+    "Dragonair"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3462a"
+  },
+  "name": "Chuck",
+  "region": {
+    "$oid": "6732530c8696fe038a1f525f"
+  },
+  "region_name": "Kanto",
+  "pokemons": [
+    "Poliwrath",
+    "Primeape"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3462b"
+  },
+  "name": "Misty",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5260"
+  },
+  "region_name": "Johto",
+  "pokemons": [
+    "Starmie",
+    "Psyduck"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3462c"
+  },
+  "name": "Giovanni",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5261"
+  },
+  "region_name": "Hoenn",
+  "pokemons": [
+    "Rhydon",
+    "Nidoking"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3462d"
+  },
+  "name": "Blaine",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5268"
+  },
+  "region_name": "Isshu",
+  "pokemons": [
+    "Arcanine",
+    "Rapidash"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3462e"
+  },
+  "name": "Erika",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5263"
+  },
+  "region_name": "Unova",
+  "pokemons": [
+    "Vileplume",
+    "Tangela"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3462f"
+  },
+  "name": "Koga",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5260"
+  },
+  "region_name": "Johto",
+  "pokemons": [
+    "Muk",
+    "Weezing"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34630"
+  },
+  "name": "Sabrina",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5260"
+  },
+  "region_name": "Johto",
+  "pokemons": [
+    "Mr. Mime",
+    "Alakazam"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34631"
+  },
+  "name": "Roxanne",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5266"
+  },
+  "region_name": "Galar",
+  "pokemons": [
+    "Geodude",
+    "Nosepass"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34632"
+  },
+  "name": "Liza",
+  "region": {
+    "$oid": "6732530c8696fe038a1f525f"
+  },
+  "region_name": "Kanto",
+  "pokemons": [
+    "Lunatone",
+    "Solrock"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34633"
+  },
+  "name": "Tate",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5265"
+  },
+  "region_name": "Alola",
+  "pokemons": [
+    "Solrock",
+    "Lunatone"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34634"
+  },
+  "name": "Juan",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5264"
+  },
+  "region_name": "Kalos",
+  "pokemons": [
+    "Swampert",
+    "Gyarados"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34635"
+  },
+  "name": "Gardenia",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5268"
+  },
+  "region_name": "Isshu",
+  "pokemons": [
+    "Torterra",
+    "Roserade"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34636"
+  },
+  "name": "Fantina",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5262"
+  },
+  "region_name": "Sinnoh",
+  "pokemons": [
+    "Mismagius",
+    "Gengar"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34637"
+  },
+  "name": "Byron",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5267"
+  },
+  "region_name": "Paldea",
+  "pokemons": [
+    "Steelix",
+    "Bastiodon"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34638"
+  },
+  "name": "Candice",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5264"
+  },
+  "region_name": "Kalos",
+  "pokemons": [
+    "Abomasnow",
+    "Piloswine"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34639"
+  },
+  "name": "Roark",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5266"
+  },
+  "region_name": "Galar",
   "pokemons": [
     "Onix",
-    "Geodude"
+    "Cranidos"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3463a"
+  },
+  "name": "Volkner",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5264"
+  },
+  "region_name": "Kalos",
+  "pokemons": [
+    "Luxray",
+    "Electivire"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3463b"
+  },
+  "name": "Alain",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5267"
+  },
+  "region_name": "Paldea",
+  "pokemons": [
+    "Charizard",
+    "Magnezone"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3463c"
+  },
+  "name": "Ash",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5266"
+  },
+  "region_name": "Galar",
+  "pokemons": [
+    "Pikachu",
+    "Charizard"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3463d"
+  },
+  "name": "Leon",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5267"
+  },
+  "region_name": "Paldea",
+  "pokemons": [
+    "Charizard",
+    "Aegislash"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3463e"
+  },
+  "name": "Diantha",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5260"
+  },
+  "region_name": "Johto",
+  "pokemons": [
+    "Gardevoir",
+    "Talonflame"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3463f"
+  },
+  "name": "Zinnia",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5265"
+  },
+  "region_name": "Alola",
+  "pokemons": [
+    "Salamence",
+    "Altaria"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34640"
+  },
+  "name": "Wally",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5261"
+  },
+  "region_name": "Hoenn",
+  "pokemons": [
+    "Ralts",
+    "Gardevoir"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34641"
+  },
+  "name": "Hugh",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5264"
+  },
+  "region_name": "Kalos",
+  "pokemons": [
+    "Oshawott",
+    "Pignite"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34642"
+  },
+  "name": "Yancy",
+  "region": {
+    "$oid": "6732530c8696fe038a1f525f"
+  },
+  "region_name": "Kanto",
+  "pokemons": [
+    "Emolga",
+    "Vanilluxe"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34643"
+  },
+  "name": "Tierno",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5267"
+  },
+  "region_name": "Paldea",
+  "pokemons": [
+    "Squirtle",
+    "Seaking"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34644"
+  },
+  "name": "Shauna",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5261"
+  },
+  "region_name": "Hoenn",
+  "pokemons": [
+    "Chespin",
+    "Sylveon"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34645"
+  },
+  "name": "Alola Champion",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5260"
+  },
+  "region_name": "Johto",
+  "pokemons": [
+    "Decidueye",
+    "Toxapex"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34646"
+  },
+  "name": "Lillie",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5267"
+  },
+  "region_name": "Paldea",
+  "pokemons": [
+    "Nebby",
+    "Vikavolt"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34647"
+  },
+  "name": "Olivia",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5267"
+  },
+  "region_name": "Paldea",
+  "pokemons": [
+    "Lycanroc",
+    "Tyranitar"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34648"
+  },
+  "name": "Mallow",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5261"
+  },
+  "region_name": "Hoenn",
+  "pokemons": [
+    "Tsareena",
+    "Lurantis"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34649"
+  },
+  "name": "Kiawe",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5265"
+  },
+  "region_name": "Alola",
+  "pokemons": [
+    "Torkoal",
+    "Charizard"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3464a"
+  },
+  "name": "Sina",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5267"
+  },
+  "region_name": "Paldea",
+  "pokemons": [
+    "Garchomp",
+    "Mamoswine"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3464b"
+  },
+  "name": "Misty",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5263"
+  },
+  "region_name": "Unova",
+  "pokemons": [
+    "Starmie",
+    "Psyduck"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3464c"
+  },
+  "name": "Blaine",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5261"
+  },
+  "region_name": "Hoenn",
+  "pokemons": [
+    "Rapidash",
+    "Arcanine"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3464d"
+  },
+  "name": "Gary Oak",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5268"
+  },
+  "region_name": "Isshu",
+  "pokemons": [
+    "Blastoise",
+    "Electivire"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3464e"
+  },
+  "name": "May",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5263"
+  },
+  "region_name": "Unova",
+  "pokemons": [
+    "Torchic",
+    "Beautifly"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3464f"
+  },
+  "name": "Dawn",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5268"
+  },
+  "region_name": "Isshu",
+  "pokemons": [
+    "Piplup",
+    "Buneary"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34650"
+  },
+  "name": "Serena",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5264"
+  },
+  "region_name": "Kalos",
+  "pokemons": [
+    "Fennekin",
+    "Sylveon"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34651"
+  },
+  "name": "Clemont",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5260"
+  },
+  "region_name": "Johto",
+  "pokemons": [
+    "Luxray",
+    "Magneton"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34652"
+  },
+  "name": "Cynthia",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5265"
+  },
+  "region_name": "Alola",
+  "pokemons": [
+    "Garchomp",
+    "Togekiss"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34653"
+  },
+  "name": "Lysandre",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5265"
+  },
+  "region_name": "Alola",
+  "pokemons": [
+    "Mega Gyarados",
+    "Mienfoo"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34654"
+  },
+  "name": "Leon",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5264"
+  },
+  "region_name": "Kalos",
+  "pokemons": [
+    "Charizard",
+    "Aegislash"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34655"
+  },
+  "name": "Marnie",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5264"
+  },
+  "region_name": "Kalos",
+  "pokemons": [
+    "Morgrem",
+    "Toxicroak"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34656"
+  },
+  "name": "Rosa",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5265"
+  },
+  "region_name": "Alola",
+  "pokemons": [
+    "Snivy",
+    "Musharna"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34657"
+  },
+  "name": "N",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5265"
+  },
+  "region_name": "Alola",
+  "pokemons": [
+    "Zekrom",
+    "Reshiram"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34658"
+  },
+  "name": "Flannery",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5267"
+  },
+  "region_name": "Paldea",
+  "pokemons": [
+    "Torkoal",
+    "Slugma"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34659"
+  },
+  "name": "Wallace",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5266"
+  },
+  "region_name": "Galar",
+  "pokemons": [
+    "Swampert",
+    "Gyarados"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3465a"
+  },
+  "name": "Blue",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5262"
+  },
+  "region_name": "Sinnoh",
+  "pokemons": [
+    "Rhydon",
+    "Arcanine"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3465b"
+  },
+  "name": "Koga",
+  "region": {
+    "$oid": "6732530c8696fe038a1f525f"
+  },
+  "region_name": "Kanto",
+  "pokemons": [
+    "Weezing",
+    "Muk"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3465c"
+  },
+  "name": "Sabrina",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5262"
+  },
+  "region_name": "Sinnoh",
+  "pokemons": [
+    "Alakazam",
+    "Mr. Mime"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3465d"
+  },
+  "name": "Giovanni",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5264"
+  },
+  "region_name": "Kalos",
+  "pokemons": [
+    "Rhydon",
+    "Nidoking"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3465e"
+  },
+  "name": "Whitney",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5261"
+  },
+  "region_name": "Hoenn",
+  "pokemons": [
+    "Miltank",
+    "Clefairy"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3465f"
+  },
+  "name": "Clair",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5262"
+  },
+  "region_name": "Sinnoh",
+  "pokemons": [
+    "Kingdra",
+    "Dragonair"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34660"
+  },
+  "name": "Chuck",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5268"
+  },
+  "region_name": "Isshu",
+  "pokemons": [
+    "Poliwrath",
+    "Primeape"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34661"
+  },
+  "name": "Misty",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5264"
+  },
+  "region_name": "Kalos",
+  "pokemons": [
+    "Starmie",
+    "Psyduck"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34662"
+  },
+  "name": "Giovanni",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5265"
+  },
+  "region_name": "Alola",
+  "pokemons": [
+    "Rhydon",
+    "Nidoking"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34663"
+  },
+  "name": "Blaine",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5266"
+  },
+  "region_name": "Galar",
+  "pokemons": [
+    "Arcanine",
+    "Rapidash"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34664"
+  },
+  "name": "Erika",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5267"
+  },
+  "region_name": "Paldea",
+  "pokemons": [
+    "Vileplume",
+    "Tangela"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34665"
+  },
+  "name": "Koga",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5266"
+  },
+  "region_name": "Galar",
+  "pokemons": [
+    "Muk",
+    "Weezing"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34666"
+  },
+  "name": "Sabrina",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5263"
+  },
+  "region_name": "Unova",
+  "pokemons": [
+    "Mr. Mime",
+    "Alakazam"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34667"
+  },
+  "name": "Roxanne",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5267"
+  },
+  "region_name": "Paldea",
+  "pokemons": [
+    "Geodude",
+    "Nosepass"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34668"
+  },
+  "name": "Liza",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5266"
+  },
+  "region_name": "Galar",
+  "pokemons": [
+    "Lunatone",
+    "Solrock"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34669"
+  },
+  "name": "Tate",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5263"
+  },
+  "region_name": "Unova",
+  "pokemons": [
+    "Solrock",
+    "Lunatone"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3466a"
+  },
+  "name": "Juan",
+  "region": {
+    "$oid": "6732530c8696fe038a1f525f"
+  },
+  "region_name": "Kanto",
+  "pokemons": [
+    "Swampert",
+    "Gyarados"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3466b"
+  },
+  "name": "Gardenia",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5264"
+  },
+  "region_name": "Kalos",
+  "pokemons": [
+    "Torterra",
+    "Roserade"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3466c"
+  },
+  "name": "Fantina",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5266"
+  },
+  "region_name": "Galar",
+  "pokemons": [
+    "Mismagius",
+    "Gengar"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3466d"
+  },
+  "name": "Byron",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5262"
+  },
+  "region_name": "Sinnoh",
+  "pokemons": [
+    "Steelix",
+    "Bastiodon"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3466e"
+  },
+  "name": "Candice",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5268"
+  },
+  "region_name": "Isshu",
+  "pokemons": [
+    "Abomasnow",
+    "Piloswine"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3466f"
+  },
+  "name": "Roark",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5266"
+  },
+  "region_name": "Galar",
+  "pokemons": [
+    "Onix",
+    "Cranidos"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34670"
+  },
+  "name": "Volkner",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5263"
+  },
+  "region_name": "Unova",
+  "pokemons": [
+    "Luxray",
+    "Electivire"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34671"
+  },
+  "name": "Alain",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5262"
+  },
+  "region_name": "Sinnoh",
+  "pokemons": [
+    "Charizard",
+    "Magnezone"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34672"
+  },
+  "name": "Ash",
+  "region": {
+    "$oid": "6732530c8696fe038a1f525f"
+  },
+  "region_name": "Kanto",
+  "pokemons": [
+    "Pikachu",
+    "Charizard"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34673"
+  },
+  "name": "Leon",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5263"
+  },
+  "region_name": "Unova",
+  "pokemons": [
+    "Charizard",
+    "Aegislash"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34674"
+  },
+  "name": "Diantha",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5264"
+  },
+  "region_name": "Kalos",
+  "pokemons": [
+    "Gardevoir",
+    "Talonflame"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34675"
+  },
+  "name": "Zinnia",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5268"
+  },
+  "region_name": "Isshu",
+  "pokemons": [
+    "Salamence",
+    "Altaria"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34676"
+  },
+  "name": "Wally",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5264"
+  },
+  "region_name": "Kalos",
+  "pokemons": [
+    "Ralts",
+    "Gardevoir"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34677"
+  },
+  "name": "Hugh",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5261"
+  },
+  "region_name": "Hoenn",
+  "pokemons": [
+    "Oshawott",
+    "Pignite"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34678"
+  },
+  "name": "Yancy",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5267"
+  },
+  "region_name": "Paldea",
+  "pokemons": [
+    "Emolga",
+    "Vanilluxe"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34679"
+  },
+  "name": "Tierno",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5265"
+  },
+  "region_name": "Alola",
+  "pokemons": [
+    "Squirtle",
+    "Seaking"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3467a"
+  },
+  "name": "Shauna",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5261"
+  },
+  "region_name": "Hoenn",
+  "pokemons": [
+    "Chespin",
+    "Sylveon"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3467b"
+  },
+  "name": "Alola Champion",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5266"
+  },
+  "region_name": "Galar",
+  "pokemons": [
+    "Decidueye",
+    "Toxapex"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3467c"
+  },
+  "name": "Lillie",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5262"
+  },
+  "region_name": "Sinnoh",
+  "pokemons": [
+    "Nebby",
+    "Vikavolt"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3467d"
+  },
+  "name": "Olivia",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5260"
+  },
+  "region_name": "Johto",
+  "pokemons": [
+    "Lycanroc",
+    "Tyranitar"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3467e"
+  },
+  "name": "Mallow",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5265"
+  },
+  "region_name": "Alola",
+  "pokemons": [
+    "Tsareena",
+    "Lurantis"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3467f"
+  },
+  "name": "Kiawe",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5268"
+  },
+  "region_name": "Isshu",
+  "pokemons": [
+    "Torkoal",
+    "Charizard"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34680"
+  },
+  "name": "Sina",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5260"
+  },
+  "region_name": "Johto",
+  "pokemons": [
+    "Garchomp",
+    "Mamoswine"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34681"
+  },
+  "name": "Misty",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5268"
+  },
+  "region_name": "Isshu",
+  "pokemons": [
+    "Starmie",
+    "Psyduck"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34682"
+  },
+  "name": "Blaine",
+  "region": {
+    "$oid": "6732530c8696fe038a1f525f"
+  },
+  "region_name": "Kanto",
+  "pokemons": [
+    "Rapidash",
+    "Arcanine"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34683"
+  },
+  "name": "Gary Oak",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5266"
+  },
+  "region_name": "Galar",
+  "pokemons": [
+    "Blastoise",
+    "Electivire"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34684"
+  },
+  "name": "May",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5260"
+  },
+  "region_name": "Johto",
+  "pokemons": [
+    "Torchic",
+    "Beautifly"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34685"
+  },
+  "name": "Dawn",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5267"
+  },
+  "region_name": "Paldea",
+  "pokemons": [
+    "Piplup",
+    "Buneary"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34686"
+  },
+  "name": "Serena",
+  "region": {
+    "$oid": "6732530c8696fe038a1f525f"
+  },
+  "region_name": "Kanto",
+  "pokemons": [
+    "Fennekin",
+    "Sylveon"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34687"
+  },
+  "name": "Clemont",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5261"
+  },
+  "region_name": "Hoenn",
+  "pokemons": [
+    "Luxray",
+    "Magneton"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34688"
+  },
+  "name": "Cynthia",
+  "region": {
+    "$oid": "6732530c8696fe038a1f525f"
+  },
+  "region_name": "Kanto",
+  "pokemons": [
+    "Garchomp",
+    "Togekiss"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34689"
+  },
+  "name": "Lysandre",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5267"
+  },
+  "region_name": "Paldea",
+  "pokemons": [
+    "Mega Gyarados",
+    "Mienfoo"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3468a"
+  },
+  "name": "Leon",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5267"
+  },
+  "region_name": "Paldea",
+  "pokemons": [
+    "Charizard",
+    "Aegislash"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3468b"
+  },
+  "name": "Marnie",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5266"
+  },
+  "region_name": "Galar",
+  "pokemons": [
+    "Morgrem",
+    "Toxicroak"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3468c"
+  },
+  "name": "Rosa",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5261"
+  },
+  "region_name": "Hoenn",
+  "pokemons": [
+    "Snivy",
+    "Musharna"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3468d"
+  },
+  "name": "N",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5260"
+  },
+  "region_name": "Johto",
+  "pokemons": [
+    "Zekrom",
+    "Reshiram"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3468e"
+  },
+  "name": "Flannery",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5265"
+  },
+  "region_name": "Alola",
+  "pokemons": [
+    "Torkoal",
+    "Slugma"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3468f"
+  },
+  "name": "Wallace",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5262"
+  },
+  "region_name": "Sinnoh",
+  "pokemons": [
+    "Swampert",
+    "Gyarados"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34690"
+  },
+  "name": "Blue",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5261"
+  },
+  "region_name": "Hoenn",
+  "pokemons": [
+    "Rhydon",
+    "Arcanine"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34691"
+  },
+  "name": "Koga",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5261"
+  },
+  "region_name": "Hoenn",
+  "pokemons": [
+    "Weezing",
+    "Muk"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34692"
+  },
+  "name": "Sabrina",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5268"
+  },
+  "region_name": "Isshu",
+  "pokemons": [
+    "Alakazam",
+    "Mr. Mime"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34693"
+  },
+  "name": "Giovanni",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5264"
+  },
+  "region_name": "Kalos",
+  "pokemons": [
+    "Rhydon",
+    "Nidoking"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34694"
+  },
+  "name": "Whitney",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5263"
+  },
+  "region_name": "Unova",
+  "pokemons": [
+    "Miltank",
+    "Clefairy"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34695"
+  },
+  "name": "Clair",
+  "region": {
+    "$oid": "6732530c8696fe038a1f525f"
+  },
+  "region_name": "Kanto",
+  "pokemons": [
+    "Kingdra",
+    "Dragonair"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34696"
+  },
+  "name": "Chuck",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5266"
+  },
+  "region_name": "Galar",
+  "pokemons": [
+    "Poliwrath",
+    "Primeape"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34697"
+  },
+  "name": "Misty",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5264"
+  },
+  "region_name": "Kalos",
+  "pokemons": [
+    "Starmie",
+    "Psyduck"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34698"
+  },
+  "name": "Giovanni",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5266"
+  },
+  "region_name": "Galar",
+  "pokemons": [
+    "Rhydon",
+    "Nidoking"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34699"
+  },
+  "name": "Blaine",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5264"
+  },
+  "region_name": "Kalos",
+  "pokemons": [
+    "Arcanine",
+    "Rapidash"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3469a"
+  },
+  "name": "Erika",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5260"
+  },
+  "region_name": "Johto",
+  "pokemons": [
+    "Vileplume",
+    "Tangela"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3469b"
+  },
+  "name": "Koga",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5262"
+  },
+  "region_name": "Sinnoh",
+  "pokemons": [
+    "Muk",
+    "Weezing"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3469c"
+  },
+  "name": "Sabrina",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5264"
+  },
+  "region_name": "Kalos",
+  "pokemons": [
+    "Mr. Mime",
+    "Alakazam"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3469d"
+  },
+  "name": "Roxanne",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5268"
+  },
+  "region_name": "Isshu",
+  "pokemons": [
+    "Geodude",
+    "Nosepass"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3469e"
+  },
+  "name": "Liza",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5264"
+  },
+  "region_name": "Kalos",
+  "pokemons": [
+    "Lunatone",
+    "Solrock"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3469f"
+  },
+  "name": "Tate",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5261"
+  },
+  "region_name": "Hoenn",
+  "pokemons": [
+    "Solrock",
+    "Lunatone"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea346a0"
+  },
+  "name": "Juan",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5264"
+  },
+  "region_name": "Kalos",
+  "pokemons": [
+    "Swampert",
+    "Gyarados"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea346a1"
+  },
+  "name": "Gardenia",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5260"
+  },
+  "region_name": "Johto",
+  "pokemons": [
+    "Torterra",
+    "Roserade"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea346a2"
+  },
+  "name": "Fantina",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5268"
+  },
+  "region_name": "Isshu",
+  "pokemons": [
+    "Mismagius",
+    "Gengar"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea346a3"
+  },
+  "name": "Byron",
+  "region": {
+    "$oid": "6732530c8696fe038a1f525f"
+  },
+  "region_name": "Kanto",
+  "pokemons": [
+    "Steelix",
+    "Bastiodon"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea346a4"
+  },
+  "name": "Candice",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5266"
+  },
+  "region_name": "Galar",
+  "pokemons": [
+    "Abomasnow",
+    "Piloswine"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea346a5"
+  },
+  "name": "Roark",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5268"
+  },
+  "region_name": "Isshu",
+  "pokemons": [
+    "Onix",
+    "Cranidos"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea346a6"
+  },
+  "name": "Volkner",
+  "region": {
+    "$oid": "6732530c8696fe038a1f525f"
+  },
+  "region_name": "Kanto",
+  "pokemons": [
+    "Luxray",
+    "Electivire"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea346a7"
+  },
+  "name": "Alain",
+  "region": {
+    "$oid": "6732530c8696fe038a1f525f"
+  },
+  "region_name": "Kanto",
+  "pokemons": [
+    "Charizard",
+    "Magnezone"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea346a8"
+  },
+  "name": "Ash",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5265"
+  },
+  "region_name": "Alola",
+  "pokemons": [
+    "Pikachu",
+    "Charizard"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea346a9"
+  },
+  "name": "Leon",
+  "region": {
+    "$oid": "6732530c8696fe038a1f525f"
+  },
+  "region_name": "Kanto",
+  "pokemons": [
+    "Charizard",
+    "Aegislash"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea346aa"
+  },
+  "name": "Diantha",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5266"
+  },
+  "region_name": "Galar",
+  "pokemons": [
+    "Gardevoir",
+    "Talonflame"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea346ab"
+  },
+  "name": "Zinnia",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5263"
+  },
+  "region_name": "Unova",
+  "pokemons": [
+    "Salamence",
+    "Altaria"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea346ac"
+  },
+  "name": "Wally",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5264"
+  },
+  "region_name": "Kalos",
+  "pokemons": [
+    "Ralts",
+    "Gardevoir"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea346ad"
+  },
+  "name": "Hugh",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5266"
+  },
+  "region_name": "Galar",
+  "pokemons": [
+    "Oshawott",
+    "Pignite"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea346ae"
+  },
+  "name": "Yancy",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5260"
+  },
+  "region_name": "Johto",
+  "pokemons": [
+    "Emolga",
+    "Vanilluxe"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea346af"
+  },
+  "name": "Tierno",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5268"
+  },
+  "region_name": "Isshu",
+  "pokemons": [
+    "Squirtle",
+    "Seaking"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea346b0"
+  },
+  "name": "Shauna",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5264"
+  },
+  "region_name": "Kalos",
+  "pokemons": [
+    "Chespin",
+    "Sylveon"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea346b1"
+  },
+  "name": "Alola Champion",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5265"
+  },
+  "region_name": "Alola",
+  "pokemons": [
+    "Decidueye",
+    "Toxapex"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea346b2"
+  },
+  "name": "Lillie",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5263"
+  },
+  "region_name": "Unova",
+  "pokemons": [
+    "Nebby",
+    "Vikavolt"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea346b3"
+  },
+  "name": "Olivia",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5268"
+  },
+  "region_name": "Isshu",
+  "pokemons": [
+    "Lycanroc",
+    "Tyranitar"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea346b4"
+  },
+  "name": "Mallow",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5263"
+  },
+  "region_name": "Unova",
+  "pokemons": [
+    "Tsareena",
+    "Lurantis"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea346b5"
+  },
+  "name": "Kiawe",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5266"
+  },
+  "region_name": "Galar",
+  "pokemons": [
+    "Torkoal",
+    "Charizard"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea346b6"
+  },
+  "name": "Sina",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5264"
+  },
+  "region_name": "Kalos",
+  "pokemons": [
+    "Garchomp",
+    "Mamoswine"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea346b7"
+  },
+  "name": "Misty",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5260"
+  },
+  "region_name": "Johto",
+  "pokemons": [
+    "Starmie",
+    "Psyduck"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea346b8"
+  },
+  "name": "Blaine",
+  "region": {
+    "$oid": "6732530c8696fe038a1f525f"
+  },
+  "region_name": "Kanto",
+  "pokemons": [
+    "Rapidash",
+    "Arcanine"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea346b9"
+  },
+  "name": "Gary Oak",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5266"
+  },
+  "region_name": "Galar",
+  "pokemons": [
+    "Blastoise",
+    "Electivire"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea346ba"
+  },
+  "name": "May",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5260"
+  },
+  "region_name": "Johto",
+  "pokemons": [
+    "Torchic",
+    "Beautifly"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea346bb"
+  },
+  "name": "Dawn",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5261"
+  },
+  "region_name": "Hoenn",
+  "pokemons": [
+    "Piplup",
+    "Buneary"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea346bc"
+  },
+  "name": "Serena",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5268"
+  },
+  "region_name": "Isshu",
+  "pokemons": [
+    "Fennekin",
+    "Sylveon"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea346bd"
+  },
+  "name": "Clemont",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5261"
+  },
+  "region_name": "Hoenn",
+  "pokemons": [
+    "Luxray",
+    "Magneton"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea346be"
+  },
+  "name": "Cynthia",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5261"
+  },
+  "region_name": "Hoenn",
+  "pokemons": [
+    "Garchomp",
+    "Togekiss"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea346bf"
+  },
+  "name": "Lysandre",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5260"
+  },
+  "region_name": "Johto",
+  "pokemons": [
+    "Mega Gyarados",
+    "Mienfoo"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea346c0"
+  },
+  "name": "Leon",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5261"
+  },
+  "region_name": "Hoenn",
+  "pokemons": [
+    "Charizard",
+    "Aegislash"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea346c1"
+  },
+  "name": "Marnie",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5268"
+  },
+  "region_name": "Isshu",
+  "pokemons": [
+    "Morgrem",
+    "Toxicroak"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea346c2"
+  },
+  "name": "Rosa",
+  "region": {
+    "$oid": "6732530c8696fe038a1f525f"
+  },
+  "region_name": "Kanto",
+  "pokemons": [
+    "Snivy",
+    "Musharna"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea346c3"
+  },
+  "name": "N",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5267"
+  },
+  "region_name": "Paldea",
+  "pokemons": [
+    "Zekrom",
+    "Reshiram"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea346c4"
+  },
+  "name": "Flannery",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5265"
+  },
+  "region_name": "Alola",
+  "pokemons": [
+    "Torkoal",
+    "Slugma"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea346c5"
+  },
+  "name": "Wallace",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5260"
+  },
+  "region_name": "Johto",
+  "pokemons": [
+    "Swampert",
+    "Gyarados"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea346c6"
+  },
+  "name": "Blue",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5260"
+  },
+  "region_name": "Johto",
+  "pokemons": [
+    "Rhydon",
+    "Arcanine"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea346c7"
+  },
+  "name": "Koga",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5265"
+  },
+  "region_name": "Alola",
+  "pokemons": [
+    "Weezing",
+    "Muk"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea346c8"
+  },
+  "name": "Sabrina",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5268"
+  },
+  "region_name": "Isshu",
+  "pokemons": [
+    "Alakazam",
+    "Mr. Mime"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea346c9"
+  },
+  "name": "Giovanni",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5264"
+  },
+  "region_name": "Kalos",
+  "pokemons": [
+    "Rhydon",
+    "Nidoking"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea346ca"
+  },
+  "name": "Whitney",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5260"
+  },
+  "region_name": "Johto",
+  "pokemons": [
+    "Miltank",
+    "Clefairy"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea346cb"
+  },
+  "name": "Clair",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5264"
+  },
+  "region_name": "Kalos",
+  "pokemons": [
+    "Kingdra",
+    "Dragonair"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea346cc"
+  },
+  "name": "Chuck",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5265"
+  },
+  "region_name": "Alola",
+  "pokemons": [
+    "Poliwrath",
+    "Primeape"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea346cd"
+  },
+  "name": "Misty",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5265"
+  },
+  "region_name": "Alola",
+  "pokemons": [
+    "Starmie",
+    "Psyduck"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea346ce"
+  },
+  "name": "Giovanni",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5264"
+  },
+  "region_name": "Kalos",
+  "pokemons": [
+    "Rhydon",
+    "Nidoking"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea346cf"
+  },
+  "name": "Blaine",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5261"
+  },
+  "region_name": "Hoenn",
+  "pokemons": [
+    "Arcanine",
+    "Rapidash"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea346d0"
+  },
+  "name": "Erika",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5261"
+  },
+  "region_name": "Hoenn",
+  "pokemons": [
+    "Vileplume",
+    "Tangela"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea346d1"
+  },
+  "name": "Koga",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5266"
+  },
+  "region_name": "Galar",
+  "pokemons": [
+    "Muk",
+    "Weezing"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea346d2"
+  },
+  "name": "Sabrina",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5264"
+  },
+  "region_name": "Kalos",
+  "pokemons": [
+    "Mr. Mime",
+    "Alakazam"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea346d3"
+  },
+  "name": "Roxanne",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5267"
+  },
+  "region_name": "Paldea",
+  "pokemons": [
+    "Geodude",
+    "Nosepass"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea346d4"
+  },
+  "name": "Liza",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5263"
+  },
+  "region_name": "Unova",
+  "pokemons": [
+    "Lunatone",
+    "Solrock"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea346d5"
+  },
+  "name": "Tate",
+  "region": {
+    "$oid": "6732530c8696fe038a1f525f"
+  },
+  "region_name": "Kanto",
+  "pokemons": [
+    "Solrock",
+    "Lunatone"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea346d6"
+  },
+  "name": "Juan",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5260"
+  },
+  "region_name": "Johto",
+  "pokemons": [
+    "Swampert",
+    "Gyarados"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea346d7"
+  },
+  "name": "Gardenia",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5268"
+  },
+  "region_name": "Isshu",
+  "pokemons": [
+    "Torterra",
+    "Roserade"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea346d8"
+  },
+  "name": "Fantina",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5268"
+  },
+  "region_name": "Isshu",
+  "pokemons": [
+    "Mismagius",
+    "Gengar"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea346d9"
+  },
+  "name": "Byron",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5266"
+  },
+  "region_name": "Galar",
+  "pokemons": [
+    "Steelix",
+    "Bastiodon"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea346da"
+  },
+  "name": "Candice",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5264"
+  },
+  "region_name": "Kalos",
+  "pokemons": [
+    "Abomasnow",
+    "Piloswine"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea346db"
+  },
+  "name": "Roark",
+  "region": {
+    "$oid": "6732530c8696fe038a1f525f"
+  },
+  "region_name": "Kanto",
+  "pokemons": [
+    "Onix",
+    "Cranidos"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea346dc"
+  },
+  "name": "Volkner",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5263"
+  },
+  "region_name": "Unova",
+  "pokemons": [
+    "Luxray",
+    "Electivire"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea346dd"
+  },
+  "name": "Alain",
+  "region": {
+    "$oid": "6732530c8696fe038a1f525f"
+  },
+  "region_name": "Kanto",
+  "pokemons": [
+    "Charizard",
+    "Magnezone"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea346de"
+  },
+  "name": "Ash",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5263"
+  },
+  "region_name": "Unova",
+  "pokemons": [
+    "Pikachu",
+    "Charizard"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea346df"
+  },
+  "name": "Leon",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5265"
+  },
+  "region_name": "Alola",
+  "pokemons": [
+    "Charizard",
+    "Aegislash"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea346e0"
+  },
+  "name": "Diantha",
+  "region": {
+    "$oid": "6732530c8696fe038a1f525f"
+  },
+  "region_name": "Kanto",
+  "pokemons": [
+    "Gardevoir",
+    "Talonflame"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea346e1"
+  },
+  "name": "Zinnia",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5265"
+  },
+  "region_name": "Alola",
+  "pokemons": [
+    "Salamence",
+    "Altaria"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea346e2"
+  },
+  "name": "Wally",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5264"
+  },
+  "region_name": "Kalos",
+  "pokemons": [
+    "Ralts",
+    "Gardevoir"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea346e3"
+  },
+  "name": "Hugh",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5261"
+  },
+  "region_name": "Hoenn",
+  "pokemons": [
+    "Oshawott",
+    "Pignite"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea346e4"
+  },
+  "name": "Yancy",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5267"
+  },
+  "region_name": "Paldea",
+  "pokemons": [
+    "Emolga",
+    "Vanilluxe"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea346e5"
+  },
+  "name": "Tierno",
+  "region": {
+    "$oid": "6732530c8696fe038a1f525f"
+  },
+  "region_name": "Kanto",
+  "pokemons": [
+    "Squirtle",
+    "Seaking"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea346e6"
+  },
+  "name": "Shauna",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5264"
+  },
+  "region_name": "Kalos",
+  "pokemons": [
+    "Chespin",
+    "Sylveon"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea346e7"
+  },
+  "name": "Alola Champion",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5260"
+  },
+  "region_name": "Johto",
+  "pokemons": [
+    "Decidueye",
+    "Toxapex"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea346e8"
+  },
+  "name": "Lillie",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5265"
+  },
+  "region_name": "Alola",
+  "pokemons": [
+    "Nebby",
+    "Vikavolt"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea346e9"
+  },
+  "name": "Olivia",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5265"
+  },
+  "region_name": "Alola",
+  "pokemons": [
+    "Lycanroc",
+    "Tyranitar"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea346ea"
+  },
+  "name": "Mallow",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5266"
+  },
+  "region_name": "Galar",
+  "pokemons": [
+    "Tsareena",
+    "Lurantis"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea346eb"
+  },
+  "name": "Kiawe",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5262"
+  },
+  "region_name": "Sinnoh",
+  "pokemons": [
+    "Torkoal",
+    "Charizard"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea346ec"
+  },
+  "name": "Sina",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5264"
+  },
+  "region_name": "Kalos",
+  "pokemons": [
+    "Garchomp",
+    "Mamoswine"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea346ed"
+  },
+  "name": "Misty",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5265"
+  },
+  "region_name": "Alola",
+  "pokemons": [
+    "Starmie",
+    "Psyduck"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea346ee"
+  },
+  "name": "Blaine",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5260"
+  },
+  "region_name": "Johto",
+  "pokemons": [
+    "Rapidash",
+    "Arcanine"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea346ef"
+  },
+  "name": "Gary Oak",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5261"
+  },
+  "region_name": "Hoenn",
+  "pokemons": [
+    "Blastoise",
+    "Electivire"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea346f0"
+  },
+  "name": "May",
+  "region": {
+    "$oid": "6732530c8696fe038a1f525f"
+  },
+  "region_name": "Kanto",
+  "pokemons": [
+    "Torchic",
+    "Beautifly"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea346f1"
+  },
+  "name": "Dawn",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5262"
+  },
+  "region_name": "Sinnoh",
+  "pokemons": [
+    "Piplup",
+    "Buneary"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea346f2"
+  },
+  "name": "Serena",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5267"
+  },
+  "region_name": "Paldea",
+  "pokemons": [
+    "Fennekin",
+    "Sylveon"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea346f3"
+  },
+  "name": "Clemont",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5265"
+  },
+  "region_name": "Alola",
+  "pokemons": [
+    "Luxray",
+    "Magneton"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea346f4"
+  },
+  "name": "Cynthia",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5263"
+  },
+  "region_name": "Unova",
+  "pokemons": [
+    "Garchomp",
+    "Togekiss"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea346f5"
+  },
+  "name": "Lysandre",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5260"
+  },
+  "region_name": "Johto",
+  "pokemons": [
+    "Mega Gyarados",
+    "Mienfoo"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea346f6"
+  },
+  "name": "Leon",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5264"
+  },
+  "region_name": "Kalos",
+  "pokemons": [
+    "Charizard",
+    "Aegislash"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea346f7"
+  },
+  "name": "Marnie",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5263"
+  },
+  "region_name": "Unova",
+  "pokemons": [
+    "Morgrem",
+    "Toxicroak"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea346f8"
+  },
+  "name": "Rosa",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5262"
+  },
+  "region_name": "Sinnoh",
+  "pokemons": [
+    "Snivy",
+    "Musharna"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea346f9"
+  },
+  "name": "N",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5267"
+  },
+  "region_name": "Paldea",
+  "pokemons": [
+    "Zekrom",
+    "Reshiram"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea346fa"
+  },
+  "name": "Flannery",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5268"
+  },
+  "region_name": "Isshu",
+  "pokemons": [
+    "Torkoal",
+    "Slugma"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea346fb"
+  },
+  "name": "Wallace",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5268"
+  },
+  "region_name": "Isshu",
+  "pokemons": [
+    "Swampert",
+    "Gyarados"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea346fc"
+  },
+  "name": "Blue",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5268"
+  },
+  "region_name": "Isshu",
+  "pokemons": [
+    "Rhydon",
+    "Arcanine"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea346fd"
+  },
+  "name": "Koga",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5264"
+  },
+  "region_name": "Kalos",
+  "pokemons": [
+    "Weezing",
+    "Muk"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea346fe"
+  },
+  "name": "Sabrina",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5264"
+  },
+  "region_name": "Kalos",
+  "pokemons": [
+    "Alakazam",
+    "Mr. Mime"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea346ff"
+  },
+  "name": "Giovanni",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5266"
+  },
+  "region_name": "Galar",
+  "pokemons": [
+    "Rhydon",
+    "Nidoking"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34700"
+  },
+  "name": "Whitney",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5262"
+  },
+  "region_name": "Sinnoh",
+  "pokemons": [
+    "Miltank",
+    "Clefairy"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34701"
+  },
+  "name": "Clair",
+  "region": {
+    "$oid": "6732530c8696fe038a1f525f"
+  },
+  "region_name": "Kanto",
+  "pokemons": [
+    "Kingdra",
+    "Dragonair"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34702"
+  },
+  "name": "Chuck",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5265"
+  },
+  "region_name": "Alola",
+  "pokemons": [
+    "Poliwrath",
+    "Primeape"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34703"
+  },
+  "name": "Misty",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5260"
+  },
+  "region_name": "Johto",
+  "pokemons": [
+    "Starmie",
+    "Psyduck"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34704"
+  },
+  "name": "Giovanni",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5267"
+  },
+  "region_name": "Paldea",
+  "pokemons": [
+    "Rhydon",
+    "Nidoking"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34705"
+  },
+  "name": "Blaine",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5262"
+  },
+  "region_name": "Sinnoh",
+  "pokemons": [
+    "Arcanine",
+    "Rapidash"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34706"
+  },
+  "name": "Erika",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5260"
+  },
+  "region_name": "Johto",
+  "pokemons": [
+    "Vileplume",
+    "Tangela"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34707"
+  },
+  "name": "Koga",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5261"
+  },
+  "region_name": "Hoenn",
+  "pokemons": [
+    "Muk",
+    "Weezing"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34708"
+  },
+  "name": "Sabrina",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5268"
+  },
+  "region_name": "Isshu",
+  "pokemons": [
+    "Mr. Mime",
+    "Alakazam"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34709"
+  },
+  "name": "Roxanne",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5261"
+  },
+  "region_name": "Hoenn",
+  "pokemons": [
+    "Geodude",
+    "Nosepass"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3470a"
+  },
+  "name": "Liza",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5264"
+  },
+  "region_name": "Kalos",
+  "pokemons": [
+    "Lunatone",
+    "Solrock"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3470b"
+  },
+  "name": "Tate",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5264"
+  },
+  "region_name": "Kalos",
+  "pokemons": [
+    "Solrock",
+    "Lunatone"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3470c"
+  },
+  "name": "Juan",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5263"
+  },
+  "region_name": "Unova",
+  "pokemons": [
+    "Swampert",
+    "Gyarados"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3470d"
+  },
+  "name": "Gardenia",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5263"
+  },
+  "region_name": "Unova",
+  "pokemons": [
+    "Torterra",
+    "Roserade"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3470e"
+  },
+  "name": "Fantina",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5262"
+  },
+  "region_name": "Sinnoh",
+  "pokemons": [
+    "Mismagius",
+    "Gengar"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3470f"
+  },
+  "name": "Byron",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5263"
+  },
+  "region_name": "Unova",
+  "pokemons": [
+    "Steelix",
+    "Bastiodon"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34710"
+  },
+  "name": "Candice",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5260"
+  },
+  "region_name": "Johto",
+  "pokemons": [
+    "Abomasnow",
+    "Piloswine"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34711"
+  },
+  "name": "Roark",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5261"
+  },
+  "region_name": "Hoenn",
+  "pokemons": [
+    "Onix",
+    "Cranidos"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34712"
+  },
+  "name": "Volkner",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5262"
+  },
+  "region_name": "Sinnoh",
+  "pokemons": [
+    "Luxray",
+    "Electivire"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34713"
+  },
+  "name": "Alain",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5261"
+  },
+  "region_name": "Hoenn",
+  "pokemons": [
+    "Charizard",
+    "Magnezone"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34714"
+  },
+  "name": "Ash",
+  "region": {
+    "$oid": "6732530c8696fe038a1f525f"
+  },
+  "region_name": "Kanto",
+  "pokemons": [
+    "Pikachu",
+    "Charizard"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34715"
+  },
+  "name": "Leon",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5262"
+  },
+  "region_name": "Sinnoh",
+  "pokemons": [
+    "Charizard",
+    "Aegislash"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34716"
+  },
+  "name": "Diantha",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5260"
+  },
+  "region_name": "Johto",
+  "pokemons": [
+    "Gardevoir",
+    "Talonflame"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34717"
+  },
+  "name": "Zinnia",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5260"
+  },
+  "region_name": "Johto",
+  "pokemons": [
+    "Salamence",
+    "Altaria"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34718"
+  },
+  "name": "Wally",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5262"
+  },
+  "region_name": "Sinnoh",
+  "pokemons": [
+    "Ralts",
+    "Gardevoir"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34719"
+  },
+  "name": "Hugh",
+  "region": {
+    "$oid": "6732530c8696fe038a1f525f"
+  },
+  "region_name": "Kanto",
+  "pokemons": [
+    "Oshawott",
+    "Pignite"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3471a"
+  },
+  "name": "Yancy",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5266"
+  },
+  "region_name": "Galar",
+  "pokemons": [
+    "Emolga",
+    "Vanilluxe"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3471b"
+  },
+  "name": "Tierno",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5264"
+  },
+  "region_name": "Kalos",
+  "pokemons": [
+    "Squirtle",
+    "Seaking"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3471c"
+  },
+  "name": "Shauna",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5266"
+  },
+  "region_name": "Galar",
+  "pokemons": [
+    "Chespin",
+    "Sylveon"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3471d"
+  },
+  "name": "Alola Champion",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5261"
+  },
+  "region_name": "Hoenn",
+  "pokemons": [
+    "Decidueye",
+    "Toxapex"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3471e"
+  },
+  "name": "Lillie",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5267"
+  },
+  "region_name": "Paldea",
+  "pokemons": [
+    "Nebby",
+    "Vikavolt"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3471f"
+  },
+  "name": "Olivia",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5268"
+  },
+  "region_name": "Isshu",
+  "pokemons": [
+    "Lycanroc",
+    "Tyranitar"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34720"
+  },
+  "name": "Mallow",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5260"
+  },
+  "region_name": "Johto",
+  "pokemons": [
+    "Tsareena",
+    "Lurantis"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34721"
+  },
+  "name": "Kiawe",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5266"
+  },
+  "region_name": "Galar",
+  "pokemons": [
+    "Torkoal",
+    "Charizard"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34722"
+  },
+  "name": "Sina",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5260"
+  },
+  "region_name": "Johto",
+  "pokemons": [
+    "Garchomp",
+    "Mamoswine"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34723"
+  },
+  "name": "Misty",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5268"
+  },
+  "region_name": "Isshu",
+  "pokemons": [
+    "Starmie",
+    "Psyduck"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34724"
+  },
+  "name": "Blaine",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5267"
+  },
+  "region_name": "Paldea",
+  "pokemons": [
+    "Rapidash",
+    "Arcanine"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34725"
+  },
+  "name": "Gary Oak",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5263"
+  },
+  "region_name": "Unova",
+  "pokemons": [
+    "Blastoise",
+    "Electivire"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34726"
+  },
+  "name": "May",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5265"
+  },
+  "region_name": "Alola",
+  "pokemons": [
+    "Torchic",
+    "Beautifly"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34727"
+  },
+  "name": "Dawn",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5267"
+  },
+  "region_name": "Paldea",
+  "pokemons": [
+    "Piplup",
+    "Buneary"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34728"
+  },
+  "name": "Serena",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5264"
+  },
+  "region_name": "Kalos",
+  "pokemons": [
+    "Fennekin",
+    "Sylveon"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34729"
+  },
+  "name": "Clemont",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5263"
+  },
+  "region_name": "Unova",
+  "pokemons": [
+    "Luxray",
+    "Magneton"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3472a"
+  },
+  "name": "Cynthia",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5260"
+  },
+  "region_name": "Johto",
+  "pokemons": [
+    "Garchomp",
+    "Togekiss"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3472b"
+  },
+  "name": "Lysandre",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5265"
+  },
+  "region_name": "Alola",
+  "pokemons": [
+    "Mega Gyarados",
+    "Mienfoo"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3472c"
+  },
+  "name": "Leon",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5262"
+  },
+  "region_name": "Sinnoh",
+  "pokemons": [
+    "Charizard",
+    "Aegislash"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3472d"
+  },
+  "name": "Marnie",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5264"
+  },
+  "region_name": "Kalos",
+  "pokemons": [
+    "Morgrem",
+    "Toxicroak"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3472e"
+  },
+  "name": "Rosa",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5261"
+  },
+  "region_name": "Hoenn",
+  "pokemons": [
+    "Snivy",
+    "Musharna"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3472f"
+  },
+  "name": "N",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5261"
+  },
+  "region_name": "Hoenn",
+  "pokemons": [
+    "Zekrom",
+    "Reshiram"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34730"
+  },
+  "name": "Flannery",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5268"
+  },
+  "region_name": "Isshu",
+  "pokemons": [
+    "Torkoal",
+    "Slugma"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34731"
+  },
+  "name": "Wallace",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5268"
+  },
+  "region_name": "Isshu",
+  "pokemons": [
+    "Swampert",
+    "Gyarados"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34732"
+  },
+  "name": "Blue",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5268"
+  },
+  "region_name": "Isshu",
+  "pokemons": [
+    "Rhydon",
+    "Arcanine"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34733"
+  },
+  "name": "Koga",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5262"
+  },
+  "region_name": "Sinnoh",
+  "pokemons": [
+    "Weezing",
+    "Muk"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34734"
+  },
+  "name": "Sabrina",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5267"
+  },
+  "region_name": "Paldea",
+  "pokemons": [
+    "Alakazam",
+    "Mr. Mime"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34735"
+  },
+  "name": "Giovanni",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5261"
+  },
+  "region_name": "Hoenn",
+  "pokemons": [
+    "Rhydon",
+    "Nidoking"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34736"
+  },
+  "name": "Whitney",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5265"
+  },
+  "region_name": "Alola",
+  "pokemons": [
+    "Miltank",
+    "Clefairy"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34737"
+  },
+  "name": "Clair",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5267"
+  },
+  "region_name": "Paldea",
+  "pokemons": [
+    "Kingdra",
+    "Dragonair"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34738"
+  },
+  "name": "Chuck",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5266"
+  },
+  "region_name": "Galar",
+  "pokemons": [
+    "Poliwrath",
+    "Primeape"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34739"
+  },
+  "name": "Misty",
+  "region": {
+    "$oid": "6732530c8696fe038a1f525f"
+  },
+  "region_name": "Kanto",
+  "pokemons": [
+    "Starmie",
+    "Psyduck"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3473a"
+  },
+  "name": "Giovanni",
+  "region": {
+    "$oid": "6732530c8696fe038a1f525f"
+  },
+  "region_name": "Kanto",
+  "pokemons": [
+    "Rhydon",
+    "Nidoking"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3473b"
+  },
+  "name": "Blaine",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5262"
+  },
+  "region_name": "Sinnoh",
+  "pokemons": [
+    "Arcanine",
+    "Rapidash"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3473c"
+  },
+  "name": "Erika",
+  "region": {
+    "$oid": "6732530c8696fe038a1f525f"
+  },
+  "region_name": "Kanto",
+  "pokemons": [
+    "Vileplume",
+    "Tangela"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3473d"
+  },
+  "name": "Koga",
+  "region": {
+    "$oid": "6732530c8696fe038a1f525f"
+  },
+  "region_name": "Kanto",
+  "pokemons": [
+    "Muk",
+    "Weezing"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3473e"
+  },
+  "name": "Sabrina",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5261"
+  },
+  "region_name": "Hoenn",
+  "pokemons": [
+    "Mr. Mime",
+    "Alakazam"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3473f"
+  },
+  "name": "Roxanne",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5264"
+  },
+  "region_name": "Kalos",
+  "pokemons": [
+    "Geodude",
+    "Nosepass"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34740"
+  },
+  "name": "Liza",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5262"
+  },
+  "region_name": "Sinnoh",
+  "pokemons": [
+    "Lunatone",
+    "Solrock"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34741"
+  },
+  "name": "Tate",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5263"
+  },
+  "region_name": "Unova",
+  "pokemons": [
+    "Solrock",
+    "Lunatone"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34742"
+  },
+  "name": "Juan",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5263"
+  },
+  "region_name": "Unova",
+  "pokemons": [
+    "Swampert",
+    "Gyarados"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34743"
+  },
+  "name": "Gardenia",
+  "region": {
+    "$oid": "6732530c8696fe038a1f525f"
+  },
+  "region_name": "Kanto",
+  "pokemons": [
+    "Torterra",
+    "Roserade"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34744"
+  },
+  "name": "Fantina",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5267"
+  },
+  "region_name": "Paldea",
+  "pokemons": [
+    "Mismagius",
+    "Gengar"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34745"
+  },
+  "name": "Byron",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5263"
+  },
+  "region_name": "Unova",
+  "pokemons": [
+    "Steelix",
+    "Bastiodon"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34746"
+  },
+  "name": "Candice",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5265"
+  },
+  "region_name": "Alola",
+  "pokemons": [
+    "Abomasnow",
+    "Piloswine"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34747"
+  },
+  "name": "Roark",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5266"
+  },
+  "region_name": "Galar",
+  "pokemons": [
+    "Onix",
+    "Cranidos"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34748"
+  },
+  "name": "Volkner",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5268"
+  },
+  "region_name": "Isshu",
+  "pokemons": [
+    "Luxray",
+    "Electivire"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34749"
+  },
+  "name": "Alain",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5261"
+  },
+  "region_name": "Hoenn",
+  "pokemons": [
+    "Charizard",
+    "Magnezone"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3474a"
+  },
+  "name": "Ash",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5261"
+  },
+  "region_name": "Hoenn",
+  "pokemons": [
+    "Pikachu",
+    "Charizard"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3474b"
+  },
+  "name": "Leon",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5264"
+  },
+  "region_name": "Kalos",
+  "pokemons": [
+    "Charizard",
+    "Aegislash"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3474c"
+  },
+  "name": "Diantha",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5263"
+  },
+  "region_name": "Unova",
+  "pokemons": [
+    "Gardevoir",
+    "Talonflame"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3474d"
+  },
+  "name": "Zinnia",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5263"
+  },
+  "region_name": "Unova",
+  "pokemons": [
+    "Salamence",
+    "Altaria"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3474e"
+  },
+  "name": "Wally",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5265"
+  },
+  "region_name": "Alola",
+  "pokemons": [
+    "Ralts",
+    "Gardevoir"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3474f"
+  },
+  "name": "Hugh",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5266"
+  },
+  "region_name": "Galar",
+  "pokemons": [
+    "Oshawott",
+    "Pignite"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34750"
+  },
+  "name": "Yancy",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5265"
+  },
+  "region_name": "Alola",
+  "pokemons": [
+    "Emolga",
+    "Vanilluxe"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34751"
+  },
+  "name": "Tierno",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5264"
+  },
+  "region_name": "Kalos",
+  "pokemons": [
+    "Squirtle",
+    "Seaking"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34752"
+  },
+  "name": "Shauna",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5262"
+  },
+  "region_name": "Sinnoh",
+  "pokemons": [
+    "Chespin",
+    "Sylveon"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34753"
+  },
+  "name": "Alola Champion",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5266"
+  },
+  "region_name": "Galar",
+  "pokemons": [
+    "Decidueye",
+    "Toxapex"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34754"
+  },
+  "name": "Lillie",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5268"
+  },
+  "region_name": "Isshu",
+  "pokemons": [
+    "Nebby",
+    "Vikavolt"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34755"
+  },
+  "name": "Olivia",
+  "region": {
+    "$oid": "6732530c8696fe038a1f525f"
+  },
+  "region_name": "Kanto",
+  "pokemons": [
+    "Lycanroc",
+    "Tyranitar"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34756"
+  },
+  "name": "Mallow",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5268"
+  },
+  "region_name": "Isshu",
+  "pokemons": [
+    "Tsareena",
+    "Lurantis"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34757"
+  },
+  "name": "Kiawe",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5261"
+  },
+  "region_name": "Hoenn",
+  "pokemons": [
+    "Torkoal",
+    "Charizard"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34758"
+  },
+  "name": "Sina",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5267"
+  },
+  "region_name": "Paldea",
+  "pokemons": [
+    "Garchomp",
+    "Mamoswine"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34759"
+  },
+  "name": "Misty",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5267"
+  },
+  "region_name": "Paldea",
+  "pokemons": [
+    "Starmie",
+    "Psyduck"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3475a"
+  },
+  "name": "Blaine",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5262"
+  },
+  "region_name": "Sinnoh",
+  "pokemons": [
+    "Rapidash",
+    "Arcanine"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3475b"
+  },
+  "name": "Gary Oak",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5264"
+  },
+  "region_name": "Kalos",
+  "pokemons": [
+    "Blastoise",
+    "Electivire"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3475c"
+  },
+  "name": "May",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5265"
+  },
+  "region_name": "Alola",
+  "pokemons": [
+    "Torchic",
+    "Beautifly"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3475d"
+  },
+  "name": "Dawn",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5266"
+  },
+  "region_name": "Galar",
+  "pokemons": [
+    "Piplup",
+    "Buneary"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3475e"
+  },
+  "name": "Serena",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5266"
+  },
+  "region_name": "Galar",
+  "pokemons": [
+    "Fennekin",
+    "Sylveon"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3475f"
+  },
+  "name": "Clemont",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5261"
+  },
+  "region_name": "Hoenn",
+  "pokemons": [
+    "Luxray",
+    "Magneton"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34760"
+  },
+  "name": "Cynthia",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5267"
+  },
+  "region_name": "Paldea",
+  "pokemons": [
+    "Garchomp",
+    "Togekiss"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34761"
+  },
+  "name": "Lysandre",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5268"
+  },
+  "region_name": "Isshu",
+  "pokemons": [
+    "Mega Gyarados",
+    "Mienfoo"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34762"
+  },
+  "name": "Leon",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5265"
+  },
+  "region_name": "Alola",
+  "pokemons": [
+    "Charizard",
+    "Aegislash"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34763"
+  },
+  "name": "Marnie",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5260"
+  },
+  "region_name": "Johto",
+  "pokemons": [
+    "Morgrem",
+    "Toxicroak"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34764"
+  },
+  "name": "Rosa",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5263"
+  },
+  "region_name": "Unova",
+  "pokemons": [
+    "Snivy",
+    "Musharna"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34765"
+  },
+  "name": "N",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5260"
+  },
+  "region_name": "Johto",
+  "pokemons": [
+    "Zekrom",
+    "Reshiram"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34766"
+  },
+  "name": "Flannery",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5265"
+  },
+  "region_name": "Alola",
+  "pokemons": [
+    "Torkoal",
+    "Slugma"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34767"
+  },
+  "name": "Wallace",
+  "region": {
+    "$oid": "6732530c8696fe038a1f525f"
+  },
+  "region_name": "Kanto",
+  "pokemons": [
+    "Swampert",
+    "Gyarados"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34768"
+  },
+  "name": "Blue",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5266"
+  },
+  "region_name": "Galar",
+  "pokemons": [
+    "Rhydon",
+    "Arcanine"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34769"
+  },
+  "name": "Koga",
+  "region": {
+    "$oid": "6732530c8696fe038a1f525f"
+  },
+  "region_name": "Kanto",
+  "pokemons": [
+    "Weezing",
+    "Muk"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3476a"
+  },
+  "name": "Sabrina",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5265"
+  },
+  "region_name": "Alola",
+  "pokemons": [
+    "Alakazam",
+    "Mr. Mime"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3476b"
+  },
+  "name": "Giovanni",
+  "region": {
+    "$oid": "6732530c8696fe038a1f525f"
+  },
+  "region_name": "Kanto",
+  "pokemons": [
+    "Rhydon",
+    "Nidoking"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3476c"
+  },
+  "name": "Whitney",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5266"
+  },
+  "region_name": "Galar",
+  "pokemons": [
+    "Miltank",
+    "Clefairy"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3476d"
+  },
+  "name": "Clair",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5266"
+  },
+  "region_name": "Galar",
+  "pokemons": [
+    "Kingdra",
+    "Dragonair"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3476e"
+  },
+  "name": "Chuck",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5262"
+  },
+  "region_name": "Sinnoh",
+  "pokemons": [
+    "Poliwrath",
+    "Primeape"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3476f"
+  },
+  "name": "Misty",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5260"
+  },
+  "region_name": "Johto",
+  "pokemons": [
+    "Starmie",
+    "Psyduck"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34770"
+  },
+  "name": "Giovanni",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5267"
+  },
+  "region_name": "Paldea",
+  "pokemons": [
+    "Rhydon",
+    "Nidoking"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34771"
+  },
+  "name": "Blaine",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5262"
+  },
+  "region_name": "Sinnoh",
+  "pokemons": [
+    "Arcanine",
+    "Rapidash"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34772"
+  },
+  "name": "Erika",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5267"
+  },
+  "region_name": "Paldea",
+  "pokemons": [
+    "Vileplume",
+    "Tangela"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34773"
+  },
+  "name": "Koga",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5267"
+  },
+  "region_name": "Paldea",
+  "pokemons": [
+    "Muk",
+    "Weezing"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34774"
+  },
+  "name": "Sabrina",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5266"
+  },
+  "region_name": "Galar",
+  "pokemons": [
+    "Mr. Mime",
+    "Alakazam"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34775"
+  },
+  "name": "Roxanne",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5263"
+  },
+  "region_name": "Unova",
+  "pokemons": [
+    "Geodude",
+    "Nosepass"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34776"
+  },
+  "name": "Liza",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5266"
+  },
+  "region_name": "Galar",
+  "pokemons": [
+    "Lunatone",
+    "Solrock"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34777"
+  },
+  "name": "Tate",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5262"
+  },
+  "region_name": "Sinnoh",
+  "pokemons": [
+    "Solrock",
+    "Lunatone"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34778"
+  },
+  "name": "Juan",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5266"
+  },
+  "region_name": "Galar",
+  "pokemons": [
+    "Swampert",
+    "Gyarados"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34779"
+  },
+  "name": "Gardenia",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5261"
+  },
+  "region_name": "Hoenn",
+  "pokemons": [
+    "Torterra",
+    "Roserade"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3477a"
+  },
+  "name": "Fantina",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5268"
+  },
+  "region_name": "Isshu",
+  "pokemons": [
+    "Mismagius",
+    "Gengar"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3477b"
+  },
+  "name": "Byron",
+  "region": {
+    "$oid": "6732530c8696fe038a1f525f"
+  },
+  "region_name": "Kanto",
+  "pokemons": [
+    "Steelix",
+    "Bastiodon"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3477c"
+  },
+  "name": "Candice",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5264"
+  },
+  "region_name": "Kalos",
+  "pokemons": [
+    "Abomasnow",
+    "Piloswine"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3477d"
+  },
+  "name": "Roark",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5268"
+  },
+  "region_name": "Isshu",
+  "pokemons": [
+    "Onix",
+    "Cranidos"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3477e"
+  },
+  "name": "Volkner",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5264"
+  },
+  "region_name": "Kalos",
+  "pokemons": [
+    "Luxray",
+    "Electivire"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3477f"
+  },
+  "name": "Alain",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5263"
+  },
+  "region_name": "Unova",
+  "pokemons": [
+    "Charizard",
+    "Magnezone"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34780"
+  },
+  "name": "Ash",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5266"
+  },
+  "region_name": "Galar",
+  "pokemons": [
+    "Pikachu",
+    "Charizard"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34781"
+  },
+  "name": "Leon",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5260"
+  },
+  "region_name": "Johto",
+  "pokemons": [
+    "Charizard",
+    "Aegislash"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34782"
+  },
+  "name": "Diantha",
+  "region": {
+    "$oid": "6732530c8696fe038a1f525f"
+  },
+  "region_name": "Kanto",
+  "pokemons": [
+    "Gardevoir",
+    "Talonflame"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34783"
+  },
+  "name": "Zinnia",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5264"
+  },
+  "region_name": "Kalos",
+  "pokemons": [
+    "Salamence",
+    "Altaria"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34784"
+  },
+  "name": "Wally",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5268"
+  },
+  "region_name": "Isshu",
+  "pokemons": [
+    "Ralts",
+    "Gardevoir"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34785"
+  },
+  "name": "Hugh",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5267"
+  },
+  "region_name": "Paldea",
+  "pokemons": [
+    "Oshawott",
+    "Pignite"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34786"
+  },
+  "name": "Yancy",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5263"
+  },
+  "region_name": "Unova",
+  "pokemons": [
+    "Emolga",
+    "Vanilluxe"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34787"
+  },
+  "name": "Tierno",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5264"
+  },
+  "region_name": "Kalos",
+  "pokemons": [
+    "Squirtle",
+    "Seaking"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34788"
+  },
+  "name": "Shauna",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5265"
+  },
+  "region_name": "Alola",
+  "pokemons": [
+    "Chespin",
+    "Sylveon"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34789"
+  },
+  "name": "Alola Champion",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5262"
+  },
+  "region_name": "Sinnoh",
+  "pokemons": [
+    "Decidueye",
+    "Toxapex"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3478a"
+  },
+  "name": "Lillie",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5268"
+  },
+  "region_name": "Isshu",
+  "pokemons": [
+    "Nebby",
+    "Vikavolt"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3478b"
+  },
+  "name": "Olivia",
+  "region": {
+    "$oid": "6732530c8696fe038a1f525f"
+  },
+  "region_name": "Kanto",
+  "pokemons": [
+    "Lycanroc",
+    "Tyranitar"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3478c"
+  },
+  "name": "Mallow",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5265"
+  },
+  "region_name": "Alola",
+  "pokemons": [
+    "Tsareena",
+    "Lurantis"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3478d"
+  },
+  "name": "Kiawe",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5267"
+  },
+  "region_name": "Paldea",
+  "pokemons": [
+    "Torkoal",
+    "Charizard"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3478e"
+  },
+  "name": "Sina",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5262"
+  },
+  "region_name": "Sinnoh",
+  "pokemons": [
+    "Garchomp",
+    "Mamoswine"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3478f"
+  },
+  "name": "Misty",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5261"
+  },
+  "region_name": "Hoenn",
+  "pokemons": [
+    "Starmie",
+    "Psyduck"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34790"
+  },
+  "name": "Blaine",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5264"
+  },
+  "region_name": "Kalos",
+  "pokemons": [
+    "Rapidash",
+    "Arcanine"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34791"
+  },
+  "name": "Gary Oak",
+  "region": {
+    "$oid": "6732530c8696fe038a1f525f"
+  },
+  "region_name": "Kanto",
+  "pokemons": [
+    "Blastoise",
+    "Electivire"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34792"
+  },
+  "name": "May",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5262"
+  },
+  "region_name": "Sinnoh",
+  "pokemons": [
+    "Torchic",
+    "Beautifly"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34793"
+  },
+  "name": "Dawn",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5261"
+  },
+  "region_name": "Hoenn",
+  "pokemons": [
+    "Piplup",
+    "Buneary"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34794"
+  },
+  "name": "Serena",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5264"
+  },
+  "region_name": "Kalos",
+  "pokemons": [
+    "Fennekin",
+    "Sylveon"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34795"
+  },
+  "name": "Clemont",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5262"
+  },
+  "region_name": "Sinnoh",
+  "pokemons": [
+    "Luxray",
+    "Magneton"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34796"
+  },
+  "name": "Cynthia",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5260"
+  },
+  "region_name": "Johto",
+  "pokemons": [
+    "Garchomp",
+    "Togekiss"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34797"
+  },
+  "name": "Lysandre",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5264"
+  },
+  "region_name": "Kalos",
+  "pokemons": [
+    "Mega Gyarados",
+    "Mienfoo"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34798"
+  },
+  "name": "Leon",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5260"
+  },
+  "region_name": "Johto",
+  "pokemons": [
+    "Charizard",
+    "Aegislash"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea34799"
+  },
+  "name": "Marnie",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5267"
+  },
+  "region_name": "Paldea",
+  "pokemons": [
+    "Morgrem",
+    "Toxicroak"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3479a"
+  },
+  "name": "Rosa",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5265"
+  },
+  "region_name": "Alola",
+  "pokemons": [
+    "Snivy",
+    "Musharna"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3479b"
+  },
+  "name": "N",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5261"
+  },
+  "region_name": "Hoenn",
+  "pokemons": [
+    "Zekrom",
+    "Reshiram"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3479c"
+  },
+  "name": "Flannery",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5267"
+  },
+  "region_name": "Paldea",
+  "pokemons": [
+    "Torkoal",
+    "Slugma"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3479d"
+  },
+  "name": "Wallace",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5264"
+  },
+  "region_name": "Kalos",
+  "pokemons": [
+    "Swampert",
+    "Gyarados"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3479e"
+  },
+  "name": "Blue",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5264"
+  },
+  "region_name": "Kalos",
+  "pokemons": [
+    "Rhydon",
+    "Arcanine"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea3479f"
+  },
+  "name": "Koga",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5260"
+  },
+  "region_name": "Johto",
+  "pokemons": [
+    "Weezing",
+    "Muk"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea347a0"
+  },
+  "name": "Sabrina",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5268"
+  },
+  "region_name": "Isshu",
+  "pokemons": [
+    "Alakazam",
+    "Mr. Mime"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea347a1"
+  },
+  "name": "Giovanni",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5262"
+  },
+  "region_name": "Sinnoh",
+  "pokemons": [
+    "Rhydon",
+    "Nidoking"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea347a2"
+  },
+  "name": "Whitney",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5263"
+  },
+  "region_name": "Unova",
+  "pokemons": [
+    "Miltank",
+    "Clefairy"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea347a3"
+  },
+  "name": "Clair",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5267"
+  },
+  "region_name": "Paldea",
+  "pokemons": [
+    "Kingdra",
+    "Dragonair"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea347a4"
+  },
+  "name": "Chuck",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5261"
+  },
+  "region_name": "Hoenn",
+  "pokemons": [
+    "Poliwrath",
+    "Primeape"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea347a5"
+  },
+  "name": "Misty",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5266"
+  },
+  "region_name": "Galar",
+  "pokemons": [
+    "Starmie",
+    "Psyduck"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea347a6"
+  },
+  "name": "Giovanni",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5267"
+  },
+  "region_name": "Paldea",
+  "pokemons": [
+    "Rhydon",
+    "Nidoking"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea347a7"
+  },
+  "name": "Blaine",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5263"
+  },
+  "region_name": "Unova",
+  "pokemons": [
+    "Arcanine",
+    "Rapidash"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea347a8"
+  },
+  "name": "Erika",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5262"
+  },
+  "region_name": "Sinnoh",
+  "pokemons": [
+    "Vileplume",
+    "Tangela"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea347a9"
+  },
+  "name": "Koga",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5262"
+  },
+  "region_name": "Sinnoh",
+  "pokemons": [
+    "Muk",
+    "Weezing"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea347aa"
+  },
+  "name": "Sabrina",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5267"
+  },
+  "region_name": "Paldea",
+  "pokemons": [
+    "Mr. Mime",
+    "Alakazam"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea347ab"
+  },
+  "name": "Roxanne",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5266"
+  },
+  "region_name": "Galar",
+  "pokemons": [
+    "Geodude",
+    "Nosepass"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea347ac"
+  },
+  "name": "Liza",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5264"
+  },
+  "region_name": "Kalos",
+  "pokemons": [
+    "Lunatone",
+    "Solrock"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea347ad"
+  },
+  "name": "Tate",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5268"
+  },
+  "region_name": "Isshu",
+  "pokemons": [
+    "Solrock",
+    "Lunatone"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea347ae"
+  },
+  "name": "Juan",
+  "region": {
+    "$oid": "6732530c8696fe038a1f525f"
+  },
+  "region_name": "Kanto",
+  "pokemons": [
+    "Swampert",
+    "Gyarados"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea347af"
+  },
+  "name": "Gardenia",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5261"
+  },
+  "region_name": "Hoenn",
+  "pokemons": [
+    "Torterra",
+    "Roserade"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea347b0"
+  },
+  "name": "Fantina",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5263"
+  },
+  "region_name": "Unova",
+  "pokemons": [
+    "Mismagius",
+    "Gengar"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea347b1"
+  },
+  "name": "Byron",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5265"
+  },
+  "region_name": "Alola",
+  "pokemons": [
+    "Steelix",
+    "Bastiodon"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea347b2"
+  },
+  "name": "Candice",
+  "region": {
+    "$oid": "6732530c8696fe038a1f525f"
+  },
+  "region_name": "Kanto",
+  "pokemons": [
+    "Abomasnow",
+    "Piloswine"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea347b3"
+  },
+  "name": "Roark",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5260"
+  },
+  "region_name": "Johto",
+  "pokemons": [
+    "Onix",
+    "Cranidos"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea347b4"
+  },
+  "name": "Volkner",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5263"
+  },
+  "region_name": "Unova",
+  "pokemons": [
+    "Luxray",
+    "Electivire"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea347b5"
+  },
+  "name": "Alain",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5267"
+  },
+  "region_name": "Paldea",
+  "pokemons": [
+    "Charizard",
+    "Magnezone"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea347b6"
+  },
+  "name": "Ash",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5262"
+  },
+  "region_name": "Sinnoh",
+  "pokemons": [
+    "Pikachu",
+    "Charizard"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea347b7"
+  },
+  "name": "Leon",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5267"
+  },
+  "region_name": "Paldea",
+  "pokemons": [
+    "Charizard",
+    "Aegislash"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea347b8"
+  },
+  "name": "Diantha",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5264"
+  },
+  "region_name": "Kalos",
+  "pokemons": [
+    "Gardevoir",
+    "Talonflame"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea347b9"
+  },
+  "name": "Zinnia",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5264"
+  },
+  "region_name": "Kalos",
+  "pokemons": [
+    "Salamence",
+    "Altaria"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea347ba"
+  },
+  "name": "Wally",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5262"
+  },
+  "region_name": "Sinnoh",
+  "pokemons": [
+    "Ralts",
+    "Gardevoir"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea347bb"
+  },
+  "name": "Hugh",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5260"
+  },
+  "region_name": "Johto",
+  "pokemons": [
+    "Oshawott",
+    "Pignite"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea347bc"
+  },
+  "name": "Yancy",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5266"
+  },
+  "region_name": "Galar",
+  "pokemons": [
+    "Emolga",
+    "Vanilluxe"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea347bd"
+  },
+  "name": "Tierno",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5261"
+  },
+  "region_name": "Hoenn",
+  "pokemons": [
+    "Squirtle",
+    "Seaking"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea347be"
+  },
+  "name": "Shauna",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5264"
+  },
+  "region_name": "Kalos",
+  "pokemons": [
+    "Chespin",
+    "Sylveon"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea347bf"
+  },
+  "name": "Alola Champion",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5263"
+  },
+  "region_name": "Unova",
+  "pokemons": [
+    "Decidueye",
+    "Toxapex"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea347c0"
+  },
+  "name": "Lillie",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5267"
+  },
+  "region_name": "Paldea",
+  "pokemons": [
+    "Nebby",
+    "Vikavolt"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea347c1"
+  },
+  "name": "Olivia",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5267"
+  },
+  "region_name": "Paldea",
+  "pokemons": [
+    "Lycanroc",
+    "Tyranitar"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea347c2"
+  },
+  "name": "Mallow",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5265"
+  },
+  "region_name": "Alola",
+  "pokemons": [
+    "Tsareena",
+    "Lurantis"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea347c3"
+  },
+  "name": "Kiawe",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5265"
+  },
+  "region_name": "Alola",
+  "pokemons": [
+    "Torkoal",
+    "Charizard"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea347c4"
+  },
+  "name": "Sina",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5261"
+  },
+  "region_name": "Hoenn",
+  "pokemons": [
+    "Garchomp",
+    "Mamoswine"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea347c5"
+  },
+  "name": "Misty",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5262"
+  },
+  "region_name": "Sinnoh",
+  "pokemons": [
+    "Starmie",
+    "Psyduck"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea347c6"
+  },
+  "name": "Blaine",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5260"
+  },
+  "region_name": "Johto",
+  "pokemons": [
+    "Rapidash",
+    "Arcanine"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea347c7"
+  },
+  "name": "Gary Oak",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5262"
+  },
+  "region_name": "Sinnoh",
+  "pokemons": [
+    "Blastoise",
+    "Electivire"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea347c8"
+  },
+  "name": "May",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5268"
+  },
+  "region_name": "Isshu",
+  "pokemons": [
+    "Torchic",
+    "Beautifly"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea347c9"
+  },
+  "name": "Dawn",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5268"
+  },
+  "region_name": "Isshu",
+  "pokemons": [
+    "Piplup",
+    "Buneary"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea347ca"
+  },
+  "name": "Serena",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5265"
+  },
+  "region_name": "Alola",
+  "pokemons": [
+    "Fennekin",
+    "Sylveon"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea347cb"
+  },
+  "name": "Clemont",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5265"
+  },
+  "region_name": "Alola",
+  "pokemons": [
+    "Luxray",
+    "Magneton"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea347cc"
+  },
+  "name": "Cynthia",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5263"
+  },
+  "region_name": "Unova",
+  "pokemons": [
+    "Garchomp",
+    "Togekiss"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea347cd"
+  },
+  "name": "Lysandre",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5261"
+  },
+  "region_name": "Hoenn",
+  "pokemons": [
+    "Mega Gyarados",
+    "Mienfoo"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea347ce"
+  },
+  "name": "Leon",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5260"
+  },
+  "region_name": "Johto",
+  "pokemons": [
+    "Charizard",
+    "Aegislash"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea347cf"
+  },
+  "name": "Marnie",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5260"
+  },
+  "region_name": "Johto",
+  "pokemons": [
+    "Morgrem",
+    "Toxicroak"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea347d0"
+  },
+  "name": "Rosa",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5265"
+  },
+  "region_name": "Alola",
+  "pokemons": [
+    "Snivy",
+    "Musharna"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea347d1"
+  },
+  "name": "N",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5266"
+  },
+  "region_name": "Galar",
+  "pokemons": [
+    "Zekrom",
+    "Reshiram"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea347d2"
+  },
+  "name": "Flannery",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5262"
+  },
+  "region_name": "Sinnoh",
+  "pokemons": [
+    "Torkoal",
+    "Slugma"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea347d3"
+  },
+  "name": "Wallace",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5265"
+  },
+  "region_name": "Alola",
+  "pokemons": [
+    "Swampert",
+    "Gyarados"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea347d4"
+  },
+  "name": "Blue",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5265"
+  },
+  "region_name": "Alola",
+  "pokemons": [
+    "Rhydon",
+    "Arcanine"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea347d5"
+  },
+  "name": "Koga",
+  "region": {
+    "$oid": "6732530c8696fe038a1f525f"
+  },
+  "region_name": "Kanto",
+  "pokemons": [
+    "Weezing",
+    "Muk"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea347d6"
+  },
+  "name": "Sabrina",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5266"
+  },
+  "region_name": "Galar",
+  "pokemons": [
+    "Alakazam",
+    "Mr. Mime"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea347d7"
+  },
+  "name": "Giovanni",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5268"
+  },
+  "region_name": "Isshu",
+  "pokemons": [
+    "Rhydon",
+    "Nidoking"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea347d8"
+  },
+  "name": "Whitney",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5260"
+  },
+  "region_name": "Johto",
+  "pokemons": [
+    "Miltank",
+    "Clefairy"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea347d9"
+  },
+  "name": "Clair",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5261"
+  },
+  "region_name": "Hoenn",
+  "pokemons": [
+    "Kingdra",
+    "Dragonair"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea347da"
+  },
+  "name": "Chuck",
+  "region": {
+    "$oid": "6732530c8696fe038a1f525f"
+  },
+  "region_name": "Kanto",
+  "pokemons": [
+    "Poliwrath",
+    "Primeape"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea347db"
+  },
+  "name": "Misty",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5260"
+  },
+  "region_name": "Johto",
+  "pokemons": [
+    "Starmie",
+    "Psyduck"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea347dc"
+  },
+  "name": "Giovanni",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5268"
+  },
+  "region_name": "Isshu",
+  "pokemons": [
+    "Rhydon",
+    "Nidoking"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea347dd"
+  },
+  "name": "Blaine",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5263"
+  },
+  "region_name": "Unova",
+  "pokemons": [
+    "Arcanine",
+    "Rapidash"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea347de"
+  },
+  "name": "Erika",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5262"
+  },
+  "region_name": "Sinnoh",
+  "pokemons": [
+    "Vileplume",
+    "Tangela"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea347df"
+  },
+  "name": "Koga",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5267"
+  },
+  "region_name": "Paldea",
+  "pokemons": [
+    "Muk",
+    "Weezing"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea347e0"
+  },
+  "name": "Sabrina",
+  "region": {
+    "$oid": "6732530c8696fe038a1f525f"
+  },
+  "region_name": "Kanto",
+  "pokemons": [
+    "Mr. Mime",
+    "Alakazam"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea347e1"
+  },
+  "name": "Roxanne",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5266"
+  },
+  "region_name": "Galar",
+  "pokemons": [
+    "Geodude",
+    "Nosepass"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea347e2"
+  },
+  "name": "Liza",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5262"
+  },
+  "region_name": "Sinnoh",
+  "pokemons": [
+    "Lunatone",
+    "Solrock"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea347e3"
+  },
+  "name": "Tate",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5263"
+  },
+  "region_name": "Unova",
+  "pokemons": [
+    "Solrock",
+    "Lunatone"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea347e4"
+  },
+  "name": "Juan",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5261"
+  },
+  "region_name": "Hoenn",
+  "pokemons": [
+    "Swampert",
+    "Gyarados"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea347e5"
+  },
+  "name": "Gardenia",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5260"
+  },
+  "region_name": "Johto",
+  "pokemons": [
+    "Torterra",
+    "Roserade"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea347e6"
+  },
+  "name": "Fantina",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5263"
+  },
+  "region_name": "Unova",
+  "pokemons": [
+    "Mismagius",
+    "Gengar"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea347e7"
+  },
+  "name": "Byron",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5266"
+  },
+  "region_name": "Galar",
+  "pokemons": [
+    "Steelix",
+    "Bastiodon"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea347e8"
+  },
+  "name": "Candice",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5265"
+  },
+  "region_name": "Alola",
+  "pokemons": [
+    "Abomasnow",
+    "Piloswine"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea347e9"
+  },
+  "name": "Roark",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5260"
+  },
+  "region_name": "Johto",
+  "pokemons": [
+    "Onix",
+    "Cranidos"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea347ea"
+  },
+  "name": "Volkner",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5262"
+  },
+  "region_name": "Sinnoh",
+  "pokemons": [
+    "Luxray",
+    "Electivire"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea347eb"
+  },
+  "name": "Alain",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5264"
+  },
+  "region_name": "Kalos",
+  "pokemons": [
+    "Charizard",
+    "Magnezone"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea347ec"
+  },
+  "name": "Ash",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5260"
+  },
+  "region_name": "Johto",
+  "pokemons": [
+    "Pikachu",
+    "Charizard"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea347ed"
+  },
+  "name": "Leon",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5268"
+  },
+  "region_name": "Isshu",
+  "pokemons": [
+    "Charizard",
+    "Aegislash"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea347ee"
+  },
+  "name": "Diantha",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5262"
+  },
+  "region_name": "Sinnoh",
+  "pokemons": [
+    "Gardevoir",
+    "Talonflame"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea347ef"
+  },
+  "name": "Zinnia",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5261"
+  },
+  "region_name": "Hoenn",
+  "pokemons": [
+    "Salamence",
+    "Altaria"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea347f0"
+  },
+  "name": "Wally",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5265"
+  },
+  "region_name": "Alola",
+  "pokemons": [
+    "Ralts",
+    "Gardevoir"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea347f1"
+  },
+  "name": "Hugh",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5260"
+  },
+  "region_name": "Johto",
+  "pokemons": [
+    "Oshawott",
+    "Pignite"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea347f2"
+  },
+  "name": "Yancy",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5261"
+  },
+  "region_name": "Hoenn",
+  "pokemons": [
+    "Emolga",
+    "Vanilluxe"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea347f3"
+  },
+  "name": "Tierno",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5260"
+  },
+  "region_name": "Johto",
+  "pokemons": [
+    "Squirtle",
+    "Seaking"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea347f4"
+  },
+  "name": "Shauna",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5262"
+  },
+  "region_name": "Sinnoh",
+  "pokemons": [
+    "Chespin",
+    "Sylveon"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea347f5"
+  },
+  "name": "Alola Champion",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5263"
+  },
+  "region_name": "Unova",
+  "pokemons": [
+    "Decidueye",
+    "Toxapex"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea347f6"
+  },
+  "name": "Lillie",
+  "region": {
+    "$oid": "6732530c8696fe038a1f525f"
+  },
+  "region_name": "Kanto",
+  "pokemons": [
+    "Nebby",
+    "Vikavolt"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea347f7"
+  },
+  "name": "Olivia",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5266"
+  },
+  "region_name": "Galar",
+  "pokemons": [
+    "Lycanroc",
+    "Tyranitar"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea347f8"
+  },
+  "name": "Mallow",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5265"
+  },
+  "region_name": "Alola",
+  "pokemons": [
+    "Tsareena",
+    "Lurantis"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea347f9"
+  },
+  "name": "Kiawe",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5263"
+  },
+  "region_name": "Unova",
+  "pokemons": [
+    "Torkoal",
+    "Charizard"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea347fa"
+  },
+  "name": "Sina",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5265"
+  },
+  "region_name": "Alola",
+  "pokemons": [
+    "Garchomp",
+    "Mamoswine"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea347fb"
+  },
+  "name": "Misty",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5263"
+  },
+  "region_name": "Unova",
+  "pokemons": [
+    "Starmie",
+    "Psyduck"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67337db60fe03b354ea347fc"
+  },
+  "name": "Blaine",
+  "region": {
+    "$oid": "6732530c8696fe038a1f5260"
+  },
+  "region_name": "Johto",
+  "pokemons": [
+    "Rapidash",
+    "Arcanine"
   ]
 }]

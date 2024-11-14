@@ -1,9 +1,11 @@
 [{
   "_id": {
-    "$oid": "672b8ec1e74ad96f681786c5"
+    "$oid": "673377ff4d457ae7e654e9de"
   },
   "region": {
-    "id": "672a2dcf6f86a8ba93a4a727",
+    "id": {
+      "$oid": "6732530c8696fe038a1f525f"
+    },
     "name": "Kanto"
   },
   "gyms": [
@@ -51,10 +53,12 @@
 },
 {
   "_id": {
-    "$oid": "672b8ec1e74ad96f681786c6"
+    "$oid": "673377ff4d457ae7e654e9df"
   },
   "region": {
-    "id": "672a2dcf6f86a8ba93a4a728",
+    "id": {
+      "$oid": "6732530c8696fe038a1f5260"
+    },
     "name": "Johto"
   },
   "gyms": [
@@ -102,10 +106,12 @@
 },
 {
   "_id": {
-    "$oid": "672b8ec1e74ad96f681786c7"
+    "$oid": "673377ff4d457ae7e654e9e0"
   },
   "region": {
-    "id": "672a2dcf6f86a8ba93a4a729",
+    "id": {
+      "$oid": "6732530c8696fe038a1f5261"
+    },
     "name": "Hoenn"
   },
   "gyms": [
@@ -153,10 +159,12 @@
 },
 {
   "_id": {
-    "$oid": "672b8ec1e74ad96f681786c8"
+    "$oid": "673377ff4d457ae7e654e9e1"
   },
   "region": {
-    "id": "672a2dcf6f86a8ba93a4a730",
+    "id": {
+      "$oid": "6732530c8696fe038a1f5262"
+    },
     "name": "Sinnoh"
   },
   "gyms": [
@@ -204,10 +212,12 @@
 },
 {
   "_id": {
-    "$oid": "672b8ec1e74ad96f681786c9"
+    "$oid": "673377ff4d457ae7e654e9e2"
   },
   "region": {
-    "id": "672a2dcf6f86a8ba93a4a731",
+    "id": {
+      "$oid": "6732530c8696fe038a1f5263"
+    },
     "name": "Unova"
   },
   "gyms": [
@@ -255,10 +265,12 @@
 },
 {
   "_id": {
-    "$oid": "672b8ec1e74ad96f681786ca"
+    "$oid": "673377ff4d457ae7e654e9e3"
   },
   "region": {
-    "id": "672a2dcf6f86a8ba93a4a732",
+    "id": {
+      "$oid": "6732530c8696fe038a1f5264"
+    },
     "name": "Kalos"
   },
   "gyms": [
@@ -306,85 +318,91 @@
 },
 {
   "_id": {
-    "$oid": "672b8ec1e74ad96f681786cb"
+    "$oid": "673377ff4d457ae7e654e9e4"
   },
   "region": {
-    "id": "672a2dcf6f86a8ba93a4a733",
+    "id": {
+      "$oid": "6732530c8696fe038a1f5265"
+    },
     "name": "Alola"
   },
-  "gyms": [
-    {
-      "name": "Verdant Cavern Trial",
-      "leader": "Captain Ilima",
-      "type": "Normal",
-      "location": "Melemele Island"
-    },
-    {
-      "name": "Brooklet Hill Trial",
-      "leader": "Captain Lana",
-      "type": "Water",
-      "location": "Akala Island"
-    },
-    {
-      "name": "Wela Volcano Park Trial",
-      "leader": "Captain Kiawe",
-      "type": "Fire",
-      "location": "Akala Island"
-    },
-    {
-      "name": "Lush Jungle Trial",
-      "leader": "Captain Mallow",
-      "type": "Grass",
-      "location": "Akala Island"
-    },
-    {
-      "name": "Shady House Trial",
-      "leader": "Captain Nanu",
-      "type": "Dark",
-      "location": "Ula'ula Island"
-    },
-    {
-      "name": "Hokulani Observatory Trial",
-      "leader": "Captain Sophocles",
-      "type": "Electric",
-      "location": "Ula'ula Island"
-    },
-    {
-      "name": "Vast Poni Canyon Trial",
-      "leader": "Captain Mina",
-      "type": "Fairy",
-      "location": "Poni Island"
-    }
-  ],
-  "kahunas": [
-    {
-      "name": "Hala",
-      "type": "Fighting",
-      "location": "Melemele Island"
-    },
-    {
-      "name": "Olivia",
-      "type": "Rock",
-      "location": "Akala Island"
-    },
-    {
-      "name": "Nanu",
-      "type": "Dark",
-      "location": "Ula'ula Island"
-    },
-    {
-      "name": "Hapu",
-      "type": "Ground",
-      "location": "Poni Island"
-    }
-  ]
+  "gyms": {
+    "gyms": [
+      {
+        "name": "Verdant Cavern Trial",
+        "leader": "Captain Ilima",
+        "type": "Normal",
+        "location": "Melemele Island"
+      },
+      {
+        "name": "Brooklet Hill Trial",
+        "leader": "Captain Lana",
+        "type": "Water",
+        "location": "Akala Island"
+      },
+      {
+        "name": "Wela Volcano Park Trial",
+        "leader": "Captain Kiawe",
+        "type": "Fire",
+        "location": "Akala Island"
+      },
+      {
+        "name": "Lush Jungle Trial",
+        "leader": "Captain Mallow",
+        "type": "Grass",
+        "location": "Akala Island"
+      },
+      {
+        "name": "Shady House Trial",
+        "leader": "Captain Nanu",
+        "type": "Dark",
+        "location": "Ula'ula Island"
+      },
+      {
+        "name": "Hokulani Observatory Trial",
+        "leader": "Captain Sophocles",
+        "type": "Electric",
+        "location": "Ula'ula Island"
+      },
+      {
+        "name": "Vast Poni Canyon Trial",
+        "leader": "Captain Mina",
+        "type": "Fairy",
+        "location": "Poni Island"
+      }
+    ],
+    "kahunas": [
+      {
+        "name": "Hala",
+        "type": "Fighting",
+        "location": "Melemele Island"
+      },
+      {
+        "name": "Olivia",
+        "type": "Rock",
+        "location": "Akala Island"
+      },
+      {
+        "name": "Nanu",
+        "type": "Dark",
+        "location": "Ula'ula Island"
+      },
+      {
+        "name": "Hapu",
+        "type": "Ground",
+        "location": "Poni Island"
+      }
+    ]
+  }
 },
 {
   "_id": {
-    "$oid": "672b8ec1e74ad96f681786cc"
+    "$oid": "673377ff4d457ae7e654e9e5"
   },
   "region": {
-    "id": "672a2dcf6f86a8ba93a4a734",
+    "id": {
+      "$oid": "6732530c8696fe038a1f5266"
+    },
     "name": "Galar"
   },
   "gyms": [
@@ -432,10 +450,12 @@
 },
 {
   "_id": {
-    "$oid": "672b8ec1e74ad96f681786cd"
+    "$oid": "673377ff4d457ae7e654e9e6"
   },
   "region": {
-    "id": "672a2dcf6f86a8ba93a4a735",
+    "id": {
+      "$oid": "6732530c8696fe038a1f5267"
+    },
     "name": "Paldea"
   },
   "gyms": [
