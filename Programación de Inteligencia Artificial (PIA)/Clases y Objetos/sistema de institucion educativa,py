@@ -1,0 +1,70 @@
+# Clase base Persona
+class Persona:
+    def __init__(self, nombre, edad, genero):
+        self.nombre = nombre  # Nombre de la persona
+        self.edad = edad  # Edad de la persona
+        self.genero = genero  # Género de la persona
+
+    def informacion(self):
+        # Método común para mostrar información básica de la persona
+        return f"Nombre: {self.nombre}, Edad: {self.edad}, Género: {self.genero}"
+
+# Clase derivada Estudiante
+class Estudiante(Persona):
+    def __init__(self, nombre, edad, genero, curso):
+        super().__init__(nombre, edad, genero)
+        self.curso = curso  # Curso que cursa el estudiante
+
+    def estudiar(self):
+        # Método específico del estudiante
+        print(f"{self.nombre} está estudiando para su curso de {self.curso}.")
+
+    def informacion(self):
+        # Sobrescribir el método informacion() de la clase base
+        return f"{super().informacion()}, Curso: {self.curso}"
+
+# Clase derivada Profesor
+class Profesor(Persona):
+    def __init__(self, nombre, edad, genero, asignatura):
+        super().__init__(nombre, edad, genero)
+        self.asignatura = asignatura  # Asignatura que enseña el profesor
+
+    def ensenar(self):
+        # Método específico del profesor
+        print(f"{self.nombre} está enseñando la asignatura de {self.asignatura}.")
+
+    def informacion(self):
+        # Sobrescribir el método informacion() de la clase base
+        return f"{super().informacion()}, Asignatura: {self.asignatura}"
+
+# Clase derivada Director
+class Director(Persona):
+    def __init__(self, nombre, edad, genero, escuela):
+        super().__init__(nombre, edad, genero)
+        self.escuela = escuela  # Escuela que supervisa el director
+
+    def supervisar(self):
+        # Método específico del director
+        print(f"{self.nombre} está supervisando la operación de la escuela {self.escuela}.")
+
+    def informacion(self):
+        # Sobrescribir el método informacion() de la clase base
+        return f"{super().informacion()}, Escuela: {self.escuela}"
+
+# Ejemplo de uso
+
+# Crear objetos de cada clase derivada
+estudiante = Estudiante("Juan Pérez", 16, "Masculino", "Matemáticas")
+profesor = Profesor("Ana Gómez", 40, "Femenino", "Física")
+director = Director("Carlos Rodríguez", 50, "Masculino", "Escuela Secundaria Los Pinos")
+
+# Mostrar información de cada uno
+print(estudiante.informacion())  # Muestra la información del estudiante
+estudiante.estudiar()  # El estudiante estudia
+
+print(profesor.informacion())  # Muestra la información del profesor
+profesor.ensenar()  # El profesor enseña
+
+print(director.informacion())  # Muestra la información del director
+director.supervisar()  # El director supervisa
+
