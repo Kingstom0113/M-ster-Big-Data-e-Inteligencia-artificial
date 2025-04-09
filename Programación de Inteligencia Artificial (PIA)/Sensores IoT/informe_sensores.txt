@@ -1,0 +1,81 @@
+Informe de Sensores IoT
+
+Sensor: temperatura, Valor: 23.2 °C, Timestamp: 2025-04-09 16:56:19.325651
+Sensor: luz, Valor: 736.76 lux, Timestamp: 2025-04-09 16:56:19.325651
+Sensor: humedad, Valor: 61.25 %, Timestamp: 2025-04-09 16:56:19.325651
+Sensor: CO2, Valor: 756.92 ppm, Timestamp: 2025-04-09 16:56:19.325651
+Sensor: temperatura, Valor: 26.53 °C, Timestamp: 2025-04-09 16:56:21.342814
+Sensor: luz, Valor: 759.37 lux, Timestamp: 2025-04-09 16:56:21.342814
+Sensor: humedad, Valor: 32.35 %, Timestamp: 2025-04-09 16:56:21.342814
+Sensor: CO2, Valor: 613.35 ppm, Timestamp: 2025-04-09 16:56:21.342814
+Sensor: temperatura, Valor: 26.51 °C, Timestamp: 2025-04-09 16:56:23.344440
+Sensor: luz, Valor: 581.28 lux, Timestamp: 2025-04-09 16:56:23.344440
+Sensor: humedad, Valor: 44.14 %, Timestamp: 2025-04-09 16:56:23.344440
+Sensor: CO2, Valor: 1005.37 ppm, Timestamp: 2025-04-09 16:56:23.344440
+Sensor: temperatura, Valor: 22.73 °C, Timestamp: 2025-04-09 16:56:25.354168
+Sensor: luz, Valor: 228.79 lux, Timestamp: 2025-04-09 16:56:25.354168
+Sensor: humedad, Valor: 30.5 %, Timestamp: 2025-04-09 16:56:25.354168
+Sensor: CO2, Valor: 934.71 ppm, Timestamp: 2025-04-09 16:56:25.354168
+Sensor: temperatura, Valor: 26.22 °C, Timestamp: 2025-04-09 16:56:27.364318
+Sensor: luz, Valor: 368.99 lux, Timestamp: 2025-04-09 16:56:27.364318
+Sensor: humedad, Valor: 58.61 %, Timestamp: 2025-04-09 16:56:27.364318
+Sensor: CO2, Valor: 1055.8 ppm, Timestamp: 2025-04-09 16:56:27.364318
+Sensor: temperatura, Valor: 26.54 °C, Timestamp: 2025-04-09 16:56:29.366418
+Sensor: luz, Valor: 329.79 lux, Timestamp: 2025-04-09 16:56:29.366418
+Sensor: humedad, Valor: 62.52 %, Timestamp: 2025-04-09 16:56:29.366418
+Sensor: CO2, Valor: 582.65 ppm, Timestamp: 2025-04-09 16:56:29.366418
+Sensor: temperatura, Valor: 18.71 °C, Timestamp: 2025-04-09 16:56:31.372285
+Sensor: luz, Valor: 484.21 lux, Timestamp: 2025-04-09 16:56:31.372285
+Sensor: humedad, Valor: 44.52 %, Timestamp: 2025-04-09 16:56:31.372285
+Sensor: CO2, Valor: 459.28 ppm, Timestamp: 2025-04-09 16:56:31.372285
+Sensor: temperatura, Valor: 27.24 °C, Timestamp: 2025-04-09 16:56:33.387692
+Sensor: luz, Valor: 319.85 lux, Timestamp: 2025-04-09 16:56:33.387692
+Sensor: humedad, Valor: 45.19 %, Timestamp: 2025-04-09 16:56:33.387692
+Sensor: CO2, Valor: 1112.7 ppm, Timestamp: 2025-04-09 16:56:33.387692
+Sensor: temperatura, Valor: 27.61 °C, Timestamp: 2025-04-09 16:56:35.395468
+Sensor: luz, Valor: 698.01 lux, Timestamp: 2025-04-09 16:56:35.395468
+Sensor: humedad, Valor: 41.66 %, Timestamp: 2025-04-09 16:56:35.395468
+Sensor: CO2, Valor: 639.39 ppm, Timestamp: 2025-04-09 16:56:35.395468
+Sensor: temperatura, Valor: 19.7 °C, Timestamp: 2025-04-09 16:56:37.442135
+Sensor: luz, Valor: 653.84 lux, Timestamp: 2025-04-09 16:56:37.442135
+Sensor: humedad, Valor: 42.49 %, Timestamp: 2025-04-09 16:56:37.442135
+Sensor: CO2, Valor: 1056.9 ppm, Timestamp: 2025-04-09 16:56:37.442135
+Sensor: temperatura, Valor: 21.02 °C, Timestamp: 2025-04-09 16:56:39.445325
+Sensor: luz, Valor: 324.78 lux, Timestamp: 2025-04-09 16:56:39.445325
+Sensor: humedad, Valor: 41.39 %, Timestamp: 2025-04-09 16:56:39.445325
+Sensor: CO2, Valor: 475.06 ppm, Timestamp: 2025-04-09 16:56:39.445325
+Sensor: temperatura, Valor: 24.64 °C, Timestamp: 2025-04-09 16:56:41.458171
+Sensor: luz, Valor: 329.26 lux, Timestamp: 2025-04-09 16:56:41.458171
+Sensor: humedad, Valor: 38.81 %, Timestamp: 2025-04-09 16:56:41.458171
+Sensor: CO2, Valor: 836.16 ppm, Timestamp: 2025-04-09 16:56:41.458171
+Sensor: temperatura, Valor: 18.71 °C, Timestamp: 2025-04-09 16:56:43.470706
+Sensor: luz, Valor: 342.2 lux, Timestamp: 2025-04-09 16:56:43.470706
+Sensor: humedad, Valor: 54.23 %, Timestamp: 2025-04-09 16:56:43.470706
+Sensor: CO2, Valor: 571.16 ppm, Timestamp: 2025-04-09 16:56:43.470706
+Sensor: temperatura, Valor: 20.89 °C, Timestamp: 2025-04-09 16:56:45.494479
+Sensor: luz, Valor: 328.15 lux, Timestamp: 2025-04-09 16:56:45.494479
+Sensor: humedad, Valor: 54.3 %, Timestamp: 2025-04-09 16:56:45.494479
+Sensor: CO2, Valor: 803.17 ppm, Timestamp: 2025-04-09 16:56:45.494479
+Sensor: temperatura, Valor: 24.22 °C, Timestamp: 2025-04-09 16:56:47.500102
+Sensor: luz, Valor: 516.25 lux, Timestamp: 2025-04-09 16:56:47.500102
+Sensor: humedad, Valor: 66.74 %, Timestamp: 2025-04-09 16:56:47.500102
+Sensor: CO2, Valor: 1118.21 ppm, Timestamp: 2025-04-09 16:56:47.500102
+
+Decisiones Inteligentes:
+Sensor: luz, Acción: apagar_luces
+Sensor: temperatura, Acción: encender_aire_acondicionado
+Sensor: luz, Acción: apagar_luces
+Sensor: temperatura, Acción: encender_aire_acondicionado
+Sensor: CO2, Acción: encender_ventilacion
+Sensor: luz, Acción: encender_luces
+Sensor: temperatura, Acción: encender_aire_acondicionado
+Sensor: CO2, Acción: encender_ventilacion
+Sensor: temperatura, Acción: encender_aire_acondicionado
+Sensor: temperatura, Acción: encender_calefaccion
+Sensor: temperatura, Acción: encender_aire_acondicionado
+Sensor: CO2, Acción: encender_ventilacion
+Sensor: temperatura, Acción: encender_aire_acondicionado
+Sensor: temperatura, Acción: encender_calefaccion
+Sensor: CO2, Acción: encender_ventilacion
+Sensor: temperatura, Acción: encender_calefaccion
+Sensor: CO2, Acción: encender_ventilacion
