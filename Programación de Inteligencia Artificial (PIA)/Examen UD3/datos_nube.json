@@ -1,0 +1,92 @@
+[
+    {
+        "dispositivo_id": "IoT_0",
+        "timestamp": "2025-04-22T17:10:05.491374",
+        "temperatura": 25.49,
+        "humedad": 65.49
+    },
+    {
+        "dispositivo_id": "IoT_1",
+        "timestamp": "2025-04-22T17:10:05.491374",
+        "temperatura": 22.49,
+        "humedad": 62.49
+    },
+    {
+        "dispositivo_id": "IoT_2",
+        "timestamp": "2025-04-22T17:10:05.491374",
+        "temperatura": 24.49,
+        "humedad": 59.49
+    },
+    {
+        "dispositivo_id": "IoT_0",
+        "timestamp": "2025-04-22T17:10:10.497924",
+        "temperatura": 20.5,
+        "humedad": 60.5
+    },
+    {
+        "dispositivo_id": "IoT_1",
+        "timestamp": "2025-04-22T17:10:10.497924",
+        "temperatura": 22.5,
+        "humedad": 57.5
+    },
+    {
+        "dispositivo_id": "IoT_2",
+        "timestamp": "2025-04-22T17:10:10.497924",
+        "temperatura": 24.5,
+        "humedad": 54.5
+    },
+    {
+        "dispositivo_id": "IoT_0",
+        "timestamp": "2025-04-22T17:10:15.515511",
+        "temperatura": 20.52,
+        "humedad": 65.52
+    },
+    {
+        "dispositivo_id": "IoT_1",
+        "timestamp": "2025-04-22T17:10:15.515511",
+        "temperatura": 22.52,
+        "humedad": 62.52
+    },
+    {
+        "dispositivo_id": "IoT_2",
+        "timestamp": "2025-04-22T17:10:15.515511",
+        "temperatura": 24.52,
+        "humedad": 59.52
+    },
+    {
+        "dispositivo_id": "IoT_0",
+        "timestamp": "2025-04-22T17:10:20.534903",
+        "temperatura": 20.53,
+        "humedad": 60.53
+    },
+    {
+        "dispositivo_id": "IoT_1",
+        "timestamp": "2025-04-22T17:10:20.534903",
+        "temperatura": 22.53,
+        "humedad": 57.53
+    },
+    {
+        "dispositivo_id": "IoT_2",
+        "timestamp": "2025-04-22T17:10:20.534903",
+        "temperatura": 24.53,
+        "humedad": 54.53
+    },
+    {
+        "dispositivo_id": "IoT_0",
+        "timestamp": "2025-04-22T17:10:25.547490",
+        "temperatura": 20.55,
+        "humedad": 65.55
+    },
+    {
+        "dispositivo_id": "IoT_1",
+        "timestamp": "2025-04-22T17:10:25.547490",
+        "temperatura": 22.55,
+        "humedad": 62.55
+    },
+    {
+        "dispositivo_id": "IoT_2",
+        "timestamp": "2025-04-22T17:10:25.547490",
+        "temperatura": 24.55,
+        "humedad": 59.55
+    }
+]

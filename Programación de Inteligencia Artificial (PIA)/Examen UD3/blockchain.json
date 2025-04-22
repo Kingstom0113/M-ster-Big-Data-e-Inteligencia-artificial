@@ -1,0 +1,64 @@
+[
+    {
+        "index": 0,
+        "timestamp": "2025-04-22T17:10:05.491374",
+        "datos": "Bloque Genesis",
+        "hash_previo": "0000000000000000000000000000000000000000000000000000000000000000",
+        "hash_actual": "0808fed03744229ed5d669164a8b9b748af03d3cfc86fa59154e09fe32f85bb3"
+    },
+    {
+        "index": 1,
+        "timestamp": "2025-04-22T17:10:05.491374",
+        "datos": {
+            "hash_datos": "dato_falsificado",
+            "cantidad": 3,
+            "timestamp_registro": "2025-04-22T17:10:05.491374"
+        },
+        "hash_previo": "0808fed03744229ed5d669164a8b9b748af03d3cfc86fa59154e09fe32f85bb3",
+        "hash_actual": "3c4b7fea7dfd9eb73d0184b6f56b375bee29da6e44e6d6ad1458febbdf4c1bd5"
+    },
+    {
+        "index": 2,
+        "timestamp": "2025-04-22T17:10:10.508038",
+        "datos": {
+            "hash_datos": "76162fe9d44693cf0c410807c34d1f5992a0fd9ecf9443ccdbccdf08d20014b5",
+            "cantidad": 3,
+            "timestamp_registro": "2025-04-22T17:10:10.508038"
+        },
+        "hash_previo": "ed49945a95514f1aaf4cbf7f73f928cf3a13aa25a7f7ddfd1e0e59918412c42f",
+        "hash_actual": "e2b09c9d0481348e290370237eaf7cbe72c9e273a1443c99aa418343ba935836"
+    },
+    {
+        "index": 3,
+        "timestamp": "2025-04-22T17:10:15.526582",
+        "datos": {
+            "hash_datos": "837c029a364e360d4f118f6048b4151d704d4a85bc9cce3e2a612b0752dec043",
+            "cantidad": 3,
+            "timestamp_registro": "2025-04-22T17:10:15.526582"
+        },
+        "hash_previo": "e2b09c9d0481348e290370237eaf7cbe72c9e273a1443c99aa418343ba935836",
+        "hash_actual": "62ce024c010fdcef13f835554965dddca62050ef14cf1038bef10eb7e0d32749"
+    },
+    {
+        "index": 4,
+        "timestamp": "2025-04-22T17:10:20.536395",
+        "datos": {
+            "hash_datos": "bec4691527cfcf4a77daf49b31e4ea8060bc567c14e99ee1e00f3379e8fe4c9d",
+            "cantidad": 3,
+            "timestamp_registro": "2025-04-22T17:10:20.536395"
+        },
+        "hash_previo": "62ce024c010fdcef13f835554965dddca62050ef14cf1038bef10eb7e0d32749",
+        "hash_actual": "57f32cc0f3e0de8289ddeba1c3a6b90bd2e7f1810020edc1f9bb7226adc10625"
+    },
+    {
+        "index": 5,
+        "timestamp": "2025-04-22T17:10:25.557636",
+        "datos": {
+            "hash_datos": "349ebfdc3d5da5ee0280dfe418fec8efdc5e8cdfd5678c9d41eb91ee0fe4ab88",
+            "cantidad": 3,
+            "timestamp_registro": "2025-04-22T17:10:25.557636"
+        },
+        "hash_previo": "57f32cc0f3e0de8289ddeba1c3a6b90bd2e7f1810020edc1f9bb7226adc10625",
+        "hash_actual": "fcf904b45e2d7b869d24300272aaa1ed74f0cc5e5cf433a0fa9b2ec4ba25b5b0"
+    }
+]
