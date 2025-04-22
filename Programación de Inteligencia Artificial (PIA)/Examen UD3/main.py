@@ -99,17 +99,16 @@ def verificar_cadena(blockchain):
         if bloque_actual["hash_previo"] != bloque_previo["hash_actual"]:
             return False, f"Error en el bloque #{bloque_actual['index']}: El hash previo no coincide."
 
-        # Recalcular el hash del bloque actual BASÁNDOSE EN SU CONTENIDO (excepto el hash_actual en sí)
+        # Recalcular el hash del bloque actual
         bloque_para_hash = bloque_actual.copy()
-        del bloque_para_hash["hash_actual"] # Excluimos el hash actual al recalcular
+        del bloque_para_hash["hash_actual"]
         hash_actual_calculado = calcular_hash(bloque_para_hash)
 
-        # Imprimir hashes para comparación
-        print(f"Verificando Bloque #{bloque_actual['index']}:")
+        # Depuración adicional
+        print(f"Bloque #{bloque_actual['index']} - Datos para hash: {bloque_para_hash}")
         print(f"  Hash Almacenado: {bloque_actual['hash_actual']}")
         print(f"  Hash Calculado: {hash_actual_calculado}")
 
-        # Verificar si el hash actual almacenado es correcto
         if bloque_actual["hash_actual"] != hash_actual_calculado:
             return False, f"Error en el bloque #{bloque_actual['index']}: El hash actual es incorrecto."
 
