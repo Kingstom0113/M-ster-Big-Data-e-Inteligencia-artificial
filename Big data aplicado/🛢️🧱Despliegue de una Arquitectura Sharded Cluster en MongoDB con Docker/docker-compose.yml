@@ -1,0 +1,101 @@
+version: '3.8'
+
+services:
+
+  # Config Servers
+  configsvr1:
+    image: mongo:6
+    container_name: configsvr1
+    command: mongod --configsvr --replSet cfgRS --port 27019 --bind_ip_all
+    ports:
+      - 27019:27019
+    volumes:
+      - ./data/config1:/data/db
+
+  configsvr2:
+    image: mongo:6
+    container_name: configsvr2
+    command: mongod --configsvr --replSet cfgRS --port 27019 --bind_ip_all
+    volumes:
+      - ./data/config2:/data/db
+
+  configsvr3:
+    image: mongo:6
+    container_name: configsvr3
+    command: mongod --configsvr --replSet cfgRS --port 27019 --bind_ip_all
+    volumes:
+      - ./data/config3:/data/db
+
+  # Shards (3 ReplicaSets)
+  shard1a:
+    image: mongo:6
+    container_name: shard1a
+    command: mongod --shardsvr --replSet shard1RS --port 27018 --bind_ip_all
+
+  shard1b:
+    image: mongo:6
+    container_name: shard1b
+    command: mongod --shardsvr --replSet shard1RS --port 27018 --bind_ip_all
+
+  shard1c:
+    image: mongo:6
+    container_name: shard1c
+    command: mongod --shardsvr --replSet shard1RS --port 27018 --bind_ip_all
+
+  shard2a:
+    image: mongo:6
+    container_name: shard2a
+    command: mongod --shardsvr --replSet shard2RS --port 27018 --bind_ip_all
+
+  shard2b:
+    image: mongo:6
+    container_name: shard2b
+    command: mongod --shardsvr --replSet shard2RS --port 27018 --bind_ip_all
+
+  shard2c:
+    image: mongo:6
+    container_name: shard2c
+    command: mongod --shardsvr --replSet shard2RS --port 27018 --bind_ip_all
+
+  shard3a:
+    image: mongo:6
+    container_name: shard3a
+    command: mongod --shardsvr --replSet shard3RS --port 27018 --bind_ip_all
+
+  shard3b:
+    image: mongo:6
+    container_name: shard3b
+    command: mongod --shardsvr --replSet shard3RS --port 27018 --bind_ip_all
+
+  shard3c:
+    image: mongo:6
+    container_name: shard3c
+    command: mongod --shardsvr --replSet shard3RS --port 27018 --bind_ip_all
+
+  # Mongos Router
+  mongos1:
+    image: mongo:6
+    container_name: mongos1
+    depends_on:
+      - configsvr1
+    ports:
+      - 27017:27017
+    command: mongos --configdb cfgRS/configsvr1:27019,configsvr2:27019,configsvr3:27019 --bind_ip_all
+
+  # Init scripts container
+  mongo-init:
+    build: ./init-scripts
+    container_name: mongo-init
+    depends_on:
+      - mongos1
+      - shard1a
+      - shard2a
+      - shard3a
+    command: python init_mongos.py
+
+  mongo-client:
+    image: mongo:6.0
+    container_name: mongo-client
+    command: tail -f /dev/null
+    networks:
+      - mongo-cluster
