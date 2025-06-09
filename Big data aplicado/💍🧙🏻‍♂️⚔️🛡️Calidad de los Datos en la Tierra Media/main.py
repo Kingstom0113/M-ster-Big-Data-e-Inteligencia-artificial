@@ -17,48 +17,68 @@ data = {
 
 df = pd.DataFrame(data)
 
-# Limpieza de datos
-# Corregir errores tipográficos en la columna 'Bando'
+# ------------------- LIMPIEZA DE DATOS -------------------
+
+# 1. Corregir errores tipográficos en la columna 'Bando'
 df['Bando'] = df['Bando'].replace({'Saurón': 'Sauron'})
 
-# Imputar valores faltantes en 'Líder' con 'Desconocido'
+# 2. Imputar valores faltantes en 'Líder' con 'Desconocido'
 df['Líder'] = df['Líder'].fillna('Desconocido')
 
-# Imputar valores faltantes en 'Bajas_Propias' con la mediana de la columna
+# 3. Imputar valores faltantes en 'Bajas_Propias' con la mediana de la columna
 df['Bajas_Propias'] = df['Bajas_Propias'].fillna(df['Bajas_Propias'].median())
 
-# Corregir formato de fechas a YYYY-MM-DD
+# 4. Corregir formato de fechas a YYYY-MM-DD
 def parse_date(date_str):
     try:
         return pd.to_datetime(date_str, format='%Y-%m-%d')
     except ValueError:
         return pd.to_datetime(date_str, format='%d/%m/%Y', errors='coerce')
 
-# Aplicar la función de parseo a la columna de fechas
 df['Fecha'] = df['Fecha'].apply(parse_date)
 
-# Eliminar valores negativos en 'Bajas_Enemigas' y 'Bajas_Propias'
+# 5. Eliminar valores negativos en 'Bajas_Enemigas' y 'Bajas_Propias'
 df['Bajas_Enemigas'] = df['Bajas_Enemigas'].apply(lambda x: abs(x) if x < 0 else x)
-
 df['Bajas_Propias'] = df['Bajas_Propias'].apply(lambda x: abs(x) if x < 0 else x)
 
-# Asegurar que 'Victoria' solo contenga 'Sí' o 'No'
+# 6. Asegurar que 'Victoria' solo contenga 'Sí' o 'No'
 df['Victoria'] = df['Victoria'].apply(lambda x: 'No' if x not in ['Sí', 'No'] else x)
 
-# Identificar y manejar valores atípicos en 'Bajas_Enemigas' y 'Bajas_Propias'
+# 7. Identificar y manejar valores atípicos en 'Bajas_Enemigas' y 'Bajas_Propias' usando IQR
 q1_enemigas = df['Bajas_Enemigas'].quantile(0.25)
 q3_enemigas = df['Bajas_Enemigas'].quantile(0.75)
 iqr_enemigas = q3_enemigas - q1_enemigas
 limite_inferior_enemigas = q1_enemigas - 1.5 * iqr_enemigas
 limite_superior_enemigas = q3_enemigas + 1.5 * iqr_enemigas
-df['Bajas_Enemigas'] = df['Bajas_Enemigas'].apply(lambda x: limite_superior_enemigas if x > limite_superior_enemigas else (limite_inferior_enemigas if x < limite_inferior_enemigas else x))
+df['Bajas_Enemigas'] = df['Bajas_Enemigas'].apply(
+    lambda x: limite_superior_enemigas if x > limite_superior_enemigas else (limite_inferior_enemigas if x < limite_inferior_enemigas else x)
+)
 
 q1_propias = df['Bajas_Propias'].quantile(0.25)
 q3_propias = df['Bajas_Propias'].quantile(0.75)
 iqr_propias = q3_propias - q1_propias
 limite_inferior_propias = q1_propias - 1.5 * iqr_propias
 limite_superior_propias = q3_propias + 1.5 * iqr_propias
-df['Bajas_Propias'] = df['Bajas_Propias'].apply(lambda x: limite_superior_propias if x > limite_superior_propias else (limite_inferior_propias if x < limite_inferior_propias else x))
+df['Bajas_Propias'] = df['Bajas_Propias'].apply(
+    lambda x: limite_superior_propias if x > limite_superior_propias else (limite_inferior_propias if x < limite_inferior_propias else x)
+)
+
+# 8. Validar que 'Lugar' solo contenga lugares conocidos de la Tierra Media
+lugares_conocidos = [
+    'Abismo de Helm', 'Minas Tirith', 'Campos del Pelennor', 'Morannon', 'Cuernavilla',
+    'Lothlórien', 'Erebor', 'Dale', 'Puerta Negra', 'Bywater'
+]
+df['Lugar'] = df['Lugar'].apply(lambda x: x if x in lugares_conocidos else 'Lugar desconocido')
+
+# ------------------- DOCUMENTACIÓN DE CAMBIOS -------------------
+print("CAMBIOS REALIZADOS EN LA LIMPIEZA DE DATOS:")
+print("- Errores tipográficos en 'Bando' corregidos.")
+print("- Valores faltantes en 'Líder' y 'Bajas_Propias' imputados.")
+print("- Formato de fechas unificado a YYYY-MM-DD.")
+print("- Valores negativos en bajas corregidos.")
+print("- Columna 'Victoria' normalizada a 'Sí' o 'No'.")
+print("- Valores atípicos en bajas tratados con IQR.")
+print("- Lugares validados contra lista de lugares conocidos.\n")
 
 # Mostrar dataset limpio
 print("Dataset limpio y corregido:")
